@@ -419,7 +419,7 @@ main .columns-feature.image-left a.button:any-link {
   }
 
   .columns-feature.alt .columns-feature-text-col {
-    padding: 0;
+    padding: 0 0 12px;
   }
 
   .columns-feature.alt > .columns-feature-row > .columns-feature-text-col {

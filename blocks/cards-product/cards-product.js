@@ -46,6 +46,25 @@ function decorateBody(body) {
 }
 
 /**
+ * A card whose only link is its heading link becomes one clickable card:
+ * the heading link is unwrapped and the whole card is wrapped in that link.
+ */
+function linkCard(li) {
+  const links = li.querySelectorAll('a');
+  if (links.length !== 1) return;
+  const link = links[0];
+  if (!link.closest('.cards-product-card-title')) return;
+  const a = document.createElement('a');
+  a.href = link.href;
+  a.className = 'cards-product-card-link';
+  if (link.target) a.target = link.target;
+  link.replaceWith(...link.childNodes);
+  a.append(...li.childNodes);
+  li.append(a);
+  li.classList.add('cards-product-card-linked');
+}
+
+/**
  * Product and category cards: one row per card,
  * cells `image | eyebrow + heading + text + CTA links`.
  * Several body cells (or lists) in one row become link columns (link-columns option).
@@ -70,6 +89,7 @@ export default function decorate(block) {
     });
     if (bodies.length > 1) li.classList.add('cards-product-card-multi');
     if (!bodies.length) li.classList.add('cards-product-card-image-only');
+    linkCard(li);
     ul.append(li);
   });
   block.replaceChildren(ul);
