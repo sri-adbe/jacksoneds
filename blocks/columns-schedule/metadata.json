@@ -1,0 +1,25 @@
+{
+  "variantName": "columns-schedule",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "intro text beside a table of dates (grant cycle deadlines)",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + table"
+  },
+  "contentPattern": {
+    "structure": "row 1: heading + text | optional caption. Rows 2+: table rows, the first being the header row (its first cell may be empty); first cell of each later row is the row label"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_534fecd51524-1"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 1
+  },
+  "reuseGuidance": "Use for a short schedule or comparison table beside intro copy. For a full-width data table use table-product."
+}

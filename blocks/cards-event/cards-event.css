@@ -1,0 +1,46 @@
+.cards-event > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-event .cards-event-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 0;
+  border-top: 1px solid;
+}
+
+.cards-event .cards-event-item > div > :first-child {
+  margin-top: 0;
+}
+
+.cards-event .cards-event-item > div > :last-child {
+  margin-bottom: 0;
+}
+
+.cards-event .cards-event-date p {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .cards-event .cards-event-item {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .cards-event .cards-event-date {
+    flex: 0 0 120px;
+  }
+
+  .cards-event .cards-event-body {
+    flex: 1;
+  }
+
+  .cards-event .cards-event-cta {
+    flex: 0 0 auto;
+    align-self: center;
+  }
+}

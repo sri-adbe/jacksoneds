@@ -1,0 +1,60 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "text and selling message beside a photo or video; the site's most common split layout",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text + link"
+  },
+  "contentPattern": {
+    "structure": "one row: heading + text + optional list + CTA links | image or video link, in either order. An icon paragraph followed by copy in the text column becomes an icon callout. More rows stack more splits"
+  },
+  "options": [
+    {
+      "class": "image-left",
+      "label": "Image Left"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "product-intro",
+      "label": "Product Intro"
+    },
+    {
+      "class": "wide-image",
+      "label": "Wide Image"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "wide-image-2",
+      "label": "Wide Image 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_d6094627fa3d",
+    "v_e41eaf28e035",
+    "v_49c2fc06d077",
+    "v_a13777490374",
+    "v_a6d9a47899aa-1",
+    "v_fee8a81e20b8",
+    "v_2487e0e1d7ee",
+    "v_2135d8b727aa",
+    "v_bdbee14eec9a",
+    "v_ed917c46868e",
+    "v_f53b32614387"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 98
+  },
+  "reuseGuidance": "Use for any text + media split. Pick Image Left to force the media first on desktop, Wide Image to widen it. For a wide intro beside a narrow benefits list use columns-benefits; for an article with a related-links rail use columns-sidebar."
+}

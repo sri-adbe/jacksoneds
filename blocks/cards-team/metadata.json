@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-team",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "centered grid of leadership headshots with names and job titles",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text"
+  },
+  "contentPattern": {
+    "structure": "one row per person: headshot | name heading + job title"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_0d82ed78d834"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 1
+  },
+  "reuseGuidance": "Use for leadership or team rosters. Rows wrap and centre, so an odd count still looks balanced."
+}

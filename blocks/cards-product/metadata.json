@@ -1,0 +1,58 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "grid of product or category cards, each linking to a detail page or product documents",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + heading + text"
+  },
+  "contentPattern": {
+    "structure": "one row per card: optional image | optional eyebrow (product type) paragraph + heading + description + one or more CTA links. For Link Columns, put two link lists in the body (or two body cells) to show them side by side"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "benefit",
+      "label": "Benefit"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "link-columns",
+      "label": "Link Columns"
+    },
+    {
+      "class": "grey-2",
+      "label": "Grey 2"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    }
+  ],
+  "memberVariantIds": [
+    "v_6d017593289b",
+    "v_41576f30a490",
+    "v_71f3cc0ca972",
+    "v_111be63a6dd8",
+    "v_ef2e3695dd09",
+    "v_f182d17b8602",
+    "v_1a5fcd90d70f",
+    "v_a354bd635f82",
+    "v_e4218559988e"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 43
+  },
+  "reuseGuidance": "Use for product, category or action cards that send visitors to another page. For articles use cards-article; for tools and partner tiles use cards-tool."
+}

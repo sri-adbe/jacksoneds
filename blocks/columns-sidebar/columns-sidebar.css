@@ -1,0 +1,104 @@
+.columns-sidebar > .columns-sidebar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-sidebar > .columns-sidebar-row + .columns-sidebar-row {
+  margin-top: 32px;
+}
+
+.columns-sidebar .columns-sidebar-text-col > :first-child {
+  margin-top: 0;
+}
+
+.columns-sidebar .columns-sidebar-text-col > :last-child {
+  margin-bottom: 0;
+}
+
+.columns-sidebar .columns-sidebar-media-col {
+  line-height: 0;
+}
+
+.columns-sidebar .columns-sidebar-media-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.columns-sidebar .video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  line-height: 0;
+}
+
+.columns-sidebar .video-embed-frame,
+.columns-sidebar .video-embed-frame iframe,
+.columns-sidebar .video-embed-frame video,
+.columns-sidebar .video-embed picture,
+.columns-sidebar .video-embed img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.columns-sidebar .video-embed-play {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 40%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.columns-sidebar .video-embed-play::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 18px solid #fff;
+  transform: translate(-50%, -50%);
+}
+
+@media (width >= 900px) {
+  .columns-sidebar > .columns-sidebar-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .columns-sidebar > .columns-sidebar-row > div,
+  .columns-sidebar > .columns-sidebar-row > aside {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+}
+
+.columns-sidebar .columns-sidebar-aside {
+  padding: 24px;
+  background-color: var(--light-color, #f8f8f8);
+}
+
+.columns-sidebar .columns-sidebar-aside > :first-child {
+  margin-top: 0;
+}
+
+@media (width >= 900px) {
+  .columns-sidebar > .columns-sidebar-row {
+    align-items: stretch;
+  }
+
+  .columns-sidebar > .columns-sidebar-row > .columns-sidebar-main {
+    flex-grow: 2.5;
+  }
+}

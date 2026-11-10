@@ -1,0 +1,25 @@
+{
+  "variantName": "columns-sidebar",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "long-form article body with a related-links sidebar",
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + image + text + list + link"
+  },
+  "contentPattern": {
+    "structure": "one row: main article content (headings, text, lists, links) | sidebar (heading, text, link lists). Extra rows repeat the layout"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_d73c5d628dba"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 2
+  },
+  "reuseGuidance": "Use for article pages that need a related tools or resources rail. If the rail repeats on many pages, consider a fragment in the sidebar cell."
+}

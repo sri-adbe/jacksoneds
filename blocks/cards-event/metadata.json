@@ -1,0 +1,20 @@
+{
+  "variantName": "cards-event",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "list of dated webinars or events, each with a title, description and register link",
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + link"
+  },
+  "contentPattern": {
+    "structure": "one row per event: date and time | title heading + description | register link. Missing cells are fine"
+  },
+  "options": [],
+  "memberVariantIds": ["v_8b513864dc60"],
+  "usage": { "sourceUrl": "https://www.jackson.com", "pages": 3 },
+  "reuseGuidance": "Use for date-led lists such as webinars or events. For dated articles with images use cards-article."
+}

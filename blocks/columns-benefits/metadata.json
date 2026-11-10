@@ -1,0 +1,36 @@
+{
+  "variantName": "columns-benefits",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "wide overview column with CTAs beside a narrow benefits list",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + link + text"
+  },
+  "contentPattern": {
+    "structure": "one row: heading + text + CTA links | benefits heading + bulleted list (or a photo)"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_534fecd51524",
+    "v_8a76ff861339",
+    "v_61577b248269"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 7
+  },
+  "reuseGuidance": "Use when a short benefit list supports an overview. For text beside a photo or video use columns-feature."
+}

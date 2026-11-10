@@ -1,0 +1,81 @@
+.cards-feature > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-feature .cards-feature-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cards-feature .cards-feature-card-image {
+  line-height: 0;
+}
+
+.cards-feature .cards-feature-card-image img {
+  width: auto;
+  height: auto;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.cards-feature .cards-feature-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.cards-feature .cards-feature-card-body > :first-child {
+  margin-top: 0;
+}
+
+.cards-feature .cards-feature-card-body > :last-child {
+  margin-bottom: 0;
+}
+
+.cards-feature .cards-feature-card-eyebrow {
+  margin-bottom: 4px;
+  font-size: var(--body-font-size-xs);
+}
+
+.cards-feature .cards-feature-card-cta {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.cards-feature .cards-feature-card-icon {
+  line-height: 0;
+}
+
+.cards-feature .cards-feature-card-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+/* icon-left: icon beside the heading and text */
+.cards-feature.icon-left .cards-feature-card {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.cards-feature.icon-left .cards-feature-card-image {
+  flex: 0 0 auto;
+}
+
+/* alt: process steps in a boxed panel */
+.cards-feature.alt > ul {
+  padding: 24px;
+  border: 1px solid #dadada;
+}
+
+/* dark-light: tiles on a dark band, set by the design pass */
+.cards-feature.dark-light .cards-feature-card {
+  padding: 24px;
+}
