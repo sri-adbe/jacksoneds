@@ -81,10 +81,12 @@ function parsePartner(document, card) {
     .filter((a) => a.textContent.trim());
   links.forEach((a) => body.push(linkPara(document, a)));
 
-  // tiles with nothing but a tag (e.g. Third Party Aggregator) keep their caption
+  // tiles with nothing but a tag (e.g. Third Party Aggregator) are a caption, not a card:
+  // return it separately so it is placed as default content after the block.
   if (!logo && !nameSrc && !links.length) {
     const cap = card.querySelector('.resource-filter-listing__mobile-caption');
-    if (cap && cap.textContent.trim()) body.push(para(document, cap.textContent.trim()));
+    const text = cap && cap.textContent.trim();
+    return { image: null, body: [], caption: text ? para(document, text) : null };
   }
   return { image: logo, body };
 }
@@ -112,6 +114,7 @@ export default function parse(element, { document, params }) {
       .map((c) => parsePromo(document, c));
   }
 
+  const captions = items.map((it) => it.caption).filter(Boolean);
   items = items.filter((it) => it.image || it.body.length);
   const hasImages = items.some((it) => it.image);
   const hasBodies = items.some((it) => it.body.length);
@@ -122,5 +125,5 @@ export default function parse(element, { document, params }) {
 
   const name = variant ? `cards-tool (${variant})` : 'cards-tool';
   const block = WebImporter.Blocks.createBlock(document, { name, cells });
-  element.replaceWith(block);
+  element.replaceWith(block, ...captions);
 }

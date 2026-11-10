@@ -185,4 +185,14 @@
 }
 
 @media (width >= 900px) {
-  .retirement-calculator:has(> .
+  .retirement-calculator:has(> .retirement-calculator-panel) {
+    margin-top: 92px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .retirement-calculator .retirement-calculator-panel-trigger :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
