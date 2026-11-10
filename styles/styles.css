@@ -37,7 +37,7 @@
   --heading-font-size-xs: 22px;
 
   /* nav height (masthead: site-selector bar + primary row; desktop adds the utility row) */
-  --nav-height: 160px;
+  --nav-height: 166px;
 }
 
 @media (width >= 1200px) {

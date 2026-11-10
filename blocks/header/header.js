@@ -171,7 +171,7 @@ export default async function decorate(block) {
   const nav = el('nav', 'nav', { id: 'nav', 'aria-expanded': 'false', 'aria-label': 'Main navigation' });
 
   // Row 0: site selector bar
-  const selector = el('div', 'nav-site-selector');
+  const selector = el('nav', 'nav-site-selector', { 'aria-label': 'Site selector' });
   if (selectorSec) {
     const list = selectorSec.querySelector('ul');
     if (list) {
@@ -220,7 +220,9 @@ export default async function decorate(block) {
     toggleMenu(nav);
   });
 
-  primary.append(brand, hamburger, sectionsWrap, tools);
+  const hamburgerWrap = el('div', 'nav-hamburger-wrap');
+  hamburgerWrap.append(hamburger);
+  primary.append(brand, hamburgerWrap, sectionsWrap, tools);
 
   // Row 2: utility (phone + share)
   const utility = el('div', 'nav-utility');
@@ -243,7 +245,7 @@ export default async function decorate(block) {
     utility.append(share);
   }
 
-  nav.append(selector, primary, utility);
+  nav.append(primary, utility);
   if (searchPanel) nav.append(searchPanel);
 
   document.addEventListener('click', () => closeAll(nav));
@@ -259,6 +261,6 @@ export default async function decorate(block) {
   });
 
   const wrapper = el('div', 'nav-wrapper');
-  wrapper.append(nav);
+  wrapper.append(selector, nav);
   block.append(wrapper);
 }

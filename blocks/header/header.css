@@ -145,7 +145,16 @@ header a.nav-cta:any-link {
 }
 
 header a.nav-cta:hover {
-  background-color: rgb(190 0 32);
+  background-color: rgb(95 37 65);
+  text-decoration: underline;
+}
+
+/* logo and share icons have no hover colour change on the source */
+header .nav-brand a:any-link,
+header .nav-brand a:hover,
+header .nav-social a:any-link,
+header .nav-social a:hover {
+  color: rgb(0 0 238);
 }
 
 /* hamburger (mobile) */
@@ -220,6 +229,12 @@ header nav[aria-expanded='true'] .nav-sections {
 
 header .nav-list {
   position: relative;
+  transition: transform 0.3s ease;
+}
+
+/* mobile slide-in: the section list slides left and the opened sub-panel slides in from the right */
+header .nav-list:has(> .nav-drop:not(.nav-more) > .nav-trigger[aria-expanded='true']) {
+  transform: translateX(-100%);
 }
 
 header .nav-item {
@@ -287,15 +302,12 @@ header .nav-dropdown {
 header .nav-drop:not(.nav-more) > .nav-trigger[aria-expanded='true'] + .nav-dropdown {
   display: block;
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 100%;
   z-index: 2;
+  width: 100%;
+  min-height: 100%;
   background-color: rgb(255 255 255);
-  animation: nav-slide-in 0.3s ease;
-}
-
-@keyframes nav-slide-in {
-  from { transform: translateX(100%); }
-  to { transform: translateX(0); }
 }
 
 header .nav-dropdown a:any-link {
@@ -452,9 +464,12 @@ header .nav-search-close::after { transform: rotate(-45deg); }
     overflow: visible;
   }
 
-  header .nav-list {
+  header .nav-list,
+  header .nav-list:has(> .nav-drop:not(.nav-more) > .nav-trigger[aria-expanded='true']) {
     display: flex;
     align-items: flex-start;
+    transform: none;
+    transition: none;
   }
 
   header .nav-item {
@@ -479,6 +494,12 @@ header .nav-search-close::after { transform: rotate(-45deg); }
   header .nav-trigger:hover {
     background: transparent;
     color: rgb(0 0 0);
+  }
+
+  header .nav-more > .nav-trigger:hover,
+  header .nav-search-toggle:hover {
+    color: rgb(71 69 70);
+    text-decoration: underline;
   }
 
   header .nav-drop:not(.nav-more) > .nav-trigger::after {
@@ -560,6 +581,7 @@ header .nav-search-close::after { transform: rotate(-45deg); }
     inset: auto;
     top: 100%;
     left: 0;
+    min-height: 0;
     z-index: 10;
     box-sizing: border-box;
     width: max-content;
@@ -627,18 +649,10 @@ header .nav-search-close::after { transform: rotate(-45deg); }
     font-weight: 600;
   }
 
-  header .nav-utility-phone a:any-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin-left: 8px;
-    color: rgb(71 69 70);
-    font-weight: 600;
-  }
-
   header .nav-utility-phone img {
     width: 14px;
     height: 14px;
+    margin: 0 2px 0 8px;
   }
 
   header .nav-utility-share {
@@ -676,6 +690,12 @@ header .nav-search-close::after { transform: rotate(-45deg); }
   }
 
   header .nav-search-panel {
+    top: 51px;
     padding: 40px 20px 13px;
   }
+}
+
+/* hamburger wrapper keeps the toggle button out of the panel sibling chain */
+header .nav-hamburger-wrap {
+  display: contents;
 }
