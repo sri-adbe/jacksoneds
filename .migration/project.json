@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "jacksoneds": {
+      "previewOrg": "sri-adbe",
+      "previewSite": "jacksoneds",
+      "contentHostUrl": "https://content.da.live/sri-adbe/jacksoneds/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}
