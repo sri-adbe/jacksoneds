@@ -97,7 +97,10 @@ function heroPanelContent(document, panel, first) {
     h.innerHTML = h.innerHTML.replace(/\s+/g, ' ').trim();
     nodes.push(h);
   }
-  wrap.querySelectorAll('.description, .subheading').forEach((d) => {
+  wrap.querySelectorAll('.description, .subheading').forEach((src) => {
+    // the CTA (.action) can sit inside .subheading; it is added once below
+    const d = src.cloneNode(true);
+    d.querySelectorAll('.action').forEach((x) => x.remove());
     const ps = [...d.querySelectorAll('p')].filter((p) => p.textContent.trim());
     if (ps.length) nodes.push(...ps);
     else if (d.textContent.trim()) {

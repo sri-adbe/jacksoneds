@@ -119,7 +119,164 @@
         "https://www.jackson.com/performance-center.html"
       ],
       "description": "Breadcrumb, page title and long-form text or FAQ/table content in a single column, with optional form",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "app-form",
+          "instances": [
+            "div.body-content div.form",
+            "div.body-content div.legacy-component"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/accessibility.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment > div > div.layout-container > div > div > div > div > div > div > div.form"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.legacy-component"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.legacy-component"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.legacy-component"
+            ]
+          }
+        },
+        {
+          "name": "contact-form",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment-personalization"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment-personalization"
+            ]
+          }
+        },
+        {
+          "name": "tabs-section",
+          "instances": [
+            "div.body-content div.tab-container.v4"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/frequently-asked-questions.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.tab-container.v4"
+            ],
+            "https://www.jackson.com/legal-and-privacy.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.tab-container.v4"
+            ]
+          }
+        },
+        {
+          "name": "cards-product",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/interval-funds.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.layout-container"
+            ],
+            "https://www.jackson.com/performance-center.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.layout-container > div > div.three-column"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.aem-Grid > div.body-content"
+          ],
+          "style": null,
+          "blocks": [
+            "app-form",
+            "contact-form",
+            "tabs-section",
+            "cards-product"
+          ],
+          "defaultContent": [
+            "div.subpage-header-block div.title",
+            "div.subpage-header-block div.description",
+            "section div.header",
+            "section h2",
+            "section div.description",
+            "section div.rte",
+            "section div.disclosure",
+            "section p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/accessibility.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(20)",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#perfForm\\:j_idt109",
+          "#perfForm\\:j_idt112",
+          "div.ui-dialog.ui-corner-all"
+        ],
+        "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#perfForm\\:j_idt109",
+          "#perfForm\\:j_idt112",
+          "div.ui-dialog.ui-corner-all"
+        ],
+        "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#perfForm\\:j_idt109",
+          "#perfForm\\:j_idt112",
+          "div.ui-dialog.ui-corner-all"
+        ],
+        "https://www.jackson.com/frequently-asked-questions.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/interval-funds.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/legal-and-privacy.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/performance-center.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      }
     },
     {
       "name": "content-page",

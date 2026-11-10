@@ -998,6 +998,8 @@ var CustomImportScript = (() => {
         child.querySelectorAll("p, ul, ol").forEach((p) => {
           if (textOf3(p)) body.push(p);
         });
+        const loose = [...child.querySelectorAll(".small-links a[href], .cta-arrow-button-wrapper a[href]")].filter((a) => !body.some((n) => n.contains && n.contains(a)));
+        body.push(...ctaParagraphs(document, loose));
         cells.push([iconCell(img), body]);
       });
     }
@@ -1148,7 +1150,64 @@ var CustomImportScript = (() => {
     });
     return nodes.length ? nodes : null;
   }
+  function heroPanelContent(document, panel, first) {
+    const wrap = panel.querySelector(".wide .tab-content-wrappper") || panel.querySelector(".narrow .tab-content-wrappper") || panel;
+    const nodes = [];
+    const headline = wrap.querySelector(".headline, h1, h2");
+    if (headline && headline.textContent.trim()) {
+      const h = document.createElement(first ? "h1" : "h2");
+      h.innerHTML = headline.innerHTML.trim();
+      [...h.querySelectorAll("*")].reverse().forEach((d) => {
+        if (!d.matches("sup, sub, em, strong, br")) d.replaceWith(...d.childNodes);
+      });
+      h.innerHTML = h.innerHTML.replace(/\s+/g, " ").trim();
+      nodes.push(h);
+    }
+    wrap.querySelectorAll(".description, .subheading").forEach((src) => {
+      const d = src.cloneNode(true);
+      d.querySelectorAll(".action").forEach((x) => x.remove());
+      const ps = [...d.querySelectorAll("p")].filter((p) => p.textContent.trim());
+      if (ps.length) nodes.push(...ps);
+      else if (d.textContent.trim()) {
+        const p = document.createElement("p");
+        p.innerHTML = d.innerHTML.trim();
+        nodes.push(p);
+      }
+    });
+    const seen = /* @__PURE__ */ new Set();
+    wrap.querySelectorAll(".action a[href]").forEach((a) => {
+      const key = `${a.getAttribute("href")}|${a.textContent.replace(/\s+/g, " ").trim()}`;
+      if (!a.textContent.trim() || seen.has(key)) return;
+      seen.add(key);
+      const p = document.createElement("p");
+      const link = document.createElement("a");
+      link.href = a.getAttribute("href");
+      link.textContent = a.textContent.replace(/\s+/g, " ").trim();
+      p.append(link);
+      nodes.push(p);
+    });
+    return nodes;
+  }
+  function parseHeroTabs(element, document, heroTab) {
+    const heroPanels = [...heroTab.querySelectorAll(":scope > .tab-content")];
+    const tabs = [...element.querySelectorAll(".tab-container ul > li")];
+    const cells = [];
+    tabs.forEach((li, index) => {
+      const label = labelContent(document, li);
+      if (!label.length) return;
+      const panel = heroPanels.find((p) => li.id && p.id === li.id) || heroPanels[index];
+      cells.push([label, panel ? heroPanelContent(document, panel, index === 0) : ""]);
+    });
+    heroPanels.forEach((p) => p.remove());
+    const block = WebImporter.Blocks.createBlock(document, { name: "tabs-section (alt)", cells });
+    element.replaceWith(block);
+  }
   function parse11(element, { document, params }) {
+    const heroTab = element.matches(".tab-wrapper") && element.parentElement && element.parentElement.matches(".tab") ? element.parentElement : null;
+    if (heroTab && heroTab.querySelector(":scope > .tab-content") && !element.querySelector(".tab-content")) {
+      parseHeroTabs(element, document, heroTab);
+      return;
+    }
     const tabRoot = element.matches(".tab") ? element : element.querySelector(".tab.v4, .tab") || element;
     const tabs = [...tabRoot.querySelectorAll('.tab-container ul[role="tablist"] > li, .tab-container ul > li[role="tab"]')].filter((li, i, arr) => arr.indexOf(li) === i);
     const panels = [...tabRoot.querySelectorAll('.tab-content-wrappper > .tab-content, .tab-content[role="tabpanel"]')].filter((p, i, arr) => arr.indexOf(p) === i);
@@ -2281,6 +2340,13 @@ var CustomImportScript = (() => {
             el.removeAttribute(attr.name);
           }
         });
+      });
+      safeQueryAll(element, "a[href]").forEach((a) => {
+        const href = a.getAttribute("href");
+        const m = href.match(/^(?:https?:\/\/www\.jackson\.com)?(\/[^?#]*?)\.html?([?#].*)?$/i);
+        if (!m || m[1].startsWith("/content/")) return;
+        const path = m[1] === "/index" ? "/" : m[1];
+        a.setAttribute("href", `${path}${m[2] || ""}`);
       });
     }
   }

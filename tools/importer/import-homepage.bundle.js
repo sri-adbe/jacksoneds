@@ -121,7 +121,9 @@ var CustomImportScript = (() => {
       h.innerHTML = h.innerHTML.replace(/\s+/g, " ").trim();
       nodes.push(h);
     }
-    wrap.querySelectorAll(".description, .subheading").forEach((d) => {
+    wrap.querySelectorAll(".description, .subheading").forEach((src) => {
+      const d = src.cloneNode(true);
+      d.querySelectorAll(".action").forEach((x) => x.remove());
       const ps = [...d.querySelectorAll("p")].filter((p) => p.textContent.trim());
       if (ps.length) nodes.push(...ps);
       else if (d.textContent.trim()) {
@@ -816,6 +818,13 @@ var CustomImportScript = (() => {
             el.removeAttribute(attr.name);
           }
         });
+      });
+      safeQueryAll(element, "a[href]").forEach((a) => {
+        const href = a.getAttribute("href");
+        const m = href.match(/^(?:https?:\/\/www\.jackson\.com)?(\/[^?#]*?)\.html?([?#].*)?$/i);
+        if (!m || m[1].startsWith("/content/")) return;
+        const path = m[1] === "/index" ? "/" : m[1];
+        a.setAttribute("href", `${path}${m[2] || ""}`);
       });
     }
   }

@@ -209,5 +209,15 @@ export default function transform(hookName, element, payload) {
         }
       });
     });
+
+    // Internal page links: Edge Delivery pages have no .html extension. Rewrite site-relative
+    // and www.jackson.com links to extensionless paths (app .xhtml pages and files untouched).
+    safeQueryAll(element, 'a[href]').forEach((a) => {
+      const href = a.getAttribute('href');
+      const m = href.match(/^(?:https?:\/\/www\.jackson\.com)?(\/[^?#]*?)\.html?([?#].*)?$/i);
+      if (!m || m[1].startsWith('/content/')) return;
+      const path = m[1] === '/index' ? '/' : m[1];
+      a.setAttribute('href', `${path}${m[2] || ''}`);
+    });
   }
 }

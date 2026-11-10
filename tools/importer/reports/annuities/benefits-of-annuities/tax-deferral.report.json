@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
   "path": "annuities/benefits-of-annuities/tax-deferral",
-  "timestamp": "2026-11-10T20:54:06.914Z",
+  "timestamp": "2026-11-10T21:15:06.415Z",
   "title": "Tax deferral | Jackson",
   "template": "content-page",
   "blocks": [
@@ -13,5 +13,5 @@
     "cards-feature",
     "cards-video"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }
