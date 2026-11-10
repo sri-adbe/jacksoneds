@@ -91,6 +91,26 @@ function parseLogoCard(document, card) {
   return { image: imageFrom(card), body };
 }
 
+// div.cta-product-card(.hidden) > div.cta-product-card-block (fund documents, performance-center
+// product list): one card per block, 1 cell (no images): title heading (keeps <sup>) + optional
+// description + CTA links. Cards marked .hidden (toggled by the source's JS filters) are content
+// too, so both `div.cta-product-card` and `div.cta-product-card.hidden` units are kept.
+function parseProductCard(document, card) {
+  const body = [];
+  const titleSrc = card.querySelector('.card-content > .title') || card.querySelector('.title');
+  if (titleSrc && titleSrc.textContent.trim()) {
+    const h = inlineHeading(document, titleSrc, 'h3');
+    h.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach((x) => x.replaceWith(...x.childNodes));
+    h.innerHTML = h.innerHTML.replace(/\s+/g, ' ').trim();
+    body.push(h);
+  }
+  body.push(...descriptionNodes(document, card.querySelector('.description')));
+  card.querySelectorAll('.cta-section a[href]').forEach((a) => {
+    if (a.textContent.trim()) body.push(ctaParagraph(document, a));
+  });
+  return { image: imageFrom(card), body };
+}
+
 export default function parse(element, { document, params }) {
   const root = element;
   let items = [];
@@ -99,8 +119,13 @@ export default function parse(element, { document, params }) {
   const productLines = [...root.querySelectorAll('.product-line-card')]
     .filter((c) => c.querySelector('.product-line-card__title, .product-line-card__description'));
   const logoCards = [...root.querySelectorAll('.logo-card')];
+  const productCards = [...root.querySelectorAll(
+    'div.cta-product-card .cta-product-card-block, div.cta-product-card.hidden .cta-product-card-block, .cta-product-card-block',
+  )].filter((c, i, all) => all.indexOf(c) === i);
 
-  if (ctaLists.length) items = ctaLists.map((c) => parseCtaList(document, c));
+  if (productCards.length && !ctaLists.length && !productLines.length && !logoCards.length) {
+    items = productCards.map((c) => parseProductCard(document, c));
+  } else if (ctaLists.length) items = ctaLists.map((c) => parseCtaList(document, c));
   else if (productLines.length) items = productLines.map((c) => parseProductLine(document, c));
   else if (logoCards.length) items = logoCards.map((c) => parseLogoCard(document, c));
   else {

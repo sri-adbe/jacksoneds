@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
   "path": "ria-and-wealth-managers/making-it-easier-to-do-business",
-  "timestamp": "2026-11-10T21:02:21.976Z",
+  "timestamp": "2026-11-10T21:33:06.294Z",
   "title": "Making it easier to do business | Jackson",
   "template": "content-page",
   "blocks": [
@@ -14,5 +14,5 @@
     "cards-tool",
     "cards-feature"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }

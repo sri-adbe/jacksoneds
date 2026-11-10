@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities.html",
   "path": "annuities",
-  "timestamp": "2026-11-10T17:04:26.151Z",
+  "timestamp": "2026-11-10T21:16:53.627Z",
   "title": "What is an annuity? | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "cards-product",
     "columns-feature"
   ],
-  "importScript": "f98d936c48c7"
+  "importScript": "64d4b2bb057c"
 }

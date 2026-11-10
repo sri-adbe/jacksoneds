@@ -2,12 +2,12 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities/variable-annuities/investment-options.html",
   "path": "annuities/variable-annuities/investment-options",
-  "timestamp": "2026-11-10T20:24:53.728Z",
+  "timestamp": "2026-11-10T21:24:15.661Z",
   "title": "Investment options | Jackson",
   "template": "content-page",
   "blocks": [
     "hero-page",
     "accordion-manager"
   ],
-  "importScript": "c7099daa6c4a"
+  "importScript": "64d4b2bb057c"
 }

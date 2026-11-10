@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
   "path": "the-jackson-difference/who-we-are/jnam",
-  "timestamp": "2026-11-10T20:57:47.406Z",
+  "timestamp": "2026-11-10T21:23:14.925Z",
   "title": "Jackson National Asset Management | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "cards-feature",
     "cards-team"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }

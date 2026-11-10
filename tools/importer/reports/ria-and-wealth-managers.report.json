@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/ria-and-wealth-managers.html",
   "path": "ria-and-wealth-managers",
-  "timestamp": "2026-11-10T21:01:29.344Z",
+  "timestamp": "2026-11-10T21:32:13.975Z",
   "title": "RIA and wealth managers | Jackson",
   "template": "content-page",
   "blocks": [
@@ -13,5 +13,5 @@
     "cards-feature",
     "columns-benefits"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }

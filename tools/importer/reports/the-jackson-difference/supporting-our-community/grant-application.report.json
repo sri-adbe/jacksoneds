@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
   "path": "the-jackson-difference/supporting-our-community/grant-application",
-  "timestamp": "2026-11-10T20:55:53.481Z",
+  "timestamp": "2026-11-10T21:17:46.463Z",
   "title": "Jackson community grants | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "cards-feature",
     "columns-schedule"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }

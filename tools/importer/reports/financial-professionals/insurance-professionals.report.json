@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
   "path": "financial-professionals/insurance-professionals",
-  "timestamp": "2026-11-10T21:00:35.175Z",
+  "timestamp": "2026-11-10T21:31:00.902Z",
   "title": "Insurance professionals | Jackson",
   "template": "content-page",
   "blocks": [
@@ -12,5 +12,5 @@
     "cards-feature",
     "table-product"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }

@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
   "path": "ria-and-wealth-managers/planning-tools-for-your-journey",
-  "timestamp": "2026-11-10T20:57:57.525Z",
+  "timestamp": "2026-11-10T21:27:13.275Z",
   "title": "Planning tools for your journey | Jackson",
   "template": "content-page",
   "blocks": [
@@ -13,5 +13,5 @@
     "cards-feature",
     "cards-feature"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }

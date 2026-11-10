@@ -2,12 +2,12 @@
   "status": "success",
   "url": "https://www.jackson.com/supplier-management.html",
   "path": "supplier-management",
-  "timestamp": "2026-11-10T20:25:01.701Z",
+  "timestamp": "2026-11-10T21:26:19.778Z",
   "title": "Supplier management | Jackson",
   "template": "content-page",
   "blocks": [
     "hero-page",
     "accordion-manager"
   ],
-  "importScript": "c7099daa6c4a"
+  "importScript": "64d4b2bb057c"
 }

@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/the-jackson-difference/who-we-are.html",
   "path": "the-jackson-difference/who-we-are",
-  "timestamp": "2026-11-10T21:02:47.574Z",
+  "timestamp": "2026-11-10T21:34:17.624Z",
   "title": "Who we are | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "cards-tool",
     "cards-feature"
   ],
-  "importScript": "c85eb380c9f3"
+  "importScript": "64d4b2bb057c"
 }
