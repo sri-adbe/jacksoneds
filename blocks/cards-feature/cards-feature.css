@@ -32,7 +32,6 @@
 .cards-feature .cards-feature-card-icon img {
   width: 45px;
   height: 45px;
-  object-fit: contain;
 }
 
 .cards-feature .cards-feature-card-icon {
@@ -118,7 +117,12 @@ main .cards-feature .cards-feature-card-cta a:focus-visible {
   font-size: 0.75em;
 }
 
-/* alt (source .cta-icon-card in .three-column): icon beside title and text */
+/* alt (source .cta-icon-card in .three-column): icon beside title and text;
+   the source mobile block is full-bleed, spanning the section gutter */
+.cards-feature.alt {
+  margin-inline: calc(-1 * var(--content-gutter));
+}
+
 .cards-feature.alt .cards-feature-card,
 .cards-feature.icon-left .cards-feature-card {
   flex-direction: row;
@@ -127,9 +131,7 @@ main .cards-feature .cards-feature-card-cta a:focus-visible {
 
 .cards-feature.alt .cards-feature-card {
   gap: 10px;
-
-  /* source mobile block is full-bleed with 20px inset; the section gutter supplies the left inset */
-  padding: 40px 20px 40px 0;
+  padding: 40px 40px 40px 20px;
 }
 
 .cards-feature.alt .cards-feature-card-title,
@@ -167,11 +169,11 @@ main .cards-feature.icon-left .cards-feature-card-cta a:any-link {
   .cards-feature {
     max-width: 1220px;
     margin-inline: auto;
-    padding: 0 14px;
   }
 
   .cards-feature > ul {
     grid-template-columns: repeat(3, 1fr);
+    padding: 0 14px;
   }
 
   .cards-feature .cards-feature-card {
@@ -194,6 +196,7 @@ main .cards-feature.icon-left .cards-feature-card-cta a:any-link {
 
   .cards-feature.alt {
     max-width: 1260px;
+    margin-inline: auto;
   }
 
   .cards-feature.alt .cards-feature-card {
@@ -207,6 +210,7 @@ main .cards-feature.icon-left .cards-feature-card-cta a:any-link {
 
   .cards-feature.icon-left > ul {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0;
     align-items: center;
   }
 
