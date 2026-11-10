@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+  "title": "Retirement expense & income calculator",
+  "timestamp": "2026-11-10T15:39:15.987Z",
+  "duration": "12.5s",
+  "cleanup": {
+    "elementsRemoved": 9,
+    "types": [
+      "overlay",
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(25)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "div.ui-dialog.calculation-explanation-container",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      },
+      {
+        "selector": "div.ui-dialog.solution-explanation-container",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      },
+      {
+        "selector": "div.ui-dialog.load-dialog",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/dash/utility/jackson-logo-alt.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/hedgeness_logo.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/Conservative_Color.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/Conservative_Grayscale.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/Moderate_Color.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/Moderate_Grayscale.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/Aggressive_Color.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/Aggressive_Grayscale.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/utility/jackson-logo.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/tools/retirement-expense-and-income-calculator/combined-report-thumb.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/promo/549776541_605x283.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/promo/1257805716_605x283.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/dash/utility/jackson-logo-alt.png",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.jackson.com/etc.clientlibs/dash/clientlibs/hub/resources/select-arrow.png",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/etc.clientlibs/dash/clientlibs/common/resources/icon-info.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "s(2x1B(s,s),s(s(5x1B,2x1B,s(3x1B,s,s),sB),s,s(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s),s,s(s,s,s,s,s,s,s),2x1,s),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > section.hero.v2",
+      "rc1c1": "body > section.hero.v2 > div.hero-content-container > div.content > h1",
+      "rc1c2": "body > section.hero.v2 > div.hero-content-container > div.content > div.cmp.cmp-text",
+      "rc2": "body > div.one-column.rec-main-container.main-content-container",
+      "rc2c1": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4",
+      "rc2c1c1": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-nav",
+      "rc2c1c2": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.tool-header",
+      "rc2c1c3": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-content-container",
+      "rc2c1c3c1": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-content-container > div.journey-content:nth-of-type(1) > div.calculate > div.calculate-data-container",
+      "rc2c1c3c2": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-content-container > div.journey-content:nth-of-type(1) > div.calculate > div:nth-of-type(2)",
+      "rc2c1c3c3": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-content-container > div.journey-content:nth-of-type(1) > div.calculate > div.dialog-container",
+      "rc2c1c4": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-controls",
+      "rc2c2": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(2)",
+      "rc2c3": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container",
+      "rc2c3c1": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.AL-Alabama.state-information",
+      "rc2c3c2": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.AK-Alaska.state-information",
+      "rc2c3c3": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.AZ-Arizona.state-information",
+      "rc2c3c4": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.AR-Arkansas.state-information",
+      "rc2c3c5": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.CA-California.state-information",
+      "rc2c3c6": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.CO-Colorado.state-information",
+      "rc2c3c7": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.CT-Connecticut.state-information",
+      "rc2c3c8": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.DE-Delaware.state-information",
+      "rc2c3c9": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.DC-District.of.Columbia.state-information",
+      "rc2c3c10": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.FL-Florida.state-information",
+      "rc2c3c11": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.GA-Georgia.state-information",
+      "rc2c3c12": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.HI-Hawaii.state-information",
+      "rc2c3c13": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.ID-Idaho.state-information",
+      "rc2c3c14": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.IL-Illinois.state-information",
+      "rc2c3c15": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.IN-Indiana.state-information",
+      "rc2c3c16": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.IA-Iowa.state-information",
+      "rc2c3c17": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.KS-Kansas.state-information",
+      "rc2c3c18": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.KY-Kentucky.state-information",
+      "rc2c3c19": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.LA-Louisiana.state-information",
+      "rc2c3c20": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.ME-Maine.state-information",
+      "rc2c3c21": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MD-Maryland.state-information",
+      "rc2c3c22": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MA-Massachusetts.state-information",
+      "rc2c3c23": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MI-Michigan.state-information",
+      "rc2c3c24": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MN-Minnesota.state-information",
+      "rc2c3c25": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MS-Mississippi.state-information",
+      "rc2c3c26": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MO-Missouri.state-information",
+      "rc2c3c27": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.MT-Montana.state-information",
+      "rc2c3c28": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NE-Nebraska.state-information",
+      "rc2c3c29": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NV-Nevada.state-information",
+      "rc2c3c30": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NH-New.Hampshire.state-information",
+      "rc2c3c31": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NJ-New.Jersey.state-information",
+      "rc2c3c32": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NM-New.Mexico.state-information",
+      "rc2c3c33": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NY-New.York.state-information",
+      "rc2c3c34": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.NC-North.Carolina.state-information",
+      "rc2c3c35": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.ND-North.Dakota.state-information",
+      "rc2c3c36": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.OH-Ohio.state-information",
+      "rc2c3c37": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.OK-Oklahoma.state-information",
+      "rc2c3c38": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.OR-Oregon.state-information",
+      "rc2c3c39": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.PA-Pennsylvania.state-information",
+      "rc2c3c40": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.RI-Rhode.Island.state-information",
+      "rc2c3c41": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.SC-South.Carolina.state-information",
+      "rc2c3c42": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.SD-South.Dakota.state-information",
+      "rc2c3c43": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.TN-Tennessee.state-information",
+      "rc2c3c44": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.TX-Texas.state-information",
+      "rc2c3c45": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.UT-Utah.state-information",
+      "rc2c3c46": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.VT-Vermont.state-information",
+      "rc2c3c47": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.VA-Virginia.state-information",
+      "rc2c3c48": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.WA-Washington.state-information",
+      "rc2c3c49": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.WV-West.Virginia.state-information",
+      "rc2c3c50": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.WI-Wisconsin.state-information",
+      "rc2c3c51": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container > div.WY-Wyoming.state-information",
+      "rc2c4": "body > div.one-column.rec-main-container.main-content-container > div.dialog-container",
+      "rc2c5": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5)",
+      "rc2c5c1": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(1)",
+      "rc2c5c2": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(2)",
+      "rc2c5c3": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(3)",
+      "rc2c5c4": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(4)",
+      "rc2c5c5": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(5)",
+      "rc2c5c6": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(6)",
+      "rc2c5c7": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5) > p:nth-of-type(7)",
+      "rc2c6": "body > div.one-column.rec-main-container.main-content-container > div.promo-card-container.v1",
+      "rc2c7": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(7)",
+      "rc3": "body > div:nth-of-type(3)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > section.hero.v2",
+        "layout": "2x1",
+        "hasBg": true,
+        "hint": "block",
+        "background": "#f1ece9",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > section.hero.v2 > div.hero-content-container > div.content"
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(2)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.state-information-container",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.dialog-container",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc7",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.promo-card-container.v1",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc8",
+        "selector": "body > div.one-column.rec-main-container.main-content-container > div.disclosure:nth-of-type(7)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc9",
+        "selector": "body > div:nth-of-type(3)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 359,
+      "height": 2339.9375
+    },
+    "splits": [],
+    "start": {
+      "kind": "repeated cards"
+    }
+  },
+  "blocks": [
+    {
+      "id": "4836ecbdd4f9",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > section",
+      "bounds": {
+        "x": 0,
+        "y": 59,
+        "width": 1440,
+        "height": 300
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text"
+      },
+      "description": "hero",
+      "features": {
+        "skeleton": "[T|~]",
+        "variant": "[Tkr|~n]",
+        "variantClean": "[Tk|~n]"
+      },
+      "screenshot": "blocks/4836ecbdd4f9.jpg",
+      "html": "blocks/4836ecbdd4f9.html",
+      "variantId": "v_601a7f617c9a"
+    },
+    {
+      "id": "d2da9f2a3830",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-nav",
+      "bounds": {
+        "x": 20,
+        "y": 359,
+        "width": 1400,
+        "height": 146
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "journey-nav",
+      "features": {
+        "skeleton": "(~ [(~ T)])",
+        "variant": "(~n [(~r Tm)|(~n Tk)])",
+        "variantClean": "(~n [(~r Tk)|(~n Tk)])"
+      },
+      "screenshot": "blocks/d2da9f2a3830.jpg",
+      "html": "blocks/d2da9f2a3830.html",
+      "variantId": "v_92c544569cc5"
+    },
+    {
+      "id": "6df133a1d6c4",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.tool-header",
+      "bounds": {
+        "x": 20,
+        "y": 505,
+        "width": 1400,
+        "height": 70
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading"
+      },
+      "description": "tool-header",
+      "features": {
+        "skeleton": "~([T|[[T]]])",
+        "variant": "~r([Tw|[[Tw|Tm]]])",
+        "variantClean": "~r([Tw|[[Tw|Tk]]])"
+      },
+      "screenshot": "blocks/6df133a1d6c4.jpg",
+      "html": "blocks/6df133a1d6c4.html",
+      "variantId": "v_bedc667c759d"
+    },
+    {
+      "id": "252e693ada9b",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-content-container",
+      "bounds": {
+        "x": 20,
+        "y": 575,
+        "width": 1400,
+        "height": 612
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + field + button + icon"
+      },
+      "description": "journey-content-container",
+      "features": {
+        "skeleton": "[(~(T) form)|(~([[T|button]]) button ~([T*2|T]))*3|(~(T) T)*1.5]",
+        "variant": "[(~n(Tm) form)|(~n([[Tm|button~@]]) button ~w([Tm*2|Tm]))*3|(~n(Tm) Tkmn)*1.5]",
+        "variantClean": "[(~n(Tk) form)|(~n([[Tk|button~@]]) button ~w([Tk*2|Tk]))*3|(~n(Tk) Tk)*1.5]"
+      },
+      "screenshot": "blocks/252e693ada9b.jpg",
+      "html": "blocks/252e693ada9b.html",
+      "variantId": "v_82713101398f"
+    },
+    {
+      "id": "31e7ebc992c4",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-controls",
+      "bounds": {
+        "x": 20,
+        "y": 1187,
+        "width": 1400,
+        "height": 79
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "button"
+      },
+      "description": "journey-controls",
+      "features": {
+        "skeleton": "button",
+        "variant": "button~r",
+        "variantClean": "button~r"
+      },
+      "screenshot": "blocks/31e7ebc992c4.jpg",
+      "html": "blocks/31e7ebc992c4.html",
+      "variantId": "v_73cce7700691"
+    },
+    {
+      "id": "5358e4bab284",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div:nth-child(2)",
+      "bounds": {
+        "x": 20,
+        "y": 1291,
+        "width": 1400,
+        "height": 123
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "disclosure",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/5358e4bab284.html"
+    },
+    {
+      "id": "bc2f4edaba7d",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div:nth-child(5)",
+      "bounds": {
+        "x": 20,
+        "y": 1440,
+        "width": 1400,
+        "height": 469
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "disclosure",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/bc2f4edaba7d.html"
+    },
+    {
+      "id": "55b8fde059a6",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div.promo-card-container.v1",
+      "bounds": {
+        "x": 20,
+        "y": 1919,
+        "width": 1400,
+        "height": 639
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + text + link"
+      },
+      "description": "promo-card-container",
+      "features": {
+        "skeleton": "[~(T)]",
+        "variant": "[~m(Tnw)]",
+        "variantClean": "[~m(Tw)]",
+        "set": true
+      },
+      "screenshot": "blocks/55b8fde059a6.jpg",
+      "html": "blocks/55b8fde059a6.html",
+      "variantId": "v_e4218559988e"
+    },
+    {
+      "id": "3b548e226238",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.one-column.rec-main-container.main-content-container > div:nth-child(7)",
+      "bounds": {
+        "x": 20,
+        "y": 2584,
+        "width": 1400,
+        "height": 85
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "disclosure",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/3b548e226238.html"
+    }
+  ]
+}

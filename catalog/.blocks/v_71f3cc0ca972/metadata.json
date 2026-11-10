@@ -1,0 +1,70 @@
+{
+  "id": "v_71f3cc0ca972",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + heading + text"
+  },
+  "layoutKey": "[~(T)]",
+  "colour": "[~r(Tw)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "instanceId": "b6a089772df2",
+        "instanceIds": [
+          "b6a089772df2"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/b6a089772df2.jpg"
+      }
+    ],
+    "reuseCount": 5
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Repeated product/category cards each linking to a detail page",
+    "mergedInto": null
+  }
+}

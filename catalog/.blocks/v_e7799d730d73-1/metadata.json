@@ -1,0 +1,38 @@
+{
+  "id": "v_e7799d730d73-1",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + list + image + link + text"
+  },
+  "layoutKey": "(T [T] ~(T [T]) ~([tab]))",
+  "colour": "(Tk [Tk] ~s([tab|tab~r]) ~w(Tk [Tk]) ~w(Tw [T|Tk]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+        "instanceId": "2772d5ece960",
+        "instanceIds": [
+          "2772d5ece960"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff/blocks/2772d5ece960.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Same product page shell with tabs over a hero",
+    "mergedInto": "v_e7799d730d73"
+  }
+}

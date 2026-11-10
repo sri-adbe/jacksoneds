@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
+  "title": "Perspective Advisory II performance center | Jackson",
+  "timestamp": "2026-11-10T15:35:28.223Z",
+  "duration": "25.6s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "overlay",
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(28)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#perfForm\\:j_idt109",
+        "type": "popup",
+        "rule": "body [class*=\"overlay\"]:not(nav *)"
+      },
+      {
+        "selector": "#perfForm\\:j_idt112",
+        "type": "popup",
+        "rule": "body [class*=\"overlay\"]:not(nav *)"
+      },
+      {
+        "selector": "div.ui-dialog.ui-corner-all",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/logo/Jackson_logo_reg_col_pos_rgb.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/performancecenter/icon-video-small.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/performancecenter/icon-collapse.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/morningstar/stars/1.gif",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/performancecenter/icon-actions.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/morningstar/stars/5.gif",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/morningstar/stars/3.gif",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/morningstar/stars/2.gif",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/morningstar/stars/4.gif",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/performancecenter/icon-calendar-grey.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/morningstar/logo-morningstar.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/broker-check.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=bea5cff0-a4c6-475a-888a-dc333435d03a&bo=1&sid=2c6c7640dd1c11f1a5bb77995e9cf575&vid=2c6ca170dd1c11f1aaa65badd31291c6&vids=0&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=2560&sh=1440&sc=24&tl=Perspective%20Advisory%20II%20performance%20center%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Fannuities%2Fvariable-annuities%2Fperspective-advisory-ii-performance-center.html&r=&lt=4835&pt=1794324902809,,,,,1,1,1,1,1,,2,3322,3766,3327,4830,4830,4835,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQER&rn=881152",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/sprites/global-sprite.png",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/element/global-sprite.png",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/performancecenter/iconTop.gif",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/static/jwp/images/performancecenter/ddl-YTD-arrow.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "sB(s(s,s,sB(2x1B,4x1,2x1B),s(s(s(,),s),4x1B,s,s(s,s(,,,,,)),s(s,s,s,3x1,s)),s),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.responsive.brandEvolution",
+      "rc1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+      "rc1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+      "rc1c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__site-selector-bar",
+      "rc1c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.contact-us-secondary-nav-area",
+      "rc1c3c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__secondary.l-grid",
+      "rc1c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header",
+      "rc1c4c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h1 > div.subpage-header-block",
+      "rc1c4c1c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h1 > div.subpage-header-block > div.title",
+      "rc1c4c1c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h1 > div.subpage-header-block > div.description",
+      "rc1c4c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h1 > div.child-items",
+      "rc1c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization",
+      "rc1c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(3)",
+      "rc1c4c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.legacy-component",
+      "rc1c4c4c1": "#container",
+      "rc1c4c4c2": "#legacy > div.legacy-include.pageWrapper.performanceCtr",
+      "rc1c4c4c2c1": "#subAcctList > h4",
+      "rc1c4c4c2c2": "#subAcctList > div.stateVariation",
+      "rc1c4c4c2c2c1": "#subAcctList > div.stateVariation > div:nth-of-type(1)",
+      "rc1c4c4c2c2c2": "#subAcctList > div.stateVariation > div:nth-of-type(2)",
+      "rc1c4c4c2c3": "#subAcctList > div.genDate",
+      "rc1c4c4c2c4": "#subAcctList > h3.bar",
+      "rc1c4c4c2c5": "#subAcctList > div.tblBrdr",
+      "rc1c4c4c2c5c1": "#subAcctList > div.tblBrdr > div.custList",
+      "rc1c4c4c2c5c2": "#subAcctList > div.tblBrdr > h5",
+      "rc1c4c4c2c5c3": "#subAcctList > div.tblBrdr > div:nth-of-type(2)",
+      "rc1c4c4c2c5c4": "#subAcctList > div.tblBrdr > div:nth-of-type(3)",
+      "rc1c4c4c2c5c5": "#subAcctList > div.tblBrdr > div.tabSubNav",
+      "rc1c4c4c2c5c6": "#performance",
+      "rc1c4c4c2c5c6c1": "#performance > div.rptOptions",
+      "rc1c4c4c2c5c6c2": "#performance > div.tabSubNav",
+      "rc1c4c4c2c5c6c3": "#PerfContractDisclosure",
+      "rc1c4c4c2c5c6c3c1": "#PerfContractDisclosure > p:nth-of-type(1)",
+      "rc1c4c4c2c5c6c3c2": "#PerfContractDisclosure > div",
+      "rc1c4c4c2c5c6c3c2c1": "#PerfContractDisclosure > div > table > colgroup",
+      "rc1c4c4c2c5c6c3c2c2": "#PerfContractDisclosure > div > table > tbody",
+      "rc1c4c4c2c5c6c3c2c2c1": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c3c2c2c2": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c3c2c2c3": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c3c2c2c4": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c3c2c2c5": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c3c2c2c6": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c3c2c2c7": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(7)",
+      "rc1c4c4c2c5c6c3c2c2c8": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(8)",
+      "rc1c4c4c2c5c6c3c2c2c9": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(9)",
+      "rc1c4c4c2c5c6c3c2c2c10": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(10)",
+      "rc1c4c4c2c5c6c3c2c2c11": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(11)",
+      "rc1c4c4c2c5c6c3c2c2c12": "#PerfContractDisclosure > div > table > tbody > tr:nth-of-type(12)",
+      "rc1c4c4c2c5c6c3c3": "#PerfContractDisclosure > p:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4": "#performance > div.fundList",
+      "rc1c4c4c2c5c6c4c1": "#perfDataTable > colgroup",
+      "rc1c4c4c2c5c6c4c2": "#perfHeader",
+      "rc1c4c4c2c5c6c4c2c1": "#perfHeader > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c2c2": "#perfHeader > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c3": "#U\\.S\\.\\ EquityPerfTitleTable",
+      "rc1c4c4c2c5c6c4c4": "#U\\.S\\.\\ EquityPerfTable",
+      "rc1c4c4c2c5c6c4c4c1": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c4c2": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c4c3": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c4c4c4": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c4c4c5": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c4c4c6": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c4c4c7": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(7)",
+      "rc1c4c4c2c5c6c4c4c8": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(8)",
+      "rc1c4c4c2c5c6c4c4c9": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(9)",
+      "rc1c4c4c2c5c6c4c4c10": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(10)",
+      "rc1c4c4c2c5c6c4c4c11": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(11)",
+      "rc1c4c4c2c5c6c4c4c12": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(12)",
+      "rc1c4c4c2c5c6c4c4c13": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(13)",
+      "rc1c4c4c2c5c6c4c4c14": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(14)",
+      "rc1c4c4c2c5c6c4c4c15": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(15)",
+      "rc1c4c4c2c5c6c4c4c16": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(16)",
+      "rc1c4c4c2c5c6c4c4c17": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(17)",
+      "rc1c4c4c2c5c6c4c4c18": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(18)",
+      "rc1c4c4c2c5c6c4c4c19": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(19)",
+      "rc1c4c4c2c5c6c4c4c20": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(20)",
+      "rc1c4c4c2c5c6c4c4c21": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(21)",
+      "rc1c4c4c2c5c6c4c4c22": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(22)",
+      "rc1c4c4c2c5c6c4c4c23": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(23)",
+      "rc1c4c4c2c5c6c4c4c24": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(24)",
+      "rc1c4c4c2c5c6c4c4c25": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(25)",
+      "rc1c4c4c2c5c6c4c4c26": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(26)",
+      "rc1c4c4c2c5c6c4c4c27": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(27)",
+      "rc1c4c4c2c5c6c4c4c28": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(28)",
+      "rc1c4c4c2c5c6c4c4c29": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(29)",
+      "rc1c4c4c2c5c6c4c4c30": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(30)",
+      "rc1c4c4c2c5c6c4c4c31": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(31)",
+      "rc1c4c4c2c5c6c4c4c32": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(32)",
+      "rc1c4c4c2c5c6c4c4c33": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(33)",
+      "rc1c4c4c2c5c6c4c4c34": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(34)",
+      "rc1c4c4c2c5c6c4c4c35": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(35)",
+      "rc1c4c4c2c5c6c4c4c36": "#U\\.S\\.\\ EquityPerfTable > tr:nth-of-type(36)",
+      "rc1c4c4c2c5c6c4c5": "#International\\/Global\\ EquityPerfTitleTable",
+      "rc1c4c4c2c5c6c4c6": "#International\\/Global\\ EquityPerfTable",
+      "rc1c4c4c2c5c6c4c6c1": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c6c2": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c6c3": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c4c6c4": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c4c6c5": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c4c6c6": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c4c6c7": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(7)",
+      "rc1c4c4c2c5c6c4c6c8": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(8)",
+      "rc1c4c4c2c5c6c4c6c9": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(9)",
+      "rc1c4c4c2c5c6c4c6c10": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(10)",
+      "rc1c4c4c2c5c6c4c6c11": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(11)",
+      "rc1c4c4c2c5c6c4c6c12": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(12)",
+      "rc1c4c4c2c5c6c4c6c13": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(13)",
+      "rc1c4c4c2c5c6c4c6c14": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(14)",
+      "rc1c4c4c2c5c6c4c6c15": "#International\\/Global\\ EquityPerfTable > tr:nth-of-type(15)",
+      "rc1c4c4c2c5c6c4c7": "#Sector\\ EquityPerfTitleTable",
+      "rc1c4c4c2c5c6c4c8": "#Sector\\ EquityPerfTable",
+      "rc1c4c4c2c5c6c4c8c1": "#Sector\\ EquityPerfTable > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c8c2": "#Sector\\ EquityPerfTable > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c8c3": "#Sector\\ EquityPerfTable > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c4c8c4": "#Sector\\ EquityPerfTable > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c4c8c5": "#Sector\\ EquityPerfTable > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c4c8c6": "#Sector\\ EquityPerfTable > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c4c8c7": "#Sector\\ EquityPerfTable > tr:nth-of-type(7)",
+      "rc1c4c4c2c5c6c4c8c8": "#Sector\\ EquityPerfTable > tr:nth-of-type(8)",
+      "rc1c4c4c2c5c6c4c8c9": "#Sector\\ EquityPerfTable > tr:nth-of-type(9)",
+      "rc1c4c4c2c5c6c4c8c10": "#Sector\\ EquityPerfTable > tr:nth-of-type(10)",
+      "rc1c4c4c2c5c6c4c8c11": "#Sector\\ EquityPerfTable > tr:nth-of-type(11)",
+      "rc1c4c4c2c5c6c4c8c12": "#Sector\\ EquityPerfTable > tr:nth-of-type(12)",
+      "rc1c4c4c2c5c6c4c9": "#Fixed\\ IncomePerfTitleTable",
+      "rc1c4c4c2c5c6c4c10": "#Fixed\\ IncomePerfTable",
+      "rc1c4c4c2c5c6c4c10c1": "#Fixed\\ IncomePerfTable > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c10c2": "#Fixed\\ IncomePerfTable > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c10c3": "#Fixed\\ IncomePerfTable > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c4c10c4": "#Fixed\\ IncomePerfTable > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c4c10c5": "#Fixed\\ IncomePerfTable > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c4c10c6": "#Fixed\\ IncomePerfTable > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c4c10c7": "#Fixed\\ IncomePerfTable > tr:nth-of-type(7)",
+      "rc1c4c4c2c5c6c4c10c8": "#Fixed\\ IncomePerfTable > tr:nth-of-type(8)",
+      "rc1c4c4c2c5c6c4c10c9": "#Fixed\\ IncomePerfTable > tr:nth-of-type(9)",
+      "rc1c4c4c2c5c6c4c10c10": "#Fixed\\ IncomePerfTable > tr:nth-of-type(10)",
+      "rc1c4c4c2c5c6c4c10c11": "#Fixed\\ IncomePerfTable > tr:nth-of-type(11)",
+      "rc1c4c4c2c5c6c4c10c12": "#Fixed\\ IncomePerfTable > tr:nth-of-type(12)",
+      "rc1c4c4c2c5c6c4c10c13": "#Fixed\\ IncomePerfTable > tr:nth-of-type(13)",
+      "rc1c4c4c2c5c6c4c10c14": "#Fixed\\ IncomePerfTable > tr:nth-of-type(14)",
+      "rc1c4c4c2c5c6c4c10c15": "#Fixed\\ IncomePerfTable > tr:nth-of-type(15)",
+      "rc1c4c4c2c5c6c4c10c16": "#Fixed\\ IncomePerfTable > tr:nth-of-type(16)",
+      "rc1c4c4c2c5c6c4c10c17": "#Fixed\\ IncomePerfTable > tr:nth-of-type(17)",
+      "rc1c4c4c2c5c6c4c10c18": "#Fixed\\ IncomePerfTable > tr:nth-of-type(18)",
+      "rc1c4c4c2c5c6c4c10c19": "#Fixed\\ IncomePerfTable > tr:nth-of-type(19)",
+      "rc1c4c4c2c5c6c4c11": "#AlternativePerfTitleTable",
+      "rc1c4c4c2c5c6c4c12": "#AlternativePerfTable",
+      "rc1c4c4c2c5c6c4c12c1": "#AlternativePerfTable > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c12c2": "#AlternativePerfTable > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c12c3": "#AlternativePerfTable > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c4c12c4": "#AlternativePerfTable > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c4c12c5": "#AlternativePerfTable > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c4c12c6": "#AlternativePerfTable > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c4c13": "#AllocationPerfTitleTable",
+      "rc1c4c4c2c5c6c4c14": "#AllocationPerfTable",
+      "rc1c4c4c2c5c6c4c14c1": "#AllocationPerfTable > tr:nth-of-type(1)",
+      "rc1c4c4c2c5c6c4c14c2": "#AllocationPerfTable > tr:nth-of-type(2)",
+      "rc1c4c4c2c5c6c4c14c3": "#AllocationPerfTable > tr:nth-of-type(3)",
+      "rc1c4c4c2c5c6c4c14c4": "#AllocationPerfTable > tr:nth-of-type(4)",
+      "rc1c4c4c2c5c6c4c14c5": "#AllocationPerfTable > tr:nth-of-type(5)",
+      "rc1c4c4c2c5c6c4c14c6": "#AllocationPerfTable > tr:nth-of-type(6)",
+      "rc1c4c4c2c5c6c4c14c7": "#AllocationPerfTable > tr:nth-of-type(7)",
+      "rc1c4c4c2c5c6c4c14c8": "#AllocationPerfTable > tr:nth-of-type(8)",
+      "rc1c4c4c2c5c6c4c14c9": "#AllocationPerfTable > tr:nth-of-type(9)",
+      "rc1c4c4c2c5c6c4c14c10": "#AllocationPerfTable > tr:nth-of-type(10)",
+      "rc1c4c4c2c5c6c4c14c11": "#AllocationPerfTable > tr:nth-of-type(11)",
+      "rc1c4c4c2c5c6c4c14c12": "#AllocationPerfTable > tr:nth-of-type(12)",
+      "rc1c4c4c2c5c6c4c14c13": "#AllocationPerfTable > tr:nth-of-type(13)",
+      "rc1c4c4c2c5c6c4c14c14": "#AllocationPerfTable > tr:nth-of-type(14)",
+      "rc1c4c4c2c5c6c4c14c15": "#AllocationPerfTable > tr:nth-of-type(15)",
+      "rc1c4c4c2c5c6c4c14c16": "#AllocationPerfTable > tr:nth-of-type(16)",
+      "rc1c4c4c2c5c6c4c14c17": "#AllocationPerfTable > tr:nth-of-type(17)",
+      "rc1c4c4c2c5c6c4c14c18": "#AllocationPerfTable > tr:nth-of-type(18)",
+      "rc1c4c4c2c5c6c4c14c19": "#AllocationPerfTable > tr:nth-of-type(19)",
+      "rc1c4c4c2c5c6c4c14c20": "#AllocationPerfTable > tr:nth-of-type(20)",
+      "rc1c4c4c2c5c6c4c14c21": "#AllocationPerfTable > tr:nth-of-type(21)",
+      "rc1c4c4c2c5c6c4c14c22": "#AllocationPerfTable > tr:nth-of-type(22)",
+      "rc1c4c4c2c5c6c4c14c23": "#AllocationPerfTable > tr:nth-of-type(23)",
+      "rc1c4c4c2c5c6c4c14c24": "#AllocationPerfTable > tr:nth-of-type(24)",
+      "rc1c4c4c2c5c6c4c14c25": "#AllocationPerfTable > tr:nth-of-type(25)",
+      "rc1c4c4c2c6": "#subAcctList > div.legal",
+      "rc1c4c4c2c6c1": "#subAcctList > div.legal > p:nth-of-type(1)",
+      "rc1c4c4c2c6c2": "#subAcctList > div.legal > p.fS11.notice",
+      "rc1c4c4c2c6c3": "#subAcctList > div.legal > p:nth-of-type(3)",
+      "rc1c4c4c2c6c3c1": "#subAcctList > div.legal > p:nth-of-type(3) > strong",
+      "rc1c4c4c2c6c3c2": "#subAcctList > div.legal > p:nth-of-type(3) > a.prospectusLink",
+      "rc1c4c4c2c6c4": "#subAcctList > div.legal > p:nth-of-type(4)",
+      "rc1c4c4c2c6c5": "#separateAcctDisclosure",
+      "rc1c4c4c2c6c6": "#ratingsDisclosure",
+      "rc1c4c4c2c6c6c1": "#ratingsDisclosure > p:nth-of-type(1)",
+      "rc1c4c4c2c6c6c2": "#ratingsDisclosure > p:nth-of-type(2)",
+      "rc1c4c4c2c6c6c3": "#ratingsDisclosure > p:nth-of-type(3)",
+      "rc1c4c4c2c6c7": "#footnotes",
+      "rc1c4c4c2c6c7c1": "#footnotes > p:nth-of-type(1)",
+      "rc1c4c4c2c6c7c2": "#footnotes > p.multiple:nth-of-type(2)",
+      "rc1c4c4c2c6c7c3": "#footnotes > p.multiple:nth-of-type(3)",
+      "rc1c4c4c2c6c7c4": "#footnotes > p.multiple:nth-of-type(4)",
+      "rc1c4c4c2c6c7c5": "#footnotes > p.multiple:nth-of-type(5)",
+      "rc1c4c4c2c6c7c6": "#footnotes > p.multiple:nth-of-type(6)",
+      "rc1c4c4c2c6c7c7": "#footnotes > p.multiple:nth-of-type(7)",
+      "rc1c4c4c2c6c7c8": "#footnotes > p.multiple:nth-of-type(8)",
+      "rc1c4c4c2c6c7c9": "#footnotes > p.multiple:nth-of-type(9)",
+      "rc1c4c4c2c6c7c10": "#footnotes > p.multiple:nth-of-type(10)",
+      "rc1c4c4c2c6c7c11": "#footnotes > p.multiple:nth-of-type(11)",
+      "rc1c4c4c2c6c7c12": "#footnotes > p.multiple:nth-of-type(12)",
+      "rc1c4c4c2c6c7c13": "#footnotes > p.multiple:nth-of-type(13)",
+      "rc1c4c4c2c6c7c14": "#footnotes > p.multiple:nth-of-type(14)",
+      "rc1c4c4c2c6c7c15": "#footnotes > p.multiple:nth-of-type(15)",
+      "rc1c4c4c2c6c7c16": "#footnotes > p.multiple:nth-of-type(16)",
+      "rc1c4c4c2c6c7c17": "#footnotes > p.multiple:nth-of-type(17)",
+      "rc1c4c4c2c6c7c18": "#footnotes > p.multiple:nth-of-type(18)",
+      "rc1c4c4c2c6c7c19": "#footnotes > p.multiple:nth-of-type(19)",
+      "rc1c4c4c2c6c7c20": "#footnotes > p.multiple:nth-of-type(20)",
+      "rc1c4c4c2c6c7c21": "#footnotes > p.multiple:nth-of-type(21)",
+      "rc1c4c4c2c6c7c22": "#footnotes > p.multiple:nth-of-type(22)",
+      "rc1c4c4c2c6c7c23": "#footnotes > p.multiple:nth-of-type(23)",
+      "rc1c4c4c2c6c7c24": "#footnotes > p.multiple:nth-of-type(24)",
+      "rc1c4c4c2c6c7c25": "#footnotes > p.multiple:nth-of-type(25)",
+      "rc1c4c4c2c6c7c26": "#footnotes > p.multiple:nth-of-type(26)",
+      "rc1c4c4c2c6c7c27": "#footnotes > p.multiple:nth-of-type(27)",
+      "rc1c4c4c2c6c7c28": "#footnotes > p.multiple:nth-of-type(28)",
+      "rc1c4c4c2c6c7c29": "#footnotes > p.multiple:nth-of-type(29)",
+      "rc1c4c4c2c6c7c30": "#footnotes > p.multiple:nth-of-type(30)",
+      "rc1c4c4c2c6c7c31": "#footnotes > p.multiple:nth-of-type(31)",
+      "rc1c4c4c2c6c7c32": "#footnotes > p.multiple:nth-of-type(32)",
+      "rc1c4c4c2c6c7c33": "#footnotes > p.multiple:nth-of-type(33)",
+      "rc1c4c4c2c6c7c34": "#footnotes > p.multiple:nth-of-type(34)",
+      "rc1c4c4c2c6c7c35": "#footnotes > p.multiple:nth-of-type(35)",
+      "rc1c4c4c2c6c7c36": "#footnotes > p.multiple:nth-of-type(36)",
+      "rc1c4c4c2c6c7c37": "#footnotes > p.multiple:nth-of-type(37)",
+      "rc1c4c4c2c6c7c38": "#footnotes > p.multiple:nth-of-type(38)",
+      "rc1c4c4c2c6c7c39": "#footnotes > p.multiple:nth-of-type(39)",
+      "rc1c4c4c2c6c7c40": "#footnotes > p.multiple:nth-of-type(40)",
+      "rc1c4c4c2c6c7c41": "#footnotes > p.multiple:nth-of-type(41)",
+      "rc1c4c4c2c6c7c42": "#footnotes > p.multiple:nth-of-type(42)",
+      "rc1c4c4c2c6c7c43": "#footnotes > p.multiple:nth-of-type(43)",
+      "rc1c4c4c2c6c7c44": "#footnotes > p.multiple:nth-of-type(44)",
+      "rc1c4c4c2c6c7c45": "#footnotes > p.multiple:nth-of-type(45)",
+      "rc1c4c4c2c6c7c46": "#footnotes > p.multiple:nth-of-type(46)",
+      "rc1c4c4c2c6c7c47": "#footnotes > p.multiple:nth-of-type(47)",
+      "rc1c4c4c2c6c7c48": "#footnotes > p.multiple:nth-of-type(48)",
+      "rc1c4c4c2c6c7c49": "#footnotes > p.multiple:nth-of-type(49)",
+      "rc1c4c4c2c6c7c50": "#footnotes > p.multiple:nth-of-type(50)",
+      "rc1c4c4c2c6c7c51": "#footnotes > p.multiple:nth-of-type(51)",
+      "rc1c4c4c2c6c7c52": "#footnotes > p.multiple:nth-of-type(52)",
+      "rc1c4c4c2c6c7c53": "#footnotes > p.multiple:nth-of-type(53)",
+      "rc1c4c4c2c6c7c54": "#footnotes > p.multiple:nth-of-type(54)",
+      "rc1c4c4c2c6c7c55": "#footnotes > p.multiple:nth-of-type(55)",
+      "rc1c4c4c2c6c7c56": "#footnotes > p.multiple:nth-of-type(56)",
+      "rc1c4c4c2c6c7c57": "#footnotes > p.multiple:nth-of-type(57)",
+      "rc1c4c4c2c6c7c58": "#footnotes > p.multiple:nth-of-type(58)",
+      "rc1c4c4c2c6c7c59": "#footnotes > p.multiple:nth-of-type(59)",
+      "rc1c4c4c2c6c7c60": "#footnotes > p.multiple:nth-of-type(60)",
+      "rc1c4c4c2c6c7c61": "#footnotes > p.multiple:nth-of-type(61)",
+      "rc1c4c4c2c6c7c62": "#footnotes > p.multiple:nth-of-type(62)",
+      "rc1c4c4c2c6c7c63": "#footnotes > p.multiple:nth-of-type(63)",
+      "rc1c4c4c2c6c7c64": "#footnotes > p.multiple:nth-of-type(64)",
+      "rc1c4c4c2c6c7c65": "#footnotes > p.multiple:nth-of-type(65)",
+      "rc1c4c4c2c6c7c66": "#footnotes > p.multiple:nth-of-type(66)",
+      "rc1c4c4c2c6c7c67": "#footnotes > p.multiple:nth-of-type(67)",
+      "rc1c4c4c2c6c7c68": "#footnotes > p.multiple:nth-of-type(68)",
+      "rc1c4c4c2c6c7c69": "#footnotes > p.multiple:nth-of-type(69)",
+      "rc1c4c4c2c6c7c70": "#footnotes > p.multiple:nth-of-type(70)",
+      "rc1c4c4c2c6c7c71": "#footnotes > p.multiple:nth-of-type(71)",
+      "rc1c4c4c2c6c7c72": "#footnotes > p.multiple:nth-of-type(72)",
+      "rc1c4c4c2c6c7c73": "#footnotes > p.multiple:nth-of-type(73)",
+      "rc1c4c4c2c6c7c74": "#footnotes > p.multiple:nth-of-type(74)",
+      "rc1c4c4c2c6c7c75": "#footnotes > p.multiple:nth-of-type(75)",
+      "rc1c4c4c2c6c7c76": "#footnotes > p.multiple:nth-of-type(76)",
+      "rc1c4c4c2c6c7c77": "#footnotes > p.multiple:nth-of-type(77)",
+      "rc1c4c4c2c6c7c78": "#footnotes > p.multiple:nth-of-type(78)",
+      "rc1c4c4c2c6c7c79": "#footnotes > p.multiple:nth-of-type(79)",
+      "rc1c4c4c2c6c7c80": "#footnotes > p.multiple:nth-of-type(80)",
+      "rc1c4c4c2c6c7c81": "#footnotes > p.multiple:nth-of-type(81)",
+      "rc1c4c4c2c6c7c82": "#footnotes > p.multiple:nth-of-type(82)",
+      "rc1c4c4c2c6c7c83": "#footnotes > p.multiple:nth-of-type(83)",
+      "rc1c4c4c2c6c7c84": "#footnotes > p.multiple:nth-of-type(84)",
+      "rc1c4c4c2c6c7c85": "#footnotes > p.multiple:nth-of-type(85)",
+      "rc1c4c4c2c6c7c86": "#footnotes > p.multiple:nth-of-type(86)",
+      "rc1c4c4c2c6c7c87": "#footnotes > p.multiple:nth-of-type(87)",
+      "rc1c4c4c2c6c7c88": "#footnotes > p.multiple:nth-of-type(88)",
+      "rc1c4c4c2c6c7c89": "#footnotes > p.multiple:nth-of-type(89)",
+      "rc1c4c4c2c6c7c90": "#footnotes > p.multiple:nth-of-type(90)",
+      "rc1c4c4c2c6c7c91": "#footnotes > p.multiple:nth-of-type(91)",
+      "rc1c4c4c2c6c7c92": "#footnotes > p.multiple:nth-of-type(92)",
+      "rc1c4c4c2c6c7c93": "#footnotes > p.multiple:nth-of-type(93)",
+      "rc1c4c4c2c6c7c94": "#footnotes > p.multiple:nth-of-type(94)",
+      "rc1c4c4c2c6c7c95": "#footnotes > p.multiple:nth-of-type(95)",
+      "rc1c4c4c2c6c7c96": "#footnotes > p.multiple:nth-of-type(96)",
+      "rc1c4c4c2c6c7c97": "#footnotes > p.multiple:nth-of-type(97)",
+      "rc1c4c4c2c6c7c98": "#footnotes > p.multiple:nth-of-type(98)",
+      "rc1c4c4c2c6c7c99": "#footnotes > p.multiple:nth-of-type(99)",
+      "rc1c4c4c2c6c7c100": "#footnotes > p.multiple:nth-of-type(100)",
+      "rc1c4c4c2c6c7c101": "#footnotes > p.multiple:nth-of-type(101)",
+      "rc1c4c4c2c6c7c102": "#footnotes > p.multiple:nth-of-type(102)",
+      "rc1c4c4c2c6c7c103": "#footnotes > p.multiple:nth-of-type(103)",
+      "rc1c4c4c2c6c7c104": "#footnotes > p.multiple:nth-of-type(104)",
+      "rc1c4c4c2c6c7c105": "#footnotes > p.multiple:nth-of-type(105)",
+      "rc1c4c4c2c6c7c106": "#footnotes > p.multiple:nth-of-type(106)",
+      "rc1c4c4c2c6c7c107": "#footnotes > p.multiple:nth-of-type(107)",
+      "rc1c4c4c2c6c7c108": "#footnotes > p.multiple:nth-of-type(108)",
+      "rc1c4c4c2c6c7c109": "#footnotes > p.multiple:nth-of-type(109)",
+      "rc1c4c4c2c6c7c110": "#footnotes > p.multiple:nth-of-type(110)",
+      "rc1c4c4c2c6c7c111": "#footnotes > p.multiple:nth-of-type(111)",
+      "rc1c4c4c2c6c7c112": "#footnotes > p.multiple:nth-of-type(112)",
+      "rc1c4c4c2c6c7c113": "#footnotes > p.multiple:nth-of-type(113)",
+      "rc1c4c4c2c6c7c114": "#footnotes > p.multiple:nth-of-type(114)",
+      "rc1c4c4c2c6c8": "#subAcctList > div.legal > p:nth-of-type(5)",
+      "rc1c4c4c2c6c9": "#subAcctList > div.legal > p:nth-of-type(6)",
+      "rc1c4c4c2c6c10": "#subAcctList > div.legal > p.brdrTopSub",
+      "rc1c4c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(5)",
+      "rc1c4c5c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(5) > div.content-area > p:nth-of-type(1)",
+      "rc1c4c5c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(5) > div.content-area > p:nth-of-type(2)",
+      "rc1c4c5c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(5) > div.content-area > p:nth-of-type(3)",
+      "rc1c4c5c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(5) > div.content-area > p:nth-of-type(4)",
+      "rc1c4c5c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(5) > div.content-area > p:nth-of-type(5)",
+      "rc1c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+      "rc2": "body > div:nth-of-type(5)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#dbcfc7",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed"
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "body > div:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 250,
+      "height": 20637.0625
+    },
+    "splits": [
+      {
+        "selector": "ul.nav-primary > li, ul.nav-primary > li, ul.nav-primary > li.page-menu.lists-1",
+        "sides": [
+          [
+            0,
+            0.1044189453125
+          ],
+          [
+            0.2731689453125,
+            0.38853759765625
+          ],
+          [
+            0.9921875,
+            1
+          ]
+        ],
+        "top": 454,
+        "bottom": 510,
+        "cover": 0.002713564491070374,
+        "above": 2
+      }
+    ],
+    "start": {
+      "kind": "heading",
+      "look": {
+        "font": "\"Superior Title\", sans-serif",
+        "color": "rgb(235, 0, 40)",
+        "align": "left"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "34201e9c74f8",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__site-selector-bar",
+      "bounds": {
+        "x": 20,
+        "y": 0,
+        "width": 1400,
+        "height": 36
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-site-selector-bar",
+      "features": {
+        "skeleton": "~([T])",
+        "variant": "~k([Tw])",
+        "variantClean": "~k([Tw])"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/34201e9c74f8.html"
+    },
+    {
+      "id": "d13badaf0b3a",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.contact-us-secondary-nav-area",
+      "bounds": {
+        "x": 20,
+        "y": 112,
+        "width": 1400,
+        "height": 49
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "contact-us-secondary-nav-area",
+      "features": {
+        "skeleton": "[T|~|[T|[~]]]",
+        "variant": "[Tn|~n|[Tn|[~m]]]",
+        "variantClean": "[Tk|~n|[Tk|[~m]]]"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/d13badaf0b3a.html"
+    },
+    {
+      "id": "665f29495b06",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__secondary.l-grid > div.masthead__breadcrumb.l-grid__col--0",
+      "bounds": {
+        "x": 15,
+        "y": 161,
+        "width": 599,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-breadcrumb",
+      "features": {
+        "skeleton": "nav",
+        "variant": "nav",
+        "variantClean": "nav"
+      },
+      "screenshot": null,
+      "html": "blocks/665f29495b06.html"
+    },
+    {
+      "id": "af23530e8e0f",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.header",
+      "bounds": {
+        "x": 20,
+        "y": 250,
+        "width": 1400,
+        "height": 112
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "header",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/af23530e8e0f.html"
+    },
+    {
+      "id": "159f3cd3c163",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment-personalization",
+      "bounds": {
+        "x": 0,
+        "y": 454,
+        "width": 1440,
+        "height": 56
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "experiencefragment-personalization",
+      "features": {
+        "skeleton": "~([T|menuitem])",
+        "variant": "~w([Tk|menuitem])",
+        "variantClean": "~w([Tk|menuitem])"
+      },
+      "screenshot": "blocks/159f3cd3c163.jpg",
+      "html": "blocks/159f3cd3c163.html",
+      "variantId": "v_92ebe11167df"
+    },
+    {
+      "id": "fb5624e1f3e7",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+      "bounds": {
+        "x": 20,
+        "y": 602,
+        "width": 1400,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "disclosure",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/fb5624e1f3e7.html"
+    },
+    {
+      "id": "03a84c0223aa",
+      "type": "unknown",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.legacy-component",
+      "bounds": {
+        "x": 0,
+        "y": 691,
+        "width": 1440,
+        "height": 19864
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "dense",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "link + heading + field + text"
+      },
+      "description": "legacy-component",
+      "features": {
+        "skeleton": "form",
+        "variant": "form",
+        "variantClean": "form"
+      },
+      "screenshot": "blocks/03a84c0223aa.jpg",
+      "html": "blocks/03a84c0223aa.html",
+      "variantId": "v_b625863efd96"
+    },
+    {
+      "id": "4e4ad634f569",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+      "bounds": {
+        "x": 20,
+        "y": 20647,
+        "width": 1400,
+        "height": 240
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "disclosure",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/4e4ad634f569.html"
+    }
+  ]
+}

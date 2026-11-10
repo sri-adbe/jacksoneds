@@ -1,0 +1,190 @@
+{
+  "id": "v_5d985532d984",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text + link"
+  },
+  "layoutKey": "[~(T ~(T))]",
+  "colour": "[(T ~m(Tw))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/",
+        "instanceId": "da16bf32e243",
+        "instanceIds": [
+          "da16bf32e243"
+        ],
+        "screenshot": ".pages/www_jackson_com--0b8df100/blocks/da16bf32e243.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/f92fecbb558a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/f92fecbb558a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/f92fecbb558a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/f92fecbb558a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "instanceId": "dc80b6a66ccd",
+        "instanceIds": [
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/dc80b6a66ccd.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "instanceId": "dc80b6a66ccd",
+        "instanceIds": [
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/dc80b6a66ccd.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "0a9c6434299e",
+        "instanceIds": [
+          "0a9c6434299e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/0a9c6434299e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+        "instanceId": "8cb444a94794",
+        "instanceIds": [
+          "8cb444a94794"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/8cb444a94794.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/get-appointed.html",
+        "instanceId": "165b940990c4",
+        "instanceIds": [
+          "165b940990c4"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/165b940990c4.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html",
+        "instanceId": "fb4579e92549",
+        "instanceIds": [
+          "fb4579e92549"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca/blocks/fb4579e92549.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "instanceId": "146a822a594e",
+        "instanceIds": [
+          "146a822a594e"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/146a822a594e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "instanceId": "1e2b597d8762",
+        "instanceIds": [
+          "1e2b597d8762"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/1e2b597d8762.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "instanceId": "016e096399f8",
+        "instanceIds": [
+          "016e096399f8"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/016e096399f8.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community.html",
+        "instanceId": "fb5624e1f3e7",
+        "instanceIds": [
+          "fb5624e1f3e7"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6/blocks/fb5624e1f3e7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are.html",
+        "instanceId": "6390af0a2609",
+        "instanceIds": [
+          "6390af0a2609"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/6390af0a2609.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/calculators-and-tools.html",
+        "instanceId": "e29033d317ae",
+        "instanceIds": [
+          "e29033d317ae"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/e29033d317ae.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "instanceId": "1aa77176f977",
+        "instanceIds": [
+          "1aa77176f977"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/1aa77176f977.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c/blocks/f92fecbb558a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/retirement-statistics.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190/blocks/f92fecbb558a.jpg"
+      }
+    ],
+    "reuseCount": 20
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Grid of image + titled box + CTA cards sending visitors to tools",
+    "mergedInto": null
+  }
+}

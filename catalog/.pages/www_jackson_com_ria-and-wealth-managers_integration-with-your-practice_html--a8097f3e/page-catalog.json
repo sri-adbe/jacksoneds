@@ -1,0 +1,854 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+  "title": "Integration with your practice | Jackson",
+  "timestamp": "2026-11-10T15:38:26.940Z",
+  "duration": "22.2s",
+  "cleanup": {
+    "elementsRemoved": 6,
+    "types": [
+      "overlay",
+      "cookie-banner"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(28)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/logo/Jackson_logo_reg_col_pos_rgb.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/hero/672973072_620x275.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/ssc-advent_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/ssc-bd_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/emoney_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/envestnet_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/envestnet-tamarac_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/fanmail_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/orion_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/rightcapital_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/envestnet-yodlee_338x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/logos/morningstar_388x100.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/broker-check.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=1298df50-c9e0-499c-bd3c-abf48adcd555&bo=1&sid=2b4573f0dd1c11f1beb97bfff7866760&vid=2b45a910dd1c11f1996983ce7e23b7a5&vids=0&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=1920&sh=1080&sc=24&tl=Integration%20with%20your%20practice%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Fria-and-wealth-managers%2Fintegration-with-your-practice.html&r=&lt=1571&pt=1794325084904,,,,,0,0,0,0,0,,1,88,90,93,1567,1568,1571,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQAQ&rn=849275",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/sprites/global-sprite.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "sB(s(s,s,sB(2x1B,4x1,2x1B),s(2x1B,s(s(,),s),sB(s,2x1B,s,s(,,,)),sB(s,s,s),2x1B,s(s,s,s,s,3x1)),s),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.responsive.brandEvolution",
+      "rc1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+      "rc1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+      "rc1c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__site-selector-bar",
+      "rc1c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.contact-us-secondary-nav-area",
+      "rc1c3c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__secondary.l-grid",
+      "rc1c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.herospace",
+      "rc1c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header",
+      "rc1c4c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h2 > div.subpage-header-block",
+      "rc1c4c2c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h2 > div.subpage-header-block > div.title",
+      "rc1c4c2c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h2 > div.subpage-header-block > div.description",
+      "rc1c4c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.header > div.content-area.header-content.h2 > div.child-items",
+      "rc1c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3)",
+      "rc1c4c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.integration-filter-header-container",
+      "rc1c4c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.integrations-filter-container",
+      "rc1c4c3c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.integration-result-header-container",
+      "rc1c4c3c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container",
+      "rc1c4c3c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.resource-filter-listing__block-wrapper",
+      "rc1c4c3c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container",
+      "rc1c4c3c4c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container > div.content-area",
+      "rc1c4c3c4c2c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container > div.content-area > div.cmp-text > h4",
+      "rc1c4c3c4c2c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container > div.content-area > div.cmp-text > p",
+      "rc1c4c3c4c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container > div.cta--",
+      "rc1c4c3c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.resource-filter-listing__additional-options-block-wrapper",
+      "rc1c4c3c4c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.software-listing-container",
+      "rc1c4c3c4c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.software-listing-container > div.content-area > div.cmp-text > p:nth-of-type(1)",
+      "rc1c4c3c4c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.software-listing-container > div.content-area > div.cmp-text > p:nth-of-type(2)",
+      "rc1c4c3c4c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.software-listing-container > div.content-area > div.cmp-text > p:nth-of-type(3)",
+      "rc1c4c3c4c4c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(3) > div.content-area > div.contents.bg-color > div.resource-filter-listing.base-version > div.content-area.content-area-mobile > div.resource-filter-listing__main-container > div.software-listing-container > div.content-area > div.cmp-text > p:nth-of-type(4)",
+      "rc1c4c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(4)",
+      "rc1c4c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(4) > div.content-area > div.contents.bg-color > div.layout-container > div.content-area.no-separator > div.one-column > div.cta-icon-card-wrapper > div.content > div.cta-icon-card.base-version > div.content-area > div.cta-icon-card-block.icon-layout-left > div.contents > div.card-content > div.title",
+      "rc1c4c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(4) > div.content-area > div.contents.bg-color > div.layout-container > div.content-area.no-separator > div.one-column > div.cta-icon-card-wrapper > div.content > div.cta-icon-card.base-version > div.content-area > div.cta-icon-card-block.icon-layout-left > div.contents > div.card-content > div.description",
+      "rc1c4c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(4) > div.content-area > div.contents.bg-color > div.layout-container > div.content-area.no-separator > div.one-column > div.cta-icon-card-wrapper > div.content > div.cta-icon-card.base-version > div.content-area > div.cta-icon-card-block.icon-layout-left > div.contents > div.card-content > div.cta-arrow-button-wrapper.text__align--center",
+      "rc1c4c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.background-container.base-version:nth-of-type(5)",
+      "rc1c4c6": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure",
+      "rc1c4c6c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > div.separator",
+      "rc1c4c6c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(1)",
+      "rc1c4c6c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(2)",
+      "rc1c4c6c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(3)",
+      "rc1c4c6c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(4)",
+      "rc1c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+      "rc2": "body > div:nth-of-type(5)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#dbcfc7",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed"
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "body > div:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 205,
+      "height": 4589.9375
+    },
+    "splits": [
+      {
+        "selector": "div.subpage-herospace-block > div.image",
+        "sides": [
+          [
+            1,
+            1
+          ]
+        ],
+        "top": 205,
+        "bottom": 480,
+        "cover": 0.05991366984844565,
+        "above": 2
+      }
+    ],
+    "start": {
+      "kind": "side by side"
+    }
+  },
+  "blocks": [
+    {
+      "id": "34201e9c74f8",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__site-selector-bar",
+      "bounds": {
+        "x": 20,
+        "y": 0,
+        "width": 1400,
+        "height": 36
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-site-selector-bar",
+      "features": {
+        "skeleton": "~([T])",
+        "variant": "~k([Tw])",
+        "variantClean": "~k([Tw])"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/34201e9c74f8.html"
+    },
+    {
+      "id": "d13badaf0b3a",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.contact-us-secondary-nav-area",
+      "bounds": {
+        "x": 20,
+        "y": 112,
+        "width": 1400,
+        "height": 49
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "contact-us-secondary-nav-area",
+      "features": {
+        "skeleton": "[T|~|[T|[~]]]",
+        "variant": "[Tn|~n|[Tn|[~m]]]",
+        "variantClean": "[Tk|~n|[Tk|[~m]]]"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/d13badaf0b3a.html"
+    },
+    {
+      "id": "665f29495b06",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__secondary.l-grid > div.masthead__breadcrumb.l-grid__col--0",
+      "bounds": {
+        "x": 15,
+        "y": 161,
+        "width": 466,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-breadcrumb",
+      "features": {
+        "skeleton": "nav",
+        "variant": "nav",
+        "variantClean": "nav"
+      },
+      "screenshot": null,
+      "html": "blocks/665f29495b06.html"
+    },
+    {
+      "id": "fb1c4e5e3ac9",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.herospace",
+      "bounds": {
+        "x": 0,
+        "y": 205,
+        "width": 1440,
+        "height": 275
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + image"
+      },
+      "description": "herospace",
+      "features": {
+        "skeleton": "[~(T)|T]",
+        "variant": "[~w(Tmr)|T]",
+        "variantClean": "[~w(Tk)|T]"
+      },
+      "screenshot": "blocks/fb1c4e5e3ac9.jpg",
+      "html": "blocks/fb1c4e5e3ac9.html",
+      "variantId": "v_94020c7dbd6a"
+    },
+    {
+      "id": "6d469289f7ab",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#header_1579963158-1772376966 > div.subpage-header-block > div.title",
+      "bounds": {
+        "x": 170,
+        "y": 572,
+        "width": 1170,
+        "height": 50
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/6d469289f7ab.html"
+    },
+    {
+      "id": "3fb36618b1a7",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#header_1579963158-1772376966 > div.subpage-header-block > div.description",
+      "bounds": {
+        "x": 170,
+        "y": 632,
+        "width": 1170,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/3fb36618b1a7.html"
+    },
+    {
+      "id": "b2e31f7453ce",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.main-header-container",
+      "bounds": {
+        "x": 503,
+        "y": 784,
+        "width": 435,
+        "height": 193
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "main-header-container",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/b2e31f7453ce.html"
+    },
+    {
+      "id": "f8a8b0febcc7",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.integration-filter-header-container",
+      "bounds": {
+        "x": 40,
+        "y": 1024,
+        "width": 1380,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "integration-filter-header-container",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/f8a8b0febcc7.html"
+    },
+    {
+      "id": "352f509a575c",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.integrations-filter-container",
+      "bounds": {
+        "x": 20,
+        "y": 1088,
+        "width": 1400,
+        "height": 92
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "field"
+      },
+      "description": "integrations-filter-container",
+      "features": {
+        "skeleton": "~([~([input|T])|[~([input|T])]*3])",
+        "variant": "~w([~m([input|Tw])|[~o([input|Tk])|~c([input|Tk])|~b([input|Tk])]*3])",
+        "variantClean": "~w([~m([input|Tw])|[~o([input|Tk])|~c([input|Tk])|~b([input|Tk])]*3])"
+      },
+      "screenshot": "blocks/352f509a575c.jpg",
+      "html": "blocks/352f509a575c.html",
+      "variantId": "v_7a70381be7bb"
+    },
+    {
+      "id": "ee3204222bae",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.integration-result-header-container > h4",
+      "bounds": {
+        "x": 40,
+        "y": 1220,
+        "width": 141,
+        "height": 34
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/ee3204222bae.html"
+    },
+    {
+      "id": "55b265d0c7d8",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#insert-count",
+      "bounds": {
+        "x": 40,
+        "y": 1264,
+        "width": 945,
+        "height": 26
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "card-count-header",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/55b265d0c7d8.html"
+    },
+    {
+      "id": "14d8f6b8464a",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.resource-filter-listing__main-container > div.resource-filter-listing__block-wrapper",
+      "bounds": {
+        "x": 20,
+        "y": 1290,
+        "width": 1400,
+        "height": 996
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + link"
+      },
+      "description": "resource-filter-listing-block-wrapper",
+      "features": {
+        "skeleton": "[~(~(T) T)]",
+        "variant": "[~w(~o(Tk) Tk)] [~w(~o(Tk) Tk)|~w(~c(Tk) Tk)] [~w(~c(Tk) Tk)]",
+        "variantClean": "[~w(~o(Tk) Tk)] [~w(~o(Tk) Tk)|~w(~c(Tk) Tk)] [~w(~c(Tk) Tk)]",
+        "set": true
+      },
+      "screenshot": "blocks/14d8f6b8464a.jpg",
+      "html": "blocks/14d8f6b8464a.html",
+      "variantId": "v_548cda1ad353"
+    },
+    {
+      "id": "6e047b34db3b",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container > div.content-area",
+      "bounds": {
+        "x": 53,
+        "y": 2311,
+        "width": 1367,
+        "height": 96
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + text"
+      },
+      "description": "content-area",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/6e047b34db3b.html"
+    },
+    {
+      "id": "1c830a30a6ad",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.resource-filter-listing__main-container > div.addtl-integration-desktop-container > div.cta--",
+      "bounds": {
+        "x": 53,
+        "y": 2407,
+        "width": 1367,
+        "height": 26
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "link"
+      },
+      "description": "cta",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/1c830a30a6ad.html"
+    },
+    {
+      "id": "80d42317a7b1",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.resource-filter-listing__main-container > div.resource-filter-listing__additional-options-block-wrapper",
+      "bounds": {
+        "x": 20,
+        "y": 2453,
+        "width": 1400,
+        "height": 650
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "resource-filter-listing-additional-options-block-wrapper",
+      "features": {
+        "skeleton": "[~(~(T) T)]",
+        "variant": "[~w(~o(Tk) Tk)] [~w(~c(Tk) Tk)] [~w(~c(Tk) Tk)|~w(~b(Tk) Tk)]",
+        "variantClean": "[~w(~o(Tk) Tk)] [~w(~c(Tk) Tk)] [~w(~c(Tk) Tk)|~w(~b(Tk) Tk)]"
+      },
+      "screenshot": "blocks/80d42317a7b1.jpg",
+      "html": "blocks/80d42317a7b1.html",
+      "variantId": "v_0e1bfe4f5f09"
+    },
+    {
+      "id": "872dd4f0ce78",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div > div > div.resource-filter-listing__main-container > div.software-listing-container",
+      "bounds": {
+        "x": 53,
+        "y": 3133,
+        "width": 1367,
+        "height": 226
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "software-listing-container",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/872dd4f0ce78.html"
+    },
+    {
+      "id": "fcafa7b06738",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+      "bounds": {
+        "x": 0,
+        "y": 3404,
+        "width": 1440,
+        "height": 357
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + text + link"
+      },
+      "description": "background-container",
+      "features": {
+        "skeleton": "~(T)",
+        "variant": "~m(Tnw)",
+        "variantClean": "~m(Tw)"
+      },
+      "screenshot": "blocks/fcafa7b06738.jpg",
+      "html": "blocks/fcafa7b06738.html",
+      "variantId": "v_6f87b7a6361b"
+    },
+    {
+      "id": "4e4ad634f569",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+      "bounds": {
+        "x": 0,
+        "y": 3806,
+        "width": 1440,
+        "height": 593
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text + link + field + video + button"
+      },
+      "description": "background-container",
+      "features": {
+        "skeleton": "[T|form]",
+        "variant": "[Tkmr|form]",
+        "variantClean": "[Tk|form]"
+      },
+      "screenshot": "blocks/4e4ad634f569.jpg",
+      "html": "blocks/4e4ad634f569.html",
+      "variantId": "v_82eb39b9b880-1"
+    },
+    {
+      "id": "1328dcafedb0",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(2)",
+      "bounds": {
+        "x": 40,
+        "y": 4542,
+        "width": 1360,
+        "height": 88
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/1328dcafedb0.html"
+    },
+    {
+      "id": "18ecd225c006",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(3)",
+      "bounds": {
+        "x": 40,
+        "y": 4645,
+        "width": 1360,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/18ecd225c006.html"
+    },
+    {
+      "id": "07b5437d801f",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(4)",
+      "bounds": {
+        "x": 40,
+        "y": 4700,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/07b5437d801f.html"
+    },
+    {
+      "id": "6dfab8ab7d81",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(5)",
+      "bounds": {
+        "x": 40,
+        "y": 4775,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/6dfab8ab7d81.html"
+    }
+  ]
+}

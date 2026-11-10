@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html",
+  "title": "Tax deferral | Jackson",
+  "timestamp": "2026-11-10T15:37:05.388Z",
+  "duration": "18.8s",
+  "cleanup": {
+    "elementsRemoved": 8,
+    "types": [
+      "overlay",
+      "cookie-banner"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(25)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#obbba-resources-tab > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+        "type": "cookie-banner",
+        "rule": "[class*=\"cookie-consent\"]"
+      },
+      {
+        "selector": "div.cookie-consent__placeholder.hidden",
+        "type": "cookie-banner",
+        "rule": "[class*=\"cookie-consent\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/logos/fp_masthead_logo.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/feature-images/tax-deferral_1271336980_720x600.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/feature-images/2187761749_720x600.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/feature-images/539072683_720x600.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/feature-images/ProductMatchPro_720x600.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/cards/498495765_420x94.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/cards/04-KS-A3_420x94.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/fp-site/cards/1201529209_420x94.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/broker-check.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=9a2c77e6-0f68-4e9f-9c48-d7aa7e2fd079&bo=1&sid=2e1601c0dd1c11f18f36b9bd18db5da2&vid=2e162970dd1c11f1931501c1f7931572&vids=0&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=1920&sh=1080&sc=24&tl=Tax%20deferral%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Ffinancial-professional%2Fannuity-products%2Fclient-needs%2Ftax-deferral.html&r=&lt=748&pt=1794325006803,,,,,0,0,0,2,49,39,50,268,270,273,744,745,748,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQAQ&rn=154920",
+      "type": "img"
+    }
+  ],
+  "skeleton": {
+    "signature": "s(s(s,s,s(sB,2x1B,sB(2x1,sB(,)),2x1B,2x1B,sB(s,s),sB(s,3x1),sB(s,s,s,s,s,s,s,s,s,s,s,s,3x1,s,s)),s),s,s,s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.responsive",
+      "rc1c1": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(1)",
+      "rc1c2": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(2)",
+      "rc1c3": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c3c1": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.no-image-hero.v1",
+      "rc1c3c2": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.feature-50-50.v1:nth-of-type(2)",
+      "rc1c3c3": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.tab-container.v1",
+      "rc1c3c3c1": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.tab-container.v1 > div.tab-container__wrapper > div.tab-container__block.event-setup > div.tab-container__tabs",
+      "rc1c3c3c2": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.tab-container.v1 > div.tab-container__wrapper > div.tab-container__block.event-setup > div.tab-container__contents",
+      "rc1c3c3c2c1": "#tax-management-resources-tab > div.card-container.v1 > div.card-container__wrapper > div.card-container__block > div.card-container__content",
+      "rc1c3c3c2c2": "#tax-management-resources-tab > div.card-container.v1 > div.card-container__wrapper > div.card-container__block > div.card-container__cards",
+      "rc1c3c4": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.feature-50-50.v1:nth-of-type(4)",
+      "rc1c3c5": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.feature-50-50.v1:nth-of-type(5)",
+      "rc1c3c6": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(6)",
+      "rc1c3c6c1": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(6) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(1)",
+      "rc1c3c6c2": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(6) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(2)",
+      "rc1c3c7": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.card-container.v1",
+      "rc1c3c7c1": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.card-container.v1 > div.card-container__wrapper > div.card-container__block > div.card-container__content",
+      "rc1c3c7c2": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.card-container.v1 > div.card-container__wrapper > div.card-container__block > div.card-container__cards",
+      "rc1c3c8": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8)",
+      "rc1c3c8c1": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(1)",
+      "rc1c3c8c2": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(2)",
+      "rc1c3c8c3": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(3)",
+      "rc1c3c8c4": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(4)",
+      "rc1c3c8c5": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(5)",
+      "rc1c3c8c6": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > hr",
+      "rc1c3c8c7": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(6)",
+      "rc1c3c8c8": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(7)",
+      "rc1c3c8c9": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(8)",
+      "rc1c3c8c10": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(9)",
+      "rc1c3c8c11": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(10)",
+      "rc1c3c8c12": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(11)",
+      "rc1c3c8c13": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(12)",
+      "rc1c3c8c14": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(13)",
+      "rc1c3c8c15": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.text-block.v1:nth-of-type(8) > div.text-block__wrapper > div.text-block__block.disclosure-padding > div.cmp-text > p:nth-of-type(14)",
+      "rc1c4": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(4)",
+      "rc2": "#background-mask",
+      "rc3": "#cludoSearchProperties",
+      "rc4": "body > div:nth-of-type(5)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(1)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(2)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.responsive > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(4)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "#background-mask",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "#cludoSearchProperties",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc7",
+        "selector": "body > div:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 199,
+      "height": 5739
+    },
+    "splits": [],
+    "start": {
+      "kind": "heading",
+      "look": {
+        "font": "\"Superior Title\", sans-serif",
+        "color": "rgb(59, 5, 46)",
+        "align": "center"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "f6712493cd89",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.no-image-hero.v1",
+      "bounds": {
+        "x": 0,
+        "y": 199,
+        "width": 1440,
+        "height": 256
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "no-image-hero",
+      "features": {
+        "skeleton": "~(T)",
+        "variant": "~w(Tm)",
+        "variantClean": "~w(Tk)"
+      },
+      "screenshot": "blocks/f6712493cd89.jpg",
+      "html": "blocks/f6712493cd89.html",
+      "variantId": "v_1a390e777f55"
+    },
+    {
+      "id": "4f2429f51ea8",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+      "bounds": {
+        "x": 0,
+        "y": 455,
+        "width": 1440,
+        "height": 607
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text"
+      },
+      "description": "feature-50-50",
+      "features": {
+        "skeleton": "~([T])",
+        "variant": "~r([T|Tw])",
+        "variantClean": "~r([T|Tw])"
+      },
+      "screenshot": "blocks/4f2429f51ea8.jpg",
+      "html": "blocks/4f2429f51ea8.html",
+      "variantId": "v_e41eaf28e035"
+    },
+    {
+      "id": "af47d0e60b1d",
+      "type": "tabs",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.tab-container.v1",
+      "bounds": {
+        "x": 0,
+        "y": 1062,
+        "width": 1440,
+        "height": 1553
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "list + link + heading + text"
+      },
+      "description": "tab-container",
+      "features": {
+        "skeleton": "([tab*1.25|tab] ~([~(T)]))",
+        "variant": "([tab*1.25|tab] ~r([~w(Tk)]))",
+        "variantClean": "([tab*1.25|tab] ~r([~w(Tk)]))"
+      },
+      "screenshot": "blocks/af47d0e60b1d.jpg",
+      "html": "blocks/af47d0e60b1d.html",
+      "variantId": "v_3ded1b6c5c85-2"
+    },
+    {
+      "id": "7da22f26f737",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+      "bounds": {
+        "x": 0,
+        "y": 2615,
+        "width": 1440,
+        "height": 607
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "feature-50-50",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[T|Tkm]",
+        "variantClean": "[T|Tk]"
+      },
+      "screenshot": "blocks/7da22f26f737.jpg",
+      "html": "blocks/7da22f26f737.html",
+      "variantId": "v_a6d9a47899aa"
+    },
+    {
+      "id": "8f0beeef4ee5",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+      "bounds": {
+        "x": 0,
+        "y": 3222,
+        "width": 1440,
+        "height": 607
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + list + link"
+      },
+      "description": "feature-50-50",
+      "features": {
+        "skeleton": "~([T])",
+        "variant": "~w([T|Tkm])",
+        "variantClean": "~w([T|Tk])"
+      },
+      "screenshot": "blocks/8f0beeef4ee5.jpg",
+      "html": "blocks/8f0beeef4ee5.html",
+      "variantId": "v_d6094627fa3d"
+    },
+    {
+      "id": "da3805f76e3c",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6)",
+      "bounds": {
+        "x": 0,
+        "y": 3829,
+        "width": 1440,
+        "height": 343
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "text-block",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/da3805f76e3c.html"
+    },
+    {
+      "id": "bf03ebb4c147",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__content",
+      "bounds": {
+        "x": 48,
+        "y": 4276,
+        "width": 1344,
+        "height": 108
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "card-container-content",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/bf03ebb4c147.html"
+    },
+    {
+      "id": "40e084c9ac94",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards",
+      "bounds": {
+        "x": 48,
+        "y": 4424,
+        "width": 1344,
+        "height": 356
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "card-container-cards",
+      "features": {
+        "skeleton": "[~(T)]",
+        "variant": "[~w(Tkr)]",
+        "variantClean": "[~w(Tk)]"
+      },
+      "screenshot": "blocks/40e084c9ac94.jpg",
+      "html": "blocks/40e084c9ac94.html",
+      "variantId": "v_6d017593289b"
+    },
+    {
+      "id": "9543a70bba64",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(1)",
+      "bounds": {
+        "x": 24,
+        "y": 4988,
+        "width": 1392,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/9543a70bba64.html"
+    },
+    {
+      "id": "f5d69b99b3b7",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(2)",
+      "bounds": {
+        "x": 24,
+        "y": 5051,
+        "width": 1392,
+        "height": 72
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/f5d69b99b3b7.html"
+    },
+    {
+      "id": "45ed3178c7d2",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(3)",
+      "bounds": {
+        "x": 24,
+        "y": 5138,
+        "width": 1392,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/45ed3178c7d2.html"
+    },
+    {
+      "id": "418202658ff6",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(4)",
+      "bounds": {
+        "x": 24,
+        "y": 5201,
+        "width": 1392,
+        "height": 24
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/418202658ff6.html"
+    },
+    {
+      "id": "edc1499fe703",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(8)",
+      "bounds": {
+        "x": 24,
+        "y": 5321,
+        "width": 1392,
+        "height": 72
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/edc1499fe703.html"
+    },
+    {
+      "id": "fe74b75ba622",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(9)",
+      "bounds": {
+        "x": 24,
+        "y": 5408,
+        "width": 1392,
+        "height": 72
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/fe74b75ba622.html"
+    },
+    {
+      "id": "b3901e350a59",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(10)",
+      "bounds": {
+        "x": 24,
+        "y": 5495,
+        "width": 1392,
+        "height": 72
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/b3901e350a59.html"
+    },
+    {
+      "id": "7897b73d3e17",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(11)",
+      "bounds": {
+        "x": 24,
+        "y": 5582,
+        "width": 1392,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/7897b73d3e17.html"
+    },
+    {
+      "id": "17cb44182e4f",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(12)",
+      "bounds": {
+        "x": 24,
+        "y": 5645,
+        "width": 1392,
+        "height": 72
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/17cb44182e4f.html"
+    },
+    {
+      "id": "61efa74794ed",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(13)",
+      "bounds": {
+        "x": 24,
+        "y": 5732,
+        "width": 1392,
+        "height": 24
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/61efa74794ed.html"
+    },
+    {
+      "id": "689dc8b2b757",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div > p:nth-child(14)",
+      "bounds": {
+        "x": 24,
+        "y": 5771,
+        "width": 1392,
+        "height": 24
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/689dc8b2b757.html"
+    }
+  ]
+}

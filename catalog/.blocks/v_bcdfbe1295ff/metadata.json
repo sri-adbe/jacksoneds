@@ -1,0 +1,38 @@
+{
+  "id": "v_bcdfbe1295ff",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/contact-us.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field"
+  },
+  "layoutKey": "[T|[[T|input]]]",
+  "colour": "[Tk|[[Tk|input~k]|[Tk|input~r]]]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/contact-us.html",
+        "instanceId": "6fada3e35b65",
+        "instanceIds": [
+          "6fada3e35b65"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/6fada3e35b65.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Audience radio selector of the contact form",
+    "mergedInto": "v_b625863efd96"
+  }
+}

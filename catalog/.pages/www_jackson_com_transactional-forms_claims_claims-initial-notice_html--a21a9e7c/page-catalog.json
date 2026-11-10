@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html",
+  "title": "Claims Initial Notice | Jackson",
+  "timestamp": "2026-11-10T15:39:13.735Z",
+  "duration": "11.1s",
+  "cleanup": {
+    "elementsRemoved": 6,
+    "types": [
+      "overlay",
+      "cookie-banner"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(25)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/jacksonnationallifeadobeforms/jacksonLogo.png",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=486601fa-0684-4f5f-8b9a-bb8945186295&bo=1&sid=306abd00dd1c11f198dbdd2a80592fdc&vid=306ae5d0dd1c11f183c4f3c92de4e6b7&vids=0&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=2560&sh=1600&sc=24&tl=Claims%20Initial%20Notice%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Ftransactional-forms%2Fclaims%2Fclaims-initial-notice.html&r=&lt=1733&pt=1794325142701,,,,,0,0,0,0,0,,20,95,121,122,1578,1578,1733,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQER&rn=663945",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Chevron-Left.svg",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Chevron-Right.svg",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Save.svg",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Chevron-Down-Default.svg",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Chevron-Left-Hover.svg",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Chevron-Right-White.svg",
+      "type": "background"
+    },
+    {
+      "url": "https://www.jackson.com/transactional-forms/content/dam/formsanddocuments-themes/jacksonnationallifeadobeforms/jackson-forms-theme/assets/Submit-Hover.svg",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "s(sB,s,s(s,s,s,2x1(s,s,s(s(,),s(,))),s(s,s)),s,s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.jxn-header__start-a-claim-heading",
+      "rc2": "body > div.parsys1.responsivegrid",
+      "rc3": "body > div.guideContainer.guide-1742232457865",
+      "rc3c1": "body > div.guideContainer.guide-1742232457865 > div:nth-of-type(1)",
+      "rc3c2": "body > div.guideContainer.guide-1742232457865 > div:nth-of-type(2)",
+      "rc3c3": "#loadingPage",
+      "rc3c4": "#guideContainerForm",
+      "rc3c4c1": "#intergration",
+      "rc3c4c2": "#actionField",
+      "rc3c4c3": "#guideContainerForm > div.guideContainerWrapperNode.guideContainerNode.container",
+      "rc3c4c3c1": "#guideContainerForm > div.guideContainerWrapperNode.guideContainerNode.container > div.guideContainerNode > div.step.mobileLayout",
+      "rc3c4c3c1c1": "#guide-mobile-navigator-wrapper",
+      "rc3c4c3c1c2": "#guideContainerForm > div.guideContainerWrapperNode.guideContainerNode.container > div.guideContainerNode > div.step.mobileLayout > div.guide-header-bar-wrapper",
+      "rc3c4c3c2": "#guideContainerForm > div.guideContainerWrapperNode.guideContainerNode.container > div.guideContainerNode > div.rootPanel.guide-1739391391764",
+      "rc3c4c3c2c1": "#guideContainer-rootPanel___layoutContainer > div.col-md-12.clearfix",
+      "rc3c4c3c2c2": "#\\#guideContainer-rootPanel___layoutPanelContainer",
+      "rc3c4c3c2c2c1": "#guideContainer-rootPanel-panel1738256806461___guide-item-container",
+      "rc3c4c3c2c2c1c1": "#guideContainer-rootPanel-panel1738256806461___guide-item-container > div.fd-row.guideGridFluidLayout2Container > div.guideGridFluidLayout2ContainerStatus",
+      "rc3c4c3c2c2c1c2": "#guideContainer-rootPanel-panel1738256806461-guidetextdraw_168162___guide-item",
+      "rc3c4c3c2c2c1c3": "#guideContainer-rootPanel-panel1738256806461-guidetextdraw___guide-item",
+      "rc3c4c3c2c2c1c3c1": "#guideContainer-rootPanel-panel1738256806461-guidetextdraw__ > p:nth-of-type(1)",
+      "rc3c4c3c2c2c1c3c2": "#guideContainer-rootPanel-panel1738256806461-guidetextdraw__ > p:nth-of-type(2)",
+      "rc3c4c3c2c2c1c4": "#guideContainer-rootPanel-panel1738256806461-guidebutton___guide-item",
+      "rc3c4c3c2c2c1c5": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549___guide-item",
+      "rc3c4c3c2c2c1c5c1": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549___guide-item-container",
+      "rc3c4c3c2c2c1c5c1c1": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549___guide-item-container > div.fd-row.guideGridFluidLayout2Container > div.guideGridFluidLayout2ContainerStatus",
+      "rc3c4c3c2c2c1c5c1c2": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549-guidetextdraw_665085___guide-item",
+      "rc3c4c3c2c2c1c5c1c2c1": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549-guidetextdraw_665085__ > p:nth-of-type(1)",
+      "rc3c4c3c2c2c1c5c1c2c2": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549-guidetextdraw_665085__ > p:nth-of-type(2)",
+      "rc3c4c3c2c2c1c5c1c3": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549-guideseparator___guide-item",
+      "rc3c4c3c2c2c1c5c1c4": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549-guidetextdraw___guide-item",
+      "rc3c4c3c2c2c1c5c2": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549__ > div.gridFluidLayout2.gridFluidLayout > div.section.afEditorPlaceholder.cq-placeholder",
+      "rc3c4c3c2c2c2": "#guideContainer-rootPanel-panel1738256806461__ > div.gridFluidLayout2.gridFluidLayout > div.section.afEditorPlaceholder.cq-placeholder",
+      "rc3c5": "#guideContainerTheme",
+      "rc3c5c1": "#fdtheme-id-clientlibs",
+      "rc3c5c2": "#fd-webfont-include",
+      "rc4": "body > div.parsys2.responsivegrid",
+      "rc5": "body > div:nth-of-type(6)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.jxn-header__start-a-claim-heading",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#f1ece9",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.jxn-header__start-a-claim-heading"
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.parsys1.responsivegrid",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.guideContainer.guide-1742232457865 > div:nth-of-type(1)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.guideContainer.guide-1742232457865 > div:nth-of-type(2)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "#loadingPage",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "#guideContainerForm",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc7",
+        "selector": "#guideContainerTheme",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc8",
+        "selector": "body > div.parsys2.responsivegrid",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc9",
+        "selector": "body > div:nth-of-type(6)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 274,
+      "height": 970.484375
+    },
+    "splits": [
+      {
+        "selector": "form#guideContainerForm > div#ariaLiveElement",
+        "sides": [
+          [
+            0,
+            0.00008857395925597875
+          ]
+        ],
+        "top": 274,
+        "bottom": 1244.484375,
+        "cover": 1,
+        "above": 0
+      }
+    ],
+    "start": {
+      "kind": "form"
+    }
+  },
+  "blocks": [
+    {
+      "id": "3852bca427c9",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.jxn-header__start-a-claim-heading",
+      "bounds": {
+        "x": 0,
+        "y": 124,
+        "width": 1440,
+        "height": 150
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "jxn-header-start-a-claim-heading",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/3852bca427c9.html"
+    },
+    {
+      "id": "ae1a92f5908b",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#guideContainer-rootPanel___layoutContainer > div.col-md-12.clearfix",
+      "bounds": {
+        "x": 150,
+        "y": 282,
+        "width": 1140,
+        "height": 109
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "col-md-12",
+      "features": {
+        "skeleton": "[tab]",
+        "variant": "[tab]",
+        "variantClean": "[tab]",
+        "set": true
+      },
+      "screenshot": "blocks/ae1a92f5908b.jpg",
+      "html": "blocks/ae1a92f5908b.html",
+      "variantId": "v_ba665a55d43b"
+    },
+    {
+      "id": "c99f907ef3cd",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#guideContainer-rootPanel-panel1738256806461-guidetextdraw_168162___guide-item",
+      "bounds": {
+        "x": 150,
+        "y": 391,
+        "width": 1140,
+        "height": 62
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "fd-col-lg-12",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/c99f907ef3cd.html"
+    },
+    {
+      "id": "46b07e6b2ca2",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#guideContainer-rootPanel-panel1738256806461-guidetextdraw___guide-item",
+      "bounds": {
+        "x": 150,
+        "y": 452,
+        "width": 1140,
+        "height": 166
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "fd-col-lg-12",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/46b07e6b2ca2.html"
+    },
+    {
+      "id": "2c5590b20612",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "#guideContainer-rootPanel-panel1738256806461-guidebutton___guide-item",
+      "bounds": {
+        "x": 150,
+        "y": 618,
+        "width": 1140,
+        "height": 92
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "button"
+      },
+      "description": "fd-col-lg-12",
+      "features": {
+        "skeleton": "button",
+        "variant": "button~r",
+        "variantClean": "button~r"
+      },
+      "screenshot": "blocks/2c5590b20612.jpg",
+      "html": "blocks/2c5590b20612.html",
+      "variantId": "v_73cce7700691"
+    },
+    {
+      "id": "318b66757b98",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#guideContainer-rootPanel-panel1738256806461-panel1739476424549___guide-item",
+      "bounds": {
+        "x": 150,
+        "y": 710,
+        "width": 1140,
+        "height": 475
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "fd-col-lg-12",
+      "features": {
+        "skeleton": "~(T [T] hr T)",
+        "variant": "~w(Tm [Tk] hr~k Tk)",
+        "variantClean": "~w(Tk [Tk] hr~k Tk)"
+      },
+      "screenshot": "blocks/318b66757b98.jpg",
+      "html": "blocks/318b66757b98.html",
+      "variantId": "v_47eb20d84b9f"
+    }
+  ]
+}

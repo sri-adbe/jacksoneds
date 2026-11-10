@@ -1,0 +1,40 @@
+{
+  "id": "v_f53b32614387",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/ax-updates.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + link + video"
+  },
+  "layoutKey": "[[T|T*3]|iframe]",
+  "colour": "[[T|Tk*3]|iframe]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/ax-updates.html",
+        "instanceId": "4e4ad634f569",
+        "instanceIds": [
+          "4e4ad634f569",
+          "8cb444a94794",
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_ax-updates_html--b700e217/blocks/4e4ad634f569.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Icon-led text and link beside an embedded video",
+    "mergedInto": "v_d6094627fa3d"
+  }
+}

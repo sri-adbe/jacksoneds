@@ -1,0 +1,38 @@
+{
+  "id": "v_caae22e90d76",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/the-jackson-difference/careers.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text + link"
+  },
+  "layoutKey": "[[~(T)|~@(~(T))]|~@(~(T))]",
+  "colour": "[[~@(~r(Tw))|~n(Tk)]|~@(~r(Tw))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "instanceId": "9d72adadf023",
+        "instanceIds": [
+          "9d72adadf023"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/9d72adadf023.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Horizontal expandable office photo tiles; could be an accordion variant",
+    "mergedInto": null
+  }
+}

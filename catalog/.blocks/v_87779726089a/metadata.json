@@ -1,0 +1,38 @@
+{
+  "id": "v_87779726089a",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link"
+  },
+  "layoutKey": "[~(T ~(T))]",
+  "colour": "[~n(Tk ~b(Tk))|~n(Tk ~c(Tk))] [~n(Tk ~c(Tk))] [~n(Tk ~o(Tk))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+        "instanceId": "035e5328f4db",
+        "instanceIds": [
+          "035e5328f4db"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/035e5328f4db.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Grid of image + titled box + CTA cards sending visitors to tools",
+    "mergedInto": null
+  }
+}

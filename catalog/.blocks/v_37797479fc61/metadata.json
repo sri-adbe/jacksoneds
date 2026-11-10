@@ -1,0 +1,38 @@
+{
+  "id": "v_37797479fc61",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/login/login.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list + field + link"
+  },
+  "layoutKey": "[(T ~@(T))|input]",
+  "colour": "[(Tk ~@(Tk))|input]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/login/login.xhtml",
+        "instanceId": "b06e8d0abb5a",
+        "instanceIds": [
+          "b06e8d0abb5a"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/b06e8d0abb5a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Remember-me checkbox of the login form",
+    "mergedInto": "v_b625863efd96"
+  }
+}

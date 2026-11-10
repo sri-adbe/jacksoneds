@@ -1,0 +1,38 @@
+{
+  "id": "v_682308430171",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/ax-updates.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + video + heading + text"
+  },
+  "layoutKey": "[([T|T*3] iframe)]",
+  "colour": "[([T|Tk*3] iframe)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/ax-updates.html",
+        "instanceId": "8a1aadec28c8",
+        "instanceIds": [
+          "8a1aadec28c8"
+        ],
+        "screenshot": ".pages/www_jackson_com_ax-updates_html--b700e217/blocks/8a1aadec28c8.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Video items with icon, heading, text and button",
+    "mergedInto": "v_4bf32ee1fa2d"
+  }
+}

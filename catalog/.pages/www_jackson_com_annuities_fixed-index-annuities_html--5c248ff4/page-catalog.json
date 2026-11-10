@@ -1,0 +1,1888 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+  "title": "Fixed index annuities for investors | Jackson",
+  "timestamp": "2026-11-10T15:34:32.501Z",
+  "duration": "22.6s",
+  "cleanup": {
+    "elementsRemoved": 7,
+    "types": [
+      "overlay",
+      "cookie-banner"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(28)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "div.cookie-consent__placeholder.hidden",
+        "type": "cookie-banner",
+        "rule": "[class*=\"cookie-consent\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/logo/Jackson_logo_reg_col_pos_rgb.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/hero/fixed-index-annuities-1125619287_620x275.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/chart_bar_icon_136x136_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/check_circle_icon_136x136_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/comment_dollar_icon_136x136_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/highlight/1372237869_580x350.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/lightbulb_on_icon_56x56_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/highlight/1560708920_580x322.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/highlight/1336231544_580x322.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/highlight/912340846_580x322.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/promo/variable-annuities-1207861966_605x283.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/promo/registered-index-linked-annuities-1163568524_605x283.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/promo/fixed-annuities-669488448_605x283.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/broker-check.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=34372018-73de-4567-aa98-1907ac9398d9&bo=1&sid=2e1601c0dd1c11f18f36b9bd18db5da2&vid=2e162970dd1c11f1931501c1f7931572&vids=1&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=1920&sh=1080&sc=24&tl=Fixed%20index%20annuities%20for%20investors%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Fannuities%2Ffixed-index-annuities.html&r=&lt=1030&pt=1794324850143,,,,,0,0,0,1,79,40,79,222,225,228,942,994,1030,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQER&rn=889130",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/sprites/global-sprite.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "sB(s(s,s,sB(2x1B,4x1,2x1B),s(2x1B,2x1,s(s,3x1),s(s,2x1),s,s(s,2x10(,,,)),3x1,s(s,s,s,s,s),s(s,s,s,s,s,s,s,s,2x1,s)),s),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.responsive.brandEvolution",
+      "rc1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+      "rc1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+      "rc1c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__site-selector-bar",
+      "rc1c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.contact-us-secondary-nav-area",
+      "rc1c3c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__secondary.l-grid",
+      "rc1c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.herospace",
+      "rc1c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.comparison-highlight-layout:nth-of-type(2)",
+      "rc1c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.layout-container:nth-of-type(3)",
+      "rc1c4c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.layout-container:nth-of-type(3) > div.content-area.no-separator > h3",
+      "rc1c4c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.layout-container:nth-of-type(3) > div.content-area.no-separator > div.three-column",
+      "rc1c4c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.comparison-highlight-layout:nth-of-type(4)",
+      "rc1c4c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.comparison-highlight-layout:nth-of-type(4) > div.content-area > h3",
+      "rc1c4c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.comparison-highlight-layout:nth-of-type(4) > div.content-area > div",
+      "rc1c4c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.rte",
+      "rc1c4c6": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization",
+      "rc1c4c6c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization > div > div.xf-content-height > div.layout-container > div.content-area > h3",
+      "rc1c4c6c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization > div > div.xf-content-height > div.layout-container > div.content-area > div.two-column",
+      "rc1c4c6c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization > div > div.xf-content-height > div.layout-container > div.content-area > div.two-column > div.cta-product-card-wrapper > div.content > div.permission-wrapper.base-version.permission-wrapper__content--full-width:nth-of-type(1)",
+      "rc1c4c6c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization > div > div.xf-content-height > div.layout-container > div.content-area > div.two-column > div.cta-product-card-wrapper > div.content > div.permission-wrapper.base-version.permission-wrapper__content--full-width:nth-of-type(6)",
+      "rc1c4c6c2c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization > div > div.xf-content-height > div.layout-container > div.content-area > div.two-column > div.cta-product-card-wrapper > div.content > div.permission-wrapper.base-version.permission-wrapper__content--full-width:nth-of-type(8)",
+      "rc1c4c6c2c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization > div > div.xf-content-height > div.layout-container > div.content-area > div.two-column > div.cta-product-card-wrapper > div.content > div.permission-wrapper.base-version.permission-wrapper__content--full-width:nth-of-type(13)",
+      "rc1c4c7": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.layout-container:nth-of-type(7)",
+      "rc1c4c8": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(8)",
+      "rc1c4c8c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(8) > div.content-area > p:nth-of-type(1)",
+      "rc1c4c8c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(8) > div.content-area > p:nth-of-type(2)",
+      "rc1c4c8c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(8) > div.content-area > p:nth-of-type(3)",
+      "rc1c4c8c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(8) > div.content-area > p:nth-of-type(4)",
+      "rc1c4c8c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(8) > div.content-area > p:nth-of-type(5)",
+      "rc1c4c9": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9)",
+      "rc1c4c9c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > div.separator",
+      "rc1c4c9c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(1)",
+      "rc1c4c9c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(2)",
+      "rc1c4c9c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(3)",
+      "rc1c4c9c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(4)",
+      "rc1c4c9c6": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(5)",
+      "rc1c4c9c7": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(6)",
+      "rc1c4c9c8": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(7)",
+      "rc1c4c9c9": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(8)",
+      "rc1c4c9c10": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure:nth-of-type(9) > div.content-area > p:nth-of-type(9)",
+      "rc1c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+      "rc2": "body > div:nth-of-type(4)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#dbcfc7",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed"
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "body > div:nth-of-type(4)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 205,
+      "height": 8372.96875
+    },
+    "splits": [
+      {
+        "selector": "div.subpage-herospace-block > div.image",
+        "sides": [
+          [
+            1,
+            1
+          ]
+        ],
+        "top": 205,
+        "bottom": 480,
+        "cover": 0.032843786739321104,
+        "above": 2
+      }
+    ],
+    "start": {
+      "kind": "side by side"
+    }
+  },
+  "blocks": [
+    {
+      "id": "34201e9c74f8",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__site-selector-bar",
+      "bounds": {
+        "x": 20,
+        "y": 0,
+        "width": 1400,
+        "height": 36
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-site-selector-bar",
+      "features": {
+        "skeleton": "~([T])",
+        "variant": "~k([Tw])",
+        "variantClean": "~k([Tw])"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/34201e9c74f8.html"
+    },
+    {
+      "id": "d13badaf0b3a",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.contact-us-secondary-nav-area",
+      "bounds": {
+        "x": 20,
+        "y": 112,
+        "width": 1400,
+        "height": 49
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "contact-us-secondary-nav-area",
+      "features": {
+        "skeleton": "[T|~|[T|[~]]]",
+        "variant": "[Tn|~n|[Tn|[~m]]]",
+        "variantClean": "[Tk|~n|[Tk|[~m]]]"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/d13badaf0b3a.html"
+    },
+    {
+      "id": "665f29495b06",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__secondary.l-grid > div.masthead__breadcrumb.l-grid__col--0",
+      "bounds": {
+        "x": 15,
+        "y": 161,
+        "width": 307,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-breadcrumb",
+      "features": {
+        "skeleton": "nav",
+        "variant": "nav",
+        "variantClean": "nav"
+      },
+      "screenshot": null,
+      "html": "blocks/665f29495b06.html"
+    },
+    {
+      "id": "fb1c4e5e3ac9",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.herospace",
+      "bounds": {
+        "x": 0,
+        "y": 205,
+        "width": 1440,
+        "height": 275
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + image"
+      },
+      "description": "herospace",
+      "features": {
+        "skeleton": "[~(T)|T]",
+        "variant": "[~w(Tr)|T]",
+        "variantClean": "[~w(Tk)|T]"
+      },
+      "screenshot": "blocks/fb1c4e5e3ac9.jpg",
+      "html": "blocks/fb1c4e5e3ac9.html",
+      "variantId": "v_94020c7dbd6a"
+    },
+    {
+      "id": "1c6d32d907b2",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+      "bounds": {
+        "x": 0,
+        "y": 572,
+        "width": 1440,
+        "height": 474
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text + list + link + video"
+      },
+      "description": "comparison-highlight-layout",
+      "features": {
+        "skeleton": "[(T [T] T)|iframe]",
+        "variant": "[(Tkm [Tk] Tk)|iframe]",
+        "variantClean": "[(Tk [Tk] Tk)|iframe]"
+      },
+      "screenshot": "blocks/1c6d32d907b2.jpg",
+      "html": "blocks/1c6d32d907b2.html",
+      "variantId": "v_2135d8b727aa"
+    },
+    {
+      "id": "eee2c4b21b19",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > h3",
+      "bounds": {
+        "x": 90,
+        "y": 1138,
+        "width": 1260,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/eee2c4b21b19.html"
+    },
+    {
+      "id": "0280cf24f008",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div",
+      "bounds": {
+        "x": 90,
+        "y": 1197,
+        "width": 1260,
+        "height": 262
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "three-column",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tkm]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/0280cf24f008.jpg",
+      "html": "blocks/0280cf24f008.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "074bcbfd209c",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4) > div > h3",
+      "bounds": {
+        "x": 20,
+        "y": 1551,
+        "width": 1400,
+        "height": 84
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/074bcbfd209c.html"
+    },
+    {
+      "id": "603a7b81d31e",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4) > div > div",
+      "bounds": {
+        "x": 20,
+        "y": 1645,
+        "width": 1400,
+        "height": 499
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "[T|(T [T|T*3])]",
+        "variant": "[T|(Tk [T|Tk*3])]",
+        "variantClean": "[T|(Tk [T|Tk*3])]"
+      },
+      "screenshot": "blocks/603a7b81d31e.jpg",
+      "html": "blocks/603a7b81d31e.html",
+      "variantId": "v_2487e0e1d7ee"
+    },
+    {
+      "id": "3f98c827b2f5",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.rte",
+      "bounds": {
+        "x": 0,
+        "y": 2236,
+        "width": 1440,
+        "height": 130
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "rte",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/3f98c827b2f5.html"
+    },
+    {
+      "id": "f589cd08283a",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-892326235 > div > div > div > h3",
+      "bounds": {
+        "x": 20,
+        "y": 2458,
+        "width": 1400,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/f589cd08283a.html"
+    },
+    {
+      "id": "9be70c41c541",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#expVar-892326235 > div > div > div > div > div > div > div:nth-child(1)",
+      "bounds": {
+        "x": 40,
+        "y": 2537,
+        "width": 1360,
+        "height": 401
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "permission-wrapper",
+      "features": {
+        "skeleton": "~([T|T*1.25])",
+        "variant": "~w([T|Tkmw*1.25])",
+        "variantClean": "~w([T|Tk*1.25])"
+      },
+      "screenshot": "blocks/9be70c41c541.jpg",
+      "html": "blocks/9be70c41c541.html",
+      "variantId": "v_ed917c46868e"
+    },
+    {
+      "id": "080b19e10401",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfia5-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 75,
+        "y": 3008,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/080b19e10401.html"
+    },
+    {
+      "id": "05b78135cea5",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfia5-card > div > div > div.description",
+      "bounds": {
+        "x": 75,
+        "y": 3066,
+        "width": 595,
+        "height": 52
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/05b78135cea5.html"
+    },
+    {
+      "id": "f1cc27e56499",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jfia5-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 75,
+        "y": 3138,
+        "width": 595,
+        "height": 99
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/f1cc27e56499.jpg",
+      "html": "blocks/f1cc27e56499.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "fd40fc2a948c",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfiaa5-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 770,
+        "y": 3008,
+        "width": 595,
+        "height": 92
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/fd40fc2a948c.html"
+    },
+    {
+      "id": "68f9b1d3fc62",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfiaa5-card > div > div > div.description",
+      "bounds": {
+        "x": 770,
+        "y": 3110,
+        "width": 595,
+        "height": 52
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/68f9b1d3fc62.html"
+    },
+    {
+      "id": "d8d437e86eaf",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jfiaa5-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 770,
+        "y": 3182,
+        "width": 595,
+        "height": 99
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/d8d437e86eaf.jpg",
+      "html": "blocks/d8d437e86eaf.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "d5417048de4b",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfia7-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 75,
+        "y": 3366,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/d5417048de4b.html"
+    },
+    {
+      "id": "2e2c01b77cc7",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfia7-card > div > div > div.description",
+      "bounds": {
+        "x": 75,
+        "y": 3424,
+        "width": 595,
+        "height": 52
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/2e2c01b77cc7.html"
+    },
+    {
+      "id": "7973afb75ffd",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jfia7-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 75,
+        "y": 3496,
+        "width": 595,
+        "height": 99
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/7973afb75ffd.jpg",
+      "html": "blocks/7973afb75ffd.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "1d1602833df5",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfiaa7-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 770,
+        "y": 3366,
+        "width": 595,
+        "height": 92
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/1d1602833df5.html"
+    },
+    {
+      "id": "95b61538b2a5",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jfiaa7-card > div > div > div.description",
+      "bounds": {
+        "x": 770,
+        "y": 3468,
+        "width": 595,
+        "height": 52
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/95b61538b2a5.html"
+    },
+    {
+      "id": "3622b9c380f4",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jfiaa7-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 770,
+        "y": 3540,
+        "width": 595,
+        "height": 99
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/3622b9c380f4.jpg",
+      "html": "blocks/3622b9c380f4.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "aefbafe96684",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#expVar-892326235 > div > div > div > div > div > div > div:nth-child(6)",
+      "bounds": {
+        "x": 40,
+        "y": 3694,
+        "width": 1360,
+        "height": 401
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text"
+      },
+      "description": "permission-wrapper",
+      "features": {
+        "skeleton": "~([T|T*1.25])",
+        "variant": "~w([T|Tkm*1.25])",
+        "variantClean": "~w([T|Tk*1.25])"
+      },
+      "screenshot": "blocks/aefbafe96684.jpg",
+      "html": "blocks/aefbafe96684.html",
+      "variantId": "v_ed917c46868e"
+    },
+    {
+      "id": "a618a7221993",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jpa-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 423,
+        "y": 4165,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/a618a7221993.html"
+    },
+    {
+      "id": "5f841f7d7f21",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jpa-card > div > div > div.description",
+      "bounds": {
+        "x": 423,
+        "y": 4223,
+        "width": 595,
+        "height": 52
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/5f841f7d7f21.html"
+    },
+    {
+      "id": "0412ae0b3b0b",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jpa-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 423,
+        "y": 4295,
+        "width": 595,
+        "height": 99
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/0412ae0b3b0b.jpg",
+      "html": "blocks/0412ae0b3b0b.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "ed8c81ae25fa",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#expVar-892326235 > div > div > div > div > div > div > div:nth-child(8)",
+      "bounds": {
+        "x": 40,
+        "y": 4449,
+        "width": 1360,
+        "height": 401
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "permission-wrapper",
+      "features": {
+        "skeleton": "~([T|T*1.25])",
+        "variant": "~w([T|Tkmw*1.25])",
+        "variantClean": "~w([T|Tk*1.25])"
+      },
+      "screenshot": "blocks/ed8c81ae25fa.jpg",
+      "html": "blocks/ed8c81ae25fa.html",
+      "variantId": "v_ed917c46868e"
+    },
+    {
+      "id": "4e50d9ac06f1",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jia7-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 75,
+        "y": 4920,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/4e50d9ac06f1.html"
+    },
+    {
+      "id": "2ba4ef5d6594",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jia7-card > div > div > div.description",
+      "bounds": {
+        "x": 75,
+        "y": 4978,
+        "width": 595,
+        "height": 78
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/2ba4ef5d6594.html"
+    },
+    {
+      "id": "a5c6b40124ee",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jia7-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 75,
+        "y": 5076,
+        "width": 595,
+        "height": 320
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/a5c6b40124ee.jpg",
+      "html": "blocks/a5c6b40124ee.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "dd825c868b64",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jiaa7-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 770,
+        "y": 4920,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/dd825c868b64.html"
+    },
+    {
+      "id": "b5e1c071d307",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jiaa7-card > div > div > div.description",
+      "bounds": {
+        "x": 770,
+        "y": 4978,
+        "width": 595,
+        "height": 78
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/b5e1c071d307.html"
+    },
+    {
+      "id": "013cc30b88b3",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jiaa7-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 770,
+        "y": 5076,
+        "width": 595,
+        "height": 320
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/013cc30b88b3.jpg",
+      "html": "blocks/013cc30b88b3.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "cb024d6401a6",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jia10-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 75,
+        "y": 5481,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/cb024d6401a6.html"
+    },
+    {
+      "id": "451773ffcbf2",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jia10-card > div > div > div.description",
+      "bounds": {
+        "x": 75,
+        "y": 5539,
+        "width": 595,
+        "height": 78
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/451773ffcbf2.html"
+    },
+    {
+      "id": "bc7aebd412b6",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jia10-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 75,
+        "y": 5637,
+        "width": 595,
+        "height": 320
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/bc7aebd412b6.jpg",
+      "html": "blocks/bc7aebd412b6.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "315881c6ac32",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jiaa10-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 770,
+        "y": 5481,
+        "width": 595,
+        "height": 92
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/315881c6ac32.html"
+    },
+    {
+      "id": "987898036966",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#jiaa10-card > div > div > div.description",
+      "bounds": {
+        "x": 770,
+        "y": 5583,
+        "width": 595,
+        "height": 78
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/987898036966.html"
+    },
+    {
+      "id": "469707fcf601",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#jiaa10-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 770,
+        "y": 5681,
+        "width": 595,
+        "height": 320
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/469707fcf601.jpg",
+      "html": "blocks/469707fcf601.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "7f3de86c7d0f",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#expVar-892326235 > div > div > div > div > div > div > div:nth-child(13)",
+      "bounds": {
+        "x": 40,
+        "y": 6056,
+        "width": 1360,
+        "height": 401
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text"
+      },
+      "description": "permission-wrapper",
+      "features": {
+        "skeleton": "~([T|T*1.25])",
+        "variant": "~w([T|Tkm*1.25])",
+        "variantClean": "~w([T|Tk*1.25])"
+      },
+      "screenshot": "blocks/7f3de86c7d0f.jpg",
+      "html": "blocks/7f3de86c7d0f.html",
+      "variantId": "v_ed917c46868e"
+    },
+    {
+      "id": "b9c8995d3a1c",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#mp-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 75,
+        "y": 6527,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/b9c8995d3a1c.html"
+    },
+    {
+      "id": "5d1eb940fde2",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#mp-card > div > div > div.description",
+      "bounds": {
+        "x": 75,
+        "y": 6585,
+        "width": 595,
+        "height": 52
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/5d1eb940fde2.html"
+    },
+    {
+      "id": "624d0d5d4179",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#mp-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 75,
+        "y": 6657,
+        "width": 595,
+        "height": 190
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/624d0d5d4179.jpg",
+      "html": "blocks/624d0d5d4179.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "c21155a7ade8",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#mpa-card > div > div > div.title.title-under-line",
+      "bounds": {
+        "x": 770,
+        "y": 6527,
+        "width": 595,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/c21155a7ade8.html"
+    },
+    {
+      "id": "c64df3c20797",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#mpa-card > div > div > div.description",
+      "bounds": {
+        "x": 770,
+        "y": 6585,
+        "width": 595,
+        "height": 78
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/c64df3c20797.html"
+    },
+    {
+      "id": "6bbd68a47848",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#mpa-card > div > div > div.cta-section",
+      "bounds": {
+        "x": 770,
+        "y": 6683,
+        "width": 595,
+        "height": 190
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "cta-section",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/6bbd68a47848.jpg",
+      "html": "blocks/6bbd68a47848.html",
+      "variantId": "v_1961eda70e3b"
+    },
+    {
+      "id": "dc80b6a66ccd",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)",
+      "bounds": {
+        "x": 0,
+        "y": 7000,
+        "width": 1440,
+        "height": 555
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + text + link"
+      },
+      "description": "layout-container",
+      "features": {
+        "skeleton": "[(T ~(T))]",
+        "variant": "[(T ~m(Tnw))]",
+        "variantClean": "[(T ~m(Tw))]",
+        "set": true
+      },
+      "screenshot": "blocks/dc80b6a66ccd.jpg",
+      "html": "blocks/dc80b6a66ccd.html",
+      "variantId": "v_5d985532d984"
+    },
+    {
+      "id": "0a9c6434299e",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)",
+      "bounds": {
+        "x": 20,
+        "y": 7647,
+        "width": 1400,
+        "height": 240
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "disclosure",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/0a9c6434299e.html"
+    },
+    {
+      "id": "a7c71d759d37",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(2)",
+      "bounds": {
+        "x": 40,
+        "y": 8030,
+        "width": 1360,
+        "height": 88
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/a7c71d759d37.html"
+    },
+    {
+      "id": "c4d296d58efa",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(3)",
+      "bounds": {
+        "x": 40,
+        "y": 8133,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/c4d296d58efa.html"
+    },
+    {
+      "id": "868080487fa8",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(4)",
+      "bounds": {
+        "x": 40,
+        "y": 8168,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/868080487fa8.html"
+    },
+    {
+      "id": "5a133f40858f",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(5)",
+      "bounds": {
+        "x": 40,
+        "y": 8203,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/5a133f40858f.html"
+    },
+    {
+      "id": "265195c623ea",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(6)",
+      "bounds": {
+        "x": 40,
+        "y": 8238,
+        "width": 1360,
+        "height": 160
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/265195c623ea.html"
+    },
+    {
+      "id": "035116b9e81d",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(7)",
+      "bounds": {
+        "x": 40,
+        "y": 8413,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/035116b9e81d.html"
+    },
+    {
+      "id": "af0d03866e20",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(8)",
+      "bounds": {
+        "x": 40,
+        "y": 8448,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/af0d03866e20.html"
+    },
+    {
+      "id": "6b7eed4c02c5",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(9)",
+      "bounds": {
+        "x": 40,
+        "y": 8523,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/6b7eed4c02c5.html"
+    },
+    {
+      "id": "86d2ecf6e2c4",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9) > div > p:nth-child(10)",
+      "bounds": {
+        "x": 40,
+        "y": 8558,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/86d2ecf6e2c4.html"
+    }
+  ]
+}

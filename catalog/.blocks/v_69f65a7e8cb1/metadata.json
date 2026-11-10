@@ -1,0 +1,38 @@
+{
+  "id": "v_69f65a7e8cb1",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list"
+  },
+  "layoutKey": "[tab]",
+  "colour": "[tab|tab~r]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/",
+        "instanceId": "121e19792929",
+        "instanceIds": [
+          "121e19792929"
+        ],
+        "screenshot": ".pages/www_jackson_com--0b8df100/blocks/121e19792929.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Tab strip between product suites; may be links rather than panels",
+    "mergedInto": "v_194910149592"
+  }
+}

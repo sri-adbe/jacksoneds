@@ -1,0 +1,147 @@
+{
+  "id": "v_49c2fc06d077",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + video + heading + text"
+  },
+  "layoutKey": "[T|iframe]",
+  "colour": "[Tk|iframe]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+        "instanceId": "ca9696566ad7",
+        "instanceIds": [
+          "ca9696566ad7"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/ca9696566ad7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+        "instanceId": "ca9696566ad7",
+        "instanceIds": [
+          "ca9696566ad7"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/ca9696566ad7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+        "instanceId": "ca9696566ad7",
+        "instanceIds": [
+          "ca9696566ad7"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/ca9696566ad7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "instanceId": "1c6d32d907b2",
+        "instanceIds": [
+          "1c6d32d907b2"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/1c6d32d907b2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+        "instanceId": "bbc0e4db5042",
+        "instanceIds": [
+          "bbc0e4db5042"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff/blocks/bbc0e4db5042.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html",
+        "instanceId": "bbc0e4db5042",
+        "instanceIds": [
+          "bbc0e4db5042"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c/blocks/bbc0e4db5042.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-family.html",
+        "instanceId": "bbc0e4db5042",
+        "instanceIds": [
+          "bbc0e4db5042"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62/blocks/bbc0e4db5042.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html",
+        "instanceId": "13df169fd385",
+        "instanceIds": [
+          "13df169fd385"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/13df169fd385.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html",
+        "instanceId": "13df169fd385",
+        "instanceIds": [
+          "13df169fd385"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/13df169fd385.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html",
+        "instanceId": "13df169fd385",
+        "instanceIds": [
+          "13df169fd385"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/13df169fd385.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a",
+          "7da22f26f737",
+          "8f0beeef4ee5",
+          "da3805f76e3c",
+          "9581a492a2fe"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals.html",
+        "instanceId": "c37b08da9a3e",
+        "instanceIds": [
+          "c37b08da9a3e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/c37b08da9a3e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "instanceId": "ca9696566ad7",
+        "instanceIds": [
+          "ca9696566ad7"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/ca9696566ad7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "instanceId": "8ccb60b1fe39",
+        "instanceIds": [
+          "8ccb60b1fe39",
+          "47414430286b"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/8ccb60b1fe39.jpg"
+      }
+    ],
+    "reuseCount": 14
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Text beside media; a video in the media slot is optional content",
+    "mergedInto": "v_d6094627fa3d"
+  }
+}

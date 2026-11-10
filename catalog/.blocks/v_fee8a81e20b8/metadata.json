@@ -1,0 +1,62 @@
+{
+  "id": "v_fee8a81e20b8",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + link"
+  },
+  "layoutKey": "~([T])",
+  "colour": "~w([Tk])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+        "instanceId": "1c93db1356cf",
+        "instanceIds": [
+          "1c93db1356cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/1c93db1356cf.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+        "instanceId": "1c93db1356cf",
+        "instanceIds": [
+          "1c93db1356cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/1c93db1356cf.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+        "instanceId": "1c93db1356cf",
+        "instanceIds": [
+          "1c93db1356cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/1c93db1356cf.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html",
+        "instanceId": "ff16b8f53aa3",
+        "instanceIds": [
+          "ff16b8f53aa3"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c/blocks/ff16b8f53aa3.jpg"
+      }
+    ],
+    "reuseCount": 4
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Fixed text + image split pairing a selling message with a media column",
+    "mergedInto": null
+  }
+}

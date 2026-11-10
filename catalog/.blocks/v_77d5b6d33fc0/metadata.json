@@ -1,0 +1,46 @@
+{
+  "id": "v_77d5b6d33fc0",
+  "type": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/variable-annuities/investment-options.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading"
+  },
+  "layoutKey": "[button]",
+  "colour": "[button]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/investment-options.html",
+        "instanceId": "da5f39e2b0d3",
+        "instanceIds": [
+          "da5f39e2b0d3"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_investment-options_html--8cc7c822/blocks/da5f39e2b0d3.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/supplier-management.html",
+        "instanceId": "bbdabe7cacd8",
+        "instanceIds": [
+          "bbdabe7cacd8"
+        ],
+        "screenshot": ".pages/www_jackson_com_supplier-management_html--25a28c9e/blocks/bbdabe7cacd8.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Expandable logo tiles revealing manager details; layout is a grid, may need a custom block",
+    "mergedInto": null
+  }
+}

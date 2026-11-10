@@ -1,0 +1,54 @@
+{
+  "id": "v_f182d17b8602",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text + link"
+  },
+  "layoutKey": "[~(T)]",
+  "colour": "[~n(Tw)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html",
+        "instanceId": "eb641229d83a",
+        "instanceIds": [
+          "eb641229d83a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/eb641229d83a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "instanceId": "78e36a4b09b0",
+        "instanceIds": [
+          "78e36a4b09b0"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/78e36a4b09b0.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html",
+        "instanceId": "b6a089772df2",
+        "instanceIds": [
+          "b6a089772df2"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/b6a089772df2.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Repeated product/category cards each linking to a detail page",
+    "mergedInto": null
+  }
+}

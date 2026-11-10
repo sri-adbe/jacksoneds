@@ -1,0 +1,38 @@
+{
+  "id": "v_82713101398f",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + field + button + icon"
+  },
+  "layoutKey": "[(T ~(T))*1.5|(button ~([T|T*2]) ~([[T|button]]))*3|(form ~(T))]",
+  "colour": "[(Tk ~n(Tk))*1.5|(button ~n([[Tk|button~@]]) ~w([Tk|Tk*2]))*3|(form ~n(Tk))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+        "instanceId": "252e693ada9b",
+        "instanceIds": [
+          "252e693ada9b"
+        ],
+        "screenshot": ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/252e693ada9b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Interactive retirement expense calculator app",
+    "mergedInto": null
+  }
+}

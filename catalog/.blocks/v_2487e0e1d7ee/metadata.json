@@ -1,0 +1,54 @@
+{
+  "id": "v_2487e0e1d7ee",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/fixed-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text + link"
+  },
+  "layoutKey": "[(T [T|T*3])|T]",
+  "colour": "[(Tk [T|Tk*3])|T]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "instanceId": "603a7b81d31e",
+        "instanceIds": [
+          "603a7b81d31e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/603a7b81d31e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "instanceId": "603a7b81d31e",
+        "instanceIds": [
+          "603a7b81d31e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/603a7b81d31e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "603a7b81d31e",
+        "instanceIds": [
+          "603a7b81d31e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/603a7b81d31e.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Photo beside promo text; the nested icon callout is optional content but could be a separate block",
+    "mergedInto": "v_d6094627fa3d"
+  }
+}

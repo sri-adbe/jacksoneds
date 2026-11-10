@@ -1,0 +1,60 @@
+{
+  "id": "v_8b513864dc60",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + link"
+  },
+  "layoutKey": "[T|T*3]",
+  "colour": "[Tk|Tk*3]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html",
+        "instanceId": "70e74f0dcb2e",
+        "instanceIds": [
+          "70e74f0dcb2e",
+          "c0db5c8cf97d",
+          "b347cd7fd62d"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/70e74f0dcb2e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/jackson-live.html",
+        "instanceId": "77d79f641d1a",
+        "instanceIds": [
+          "77d79f641d1a",
+          "512c45b9f6b6"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_jackson-live_html--ea6fdadb/blocks/77d79f641d1a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference.html",
+        "instanceId": "1698d53b711a",
+        "instanceIds": [
+          "1698d53b711a",
+          "a44bd6d02060",
+          "2109f6ec16d9",
+          "0a3a1b86a739"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_html--11539a4e/blocks/1698d53b711a.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Dated webinar entries with register links form a dynamic list; could also be columns",
+    "mergedInto": null
+  }
+}

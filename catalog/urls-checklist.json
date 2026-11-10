@@ -1,0 +1,829 @@
+{
+  "analysis-urls-checklist": {
+    "captured": "2026-11-10T15:34:06.258Z",
+    "totalPages": 102,
+    "statusBreakdown": {
+      "marked": 0,
+      "analyzed": 102,
+      "failed": 0
+    },
+    "pages": {
+      "https://www.jackson.com/": {
+        "url": "https://www.jackson.com/",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:22.034Z",
+        "slug": "www_jackson_com--0b8df100",
+        "title": "Jackson - Clarity for all | Jackson",
+        "blockCount": 21
+      },
+      "https://www.jackson.com/annuities/variable-annuities.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:26.282Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_html--99348df9",
+        "title": "Variable annuities for investors | Jackson",
+        "blockCount": 24
+      },
+      "https://www.jackson.com/annuities/fixed-index-annuities.html": {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:32.629Z",
+        "slug": "www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4",
+        "title": "Fixed index annuities for investors | Jackson",
+        "blockCount": 59
+      },
+      "https://www.jackson.com/annuities/fixed-annuities.html": {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:30.170Z",
+        "slug": "www_jackson_com_annuities_fixed-annuities_html--ae1a449d",
+        "title": "Fixed annuities for investors | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/annuities/benefits-of-annuities.html": {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:29.582Z",
+        "slug": "www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7",
+        "title": "Benefits of annuities | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html": {
+        "url": "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:39.732Z",
+        "slug": "www_jackson_com_annuities_registered-index-linked-annuities_market-link-pro-suite_html--2d7c5313",
+        "title": "Market Link Pro Suite | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html": {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:43.882Z",
+        "slug": "www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff",
+        "title": "Jackson Income Assurance Suite | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html": {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:45.822Z",
+        "slug": "www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6",
+        "title": "Income protection | Jackson",
+        "blockCount": 16
+      },
+      "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html": {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:46.795Z",
+        "slug": "www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232",
+        "title": "Growth potential | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html": {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:50.131Z",
+        "slug": "www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1",
+        "title": "Tax deferral | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html": {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:34:54.815Z",
+        "slug": "www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8",
+        "title": "Legacy benefits | Jackson",
+        "blockCount": 17
+      },
+      "https://www.jackson.com/annuities/variable-annuities/perspective-family.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-family.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:01.129Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62",
+        "title": "Perspective Family | Jackson",
+        "blockCount": 22
+      },
+      "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:02.522Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c",
+        "title": "Elite Access Suite | Jackson",
+        "blockCount": 23
+      },
+      "https://www.jackson.com/annuities/variable-annuities/investment-options.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities/investment-options.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:02.610Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_investment-options_html--8cc7c822",
+        "title": "Investment options | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:18.526Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_elite-access-ii-performance-center_html--77736f1e",
+        "title": "Elite Access II performance center | Jackson",
+        "blockCount": 8
+      },
+      "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:20.886Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_perspective-ii-performance-center_html--f184984b",
+        "title": "Perspective II performance center | Jackson",
+        "blockCount": 8
+      },
+      "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html": {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:28.328Z",
+        "slug": "www_jackson_com_annuities_variable-annuities_perspective-advisory-ii-performance-center_html--f3d20af6",
+        "title": "Perspective Advisory II performance center | Jackson",
+        "blockCount": 8
+      },
+      "https://www.jackson.com/financial-professional/annuity-products.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:18.698Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_html--0fdd2b14",
+        "title": "Our products | Jackson",
+        "blockCount": 26
+      },
+      "https://www.jackson.com/financial-professional/bank.html": {
+        "url": "https://www.jackson.com/financial-professional/bank.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:18.729Z",
+        "slug": "www_jackson_com_financial-professional_bank_html--b18c7908",
+        "title": "Bank | Jackson",
+        "blockCount": 37
+      },
+      "https://www.jackson.com/financial-professional/credit-union.html": {
+        "url": "https://www.jackson.com/financial-professional/credit-union.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:36.290Z",
+        "slug": "www_jackson_com_financial-professional_credit-union_html--09b631f8",
+        "title": "Credit union | Jackson",
+        "blockCount": 37
+      },
+      "https://www.jackson.com/financial-professional/find-your-wholesaler.html": {
+        "url": "https://www.jackson.com/financial-professional/find-your-wholesaler.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:31.799Z",
+        "slug": "www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965",
+        "title": "Find your wholesaler | Jackson",
+        "blockCount": 9
+      },
+      "https://www.jackson.com/financial-professional/get-appointed.html": {
+        "url": "https://www.jackson.com/financial-professional/get-appointed.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:34.889Z",
+        "slug": "www_jackson_com_financial-professional_get-appointed_html--0bcedb9a",
+        "title": "Get appointed | Jackson",
+        "blockCount": 12
+      },
+      "https://www.jackson.com/financial-professional/independent.html": {
+        "url": "https://www.jackson.com/financial-professional/independent.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:38.434Z",
+        "slug": "www_jackson_com_financial-professional_independent_html--85cb029a",
+        "title": "Independent broker/dealer | Jackson",
+        "blockCount": 36
+      },
+      "https://www.jackson.com/financial-professional/insurance-professional.html": {
+        "url": "https://www.jackson.com/financial-professional/insurance-professional.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:44.550Z",
+        "slug": "www_jackson_com_financial-professional_insurance-professional_html--2669bec0",
+        "title": "Insurance professional | Jackson",
+        "blockCount": 25
+      },
+      "https://www.jackson.com/financial-professional/regional.html": {
+        "url": "https://www.jackson.com/financial-professional/regional.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:47.885Z",
+        "slug": "www_jackson_com_financial-professional_regional_html--db6d49d6",
+        "title": "Regional broker/dealer | Jackson",
+        "blockCount": 36
+      },
+      "https://www.jackson.com/financial-professional/resources.html": {
+        "url": "https://www.jackson.com/financial-professional/resources.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:49.177Z",
+        "slug": "www_jackson_com_financial-professional_resources_html--82f20df8",
+        "title": "Tools and resources | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:51.888Z",
+        "slug": "www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb",
+        "title": "RIA and wealth manager | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/financial-professional/sitemap.html": {
+        "url": "https://www.jackson.com/financial-professional/sitemap.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:50.249Z",
+        "slug": "www_jackson_com_financial-professional_sitemap_html--cce94951",
+        "title": "Sitemap | Jackson",
+        "blockCount": 5
+      },
+      "https://www.jackson.com/financial-professional/why-jackson.html": {
+        "url": "https://www.jackson.com/financial-professional/why-jackson.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:35:57.254Z",
+        "slug": "www_jackson_com_financial-professional_why-jackson_html--ea77a9d8",
+        "title": "Why Jackson? | Jackson",
+        "blockCount": 9
+      },
+      "https://www.jackson.com/financial-professional/contact-us.html": {
+        "url": "https://www.jackson.com/financial-professional/contact-us.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:04.376Z",
+        "slug": "www_jackson_com_financial-professional_contact-us_html--631a75f7",
+        "title": "Contact us | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/financial-professional/wirehouse.html": {
+        "url": "https://www.jackson.com/financial-professional/wirehouse.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:05.616Z",
+        "slug": "www_jackson_com_financial-professional_wirehouse_html--703f6b05",
+        "title": "Wirehouse | Jackson",
+        "blockCount": 36
+      },
+      "https://www.jackson.com/financial-professional/bank/referral.html": {
+        "url": "https://www.jackson.com/financial-professional/bank/referral.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:06.333Z",
+        "slug": "www_jackson_com_financial-professional_bank_referral_html--8595d10d",
+        "title": "Outreach for Growth - Banks | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/financial-professional/credit-union/referral.html": {
+        "url": "https://www.jackson.com/financial-professional/credit-union/referral.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:06.384Z",
+        "slug": "www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0",
+        "title": "Outreach for Growth - Credit unions | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/client-needs.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:10.488Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e",
+        "title": "Client needs | Jackson",
+        "blockCount": 16
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:28.208Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7",
+        "title": "Fee-based annuities | Jackson",
+        "blockCount": 39
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:26.418Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4",
+        "title": "Fixed annuities | Jackson",
+        "blockCount": 22
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:31.885Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9",
+        "title": "Fixed index annuities | Jackson",
+        "blockCount": 35
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/product-match-pro.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/product-match-pro.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:26.385Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_product-match-pro_html--0b4c6337",
+        "title": "Product Match Pro | Jackson",
+        "blockCount": 37
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:29.347Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c",
+        "title": "Variable annuities | Jackson",
+        "blockCount": 27
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:45.056Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa",
+        "title": "Registered index-linked annuities | Jackson",
+        "blockCount": 30
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:45.231Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e",
+        "title": "Growth potential | Jackson",
+        "blockCount": 21
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:46.104Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e",
+        "title": "Legacy planning | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:46.874Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4",
+        "title": "Guaranteed lifetime income | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:36:46.397Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_client-needs_protection-options_html--b8427d4e",
+        "title": "Protection options | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html": {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:05.537Z",
+        "slug": "www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f",
+        "title": "Tax deferral | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html": {
+        "url": "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:03.435Z",
+        "slug": "www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b",
+        "title": "Calculators and tools | Jackson",
+        "blockCount": 21
+      },
+      "https://www.jackson.com/financial-professional/resources/client-resources.html": {
+        "url": "https://www.jackson.com/financial-professional/resources/client-resources.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:06.895Z",
+        "slug": "www_jackson_com_financial-professional_resources_client-resources_html--e79c83da",
+        "title": "Client resources | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html": {
+        "url": "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:07.183Z",
+        "slug": "www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135",
+        "title": "Advisor experience updates | Jackson",
+        "blockCount": 10
+      },
+      "https://www.jackson.com/financial-professional/resources/retirement-articles.html": {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:04.286Z",
+        "slug": "www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5",
+        "title": "Retirement articles and insights | Jackson",
+        "blockCount": 9
+      },
+      "https://www.jackson.com/financial-professional/resources/retirement-research.html": {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:18.935Z",
+        "slug": "www_jackson_com_financial-professional_resources_retirement-research_html--ba06fa87",
+        "title": "Retirement research center | Jackson",
+        "blockCount": 5
+      },
+      "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html": {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:27.453Z",
+        "slug": "www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959",
+        "title": "Making it easier to do business | Jackson",
+        "blockCount": 18
+      },
+      "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:26.403Z",
+        "slug": "www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6",
+        "title": "Integration with your practice | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html": {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:26.439Z",
+        "slug": "www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d",
+        "title": "RIA Academy | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/financial-professional/why-jackson/customer-care.html": {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/customer-care.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:25.544Z",
+        "slug": "www_jackson_com_financial-professional_why-jackson_customer-care_html--17040a12",
+        "title": "Customer care | Jackson",
+        "blockCount": 18
+      },
+      "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html": {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:34.292Z",
+        "slug": "www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c",
+        "title": "Financial strength | Jackson",
+        "blockCount": 19
+      },
+      "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html": {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:43.638Z",
+        "slug": "www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300",
+        "title": "Value-added services | Jackson",
+        "blockCount": 23
+      },
+      "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html": {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:41.551Z",
+        "slug": "www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4",
+        "title": "Wholesaler support | Jackson",
+        "blockCount": 10
+      },
+      "https://www.jackson.com/financial-professionals/get-appointed.html": {
+        "url": "https://www.jackson.com/financial-professionals/get-appointed.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:42.966Z",
+        "slug": "www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc",
+        "title": "Get appointed | Jackson",
+        "blockCount": 12
+      },
+      "https://www.jackson.com/financial-professionals/client-conversation-resources.html": {
+        "url": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:44.989Z",
+        "slug": "www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb",
+        "title": "Client conversation resources | Jackson",
+        "blockCount": 18
+      },
+      "https://www.jackson.com/financial-professionals/insurance-professionals.html": {
+        "url": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:47.004Z",
+        "slug": "www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5",
+        "title": "Insurance professionals | Jackson",
+        "blockCount": 24
+      },
+      "https://www.jackson.com/financial-professionals/jackson-live.html": {
+        "url": "https://www.jackson.com/financial-professionals/jackson-live.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:37:53.984Z",
+        "slug": "www_jackson_com_financial-professionals_jackson-live_html--ea6fdadb",
+        "title": "Jackson LIVE | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html": {
+        "url": "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:03.109Z",
+        "slug": "www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca",
+        "title": "Tax deferral calculator | Jackson",
+        "blockCount": 14
+      },
+      "https://www.jackson.com/login/login.xhtml": {
+        "url": "https://www.jackson.com/login/login.xhtml",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:03.131Z",
+        "slug": "www_jackson_com_login_login_xhtml--7e2b5793",
+        "title": "Login - Sign In | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/login/forgot-password.xhtml": {
+        "url": "https://www.jackson.com/login/forgot-password.xhtml",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:03.285Z",
+        "slug": "www_jackson_com_login_forgot-password_xhtml--45e236db",
+        "title": "Forgot Password - Sign In | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/login/forgot-username.xhtml": {
+        "url": "https://www.jackson.com/login/forgot-username.xhtml",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:03.992Z",
+        "slug": "www_jackson_com_login_forgot-username_xhtml--26114733",
+        "title": "Forgot Username - Sign In | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/login/register.xhtml": {
+        "url": "https://www.jackson.com/login/register.xhtml",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:04.997Z",
+        "slug": "www_jackson_com_login_register_xhtml--2395b9d7",
+        "title": "Register - Sign In | Jackson",
+        "blockCount": 11
+      },
+      "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html": {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:28.108Z",
+        "slug": "www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4",
+        "title": "Making it easier to do business | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html": {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:27.034Z",
+        "slug": "www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e",
+        "title": "Integration with your practice | Jackson",
+        "blockCount": 22
+      },
+      "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html": {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:28.885Z",
+        "slug": "www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472",
+        "title": "Planning tools for your journey | Jackson",
+        "blockCount": 23
+      },
+      "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html": {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:28.783Z",
+        "slug": "www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032",
+        "title": "Fee-based annuity solutions | Jackson",
+        "blockCount": 30
+      },
+      "https://www.jackson.com/the-jackson-difference/who-we-are.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:24.721Z",
+        "slug": "www_jackson_com_the-jackson-difference_who-we-are_html--156a4128",
+        "title": "Who we are | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/the-jackson-difference/corporate-responsibility.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/corporate-responsibility.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:39.090Z",
+        "slug": "www_jackson_com_the-jackson-difference_corporate-responsibility_html--be600e3d",
+        "title": "Corporate responsibility | Jackson",
+        "blockCount": 18
+      },
+      "https://www.jackson.com/the-jackson-difference/supporting-our-community.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:39.317Z",
+        "slug": "www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6",
+        "title": "Supporting our community | Jackson",
+        "blockCount": 7
+      },
+      "https://www.jackson.com/the-jackson-difference/careers.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:45.054Z",
+        "slug": "www_jackson_com_the-jackson-difference_careers_html--0937a1dd",
+        "title": "Explore Jackson careers | Jackson",
+        "blockCount": 24
+      },
+      "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:44.630Z",
+        "slug": "www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19",
+        "title": "Jackson community grants | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:45.487Z",
+        "slug": "www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f",
+        "title": "Our leaders | Jackson",
+        "blockCount": 14
+      },
+      "https://www.jackson.com/the-jackson-difference/who-we-are/news.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:02.397Z",
+        "slug": "www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12",
+        "title": "News | Jackson",
+        "blockCount": 41
+      },
+      "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:38:55.391Z",
+        "slug": "www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952",
+        "title": "Jackson National Asset Management | Jackson",
+        "blockCount": 15
+      },
+      "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html": {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:00.661Z",
+        "slug": "www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74",
+        "title": "Investment due diligence | Jackson",
+        "blockCount": 22
+      },
+      "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html": {
+        "url": "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:01.016Z",
+        "slug": "www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c",
+        "title": "How to plan for retirement | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/your-financial-future/educational-resources.html": {
+        "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:01.917Z",
+        "slug": "www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a",
+        "title": "Educational resources | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/your-financial-future/retirement-statistics.html": {
+        "url": "https://www.jackson.com/your-financial-future/retirement-statistics.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:08.679Z",
+        "slug": "www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190",
+        "title": "Retirement research center | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/your-financial-future/calculators-and-tools.html": {
+        "url": "https://www.jackson.com/your-financial-future/calculators-and-tools.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:13.883Z",
+        "slug": "www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef",
+        "title": "Planning calculators & tools | Jackson",
+        "blockCount": 16
+      },
+      "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html": {
+        "url": "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:13.835Z",
+        "slug": "www_jackson_com_transactional-forms_claims_claims-initial-notice_html--a21a9e7c",
+        "title": "Claims Initial Notice | Jackson",
+        "blockCount": 6
+      },
+      "https://www.jackson.com/dash/tools/retirement-expense-calculator.html": {
+        "url": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:16.088Z",
+        "slug": "www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f",
+        "title": "Retirement expense & income calculator",
+        "blockCount": 9
+      },
+      "https://www.jackson.com/forms/forms.xhtml": {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:16.306Z",
+        "slug": "www_jackson_com_forms_forms_xhtml--21d58fdb",
+        "title": "Forms | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/registration/ria.xhtml": {
+        "url": "https://www.jackson.com/registration/ria.xhtml",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:20.494Z",
+        "slug": "www_jackson_com_registration_ria_xhtml--33321b02",
+        "title": "RIA registration - RIA & Wealth Managers | Jackson",
+        "blockCount": 18
+      },
+      "https://www.jackson.com/your-financial-future.html": {
+        "url": "https://www.jackson.com/your-financial-future.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:29.188Z",
+        "slug": "www_jackson_com_your-financial-future_html--c46eb4ce",
+        "title": "Your financial future | Jackson",
+        "blockCount": 14
+      },
+      "https://www.jackson.com/ax-updates.html": {
+        "url": "https://www.jackson.com/ax-updates.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:30.351Z",
+        "slug": "www_jackson_com_ax-updates_html--b700e217",
+        "title": "Advisor experience updates | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/annuities.html": {
+        "url": "https://www.jackson.com/annuities.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:31.244Z",
+        "slug": "www_jackson_com_annuities_html--89e15c07",
+        "title": "What is an annuity? | Jackson",
+        "blockCount": 20
+      },
+      "https://www.jackson.com/the-jackson-difference.html": {
+        "url": "https://www.jackson.com/the-jackson-difference.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:31.050Z",
+        "slug": "www_jackson_com_the-jackson-difference_html--11539a4e",
+        "title": "The Jackson difference | Jackson",
+        "blockCount": 12
+      },
+      "https://www.jackson.com/interval-funds.html": {
+        "url": "https://www.jackson.com/interval-funds.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:32.094Z",
+        "slug": "www_jackson_com_interval-funds_html--2dcff5ef",
+        "title": "Interval Funds | Jackson",
+        "blockCount": 9
+      },
+      "https://www.jackson.com/frequently-asked-questions.html": {
+        "url": "https://www.jackson.com/frequently-asked-questions.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:40.722Z",
+        "slug": "www_jackson_com_frequently-asked-questions_html--b0bd4712",
+        "title": "Frequently asked questions | Jackson",
+        "blockCount": 7
+      },
+      "https://www.jackson.com/legal-and-privacy.html": {
+        "url": "https://www.jackson.com/legal-and-privacy.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:43.843Z",
+        "slug": "www_jackson_com_legal-and-privacy_html--f613a854",
+        "title": "Legal & privacy | Jackson",
+        "blockCount": 6
+      },
+      "https://www.jackson.com/cyber-security.html": {
+        "url": "https://www.jackson.com/cyber-security.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:45.534Z",
+        "slug": "www_jackson_com_cyber-security_html--c3ac5d60",
+        "title": "Cybersecurity | Jackson",
+        "blockCount": 6
+      },
+      "https://www.jackson.com/performance-center.html": {
+        "url": "https://www.jackson.com/performance-center.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:44.590Z",
+        "slug": "www_jackson_com_performance-center_html--d0464cce",
+        "title": "Performance center | Jackson",
+        "blockCount": 13
+      },
+      "https://www.jackson.com/financial-professionals.html": {
+        "url": "https://www.jackson.com/financial-professionals.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:47.836Z",
+        "slug": "www_jackson_com_financial-professionals_html--d8b44bff",
+        "title": "Financial professionals | Jackson",
+        "blockCount": 12
+      },
+      "https://www.jackson.com/ria-and-wealth-managers.html": {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:57.257Z",
+        "slug": "www_jackson_com_ria-and-wealth-managers_html--30e78020",
+        "title": "RIA and wealth managers | Jackson",
+        "blockCount": 17
+      },
+      "https://www.jackson.com/sitemap.html": {
+        "url": "https://www.jackson.com/sitemap.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:56.246Z",
+        "slug": "www_jackson_com_sitemap_html--284a1168",
+        "title": "Sitemap | Jackson",
+        "blockCount": 8
+      },
+      "https://www.jackson.com/accessibility.html": {
+        "url": "https://www.jackson.com/accessibility.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:58.486Z",
+        "slug": "www_jackson_com_accessibility_html--28fc2032",
+        "title": "Accessibility | Jackson",
+        "blockCount": 8
+      },
+      "https://www.jackson.com/supplier-management.html": {
+        "url": "https://www.jackson.com/supplier-management.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:39:58.620Z",
+        "slug": "www_jackson_com_supplier-management_html--25a28c9e",
+        "title": "Supplier management | Jackson",
+        "blockCount": 12
+      },
+      "https://www.jackson.com/financial-professional.html": {
+        "url": "https://www.jackson.com/financial-professional.html",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-10T15:40:00.994Z",
+        "slug": "www_jackson_com_financial-professional_html--5948f0a6",
+        "title": "Financial professional | Jackson",
+        "blockCount": 14
+      }
+    }
+  }
+}

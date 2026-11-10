@@ -1,0 +1,46 @@
+{
+  "id": "v_e7799d730d73",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + list + image + text + link"
+  },
+  "layoutKey": "(T ~(T [T]) ~([tab]))",
+  "colour": "(Tk ~s([tab|tab~r]) ~w(Tk Tw [Tk]) ~w(Tw [Tk]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html",
+        "instanceId": "2772d5ece960",
+        "instanceIds": [
+          "2772d5ece960"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c/blocks/2772d5ece960.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-family.html",
+        "instanceId": "2772d5ece960",
+        "instanceIds": [
+          "2772d5ece960"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62/blocks/2772d5ece960.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Product page shell with title and Overview/Highlights tabs over a hero; tabs may be links to sub-pages",
+    "mergedInto": null
+  }
+}

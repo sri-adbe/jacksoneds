@@ -1,0 +1,38 @@
+{
+  "id": "v_47eb20d84b9f",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "layoutKey": "~(T [T] hr)",
+  "colour": "~w(Tk [Tk] hr~k)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html",
+        "instanceId": "318b66757b98",
+        "instanceIds": [
+          "318b66757b98"
+        ],
+        "screenshot": ".pages/www_jackson_com_transactional-forms_claims_claims-initial-notice_html--a21a9e7c/blocks/318b66757b98.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Process step items with title and text; boxed with a footnote, could be columns",
+    "mergedInto": "v_a6d9a47899aa"
+  }
+}

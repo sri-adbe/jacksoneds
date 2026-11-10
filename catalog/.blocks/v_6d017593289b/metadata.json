@@ -1,0 +1,158 @@
+{
+  "id": "v_6d017593289b",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + heading + text"
+  },
+  "layoutKey": "[~(T)]",
+  "colour": "[~w(Tk)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products.html",
+        "instanceId": "9f8885b2dcda",
+        "instanceIds": [
+          "9f8885b2dcda"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/9f8885b2dcda.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_protection-options_html--b8427d4e/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html",
+        "instanceId": "40e084c9ac94",
+        "instanceIds": [
+          "40e084c9ac94"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/40e084c9ac94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html",
+        "instanceId": "fc09a14524b8",
+        "instanceIds": [
+          "fc09a14524b8"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/fc09a14524b8.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/bank.html",
+        "instanceId": "2680cf781384",
+        "instanceIds": [
+          "2680cf781384"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/2680cf781384.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/credit-union.html",
+        "instanceId": "2680cf781384",
+        "instanceIds": [
+          "2680cf781384"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/2680cf781384.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/independent.html",
+        "instanceId": "23f021e7758a",
+        "instanceIds": [
+          "23f021e7758a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/23f021e7758a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/insurance-professional.html",
+        "instanceId": "23f021e7758a",
+        "instanceIds": [
+          "23f021e7758a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/23f021e7758a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/regional.html",
+        "instanceId": "23f021e7758a",
+        "instanceIds": [
+          "23f021e7758a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/23f021e7758a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html",
+        "instanceId": "b6a089772df2",
+        "instanceIds": [
+          "b6a089772df2"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/b6a089772df2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/wirehouse.html",
+        "instanceId": "23f021e7758a",
+        "instanceIds": [
+          "23f021e7758a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/23f021e7758a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "instanceId": "99be70d863c3",
+        "instanceIds": [
+          "99be70d863c3"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/99be70d863c3.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/calculators-and-tools.html",
+        "instanceId": "e93b4622b080",
+        "instanceIds": [
+          "e93b4622b080"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/e93b4622b080.jpg"
+      }
+    ],
+    "reuseCount": 16
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Repeated product/category cards each linking to a detail page",
+    "mergedInto": null
+  }
+}

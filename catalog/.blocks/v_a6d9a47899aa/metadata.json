@@ -1,0 +1,317 @@
+{
+  "id": "v_a6d9a47899aa",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.017Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list + link + image"
+  },
+  "layoutKey": "[T]",
+  "colour": "[Tk]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/",
+        "instanceId": "165b940990c4",
+        "instanceIds": [
+          "165b940990c4"
+        ],
+        "screenshot": ".pages/www_jackson_com--0b8df100/blocks/165b940990c4.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional.html",
+        "instanceId": "da3805f76e3c",
+        "instanceIds": [
+          "da3805f76e3c"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/da3805f76e3c.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html",
+        "instanceId": "7da22f26f737",
+        "instanceIds": [
+          "7da22f26f737"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/7da22f26f737.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html",
+        "instanceId": "9f8885b2dcda",
+        "instanceIds": [
+          "9f8885b2dcda",
+          "9581a492a2fe"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/9f8885b2dcda.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "instanceId": "16316bb42af0",
+        "instanceIds": [
+          "16316bb42af0"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/16316bb42af0.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/bank.html",
+        "instanceId": "12537b4f8dd7",
+        "instanceIds": [
+          "12537b4f8dd7",
+          "7da22f26f737"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/12537b4f8dd7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/bank/referral.html",
+        "instanceId": "1000a187b741",
+        "instanceIds": [
+          "1000a187b741",
+          "b59f1fd20a48"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/1000a187b741.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/contact-us.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/credit-union.html",
+        "instanceId": "12537b4f8dd7",
+        "instanceIds": [
+          "12537b4f8dd7",
+          "7da22f26f737"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/12537b4f8dd7.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/credit-union/referral.html",
+        "instanceId": "1000a187b741",
+        "instanceIds": [
+          "1000a187b741",
+          "b59f1fd20a48"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/1000a187b741.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/get-appointed.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb",
+          "4f2429f51ea8"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_get-appointed_html--0bcedb9a/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/independent.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a",
+          "0260a452e229"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/insurance-professional.html",
+        "instanceId": "f8fadb408909",
+        "instanceIds": [
+          "f8fadb408909"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/f8fadb408909.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/regional.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a",
+          "0260a452e229"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb",
+          "9b06919b9466",
+          "4f2429f51ea8"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html",
+        "instanceId": "23f021e7758a",
+        "instanceIds": [
+          "23f021e7758a",
+          "f8fadb408909"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/23f021e7758a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+        "instanceId": "fe79079fc819",
+        "instanceIds": [
+          "fe79079fc819"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_retirement-research_html--ba06fa87/blocks/fe79079fc819.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "instanceId": "f8fadb408909",
+        "instanceIds": [
+          "f8fadb408909"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/f8fadb408909.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html",
+        "instanceId": "b6a089772df2",
+        "instanceIds": [
+          "b6a089772df2"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/b6a089772df2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/sitemap.html",
+        "instanceId": "b4730155f7f2",
+        "instanceIds": [
+          "b4730155f7f2"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_sitemap_html--cce94951/blocks/b4730155f7f2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_html--ea77a9d8/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/customer-care.html",
+        "instanceId": "7da22f26f737",
+        "instanceIds": [
+          "7da22f26f737"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_customer-care_html--17040a12/blocks/7da22f26f737.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html",
+        "instanceId": "4f2429f51ea8",
+        "instanceIds": [
+          "4f2429f51ea8",
+          "8f0beeef4ee5"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c/blocks/4f2429f51ea8.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb",
+          "4f2429f51ea8",
+          "7da22f26f737"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/wirehouse.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a",
+          "0260a452e229"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/get-appointed.html",
+        "instanceId": "e42d8085987d",
+        "instanceIds": [
+          "e42d8085987d"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/e42d8085987d.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "instanceId": "ae16fdb6102a",
+        "instanceIds": [
+          "ae16fdb6102a"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/ae16fdb6102a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "instanceId": "44e3941196b5",
+        "instanceIds": [
+          "44e3941196b5"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/44e3941196b5.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are.html",
+        "instanceId": "f556eb108fb8",
+        "instanceIds": [
+          "f556eb108fb8"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/f556eb108fb8.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html",
+        "instanceId": "510a77d6fb93",
+        "instanceIds": [
+          "510a77d6fb93"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74/blocks/510a77d6fb93.jpg"
+      }
+    ],
+    "reuseCount": 34
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Look-alike icon + heading + text items in a wrapping grid",
+    "mergedInto": null
+  }
+}

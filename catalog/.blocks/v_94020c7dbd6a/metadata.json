@@ -1,0 +1,306 @@
+{
+  "id": "v_94020c7dbd6a",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/your-financial-future.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + link"
+  },
+  "layoutKey": "[T|~(T)*3]",
+  "colour": "[T|~w(Tk)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities.html",
+        "instanceId": "24c960875428",
+        "instanceIds": [
+          "24c960875428"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/24c960875428.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/investment-options.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_investment-options_html--8cc7c822/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/cyber-security.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_cyber-security_html--c3ac5d60/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals.html",
+        "instanceId": "24c960875428",
+        "instanceIds": [
+          "24c960875428"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/24c960875428.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/supplier-management.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_supplier-management_html--25a28c9e/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference.html",
+        "instanceId": "09b714e4c93c",
+        "instanceIds": [
+          "09b714e4c93c"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_html--11539a4e/blocks/09b714e4c93c.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/corporate-responsibility.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_corporate-responsibility_html--be600e3d/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+        "instanceId": "87154f958de5",
+        "instanceIds": [
+          "87154f958de5"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/87154f958de5.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future.html",
+        "instanceId": "c37b08da9a3e",
+        "instanceIds": [
+          "c37b08da9a3e",
+          "165b940990c4",
+          "c16cc84289ed",
+          "9a8304f60d35",
+          "24c960875428"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_html--c46eb4ce/blocks/c37b08da9a3e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/calculators-and-tools.html",
+        "instanceId": "24c960875428",
+        "instanceIds": [
+          "24c960875428"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/24c960875428.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c/blocks/fb1c4e5e3ac9.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/retirement-statistics.html",
+        "instanceId": "fb1c4e5e3ac9",
+        "instanceIds": [
+          "fb1c4e5e3ac9"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190/blocks/fb1c4e5e3ac9.jpg"
+      }
+    ],
+    "reuseCount": 34
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Page-top banner with the page title beside a photo",
+    "mergedInto": null
+  }
+}

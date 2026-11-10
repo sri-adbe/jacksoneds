@@ -1,0 +1,38 @@
+{
+  "id": "v_0fcbe14c4ddd",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/variable-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + image + heading + text + link"
+  },
+  "layoutKey": "([tab] [~(T [T])] ~([T|T*1.25]))",
+  "colour": "([tab|tab~r] [~w(Tk [Tk])] ~w([T|Tk*1.25]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "6f7bec509829",
+        "instanceIds": [
+          "6f7bec509829"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/6f7bec509829.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "State tabs over product panels",
+    "mergedInto": "v_194910149592"
+  }
+}

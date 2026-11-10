@@ -1,0 +1,38 @@
+{
+  "id": "v_601a7f617c9a",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "layoutKey": "[T|~]",
+  "colour": "[Tk|~n]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+        "instanceId": "4836ecbdd4f9",
+        "instanceIds": [
+          "4836ecbdd4f9"
+        ],
+        "screenshot": ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/4836ecbdd4f9.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Page title and intro beside a decorative graphic",
+    "mergedInto": "v_94020c7dbd6a"
+  }
+}

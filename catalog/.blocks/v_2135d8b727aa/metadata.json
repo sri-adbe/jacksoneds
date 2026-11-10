@@ -1,0 +1,46 @@
+{
+  "id": "v_2135d8b727aa",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list + link + video"
+  },
+  "layoutKey": "[(T [T])|iframe]",
+  "colour": "[(Tk [Tk])|iframe]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "instanceId": "1c6d32d907b2",
+        "instanceIds": [
+          "1c6d32d907b2"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/1c6d32d907b2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "1c6d32d907b2",
+        "instanceIds": [
+          "1c6d32d907b2"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/1c6d32d907b2.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Product intro text beside an embedded video",
+    "mergedInto": "v_d6094627fa3d"
+  }
+}

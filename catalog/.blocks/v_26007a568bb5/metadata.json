@@ -1,0 +1,38 @@
+{
+  "id": "v_26007a568bb5",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field"
+  },
+  "layoutKey": "~([[~([T|input])]*3|~([T|input])])",
+  "colour": "[[~b([Tk|input~w])|~c([Tk|input~w])|~o([Tk|input~w])]*3|~m([Tw|input~w])]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+        "instanceId": "34693e80c90b",
+        "instanceIds": [
+          "34693e80c90b"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/34693e80c90b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Checkbox filter chips controlling a listing below",
+    "mergedInto": null
+  }
+}

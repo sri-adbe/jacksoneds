@@ -1,0 +1,118 @@
+{
+  "id": "v_ed7ad9c5cc43",
+  "type": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/benefits-of-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link + video"
+  },
+  "layoutKey": "iframe",
+  "colour": "iframe",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities.html",
+        "instanceId": "577ca5318f97",
+        "instanceIds": [
+          "577ca5318f97"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/577ca5318f97.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products.html",
+        "instanceId": "7b58f0a50b13",
+        "instanceIds": [
+          "7b58f0a50b13"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/7b58f0a50b13.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs.html",
+        "instanceId": "13df169fd385",
+        "instanceIds": [
+          "13df169fd385"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/13df169fd385.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html",
+        "instanceId": "d0850c1b90ac",
+        "instanceIds": [
+          "d0850c1b90ac"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/d0850c1b90ac.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+        "instanceId": "7b58f0a50b13",
+        "instanceIds": [
+          "7b58f0a50b13"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/7b58f0a50b13.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "instanceId": "7b58f0a50b13",
+        "instanceIds": [
+          "7b58f0a50b13"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/7b58f0a50b13.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html",
+        "instanceId": "7b58f0a50b13",
+        "instanceIds": [
+          "7b58f0a50b13"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/7b58f0a50b13.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+        "instanceId": "7b58f0a50b13",
+        "instanceIds": [
+          "7b58f0a50b13"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/7b58f0a50b13.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/client-resources.html",
+        "instanceId": "7b58f0a50b13",
+        "instanceIds": [
+          "7b58f0a50b13"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_client-resources_html--e79c83da/blocks/7b58f0a50b13.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+        "instanceId": "63d72ce1ad9c",
+        "instanceIds": [
+          "63d72ce1ad9c"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/63d72ce1ad9c.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html",
+        "instanceId": "0aa1794ed8cf",
+        "instanceIds": [
+          "0aa1794ed8cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca/blocks/0aa1794ed8cf.jpg"
+      }
+    ],
+    "reuseCount": 11
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Standalone embedded video player",
+    "mergedInto": null
+  }
+}

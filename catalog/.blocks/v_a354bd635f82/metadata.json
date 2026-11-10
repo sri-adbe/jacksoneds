@@ -1,0 +1,38 @@
+{
+  "id": "v_a354bd635f82",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link"
+  },
+  "layoutKey": "([T|~(T)] [~(T)])",
+  "colour": "([Tk|~w(Tk)] [~w(Tk)])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities.html",
+        "instanceId": "d3725755d24a",
+        "instanceIds": [
+          "d3725755d24a"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_html--89e15c07/blocks/d3725755d24a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Category cards linking to product category pages",
+    "mergedInto": "v_6d017593289b"
+  }
+}

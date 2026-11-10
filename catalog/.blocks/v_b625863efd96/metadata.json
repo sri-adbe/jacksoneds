@@ -1,0 +1,86 @@
+{
+  "id": "v_b625863efd96",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/accessibility.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "field + text + video + button"
+  },
+  "layoutKey": "form",
+  "colour": "form",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/accessibility.html",
+        "instanceId": "8c7ae178e068",
+        "instanceIds": [
+          "8c7ae178e068"
+        ],
+        "screenshot": ".pages/www_jackson_com_accessibility_html--28fc2032/blocks/8c7ae178e068.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html",
+        "instanceId": "03a84c0223aa",
+        "instanceIds": [
+          "03a84c0223aa"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_elite-access-ii-performance-center_html--77736f1e/blocks/03a84c0223aa.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
+        "instanceId": "03a84c0223aa",
+        "instanceIds": [
+          "03a84c0223aa"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-advisory-ii-performance-center_html--f3d20af6/blocks/03a84c0223aa.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html",
+        "instanceId": "03a84c0223aa",
+        "instanceIds": [
+          "03a84c0223aa"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-ii-performance-center_html--f184984b/blocks/03a84c0223aa.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/find-your-wholesaler.html",
+        "instanceId": "38ff502ba37c",
+        "instanceIds": [
+          "38ff502ba37c"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965/blocks/38ff502ba37c.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/register.xhtml",
+        "instanceId": "cb6aa05b99b8",
+        "instanceIds": [
+          "cb6aa05b99b8"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_register_xhtml--2395b9d7/blocks/cb6aa05b99b8.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/registration/ria.xhtml",
+        "instanceId": "eea796949cfe",
+        "instanceIds": [
+          "eea796949cfe"
+        ],
+        "screenshot": ".pages/www_jackson_com_registration_ria_xhtml--33321b02/blocks/eea796949cfe.jpg"
+      }
+    ],
+    "reuseCount": 7
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Transactional application/login form from the app; likely an embed of the app rather than authored",
+    "mergedInto": null
+  }
+}

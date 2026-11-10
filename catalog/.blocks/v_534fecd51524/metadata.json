@@ -1,0 +1,54 @@
+{
+  "id": "v_534fecd51524",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/ria-and-wealth-managers.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + link + text"
+  },
+  "layoutKey": "~([(T [T])*2.75|T])",
+  "colour": "~w([(Tk [Tk])|T])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/",
+        "instanceId": "b58b07984b99",
+        "instanceIds": [
+          "b58b07984b99"
+        ],
+        "screenshot": ".pages/www_jackson_com--0b8df100/blocks/b58b07984b99.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "instanceId": "fcafa7b06738",
+        "instanceIds": [
+          "fcafa7b06738"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/fcafa7b06738.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Wide intro column with CTAs beside a narrow benefits list",
+    "mergedInto": null
+  }
+}

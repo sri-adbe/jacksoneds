@@ -1,0 +1,54 @@
+{
+  "id": "v_73cce7700691",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "button"
+  },
+  "layoutKey": "button",
+  "colour": "button~r",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+        "instanceId": "31e7ebc992c4",
+        "instanceIds": [
+          "31e7ebc992c4"
+        ],
+        "screenshot": ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/31e7ebc992c4.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html",
+        "instanceId": "2c5590b20612",
+        "instanceIds": [
+          "2c5590b20612"
+        ],
+        "screenshot": ".pages/www_jackson_com_transactional-forms_claims_claims-initial-notice_html--a21a9e7c/blocks/2c5590b20612.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "instanceId": "424979d93a4f",
+        "instanceIds": [
+          "424979d93a4f"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/424979d93a4f.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Tool launch button only on calculator pages; could also be a plain default-content button",
+    "mergedInto": "v_82713101398f"
+  }
+}

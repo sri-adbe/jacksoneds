@@ -1,0 +1,38 @@
+{
+  "id": "v_4bf32ee1fa2d",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + video + heading + text"
+  },
+  "layoutKey": "[(T iframe)]",
+  "colour": "[(Tk iframe)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+        "instanceId": "6482d19832de",
+        "instanceIds": [
+          "6482d19832de"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/6482d19832de.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Look-alike video items each with heading and description",
+    "mergedInto": null
+  }
+}

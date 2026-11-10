@@ -1,0 +1,38 @@
+{
+  "id": "v_23a18fa8e636",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/forms/forms.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "button + field"
+  },
+  "layoutKey": "(T [button|input])",
+  "colour": "(Tk [button~r|input~w])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "instanceId": "b39f7fccf0fe",
+        "instanceIds": [
+          "b39f7fccf0fe"
+        ],
+        "screenshot": ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/b39f7fccf0fe.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Keyword search for a forms list; library search uses a query index and may not fit",
+    "mergedInto": null
+  }
+}

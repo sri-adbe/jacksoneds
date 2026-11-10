@@ -1,0 +1,38 @@
+{
+  "id": "v_3ded1b6c5c85-1",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources/client-resources.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + image + text + link"
+  },
+  "layoutKey": "([tab|tab*1.25] [~(T)] ~(T [~(T)]))",
+  "colour": "([tab|tab*1.25] [~n(Tw)] ~n(Tk [~w(Tk)]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/client-resources.html",
+        "instanceId": "af47d0e60b1d",
+        "instanceIds": [
+          "af47d0e60b1d"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_client-resources_html--e79c83da/blocks/af47d0e60b1d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Tabs switching resource card panels",
+    "mergedInto": "v_194910149592"
+  }
+}

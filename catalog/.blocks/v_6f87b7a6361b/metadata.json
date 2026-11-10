@@ -1,0 +1,110 @@
+{
+  "id": "v_6f87b7a6361b",
+  "type": "default-content",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.017Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/forms/forms.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "layoutKey": "~(T)",
+  "colour": "~m(Tw)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "instanceId": "59dca552207b",
+        "instanceIds": [
+          "59dca552207b"
+        ],
+        "screenshot": ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/59dca552207b.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-password.xhtml",
+        "instanceId": "d743867db6a3",
+        "instanceIds": [
+          "d743867db6a3"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/d743867db6a3.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-username.xhtml",
+        "instanceId": "d743867db6a3",
+        "instanceIds": [
+          "d743867db6a3"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/d743867db6a3.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/login.xhtml",
+        "instanceId": "2824ffbc034f",
+        "instanceIds": [
+          "2824ffbc034f"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/2824ffbc034f.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "instanceId": "00ad8adab13f",
+        "instanceIds": [
+          "00ad8adab13f"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/00ad8adab13f.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "instanceId": "8cb444a94794",
+        "instanceIds": [
+          "8cb444a94794"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/8cb444a94794.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "instanceId": "fcafa7b06738",
+        "instanceIds": [
+          "fcafa7b06738"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/fcafa7b06738.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "instanceId": "fcafa7b06738",
+        "instanceIds": [
+          "fcafa7b06738"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/fcafa7b06738.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "instanceId": "fcafa7b06738",
+        "instanceIds": [
+          "fcafa7b06738"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/fcafa7b06738.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "instanceId": "fb5624e1f3e7",
+        "instanceIds": [
+          "fb5624e1f3e7"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/fb5624e1f3e7.jpg"
+      }
+    ],
+    "reuseCount": 10
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Heading, paragraph and button on a full-width panel an author can type with a section style; opens the page often, so a text-only hero is possible",
+    "mergedInto": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v_3c7cb897641c",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text + link"
+  },
+  "layoutKey": "~@(~([T]))",
+  "colour": "~@(~o([Tk]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "instanceId": "17e22810179b",
+        "instanceIds": [
+          "17e22810179b"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/17e22810179b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Background photo with an inset box holding heading, text and button",
+    "mergedInto": "v_94020c7dbd6a-1"
+  }
+}

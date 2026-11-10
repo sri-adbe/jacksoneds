@@ -1,0 +1,96 @@
+{
+  "id": "v_92ebe11167df",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list + link"
+  },
+  "layoutKey": "~([T|menuitem])",
+  "colour": "~w([Tk|form])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities.html",
+        "instanceId": "c37b08da9a3e",
+        "instanceIds": [
+          "c37b08da9a3e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/c37b08da9a3e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
+        "instanceId": "159f3cd3c163",
+        "instanceIds": [
+          "159f3cd3c163"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-advisory-ii-performance-center_html--f3d20af6/blocks/159f3cd3c163.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html",
+        "instanceId": "c0f2d9abc9ab",
+        "instanceIds": [
+          "c0f2d9abc9ab"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/c0f2d9abc9ab.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "instanceId": "c0f2d9abc9ab",
+        "instanceIds": [
+          "c0f2d9abc9ab"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/c0f2d9abc9ab.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+        "instanceId": "c0f2d9abc9ab",
+        "instanceIds": [
+          "c0f2d9abc9ab"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/c0f2d9abc9ab.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html",
+        "instanceId": "226e1c20440a",
+        "instanceIds": [
+          "226e1c20440a",
+          "7da22f26f737",
+          "c0f2d9abc9ab"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/226e1c20440a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html",
+        "instanceId": "c0f2d9abc9ab",
+        "instanceIds": [
+          "c0f2d9abc9ab"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/c0f2d9abc9ab.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "instanceId": "1c93db1356cf",
+        "instanceIds": [
+          "1c93db1356cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/1c93db1356cf.jpg"
+      }
+    ],
+    "reuseCount": 8
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Intro copy beside an embedded lead-capture form; no library form block",
+    "mergedInto": null
+  }
+}

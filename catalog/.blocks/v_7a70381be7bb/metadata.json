@@ -1,0 +1,38 @@
+{
+  "id": "v_7a70381be7bb",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field"
+  },
+  "layoutKey": "~([[~([T|input])]*3|~([T|input])])",
+  "colour": "~w([[~b([Tk|input])|~c([Tk|input])|~o([Tk|input])]*3|~m([Tw|input])])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "instanceId": "352f509a575c",
+        "instanceIds": [
+          "352f509a575c"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/352f509a575c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Checkbox filter chips controlling a listing below",
+    "mergedInto": null
+  }
+}

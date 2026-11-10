@@ -1,0 +1,46 @@
+{
+  "id": "v_d73c5d628dba",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + image + text + list + link"
+  },
+  "layoutKey": "[(T [T] [T|~(T)])*2.75|~(T)]",
+  "colour": "[(Tk [Tk] [T|~w(Tk)])*2.75|~w(Tk)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities.html",
+        "instanceId": "de9a4265472e",
+        "instanceIds": [
+          "de9a4265472e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_html--89e15c07/blocks/de9a4265472e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community.html",
+        "instanceId": "3151c648dd88",
+        "instanceIds": [
+          "3151c648dd88"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6/blocks/3151c648dd88.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Article body with a related-links sidebar; could be page layout via sections instead",
+    "mergedInto": null
+  }
+}

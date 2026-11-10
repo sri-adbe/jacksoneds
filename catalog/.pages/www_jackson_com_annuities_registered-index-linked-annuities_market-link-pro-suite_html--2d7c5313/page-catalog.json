@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html",
+  "title": "Market Link Pro Suite | Jackson",
+  "timestamp": "2026-11-10T15:34:39.643Z",
+  "duration": "16.1s",
+  "cleanup": {
+    "elementsRemoved": 6,
+    "types": [
+      "overlay",
+      "cookie-banner"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(26)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/jackson-logo.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/hero/registered-index-linked-annuities_1355067067_1920x460.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/seedling_icon_136x136_136x136_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/shield_alt_icon_136x136_136x136_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/rebrand/icons/sliders_h_icon_136x136_136x136_red.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/icons/bar-graph.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/1_Year_Negative_Less_Than_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/1_Year_Negative_-10_-20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/1_Year_Negative_0_-10.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/1_Year_Positive_0_10.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/1_Year_Positive_10_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/1_Year_Positive_More_Than_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/3_Year_Negative_Less_Than_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/3_Year_Negative_-10_-20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/3_Year_Negative_0_-10.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/3_Year_Positive_0_10.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/3_Year_Positive_10_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/3_Year_Positive_More_Than_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/6_Year_Negative_Less_Than_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/6_Year_Negative_-10_-20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/6_Year_Negative_0_-10.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/6_Year_Positive_0_10.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/6_Year_Positive_10_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/6_Year_Positive_More_Than_20.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/buffer.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/crediting-methods.png",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/jmlp/+income.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/broker-check.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=a8b50644-fc36-4d23-8213-475fd051eca4&bo=1&sid=2b4573f0dd1c11f1beb97bfff7866760&vid=2b45a910dd1c11f1996983ce7e23b7a5&vids=0&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=1920&sh=1080&sc=24&tl=Market%20Link%20Pro%20Suite%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Fannuities%2Fregistered-index-linked-annuities%2Fmarket-link-pro-suite.html&r=&lt=1464&pt=1794324864162,,,,,0,0,0,0,18,13,18,126,159,163,1460,1460,1464,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQAQ&rn=555049",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/sprites/global-sprite.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "sB(s(s,s(s(s(,),s(,)),s,s(2x1,s(,)),s(s,2x2,s,s,s,s,s,s,12x2,s,s,s,4x2,s,s,s,3x1,s)),s),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.responsive.brandEvolution",
+      "rc1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(1)",
+      "rc1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1)",
+      "rc1c2c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.header",
+      "rc1c2c1c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.header > div.content-area.header-content.h1.center > div.subpage-header-block",
+      "rc1c2c1c1c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.header > div.content-area.header-content.h1.center > div.subpage-header-block > div.title",
+      "rc1c2c1c1c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.header > div.content-area.header-content.h1.center > div.subpage-header-block > div.description",
+      "rc1c2c1c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.header > div.content-area.header-content.h1.center > div.child-items",
+      "rc1c2c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.tab.v3.event-setup",
+      "rc1c2c1c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.tab.v3.event-setup > div.tab-container",
+      "rc1c2c1c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(1) > div > div.xf-content-height > div.parsys > div.step-progress-bar.v2 > div.content-area > div.tab.v3.event-setup > div.tab-content-wrappper",
+      "rc1c2c1c2c2c1": "#overview-tab > div.image-herospace",
+      "rc1c2c1c2c2c1c1": "#overview-tab > div.image-herospace > div.image-herospace__image",
+      "rc1c2c1c2c2c1c2": "#overview-tab > div.image-herospace > div.image-herospace__wrapper.content-area",
+      "rc1c2c1c2c2c2": "#overview-tab > div.layout-container",
+      "rc1c2c1c2c2c2c1": "#overview-tab > div.layout-container > div.content-area.no-separator > h3",
+      "rc1c2c1c2c2c2c2": "#overview-tab > div.layout-container > div.content-area.no-separator > div.three-column",
+      "rc1c2c1c2c2c3": "#overview-tab > div.cta.base-version",
+      "rc1c2c1c2c2c4": "#overview-tab > div.background-container.base-version",
+      "rc1c2c1c2c2c4c1": "#overview-tab > div.background-container.base-version > div.content-area > div.contents.bg-color.extend-bg > div.layout-container > div.content-area > div.one-column > div.cta-list-wrapper > div.content > div.cta-list.v2 > div.content-area > div.cta-list__content > div.cta-list__header.list-header.full-width",
+      "rc1c2c1c2c2c4c2": "#overview-tab > div.background-container.base-version > div.content-area > div.contents.bg-color.extend-bg > div.layout-container > div.content-area > div.one-column > div.cta-list-wrapper > div.content > div.cta-list.v2 > div.content-area > div.cta-list__content > div.cta-list__description.list-description",
+      "rc1c2c1c2c2c4c2c1": "#overview-tab > div.background-container.base-version > div.content-area > div.contents.bg-color.extend-bg > div.layout-container > div.content-area > div.one-column > div.cta-list-wrapper > div.content > div.cta-list.v2 > div.content-area > div.cta-list__content > div.cta-list__description.list-description > p:nth-of-type(1)",
+      "rc1c2c1c2c2c4c2c2": "#overview-tab > div.background-container.base-version > div.content-area > div.contents.bg-color.extend-bg > div.layout-container > div.content-area > div.one-column > div.cta-list-wrapper > div.content > div.cta-list.v2 > div.content-area > div.cta-list__content > div.cta-list__description.list-description > p:nth-of-type(2)",
+      "rc1c2c1c2c2c4c2c3": "#overview-tab > div.background-container.base-version > div.content-area > div.contents.bg-color.extend-bg > div.layout-container > div.content-area > div.one-column > div.cta-list-wrapper > div.content > div.cta-list.v2 > div.content-area > div.cta-list__content > div.cta-list__description.list-description > p:nth-of-type(3)",
+      "rc1c2c1c2c2c4c3": "#overview-tab > div.background-container.base-version > div.content-area > div.contents.bg-color.extend-bg > div.layout-container > div.content-area > div.one-column > div.cta-list-wrapper > div.content > div.cta-list.v2 > div.content-area > div.cta-list__content > div.customContent.parsys",
+      "rc1c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.rte",
+      "rc1c2c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(3)",
+      "rc1c2c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(3) > div > div.xf-content-height > div.tab-container.v4 > div.content-area > div.tab.v4.event-setup > div.tab-container",
+      "rc1c2c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(3) > div > div.xf-content-height > div.tab-container.v4 > div.content-area > div.tab.v4.event-setup > div.tab-content-wrappper",
+      "rc1c2c3c2c1": "#all-other-states-tab > div.layout-container > div.content-area > h3",
+      "rc1c2c3c2c2": "#all-other-states-tab > div.layout-container > div.content-area > div.two-column",
+      "rc1c2c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4)",
+      "rc1c2c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > div.separator",
+      "rc1c2c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(1)",
+      "rc1c2c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(2)",
+      "rc1c2c4c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(3)",
+      "rc1c2c4c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(4)",
+      "rc1c2c4c6": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(5)",
+      "rc1c2c4c7": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(6)",
+      "rc1c2c4c8": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(7)",
+      "rc1c2c4c9": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(8)",
+      "rc1c2c4c10": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(9)",
+      "rc1c2c4c11": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(10)",
+      "rc1c2c4c12": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(11)",
+      "rc1c2c4c13": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(12)",
+      "rc1c2c4c14": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(13)",
+      "rc1c2c4c15": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(14)",
+      "rc1c2c4c16": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(15)",
+      "rc1c2c4c17": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(16)",
+      "rc1c2c4c18": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.experiencefragment-personalization:nth-of-type(4) > div > div.xf-content-height > div.disclosure > div.content-area > p:nth-of-type(17)",
+      "rc1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+      "rc2": "body > div:nth-of-type(4)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(1)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div:nth-of-type(4)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 100,
+      "height": 3927
+    },
+    "splits": [],
+    "start": {
+      "kind": "text on photo"
+    }
+  },
+  "blocks": [
+    {
+      "id": "f7981841cc7a",
+      "type": "unknown",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(1)",
+      "bounds": {
+        "x": 0,
+        "y": 100,
+        "width": 1440,
+        "height": 1640
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "dense",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + list + image + link + text"
+      },
+      "description": "experiencefragment-personalization",
+      "features": {
+        "skeleton": "(T ~([tab]) T [T] T ~(T))",
+        "variant": "(Tr ~s([tab~r|tab]) Tkm [Tm] Tw ~w(Tkm))",
+        "variantClean": "(Tk ~s([tab~r|tab]) Tk [Tk] Tw ~w(Tk))"
+      },
+      "screenshot": "blocks/f7981841cc7a.jpg",
+      "html": "blocks/f7981841cc7a.html",
+      "variantId": "v_ebd6a3990a4f"
+    },
+    {
+      "id": "e5f87937fed5",
+      "type": "tabs",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+      "bounds": {
+        "x": 0,
+        "y": 1832,
+        "width": 1440,
+        "height": 794
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "list + heading + text"
+      },
+      "description": "experiencefragment-personalization",
+      "features": {
+        "skeleton": "([tab] T [~(T [T])])",
+        "variant": "([tab~r|tab] Tm [~w(Tkm [Tk])])",
+        "variantClean": "([tab~r|tab] Tk [~w(Tk [Tk])])"
+      },
+      "screenshot": "blocks/e5f87937fed5.jpg",
+      "html": "blocks/e5f87937fed5.html",
+      "variantId": "v_194910149592"
+    },
+    {
+      "id": "a4d4b81618bf",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(2)",
+      "bounds": {
+        "x": 40,
+        "y": 2769,
+        "width": 1360,
+        "height": 110
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/a4d4b81618bf.html"
+    },
+    {
+      "id": "15633c9f7e0b",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(3)",
+      "bounds": {
+        "x": 40,
+        "y": 2894,
+        "width": 1360,
+        "height": 88
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/15633c9f7e0b.html"
+    },
+    {
+      "id": "96f9d20b2b7c",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(4)",
+      "bounds": {
+        "x": 40,
+        "y": 2997,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/96f9d20b2b7c.html"
+    },
+    {
+      "id": "4af42120ef74",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(5)",
+      "bounds": {
+        "x": 40,
+        "y": 3072,
+        "width": 1360,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/4af42120ef74.html"
+    },
+    {
+      "id": "0dcb4ebc31da",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(6)",
+      "bounds": {
+        "x": 40,
+        "y": 3127,
+        "width": 1360,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/0dcb4ebc31da.html"
+    },
+    {
+      "id": "ba1c924a462e",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(7)",
+      "bounds": {
+        "x": 40,
+        "y": 3182,
+        "width": 1360,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/ba1c924a462e.html"
+    },
+    {
+      "id": "26d3e904f86e",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(8)",
+      "bounds": {
+        "x": 40,
+        "y": 3237,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/26d3e904f86e.html"
+    },
+    {
+      "id": "e75c7a19a230",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(9)",
+      "bounds": {
+        "x": 40,
+        "y": 3312,
+        "width": 1360,
+        "height": 100
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/e75c7a19a230.html"
+    },
+    {
+      "id": "ba6c8c895355",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(10)",
+      "bounds": {
+        "x": 40,
+        "y": 3427,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/ba6c8c895355.html"
+    },
+    {
+      "id": "368d53e7e099",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(11)",
+      "bounds": {
+        "x": 40,
+        "y": 3502,
+        "width": 1360,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/368d53e7e099.html"
+    },
+    {
+      "id": "78011be7203a",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(12)",
+      "bounds": {
+        "x": 40,
+        "y": 3557,
+        "width": 1360,
+        "height": 80
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/78011be7203a.html"
+    },
+    {
+      "id": "031a2a7dc045",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(13)",
+      "bounds": {
+        "x": 40,
+        "y": 3652,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/031a2a7dc045.html"
+    },
+    {
+      "id": "97a3ce12a373",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(14)",
+      "bounds": {
+        "x": 40,
+        "y": 3727,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/97a3ce12a373.html"
+    },
+    {
+      "id": "67015ccec76c",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(15)",
+      "bounds": {
+        "x": 40,
+        "y": 3802,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/67015ccec76c.html"
+    },
+    {
+      "id": "0752f6095c12",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(16)",
+      "bounds": {
+        "x": 40,
+        "y": 3837,
+        "width": 1360,
+        "height": 120
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/0752f6095c12.html"
+    },
+    {
+      "id": "e7b29e0f1b91",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(17)",
+      "bounds": {
+        "x": 40,
+        "y": 3972,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/e7b29e0f1b91.html"
+    },
+    {
+      "id": "9c1f412acf85",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#expVar-2070401201 > div > div > div > p:nth-child(18)",
+      "bounds": {
+        "x": 40,
+        "y": 4007,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/9c1f412acf85.html"
+    }
+  ]
+}

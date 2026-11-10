@@ -1,0 +1,46 @@
+{
+  "id": "v_111be63a6dd8-1",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + image + text"
+  },
+  "layoutKey": "[(T ~(T ~(T)))]",
+  "colour": "[(T ~n(Tw ~w(Tk)))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources.html",
+        "instanceId": "78e36a4b09b0",
+        "instanceIds": [
+          "78e36a4b09b0"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/78e36a4b09b0.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+        "instanceId": "5287cbb48178",
+        "instanceIds": [
+          "5287cbb48178"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/5287cbb48178.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Article listing with tags, dates and read times linking to detail pages",
+    "mergedInto": null
+  }
+}

@@ -1,0 +1,82 @@
+.list-filter .list-filter-form {
+  margin: 0;
+}
+
+.list-filter fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.list-filter legend {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.list-filter .list-filter-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.list-filter .list-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 8px 20px;
+  border: 1px solid;
+  border-radius: 999px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.list-filter .list-filter-chip input {
+  margin: 0;
+}
+
+.list-filter .list-filter-chip:has(input:checked),
+.list-filter .list-filter-all[aria-pressed='true'] {
+  font-weight: 700;
+}
+
+.list-filter label[for] {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.list-filter select {
+  min-width: 200px;
+  padding: 8px 12px;
+  font: inherit;
+}
+
+.list-filter .list-filter-status {
+  margin: 8px 0 0;
+  font-size: var(--body-font-size-xs);
+}
+
+.list-filter .list-filter-status:empty {
+  display: none;
+}
+
+/* alt: the year selector sits inline with its label */
+.list-filter.alt .list-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.list-filter.alt label[for] {
+  margin: 0;
+}

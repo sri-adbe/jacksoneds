@@ -1,0 +1,54 @@
+{
+  "id": "v_8a76ff861339",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text + list"
+  },
+  "layoutKey": "~([(T [T])*2.75|T])",
+  "colour": "~n([(Tk [Tk])|T])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "instanceId": "fe79079fc819",
+        "instanceIds": [
+          "fe79079fc819"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/fe79079fc819.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html",
+        "instanceId": "fe79079fc819",
+        "instanceIds": [
+          "fe79079fc819"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/fe79079fc819.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+        "instanceId": "fe79079fc819",
+        "instanceIds": [
+          "fe79079fc819"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/fe79079fc819.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "described as photo + text split, fits columns-feature",
+    "mergedInto": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v_b81b1ea08ea2",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/your-financial-future/educational-resources.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + image + heading + text"
+  },
+  "layoutKey": "[~(T ~(~@(~(T))))]",
+  "colour": "[~w(Tk ~s(~@(~m(Tw))))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "instanceId": "ef4c09cb7e1b",
+        "instanceIds": [
+          "ef4c09cb7e1b"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/ef4c09cb7e1b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Article cards with photo, tag, date and title linking to articles",
+    "mergedInto": "v_111be63a6dd8-1"
+  }
+}

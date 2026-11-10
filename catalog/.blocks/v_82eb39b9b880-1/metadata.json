@@ -1,0 +1,78 @@
+{
+  "id": "v_82eb39b9b880-1",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + field + video + button"
+  },
+  "layoutKey": "[T|form]",
+  "colour": "[Tk|form]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html",
+        "instanceId": "13df169fd385",
+        "instanceIds": [
+          "13df169fd385"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/13df169fd385.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "instanceId": "dc80b6a66ccd",
+        "instanceIds": [
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/dc80b6a66ccd.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "instanceId": "4584543d3860",
+        "instanceIds": [
+          "4584543d3860"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/4584543d3860.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "instanceId": "4e4ad634f569",
+        "instanceIds": [
+          "4e4ad634f569"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/4e4ad634f569.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "instanceId": "dc80b6a66ccd",
+        "instanceIds": [
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/dc80b6a66ccd.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "instanceId": "0a9c6434299e",
+        "instanceIds": [
+          "0a9c6434299e"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/0a9c6434299e.jpg"
+      }
+    ],
+    "reuseCount": 6
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Same consultant contact form beside intro copy, unboxed",
+    "mergedInto": "v_92ebe11167df"
+  }
+}

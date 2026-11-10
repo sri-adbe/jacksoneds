@@ -1,0 +1,184 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.jackson.com/"
+      ],
+      "description": "Landing page with full-width background hero, tabbed feature panels, three-column card rows and disclosures"
+    },
+    {
+      "name": "utility-page",
+      "urls": [
+        "https://www.jackson.com/accessibility.html",
+        "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html",
+        "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
+        "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html",
+        "https://www.jackson.com/frequently-asked-questions.html",
+        "https://www.jackson.com/interval-funds.html",
+        "https://www.jackson.com/legal-and-privacy.html",
+        "https://www.jackson.com/performance-center.html"
+      ],
+      "description": "Breadcrumb, page title and long-form text or FAQ/table content in a single column, with optional form"
+    },
+    {
+      "name": "content-page",
+      "urls": [
+        "https://www.jackson.com/annuities.html",
+        "https://www.jackson.com/annuities/benefits-of-annuities.html",
+        "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+        "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+        "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+        "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+        "https://www.jackson.com/annuities/fixed-annuities.html",
+        "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "https://www.jackson.com/annuities/variable-annuities.html",
+        "https://www.jackson.com/annuities/variable-annuities/investment-options.html",
+        "https://www.jackson.com/cyber-security.html",
+        "https://www.jackson.com/financial-professional/annuity-products.html",
+        "https://www.jackson.com/financial-professional/annuity-products/product-match-pro.html",
+        "https://www.jackson.com/financial-professional/get-appointed.html",
+        "https://www.jackson.com/financial-professional/resources.html",
+        "https://www.jackson.com/financial-professional/why-jackson.html",
+        "https://www.jackson.com/financial-professionals.html",
+        "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+        "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+        "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html",
+        "https://www.jackson.com/ria-and-wealth-managers.html",
+        "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "https://www.jackson.com/supplier-management.html",
+        "https://www.jackson.com/the-jackson-difference.html",
+        "https://www.jackson.com/the-jackson-difference/careers.html",
+        "https://www.jackson.com/the-jackson-difference/corporate-responsibility.html",
+        "https://www.jackson.com/the-jackson-difference/supporting-our-community.html",
+        "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "https://www.jackson.com/the-jackson-difference/who-we-are.html",
+        "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+        "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html",
+        "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html",
+        "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+        "https://www.jackson.com/your-financial-future.html",
+        "https://www.jackson.com/your-financial-future/calculators-and-tools.html",
+        "https://www.jackson.com/your-financial-future/educational-resources.html",
+        "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html",
+        "https://www.jackson.com/your-financial-future/retirement-statistics.html"
+      ],
+      "description": "Breadcrumb, hero banner with optional sidebar layout, alternating text-and-media columns, card rows and disclosure footer"
+    },
+    {
+      "name": "product-detail",
+      "urls": [
+        "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+        "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html",
+        "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html",
+        "https://www.jackson.com/annuities/variable-annuities/perspective-family.html",
+        "https://www.jackson.com/financial-professional.html"
+      ],
+      "description": "Product page with in-page step/jump bar, highlight comparison layout, tabbed detail panels and two-column feature rows"
+    },
+    {
+      "name": "updates-page",
+      "urls": [
+        "https://www.jackson.com/ax-updates.html"
+      ],
+      "description": "Breadcrumb, image hero, title and repeated highlight comparison panels"
+    },
+    {
+      "name": "calculator-tool",
+      "urls": [
+        "https://www.jackson.com/dash/tools/retirement-expense-calculator.html",
+        "https://www.jackson.com/financial-professionals/get-appointed.html"
+      ],
+      "description": "Interactive tool page with hero, step navigation, tool form area, promo cards and disclosures"
+    },
+    {
+      "name": "advisor-content-page",
+      "urls": [
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs.html",
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html",
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html",
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html",
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html",
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html",
+        "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html",
+        "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+        "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html",
+        "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+        "https://www.jackson.com/financial-professional/bank.html",
+        "https://www.jackson.com/financial-professional/bank/referral.html",
+        "https://www.jackson.com/financial-professional/contact-us.html",
+        "https://www.jackson.com/financial-professional/credit-union.html",
+        "https://www.jackson.com/financial-professional/credit-union/referral.html",
+        "https://www.jackson.com/financial-professional/find-your-wholesaler.html",
+        "https://www.jackson.com/financial-professional/independent.html",
+        "https://www.jackson.com/financial-professional/insurance-professional.html",
+        "https://www.jackson.com/financial-professional/regional.html",
+        "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html",
+        "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html",
+        "https://www.jackson.com/financial-professional/resources/client-resources.html",
+        "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+        "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html",
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html",
+        "https://www.jackson.com/financial-professional/sitemap.html",
+        "https://www.jackson.com/financial-professional/why-jackson/customer-care.html",
+        "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html",
+        "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html",
+        "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html",
+        "https://www.jackson.com/financial-professional/wirehouse.html"
+      ],
+      "description": "Text-only hero, feature accordion, text blocks, 50-50 feature rows and card containers"
+    },
+    {
+      "name": "listing-page",
+      "urls": [
+        "https://www.jackson.com/financial-professionals/jackson-live.html",
+        "https://www.jackson.com/sitemap.html"
+      ],
+      "description": "Breadcrumb, tinted intro band with logo or heading, then a list or table of items and rich text"
+    },
+    {
+      "name": "app-search-form",
+      "urls": [
+        "https://www.jackson.com/forms/forms.xhtml",
+        "https://www.jackson.com/login/register.xhtml"
+      ],
+      "description": "Application page with upload or search form, data table with paginator and page disclosures"
+    },
+    {
+      "name": "account-recovery-form",
+      "urls": [
+        "https://www.jackson.com/login/forgot-password.xhtml",
+        "https://www.jackson.com/login/forgot-username.xhtml"
+      ],
+      "description": "Single short application form with supporting text and disclosure boxes"
+    },
+    {
+      "name": "sign-in",
+      "urls": [
+        "https://www.jackson.com/login/login.xhtml"
+      ],
+      "description": "Application sign-in form with action links, sign-in help links and disclosure boxes"
+    },
+    {
+      "name": "registration-form",
+      "urls": [
+        "https://www.jackson.com/registration/ria.xhtml"
+      ],
+      "description": "Multi-field application registration form with page disclosures"
+    },
+    {
+      "name": "claim-form",
+      "urls": [
+        "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html"
+      ],
+      "description": "Transactional multi-section form with a heading and full-width form columns"
+    }
+  ]
+}

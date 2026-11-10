@@ -1,0 +1,38 @@
+{
+  "id": "v_88b53fa0318c",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/forms/forms.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + field + button"
+  },
+  "layoutKey": "~([T|button|combobox])",
+  "colour": "~w([Tk|button~r|combobox~w])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "instanceId": "4c65df5e98e4",
+        "instanceIds": [
+          "4c65df5e98e4"
+        ],
+        "screenshot": ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/4c65df5e98e4.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Pagination and bulk-email toolbar of the forms library app",
+    "mergedInto": "v_23a18fa8e636"
+  }
+}

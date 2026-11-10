@@ -1,0 +1,132 @@
+{
+  "id": "v_5a1817638b65",
+  "type": "default-content",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "layoutKey": "T",
+  "colour": "Tk",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities.html",
+        "instanceId": "039447ab843e",
+        "instanceIds": [
+          "039447ab843e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_html--89e15c07/blocks/039447ab843e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/sitemap.html",
+        "instanceId": "4f2429f51ea8",
+        "instanceIds": [
+          "4f2429f51ea8"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_sitemap_html--cce94951/blocks/4f2429f51ea8.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-password.xhtml",
+        "instanceId": "69a752735f4a",
+        "instanceIds": [
+          "69a752735f4a"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/69a752735f4a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-username.xhtml",
+        "instanceId": "69a752735f4a",
+        "instanceIds": [
+          "69a752735f4a"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/69a752735f4a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/login.xhtml",
+        "instanceId": "772097d39ca5",
+        "instanceIds": [
+          "772097d39ca5",
+          "dc9c82a465c0"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/772097d39ca5.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/sitemap.html",
+        "instanceId": "1d703df945fe",
+        "instanceIds": [
+          "1d703df945fe"
+        ],
+        "screenshot": ".pages/www_jackson_com_sitemap_html--284a1168/blocks/1d703df945fe.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/supplier-management.html",
+        "instanceId": "01397a11f78c",
+        "instanceIds": [
+          "01397a11f78c",
+          "3e8c59c7ae4a",
+          "758aaa33b1e8"
+        ],
+        "screenshot": ".pages/www_jackson_com_supplier-management_html--25a28c9e/blocks/01397a11f78c.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "instanceId": "262b3fa6dad5",
+        "instanceIds": [
+          "262b3fa6dad5"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/262b3fa6dad5.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+        "instanceId": "5fc3c87e4419",
+        "instanceIds": [
+          "5fc3c87e4419",
+          "2acc481b8f24",
+          "83aa88d5ab6f",
+          "46a89bcd51c4",
+          "7192f71469b3",
+          "00e50b930ed8",
+          "77dfe6f001f6",
+          "8471d0979195",
+          "fd176a846f99",
+          "3b2cc224cae0",
+          "15b01eb7a1a7",
+          "ab2f63a965cf",
+          "aa7578dd8c2e",
+          "7b5463bcfa32",
+          "e7351e7b3721",
+          "af97c8f5e244",
+          "0cd7c5795794",
+          "8a9754e925c5",
+          "52c4ea675658",
+          "67d667b09146",
+          "0b1d136a440f",
+          "95b3ffc2b979",
+          "a4ef803c38d3",
+          "210eec295f7e",
+          "e4138ec0f9e2",
+          "a5210149a735",
+          "921060692442",
+          "aa6840772b4d"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/5fc3c87e4419.jpg"
+      }
+    ],
+    "reuseCount": 9
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Icon, heading, line of text and link an author can type; could be a one-item cards-feature",
+    "mergedInto": null
+  }
+}

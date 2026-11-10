@@ -1,0 +1,38 @@
+{
+  "id": "v_353160be026d",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/your-financial-future/retirement-statistics.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + heading + text + link + image + button"
+  },
+  "layoutKey": "(T [T|T*1.25] [tab] button)",
+  "colour": "(Tk [T|Tk*1.25] [tab|tab~r] button)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/your-financial-future/retirement-statistics.html",
+        "instanceId": "bfb94f8e1df5",
+        "instanceIds": [
+          "bfb94f8e1df5"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190/blocks/bfb94f8e1df5.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Topic tabs switching research panels",
+    "mergedInto": "v_194910149592"
+  }
+}

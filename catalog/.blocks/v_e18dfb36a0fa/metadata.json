@@ -1,0 +1,46 @@
+{
+  "id": "v_e18dfb36a0fa",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/login/forgot-password.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + field"
+  },
+  "layoutKey": "(T input)",
+  "colour": "(Tk input~w)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/login/forgot-password.xhtml",
+        "instanceId": "e6892ef55428",
+        "instanceIds": [
+          "e6892ef55428"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/e6892ef55428.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-username.xhtml",
+        "instanceId": "e6892ef55428",
+        "instanceIds": [
+          "e6892ef55428"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/e6892ef55428.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Field of a login/password-recovery app form",
+    "mergedInto": "v_b625863efd96"
+  }
+}

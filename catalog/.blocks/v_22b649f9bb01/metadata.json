@@ -1,0 +1,38 @@
+{
+  "id": "v_22b649f9bb01",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/contact-us.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + link + field + video + button + table"
+  },
+  "layoutKey": "[(T form)|(T table)]",
+  "colour": "[(Tk form)|(Tk table)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/contact-us.html",
+        "instanceId": "5e21af32785a",
+        "instanceIds": [
+          "5e21af32785a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/5e21af32785a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Email form beside contact details; same contact job",
+    "mergedInto": "v_92ebe11167df"
+  }
+}

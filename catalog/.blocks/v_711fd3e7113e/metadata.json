@@ -1,0 +1,38 @@
+{
+  "id": "v_711fd3e7113e",
+  "type": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "button"
+  },
+  "layoutKey": "[button]",
+  "colour": "[button|button~r]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+        "instanceId": "d68e007b8a72",
+        "instanceIds": [
+          "d68e007b8a72"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/d68e007b8a72.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "category filter pills for an article list, a different job",
+    "mergedInto": null
+  }
+}

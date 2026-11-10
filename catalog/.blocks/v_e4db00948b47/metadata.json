@@ -1,0 +1,38 @@
+{
+  "id": "v_e4db00948b47",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "button"
+  },
+  "layoutKey": "nav",
+  "colour": "nav",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+        "instanceId": "8f4ab8c2fa09",
+        "instanceIds": [
+          "8f4ab8c2fa09"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/8f4ab8c2fa09.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Pagination for the article listing; may belong in cards-article code",
+    "mergedInto": null
+  }
+}

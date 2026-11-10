@@ -1,0 +1,1497 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+  "title": "News | Jackson",
+  "timestamp": "2026-11-10T15:39:02.299Z",
+  "duration": "21.3s",
+  "cleanup": {
+    "elementsRemoved": 6,
+    "types": [
+      "overlay",
+      "cookie-banner"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "html > body:nth-child(2) > div:nth-child(25)",
+        "type": "overlay"
+      },
+      {
+        "selector": "#QSIFeedbackButton-target-container",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/logo/Jackson_logo_reg_col_pos_rgb.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/c/hero/541148986_388x190.jpg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/logos/broker-check.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=26106962&tm=al001&Ver=2&mid=cda80013-bcf8-4741-8d78-5093921fa6a9&bo=1&sid=2e1601c0dd1c11f18f36b9bd18db5da2&vid=2e162970dd1c11f1931501c1f7931572&vids=0&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=1920&sh=1080&sc=24&tl=News%20%7C%20Jackson&p=https%3A%2F%2Fwww.jackson.com%2Fthe-jackson-difference%2Fwho-we-are%2Fnews.html&r=&lt=1164&pt=1794325121206,,,,,0,0,0,0,0,,1,46,48,51,1135,1136,1164,,,&pn=0,0&evt=pageLoad&sv=2&cdb=AQER&rn=260249",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jackson.com/content/dam/jacksoncom/graphics/sprites/global-sprite.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "sB(s(s,s,sB(2x1B,4x1,2x1B),s(2x1(2x1,s(,),s(,)),s(s,s,s,s,s,3x1)),s),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.responsive.brandEvolution",
+      "rc1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+      "rc1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+      "rc1c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__site-selector-bar",
+      "rc1c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.contact-us-secondary-nav-area",
+      "rc1c3c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed > div.masthead__wrapper.content-area.js-masthead > div.masthead__secondary.l-grid",
+      "rc1c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout",
+      "rc1c4c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.herospace",
+      "rc1c4c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.header",
+      "rc1c4c1c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.header > div.content-area.header-content.h2 > div.subpage-header-block",
+      "rc1c4c1c2c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.header > div.content-area.header-content.h2 > div.subpage-header-block > div.title",
+      "rc1c4c1c2c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.header > div.content-area.header-content.h2 > div.subpage-header-block > div.description",
+      "rc1c4c1c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.header > div.content-area.header-content.h2 > div.child-items",
+      "rc1c4c1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version",
+      "rc1c4c1c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.header-block",
+      "rc1c4c1c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area",
+      "rc1c4c1c3c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(1)",
+      "rc1c4c1c3c2c1c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(1) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c1c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(1) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c1c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(1) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(2)",
+      "rc1c4c1c3c2c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(2) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(2) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c2c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(2) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(3)",
+      "rc1c4c1c3c2c3c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(3) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c3c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(3) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c3c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(3) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(4)",
+      "rc1c4c1c3c2c4c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(4) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(4) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c4c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(4) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(5)",
+      "rc1c4c1c3c2c5c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(5) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c5c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(5) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c5c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(5) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c6": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(6)",
+      "rc1c4c1c3c2c6c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(6) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c6c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(6) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c6c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(6) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c7": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(7)",
+      "rc1c4c1c3c2c7c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(7) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c7c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(7) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c7c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(7) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c8": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(8)",
+      "rc1c4c1c3c2c8c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(8) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c8c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(8) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c8c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(8) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c9": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(9)",
+      "rc1c4c1c3c2c9c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(9) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c9c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(9) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c9c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(9) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c10": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(10)",
+      "rc1c4c1c3c2c10c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(10) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c10c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(10) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c10c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(10) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c11": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(11)",
+      "rc1c4c1c3c2c11c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(11) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c11c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(11) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c11c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(11) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c12": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(12)",
+      "rc1c4c1c3c2c12c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(12) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c12c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(12) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c12c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(12) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c13": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(13)",
+      "rc1c4c1c3c2c13c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(13) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c13c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(13) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c13c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(13) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c14": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(14)",
+      "rc1c4c1c3c2c14c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(14) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c14c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(14) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c14c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(14) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c15": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(15)",
+      "rc1c4c1c3c2c15c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(15) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c15c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(15) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c15c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(15) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c16": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(16)",
+      "rc1c4c1c3c2c16c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(16) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c16c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(16) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c16c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(16) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c17": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(17)",
+      "rc1c4c1c3c2c17c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(17) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c17c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(17) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c17c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(17) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c18": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(18)",
+      "rc1c4c1c3c2c18c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(18) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c18c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(18) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c18c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(18) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c19": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(19)",
+      "rc1c4c1c3c2c19c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(19) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c19c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(19) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c19c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(19) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c20": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(20)",
+      "rc1c4c1c3c2c20c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(20) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c20c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(20) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c20c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(20) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c21": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(21)",
+      "rc1c4c1c3c2c21c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(21) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c21c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(21) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c21c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(21) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c22": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(22)",
+      "rc1c4c1c3c2c22c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(22) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c22c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(22) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c22c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(22) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c23": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(23)",
+      "rc1c4c1c3c2c23c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(23) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c23c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(23) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c23c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(23) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c24": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(24)",
+      "rc1c4c1c3c2c24c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(24) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c24c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(24) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c24c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(24) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c25": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(25)",
+      "rc1c4c1c3c2c25c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(25) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c25c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(25) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c25c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(25) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c26": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(26)",
+      "rc1c4c1c3c2c26c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(26) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c26c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(26) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c26c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(26) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c27": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(27)",
+      "rc1c4c1c3c2c27c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(27) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c27c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(27) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c27c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(27) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c28": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(28)",
+      "rc1c4c1c3c2c28c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(28) > div.content-area.year-2026 > div.article > div.article-date",
+      "rc1c4c1c3c2c28c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(28) > div.content-area.year-2026 > div.article > div.article-title",
+      "rc1c4c1c3c2c28c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(28) > div.content-area.year-2026 > div.article > div.link",
+      "rc1c4c1c3c2c29": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(29)",
+      "rc1c4c1c3c2c30": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(30)",
+      "rc1c4c1c3c2c31": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(31)",
+      "rc1c4c1c3c2c32": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(32)",
+      "rc1c4c1c3c2c33": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(33)",
+      "rc1c4c1c3c2c34": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(34)",
+      "rc1c4c1c3c2c35": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(35)",
+      "rc1c4c1c3c2c36": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(36)",
+      "rc1c4c1c3c2c37": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(37)",
+      "rc1c4c1c3c2c38": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(38)",
+      "rc1c4c1c3c2c39": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(39)",
+      "rc1c4c1c3c2c40": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(40)",
+      "rc1c4c1c3c2c41": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(41)",
+      "rc1c4c1c3c2c42": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(42)",
+      "rc1c4c1c3c2c43": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(43)",
+      "rc1c4c1c3c2c44": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(44)",
+      "rc1c4c1c3c2c45": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(45)",
+      "rc1c4c1c3c2c46": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(46)",
+      "rc1c4c1c3c2c47": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(47)",
+      "rc1c4c1c3c2c48": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(48)",
+      "rc1c4c1c3c2c49": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(49)",
+      "rc1c4c1c3c2c50": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(50)",
+      "rc1c4c1c3c2c51": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(51)",
+      "rc1c4c1c3c2c52": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(52)",
+      "rc1c4c1c3c2c53": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(53)",
+      "rc1c4c1c3c2c54": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(54)",
+      "rc1c4c1c3c2c55": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(55)",
+      "rc1c4c1c3c2c56": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(56)",
+      "rc1c4c1c3c2c57": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(57)",
+      "rc1c4c1c3c2c58": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(58)",
+      "rc1c4c1c3c2c59": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(59)",
+      "rc1c4c1c3c2c60": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(60)",
+      "rc1c4c1c3c2c61": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(61)",
+      "rc1c4c1c3c2c62": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(62)",
+      "rc1c4c1c3c2c63": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(63)",
+      "rc1c4c1c3c2c64": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(64)",
+      "rc1c4c1c3c2c65": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(65)",
+      "rc1c4c1c3c2c66": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(66)",
+      "rc1c4c1c3c2c67": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(67)",
+      "rc1c4c1c3c2c68": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(68)",
+      "rc1c4c1c3c2c69": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(69)",
+      "rc1c4c1c3c2c70": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(70)",
+      "rc1c4c1c3c2c71": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(71)",
+      "rc1c4c1c3c2c72": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(72)",
+      "rc1c4c1c3c2c73": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(73)",
+      "rc1c4c1c3c2c74": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(74)",
+      "rc1c4c1c3c2c75": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(75)",
+      "rc1c4c1c3c2c76": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(76)",
+      "rc1c4c1c3c2c77": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(77)",
+      "rc1c4c1c3c2c78": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(78)",
+      "rc1c4c1c3c2c79": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.aside-layout > div.content-area > div.main-content > div.press-release-list.base-version > div.content-area > div.press-releases-block > div.articles-area > div.press-release.base-version:nth-of-type(79)",
+      "rc1c4c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure",
+      "rc1c4c2c1": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > div.separator",
+      "rc1c4c2c2": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(1)",
+      "rc1c4c2c3": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(2)",
+      "rc1c4c2c4": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(3)",
+      "rc1c4c2c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(4)",
+      "rc1c4c2c6": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div.content-wrapper > div.disclosure > div.content-area > p:nth-of-type(5)",
+      "rc1c5": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+      "rc2": "body > div:nth-of-type(4)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.toggle-container.aem-GridColumn.aem-GridColumn--default--12.fixed",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#dbcfc7",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(3) > div.xf-content-height > div.masthead.v2.fixed"
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "body > div.responsive.brandEvolution > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.experiencefragment.aem-GridColumn.aem-GridColumn--default--12:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "body > div:nth-of-type(4)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 205,
+      "height": 5445
+    },
+    "splits": [
+      {
+        "selector": "div.content-area > aside.secondary-content",
+        "sides": [
+          [
+            0.74,
+            1
+          ]
+        ],
+        "top": 205,
+        "bottom": 5173,
+        "cover": 0.912396694214876,
+        "above": 2
+      }
+    ],
+    "start": {
+      "kind": "side by side"
+    }
+  },
+  "blocks": [
+    {
+      "id": "34201e9c74f8",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__site-selector-bar",
+      "bounds": {
+        "x": 20,
+        "y": 0,
+        "width": 1400,
+        "height": 36
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-site-selector-bar",
+      "features": {
+        "skeleton": "~([T])",
+        "variant": "~k([Tw])",
+        "variantClean": "~k([Tw])"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/34201e9c74f8.html"
+    },
+    {
+      "id": "d13badaf0b3a",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.contact-us-secondary-nav-area",
+      "bounds": {
+        "x": 20,
+        "y": 112,
+        "width": 1400,
+        "height": 49
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "contact-us-secondary-nav-area",
+      "features": {
+        "skeleton": "[T|~|[T|[~]]]",
+        "variant": "[Tn|~n|[Tn|[~m]]]",
+        "variantClean": "[Tk|~n|[Tk|[~m]]]"
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "html": "blocks/d13badaf0b3a.html"
+    },
+    {
+      "id": "665f29495b06",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div:nth-child(3) > div > div > div > div.masthead__secondary.l-grid > div.masthead__breadcrumb.l-grid__col--0",
+      "bounds": {
+        "x": 15,
+        "y": 161,
+        "width": 386,
+        "height": 44
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "masthead-breadcrumb",
+      "features": {
+        "skeleton": "nav",
+        "variant": "nav",
+        "variantClean": "nav"
+      },
+      "screenshot": null,
+      "html": "blocks/665f29495b06.html"
+    },
+    {
+      "id": "87154f958de5",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.herospace",
+      "bounds": {
+        "x": 20,
+        "y": 205,
+        "width": 976,
+        "height": 190
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + image"
+      },
+      "description": "herospace",
+      "features": {
+        "skeleton": "[~(T)|T]",
+        "variant": "[~w(Tr)|T]",
+        "variantClean": "[~w(Tk)|T]"
+      },
+      "screenshot": "blocks/87154f958de5.jpg",
+      "html": "blocks/87154f958de5.html",
+      "variantId": "v_94020c7dbd6a"
+    },
+    {
+      "id": "7bd8f96d79ef",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#header_copy-2068582023 > div.subpage-header-block > div.title",
+      "bounds": {
+        "x": 100,
+        "y": 487,
+        "width": 876,
+        "height": 50
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "title",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tm",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/7bd8f96d79ef.html"
+    },
+    {
+      "id": "8f0ddb6c58b5",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#header_copy-2068582023 > div.subpage-header-block > div.description",
+      "bounds": {
+        "x": 100,
+        "y": 547,
+        "width": 876,
+        "height": 30
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "description",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/8f0ddb6c58b5.html"
+    },
+    {
+      "id": "06aa2f64a55b",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.header-block",
+      "bounds": {
+        "x": 21,
+        "y": 670,
+        "width": 974,
+        "height": 148
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + field"
+      },
+      "description": "header-block",
+      "features": {
+        "skeleton": "[T|(select T)]",
+        "variant": "[Tm|(select~w Tk)]",
+        "variantClean": "[Tk|(select~w Tk)]"
+      },
+      "screenshot": "blocks/06aa2f64a55b.jpg",
+      "html": "blocks/06aa2f64a55b.html",
+      "variantId": "v_982a06f2186b"
+    },
+    {
+      "id": "5fc3c87e4419",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(1)",
+      "bounds": {
+        "x": 51,
+        "y": 818,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/5fc3c87e4419.jpg",
+      "html": "blocks/5fc3c87e4419.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "ab2f63a965cf",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(2)",
+      "bounds": {
+        "x": 51,
+        "y": 999,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/ab2f63a965cf.jpg",
+      "html": "blocks/ab2f63a965cf.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "95b3ffc2b979",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(3)",
+      "bounds": {
+        "x": 51,
+        "y": 1146,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/95b3ffc2b979.jpg",
+      "html": "blocks/95b3ffc2b979.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "a4ef803c38d3",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(4)",
+      "bounds": {
+        "x": 51,
+        "y": 1327,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/a4ef803c38d3.jpg",
+      "html": "blocks/a4ef803c38d3.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "210eec295f7e",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(5)",
+      "bounds": {
+        "x": 51,
+        "y": 1474,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/210eec295f7e.jpg",
+      "html": "blocks/210eec295f7e.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "e4138ec0f9e2",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(6)",
+      "bounds": {
+        "x": 51,
+        "y": 1621,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/e4138ec0f9e2.jpg",
+      "html": "blocks/e4138ec0f9e2.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "a5210149a735",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(7)",
+      "bounds": {
+        "x": 51,
+        "y": 1768,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/a5210149a735.jpg",
+      "html": "blocks/a5210149a735.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "921060692442",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(8)",
+      "bounds": {
+        "x": 51,
+        "y": 1915,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/921060692442.jpg",
+      "html": "blocks/921060692442.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "aa6840772b4d",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(9)",
+      "bounds": {
+        "x": 51,
+        "y": 2062,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/aa6840772b4d.jpg",
+      "html": "blocks/aa6840772b4d.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "2acc481b8f24",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(10)",
+      "bounds": {
+        "x": 51,
+        "y": 2209,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/2acc481b8f24.jpg",
+      "html": "blocks/2acc481b8f24.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "83aa88d5ab6f",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(11)",
+      "bounds": {
+        "x": 51,
+        "y": 2356,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/83aa88d5ab6f.jpg",
+      "html": "blocks/83aa88d5ab6f.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "46a89bcd51c4",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(12)",
+      "bounds": {
+        "x": 51,
+        "y": 2503,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/46a89bcd51c4.jpg",
+      "html": "blocks/46a89bcd51c4.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "7192f71469b3",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(13)",
+      "bounds": {
+        "x": 51,
+        "y": 2650,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/7192f71469b3.jpg",
+      "html": "blocks/7192f71469b3.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "00e50b930ed8",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(14)",
+      "bounds": {
+        "x": 51,
+        "y": 2797,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/00e50b930ed8.jpg",
+      "html": "blocks/00e50b930ed8.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "77dfe6f001f6",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(15)",
+      "bounds": {
+        "x": 51,
+        "y": 2944,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/77dfe6f001f6.jpg",
+      "html": "blocks/77dfe6f001f6.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "8471d0979195",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(16)",
+      "bounds": {
+        "x": 51,
+        "y": 3091,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/8471d0979195.jpg",
+      "html": "blocks/8471d0979195.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "fd176a846f99",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(17)",
+      "bounds": {
+        "x": 51,
+        "y": 3272,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/fd176a846f99.jpg",
+      "html": "blocks/fd176a846f99.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "3b2cc224cae0",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(18)",
+      "bounds": {
+        "x": 51,
+        "y": 3453,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/3b2cc224cae0.jpg",
+      "html": "blocks/3b2cc224cae0.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "15b01eb7a1a7",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(19)",
+      "bounds": {
+        "x": 51,
+        "y": 3600,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/15b01eb7a1a7.jpg",
+      "html": "blocks/15b01eb7a1a7.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "aa7578dd8c2e",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(20)",
+      "bounds": {
+        "x": 51,
+        "y": 3747,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/aa7578dd8c2e.jpg",
+      "html": "blocks/aa7578dd8c2e.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "7b5463bcfa32",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(21)",
+      "bounds": {
+        "x": 51,
+        "y": 3894,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/7b5463bcfa32.jpg",
+      "html": "blocks/7b5463bcfa32.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "e7351e7b3721",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(22)",
+      "bounds": {
+        "x": 51,
+        "y": 4041,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/e7351e7b3721.jpg",
+      "html": "blocks/e7351e7b3721.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "af97c8f5e244",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(23)",
+      "bounds": {
+        "x": 51,
+        "y": 4222,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/af97c8f5e244.jpg",
+      "html": "blocks/af97c8f5e244.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "0cd7c5795794",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(24)",
+      "bounds": {
+        "x": 51,
+        "y": 4403,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/0cd7c5795794.jpg",
+      "html": "blocks/0cd7c5795794.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "8a9754e925c5",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(25)",
+      "bounds": {
+        "x": 51,
+        "y": 4550,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/8a9754e925c5.jpg",
+      "html": "blocks/8a9754e925c5.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "52c4ea675658",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(26)",
+      "bounds": {
+        "x": 51,
+        "y": 4697,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/52c4ea675658.jpg",
+      "html": "blocks/52c4ea675658.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "67d667b09146",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(27)",
+      "bounds": {
+        "x": 51,
+        "y": 4844,
+        "width": 914,
+        "height": 181
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/67d667b09146.jpg",
+      "html": "blocks/67d667b09146.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "0b1d136a440f",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > div > div.press-release-list.base-version > div > div > div.articles-area > div:nth-child(28)",
+      "bounds": {
+        "x": 51,
+        "y": 5025,
+        "width": 914,
+        "height": 147
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link"
+      },
+      "description": "press-release",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tkn",
+        "variantClean": "Tk"
+      },
+      "screenshot": "blocks/0b1d136a440f.jpg",
+      "html": "blocks/0b1d136a440f.html",
+      "variantId": "v_5a1817638b65"
+    },
+    {
+      "id": "6a499a37e244",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.aside-layout > div > aside",
+      "bounds": {
+        "x": 1056,
+        "y": 205,
+        "width": 364,
+        "height": 4968
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + text + link"
+      },
+      "description": "secondary-content",
+      "features": {
+        "skeleton": "~(T)",
+        "variant": "~w(Tkm)",
+        "variantClean": "~w(Tk)"
+      },
+      "screenshot": "blocks/6a499a37e244.jpg",
+      "html": "blocks/6a499a37e244.html",
+      "variantId": "v_1a390e777f55"
+    },
+    {
+      "id": "1328dcafedb0",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(2)",
+      "bounds": {
+        "x": 40,
+        "y": 5316,
+        "width": 1360,
+        "height": 66
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/1328dcafedb0.html"
+    },
+    {
+      "id": "18ecd225c006",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(3)",
+      "bounds": {
+        "x": 40,
+        "y": 5397,
+        "width": 1360,
+        "height": 88
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/18ecd225c006.html"
+    },
+    {
+      "id": "07b5437d801f",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(4)",
+      "bounds": {
+        "x": 40,
+        "y": 5500,
+        "width": 1360,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/07b5437d801f.html"
+    },
+    {
+      "id": "6dfab8ab7d81",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(5)",
+      "bounds": {
+        "x": 40,
+        "y": 5555,
+        "width": 1360,
+        "height": 60
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text + link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tnr",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/6dfab8ab7d81.html"
+    },
+    {
+      "id": "48939e770a40",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.disclosure > div > p:nth-child(6)",
+      "bounds": {
+        "x": 40,
+        "y": 5630,
+        "width": 1360,
+        "height": 20
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/48939e770a40.html"
+    }
+  ]
+}

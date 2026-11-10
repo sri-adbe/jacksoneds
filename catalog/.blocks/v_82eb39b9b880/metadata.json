@@ -1,0 +1,38 @@
+{
+  "id": "v_82eb39b9b880",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + link + video"
+  },
+  "layoutKey": "~([T|menuitem])",
+  "colour": "~r([Tk|iframe])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources.html",
+        "instanceId": "13df169fd385",
+        "instanceIds": [
+          "13df169fd385"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/13df169fd385.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "text beside a video, fits columns-feature",
+    "mergedInto": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v_abcd6e7c0165",
+  "type": "default-content",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.017Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/contact-us.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "layoutKey": "~(T)",
+  "colour": "~k(Tw)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/contact-us.html",
+        "instanceId": "286f7e1258e1",
+        "instanceIds": [
+          "286f7e1258e1"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/286f7e1258e1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Heading, paragraph and button on a full-width panel an author can type with a section style; opens the page often, so a text-only hero is possible",
+    "mergedInto": null
+  }
+}

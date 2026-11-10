@@ -1,0 +1,38 @@
+{
+  "id": "v_534fecd51524-1",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + table"
+  },
+  "layoutKey": "[T|table*1.25]",
+  "colour": "[Tk|table*1.25]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community/grant-application.html",
+        "instanceId": "fcafa7b06738",
+        "instanceIds": [
+          "fcafa7b06738"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/fcafa7b06738.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Text beside a dates table; could be default-content plus a table block",
+    "mergedInto": null
+  }
+}

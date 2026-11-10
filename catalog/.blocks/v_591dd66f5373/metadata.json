@@ -1,0 +1,38 @@
+{
+  "id": "v_591dd66f5373",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + image + heading + text + link"
+  },
+  "layoutKey": "([tab] [~(T)] ~@(~(T)))",
+  "colour": "([tab] [~w(Tk)] ~@(~g(Tk)))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+        "instanceId": "bf11d33473b5",
+        "instanceIds": [
+          "bf11d33473b5"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/bf11d33473b5.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "State tabs over product banner and cards",
+    "mergedInto": "v_194910149592"
+  }
+}

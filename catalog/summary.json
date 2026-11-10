@@ -1,0 +1,35 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.jackson.com",
+      "siteName": "www.jackson.com",
+      "analysisDate": "2026-11-10",
+      "rootPageTitle": "Jackson - Clarity for all | Jackson"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "https://www.jackson.com/sitemap.xml",
+      "totalPages": 102,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "en",
+          "pages": 102
+        }
+      ],
+      "totalTemplates": 13,
+      "totalBlockTypes": 102,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 102,
+      "pagesAnalyzed": 102,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0,
+      "blockNaming": "applied"
+    },
+    "errors": {
+      "totalCount": 109
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v_982a06f2186b",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + field"
+  },
+  "layoutKey": "[(T select)|T]",
+  "colour": "[(Tk select~w)|Tk]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+        "instanceId": "06aa2f64a55b",
+        "instanceIds": [
+          "06aa2f64a55b"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/06aa2f64a55b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Year selector filtering the press release list",
+    "mergedInto": "v_26007a568bb5"
+  }
+}

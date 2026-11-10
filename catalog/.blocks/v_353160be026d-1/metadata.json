@@ -1,0 +1,38 @@
+{
+  "id": "v_353160be026d-1",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/the-jackson-difference/careers.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + heading + text + link + image"
+  },
+  "layoutKey": "([T|T*1.25] [tab|tab*1.25|tab*1.5|tab*1.75])",
+  "colour": "([T|Tk*1.25] [tab|tab*1.25|tab*1.5|tab*1.75|tab~r*1.5])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "instanceId": "bfb94f8e1df5",
+        "instanceIds": [
+          "bfb94f8e1df5"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/bfb94f8e1df5.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Career category tabs switching text + image panels",
+    "mergedInto": "v_194910149592"
+  }
+}

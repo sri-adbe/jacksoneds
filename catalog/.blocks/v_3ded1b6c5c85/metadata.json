@@ -1,0 +1,38 @@
+{
+  "id": "v_3ded1b6c5c85",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list + image + link"
+  },
+  "layoutKey": "(T [T] [tab|tab*1.25] ~(T [~(T)]))",
+  "colour": "(Tk [T|Tk] [tab|tab*1.25] ~n(Tk [~w(Tk)]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+        "instanceId": "af47d0e60b1d",
+        "instanceIds": [
+          "af47d0e60b1d"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_resources_retirement-research_html--ba06fa87/blocks/af47d0e60b1d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Topic tabs switching featured study and resource cards",
+    "mergedInto": "v_194910149592"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v_d29aefda00a9",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/fixed-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + text + link"
+  },
+  "layoutKey": "([tab] [~(T)])",
+  "colour": "([tab|tab~r] [~w(Tk)])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "instanceId": "58fc94ded288",
+        "instanceIds": [
+          "58fc94ded288"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/58fc94ded288.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "State tabs over product cards",
+    "mergedInto": "v_194910149592"
+  }
+}

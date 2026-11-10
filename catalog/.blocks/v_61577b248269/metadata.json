@@ -1,0 +1,38 @@
+{
+  "id": "v_61577b248269",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + link + text"
+  },
+  "layoutKey": "[(T [T])*1.75|T]",
+  "colour": "[(Tk [Tk|Tw])*1.75|Tk]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "instanceId": "dc80b6a66ccd",
+        "instanceIds": [
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/dc80b6a66ccd.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Overview text with CTAs beside a benefits list",
+    "mergedInto": "v_534fecd51524"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "v_ef2e3695dd09",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + link"
+  },
+  "layoutKey": "[~(T [T])]",
+  "colour": "[~w(Tk [Tk])]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+        "instanceId": "a44b3b4b5fbb",
+        "instanceIds": [
+          "a44b3b4b5fbb"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff/blocks/a44b3b4b5fbb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+        "instanceId": "b5119d859d00",
+        "instanceIds": [
+          "b5119d859d00",
+          "3d009beed9fe",
+          "fc9dde392c32"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/b5119d859d00.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/interval-funds.html",
+        "instanceId": "1aa77176f977",
+        "instanceIds": [
+          "1aa77176f977"
+        ],
+        "screenshot": ".pages/www_jackson_com_interval-funds_html--2dcff5ef/blocks/1aa77176f977.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Product cards with title, description and links to product documents",
+    "mergedInto": "v_6d017593289b"
+  }
+}

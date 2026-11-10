@@ -1,0 +1,38 @@
+{
+  "id": "v_8ae1617e1838",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/registration/ria.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "layoutKey": "[~(T)*1.75|~@]",
+  "colour": "[~@|~w(Tk)*1.75]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/registration/ria.xhtml",
+        "instanceId": "e8186f65f6cc",
+        "instanceIds": [
+          "e8186f65f6cc"
+        ],
+        "screenshot": ".pages/www_jackson_com_registration_ria_xhtml--33321b02/blocks/e8186f65f6cc.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Page title box beside a photo",
+    "mergedInto": "v_94020c7dbd6a"
+  }
+}

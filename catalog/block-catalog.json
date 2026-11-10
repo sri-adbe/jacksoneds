@@ -1,0 +1,1854 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-10T15:40:33.614Z",
+    "totalBlockVariants": 102,
+    "totalBlocksProcessed": 560,
+    "newVariantsCreated": 102,
+    "variantsReused": 458,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 102,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_d6094627fa3d": {
+        "id": "v_d6094627fa3d",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 35,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Fixed text + image split pairing a selling message with a media column",
+        "description": "image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_html--89e15c07/blocks/ac14f9134922.jpg",
+          ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/98f69dee99ba.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_protection-options_html--b8427d4e/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/910942275bd5.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/390a5c863296.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_product-match-pro_html--0b4c6337/blocks/98f69dee99ba.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/08570b10ed6a.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/0e172c60b1ea.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_get-appointed_html--0bcedb9a/blocks/98f69dee99ba.jpg",
+          ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/98f69dee99ba.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_html--ea77a9d8/blocks/98f69dee99ba.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_customer-care_html--17040a12/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/0260a452e229.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/ac14f9134922.jpg",
+          ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/fb5624e1f3e7.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/0a9c6434299e.jpg"
+        ]
+      },
+      "v_e41eaf28e035": {
+        "id": "v_e41eaf28e035",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 23,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Fixed text + image split pairing a selling message with a media column",
+        "variant": "image-left",
+        "description": "image + heading + text + list + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_protection-options_html--b8427d4e/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/9581a492a2fe.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/9581a492a2fe.jpg",
+          ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_client-resources_html--e79c83da/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_html--ea77a9d8/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/f8fadb408909.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/8f0beeef4ee5.jpg",
+          ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/4f2429f51ea8.jpg"
+        ]
+      },
+      "v_a13777490374": {
+        "id": "v_a13777490374",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 6,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Fixed text + image split pairing a selling message with a media column",
+        "variant": "product-intro",
+        "description": "heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/f8fadb408909.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_get-appointed_html--0bcedb9a/blocks/9581a492a2fe.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135/blocks/fe79079fc819.jpg"
+        ]
+      },
+      "v_1a390e777f55": {
+        "id": "v_1a390e777f55",
+        "name": "default-content",
+        "type": "default-content",
+        "canonicalModel": "standalone",
+        "pagesFound": 40,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Heading, paragraph and button on a full-width panel an author can type with a section style; opens the page often, so a text-only hero is possible",
+        "description": "heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_protection-options_html--b8427d4e/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_get-appointed_html--0bcedb9a/blocks/52cebeb3d609.jpg",
+          ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_client-resources_html--e79c83da/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_retirement-research_html--ba06fa87/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_customer-care_html--17040a12/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/f6712493cd89.jpg",
+          ".pages/www_jackson_com_financial-professionals_jackson-live_html--ea6fdadb/blocks/ac14f9134922.jpg",
+          ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/5eeb1e310c60.jpg",
+          ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/5eeb1e310c60.jpg",
+          ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/b3eeec41d3db.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/6a499a37e244.jpg"
+        ]
+      },
+      "v_6f87b7a6361b": {
+        "id": "v_6f87b7a6361b",
+        "name": "default-content",
+        "type": "default-content",
+        "canonicalModel": "standalone",
+        "pagesFound": 10,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Heading, paragraph and button on a full-width panel an author can type with a section style; opens the page often, so a text-only hero is possible",
+        "description": "heading",
+        "screenshots": [
+          ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/59dca552207b.jpg",
+          ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/d743867db6a3.jpg",
+          ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/d743867db6a3.jpg",
+          ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/2824ffbc034f.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/00ad8adab13f.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/8cb444a94794.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/fcafa7b06738.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/fcafa7b06738.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/fcafa7b06738.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/fb5624e1f3e7.jpg"
+        ]
+      },
+      "v_5625ab7891ac": {
+        "id": "v_5625ab7891ac",
+        "name": "default-content",
+        "type": "default-content",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Heading, paragraph and button on a full-width panel an author can type with a section style; opens the page often, so a text-only hero is possible",
+        "description": "heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c/blocks/da3805f76e3c.jpg"
+        ]
+      },
+      "v_abcd6e7c0165": {
+        "id": "v_abcd6e7c0165",
+        "name": "default-content",
+        "type": "default-content",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Heading, paragraph and button on a full-width panel an author can type with a section style; opens the page often, so a text-only hero is possible",
+        "description": "text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/286f7e1258e1.jpg"
+        ]
+      },
+      "v_a6d9a47899aa": {
+        "id": "v_a6d9a47899aa",
+        "name": "cards-feature",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 34,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Look-alike icon + heading + text items in a wrapping grid",
+        "description": "heading + text + list + link + image",
+        "screenshots": [
+          ".pages/www_jackson_com--0b8df100/blocks/165b940990c4.jpg",
+          ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/da3805f76e3c.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/9f8885b2dcda.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/16316bb42af0.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/12537b4f8dd7.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_referral_html--8595d10d/blocks/1000a187b741.jpg",
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/12537b4f8dd7.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_referral_html--eebe5ed0/blocks/1000a187b741.jpg",
+          ".pages/www_jackson_com_financial-professional_get-appointed_html--0bcedb9a/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/f8fadb408909.jpg",
+          ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/23f021e7758a.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_retirement-research_html--ba06fa87/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/f8fadb408909.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/b6a089772df2.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_sitemap_html--cce94951/blocks/b4730155f7f2.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_html--ea77a9d8/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_customer-care_html--17040a12/blocks/7da22f26f737.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/e42d8085987d.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/ae16fdb6102a.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/44e3941196b5.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/f556eb108fb8.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74/blocks/510a77d6fb93.jpg"
+        ]
+      },
+      "v_5a1817638b65": {
+        "id": "v_5a1817638b65",
+        "name": "default-content",
+        "type": "default-content",
+        "canonicalModel": "standalone",
+        "pagesFound": 9,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Icon, heading, line of text and link an author can type; could be a one-item cards-feature",
+        "description": "heading",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_html--89e15c07/blocks/039447ab843e.jpg",
+          ".pages/www_jackson_com_financial-professional_sitemap_html--cce94951/blocks/4f2429f51ea8.jpg",
+          ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/69a752735f4a.jpg",
+          ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/69a752735f4a.jpg",
+          ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/772097d39ca5.jpg",
+          ".pages/www_jackson_com_sitemap_html--284a1168/blocks/1d703df945fe.jpg",
+          ".pages/www_jackson_com_supplier-management_html--25a28c9e/blocks/01397a11f78c.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/262b3fa6dad5.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/5fc3c87e4419.jpg"
+        ]
+      },
+      "v_1961eda70e3b": {
+        "id": "v_1961eda70e3b",
+        "name": "cards-feature",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 21,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Look-alike icon + heading + text items in a wrapping grid",
+        "variant": "alt",
+        "description": "text + link",
+        "screenshots": [
+          ".pages/www_jackson_com--0b8df100/blocks/e901c639d90c.jpg",
+          ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/0280cf24f008.jpg",
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/f1cc27e56499.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/0280cf24f008.jpg",
+          ".pages/www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965/blocks/0960bd6f54be.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/23f021e7758a.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c/blocks/52830ae442cb.jpg",
+          ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/d3725755d24a.jpg",
+          ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/10dcda1e2547.jpg",
+          ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/1aa77176f977.jpg",
+          ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/a8743adecf91.jpg",
+          ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/a8743adecf91.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/409bcbba0a06.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/99be70d863c3.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/fb119dbcf863.jpg",
+          ".pages/www_jackson_com_sitemap_html--284a1168/blocks/159f3cd3c163.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_corporate-responsibility_html--be600e3d/blocks/02edb9102fc2.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6/blocks/1c6d32d907b2.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/19a5ffbc1c8b.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74/blocks/69c03e71c825.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/1aa77176f977.jpg"
+        ]
+      },
+      "v_94020c7dbd6a": {
+        "id": "v_94020c7dbd6a",
+        "name": "hero-page",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 34,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Page-top banner with the page title beside a photo",
+        "description": "text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/24c960875428.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_investment-options_html--8cc7c822/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_cyber-security_html--c3ac5d60/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/24c960875428.jpg",
+          ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_supplier-management_html--25a28c9e/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_html--11539a4e/blocks/09b714e4c93c.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_corporate-responsibility_html--be600e3d/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/87154f958de5.jpg",
+          ".pages/www_jackson_com_your-financial-future_html--c46eb4ce/blocks/c37b08da9a3e.jpg",
+          ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/24c960875428.jpg",
+          ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c/blocks/fb1c4e5e3ac9.jpg",
+          ".pages/www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190/blocks/fb1c4e5e3ac9.jpg"
+        ]
+      },
+      "v_5d985532d984": {
+        "id": "v_5d985532d984",
+        "name": "cards-tool",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 20,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Grid of image + titled box + CTA cards sending visitors to tools",
+        "description": "image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com--0b8df100/blocks/da16bf32e243.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/f92fecbb558a.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/f92fecbb558a.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/f92fecbb558a.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/f92fecbb558a.jpg",
+          ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/dc80b6a66ccd.jpg",
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/dc80b6a66ccd.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/0a9c6434299e.jpg",
+          ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/8cb444a94794.jpg",
+          ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/165b940990c4.jpg",
+          ".pages/www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca/blocks/fb4579e92549.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/146a822a594e.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/1e2b597d8762.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/016e096399f8.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6/blocks/fb5624e1f3e7.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/6390af0a2609.jpg",
+          ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/e29033d317ae.jpg",
+          ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/1aa77176f977.jpg",
+          ".pages/www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c/blocks/f92fecbb558a.jpg",
+          ".pages/www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190/blocks/f92fecbb558a.jpg"
+        ]
+      },
+      "v_6873d497e173": {
+        "id": "v_6873d497e173",
+        "name": "cards-tool",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Grid of image + titled box + CTA cards sending visitors to tools",
+        "variant": "grey-cyan-orange",
+        "description": "image + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/d5722ea5c1ff.jpg"
+        ]
+      },
+      "v_548cda1ad353": {
+        "id": "v_548cda1ad353",
+        "name": "cards-tool",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "filterable partner directory with logos, may be its own block",
+        "variant": "partner-logo",
+        "description": "image + link",
+        "screenshots": [
+          ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/14d8f6b8464a.jpg"
+        ]
+      },
+      "v_41576f30a490": {
+        "id": "v_41576f30a490",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 10,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Repeated product/category cards each linking to a detail page",
+        "variant": "alt",
+        "description": "list + link + text",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_html--89e15c07/blocks/bdf3b7f526ea.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/19a5ffbc1c8b.jpg",
+          ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/ab46bde6fab6.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/542b56b0bbad.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/fb3357b0db93.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/2311e4dabe17.jpg",
+          ".pages/www_jackson_com_performance-center_html--d0464cce/blocks/da5f39e2b0d3.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/8c6fa3d38adc.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/fb5624e1f3e7.jpg"
+        ]
+      },
+      "v_71f3cc0ca972": {
+        "id": "v_71f3cc0ca972",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Repeated product/category cards each linking to a detail page",
+        "variant": "benefit",
+        "description": "link + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/b6a089772df2.jpg"
+        ]
+      },
+      "v_111be63a6dd8": {
+        "id": "v_111be63a6dd8",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Repeated product/category cards each linking to a detail page",
+        "variant": "grey",
+        "description": "image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/78e36a4b09b0.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/78e36a4b09b0.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_customer-care_html--17040a12/blocks/78e36a4b09b0.jpg"
+        ]
+      },
+      "v_e4218559988e": {
+        "id": "v_e4218559988e",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Repeated product/category cards each linking to a detail page",
+        "variant": "magenta",
+        "description": "image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/55b8fde059a6.jpg"
+        ]
+      },
+      "v_49c2fc06d077": {
+        "id": "v_49c2fc06d077",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 14,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Text beside media; a video in the media slot is optional content",
+        "variant": "alt",
+        "description": "link + video + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/ca9696566ad7.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/ca9696566ad7.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/ca9696566ad7.jpg",
+          ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/1c6d32d907b2.jpg",
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff/blocks/bbc0e4db5042.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c/blocks/bbc0e4db5042.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62/blocks/bbc0e4db5042.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/13df169fd385.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/13df169fd385.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/13df169fd385.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_advisor-experience-updates_html--5272b135/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/c37b08da9a3e.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/ca9696566ad7.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/8ccb60b1fe39.jpg"
+        ]
+      },
+      "v_6d017593289b": {
+        "id": "v_6d017593289b",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 16,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Repeated product/category cards each linking to a detail page",
+        "description": "link + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/9f8885b2dcda.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_growth-potential_html--78eb8d0e/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_legacy-planning_html--169b927e/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_lifetime-income_html--32f00ac4/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_protection-options_html--b8427d4e/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/40e084c9ac94.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/fc09a14524b8.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/2680cf781384.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/2680cf781384.jpg",
+          ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/23f021e7758a.jpg",
+          ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/23f021e7758a.jpg",
+          ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/23f021e7758a.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/b6a089772df2.jpg",
+          ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/23f021e7758a.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/99be70d863c3.jpg",
+          ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/e93b4622b080.jpg"
+        ]
+      },
+      "v_f182d17b8602": {
+        "id": "v_f182d17b8602",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Repeated product/category cards each linking to a detail page",
+        "variant": "grey-2",
+        "description": "image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_annuity-calculator-and-tools_html--e01cde5b/blocks/eb641229d83a.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/78e36a4b09b0.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_wholesaler-support_html--1ce43ff4/blocks/b6a089772df2.jpg"
+        ]
+      },
+      "v_94020c7dbd6a-1": {
+        "id": "v_94020c7dbd6a-1",
+        "name": "hero-banner",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 19,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Background photo with an overlaid box holding heading, text and CTA",
+        "description": "heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com--0b8df100/blocks/c37b08da9a3e.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/9a8304f60d35.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/4e4ad634f569.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/1c93db1356cf.jpg",
+          ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/9b693509ff89.jpg",
+          ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/2dc979a8a70e.jpg",
+          ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/fcafa7b06738.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_html--11539a4e/blocks/6e490f355a94.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/1c93db1356cf.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/4e4ad634f569.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/4e4ad634f569.jpg",
+          ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/c37b08da9a3e.jpg"
+        ]
+      },
+      "v_ed7ad9c5cc43": {
+        "id": "v_ed7ad9c5cc43",
+        "name": "embed-video",
+        "type": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 11,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Standalone embedded video player",
+        "description": "link + video",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/577ca5318f97.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/7b58f0a50b13.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/13df169fd385.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/d0850c1b90ac.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/7b58f0a50b13.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/7b58f0a50b13.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/7b58f0a50b13.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/7b58f0a50b13.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_client-resources_html--e79c83da/blocks/7b58f0a50b13.jpg",
+          ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/63d72ce1ad9c.jpg",
+          ".pages/www_jackson_com_financial-professionals_tools_tax-deferral-calculator_html--e4afcbca/blocks/0aa1794ed8cf.jpg"
+        ]
+      },
+      "v_92ebe11167df": {
+        "id": "v_92ebe11167df",
+        "name": "contact-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 8,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Intro copy beside an embedded lead-capture form; no library form block",
+        "description": "list + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/c37b08da9a3e.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-advisory-ii-performance-center_html--f3d20af6/blocks/159f3cd3c163.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fee-based-annuities_html--8df90af7/blocks/c0f2d9abc9ab.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/c0f2d9abc9ab.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/c0f2d9abc9ab.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/c0f2d9abc9ab.jpg",
+          ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/1c93db1356cf.jpg"
+        ]
+      },
+      "v_82eb39b9b880": {
+        "id": "v_82eb39b9b880",
+        "name": "contact-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "text beside a video, fits columns-feature",
+        "variant": "red",
+        "description": "heading + text + link + video",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/13df169fd385.jpg"
+        ]
+      },
+      "v_8b513864dc60": {
+        "id": "v_8b513864dc60",
+        "name": "cards-event",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Dated webinar entries with register links form a dynamic list; could also be columns",
+        "description": "text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_ria-academy_html--44fd251d/blocks/70e74f0dcb2e.jpg",
+          ".pages/www_jackson_com_financial-professionals_jackson-live_html--ea6fdadb/blocks/77d79f641d1a.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_html--11539a4e/blocks/1698d53b711a.jpg"
+        ]
+      },
+      "v_a6d9a47899aa-1": {
+        "id": "v_a6d9a47899aa-1",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Text beside a wide illustrative image",
+        "variant": "wide-image",
+        "description": "heading + link + text + list + image",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/165b940990c4.jpg",
+          ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/33eb0a06094f.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/ddba02dd3ba5.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_corporate-responsibility_html--be600e3d/blocks/25e75e0950be.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/1c6d32d907b2.jpg"
+        ]
+      },
+      "v_b625863efd96": {
+        "id": "v_b625863efd96",
+        "name": "app-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 7,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Transactional application/login form from the app; likely an embed of the app rather than authored",
+        "description": "field + text + video + button",
+        "screenshots": [
+          ".pages/www_jackson_com_accessibility_html--28fc2032/blocks/8c7ae178e068.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_elite-access-ii-performance-center_html--77736f1e/blocks/03a84c0223aa.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-advisory-ii-performance-center_html--f3d20af6/blocks/03a84c0223aa.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-ii-performance-center_html--f184984b/blocks/03a84c0223aa.jpg",
+          ".pages/www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965/blocks/38ff502ba37c.jpg",
+          ".pages/www_jackson_com_login_register_xhtml--2395b9d7/blocks/cb6aa05b99b8.jpg",
+          ".pages/www_jackson_com_registration_ria_xhtml--33321b02/blocks/eea796949cfe.jpg"
+        ]
+      },
+      "v_82eb39b9b880-1": {
+        "id": "v_82eb39b9b880-1",
+        "name": "contact-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 6,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Same consultant contact form beside intro copy, unboxed",
+        "variant": "alt",
+        "description": "heading + text + field + video + button",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/13df169fd385.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/dc80b6a66ccd.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/4584543d3860.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/4e4ad634f569.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/dc80b6a66ccd.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/0a9c6434299e.jpg"
+        ]
+      },
+      "v_8a76ff861339": {
+        "id": "v_8a76ff861339",
+        "name": "columns-benefits",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "described as photo + text split, fits columns-feature",
+        "variant": "grey",
+        "description": "image + heading + text + list",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/fe79079fc819.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/fe79079fc819.jpg"
+        ]
+      },
+      "v_534fecd51524": {
+        "id": "v_534fecd51524",
+        "name": "columns-benefits",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Wide intro column with CTAs beside a narrow benefits list",
+        "description": "heading + link + text",
+        "screenshots": [
+          ".pages/www_jackson_com--0b8df100/blocks/b58b07984b99.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_html--0fdd2b14/blocks/226e1c20440a.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/fcafa7b06738.jpg"
+        ]
+      },
+      "v_ef2e3695dd09": {
+        "id": "v_ef2e3695dd09",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Product cards with title, description and links to product documents",
+        "variant": "link-columns",
+        "description": "text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff/blocks/a44b3b4b5fbb.jpg",
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/b5119d859d00.jpg",
+          ".pages/www_jackson_com_interval-funds_html--2dcff5ef/blocks/1aa77176f977.jpg"
+        ]
+      },
+      "v_ed917c46868e": {
+        "id": "v_ed917c46868e",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Text beside a portrait; same fields, though a leader bio is a different job",
+        "variant": "wide-image-2",
+        "description": "image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/9be70c41c541.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/fb5624e1f3e7.jpg"
+        ]
+      },
+      "v_d727867dfb56": {
+        "id": "v_d727867dfb56",
+        "name": "table-product",
+        "type": "table",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Data table comparing products with links",
+        "description": "table",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/3670983a2958.jpg",
+          ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/37f4159ef580.jpg",
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/d030b19bf8cb.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/146a822a594e.jpg"
+        ]
+      },
+      "v_fee8a81e20b8": {
+        "id": "v_fee8a81e20b8",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Fixed text + image split pairing a selling message with a media column",
+        "variant": "dark",
+        "description": "heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_growth-potential_html--e4e33232/blocks/1c93db1356cf.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_income-protection_html--7bfde1c6/blocks/1c93db1356cf.jpg",
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_legacy-benefits_html--52d152c8/blocks/1c93db1356cf.jpg",
+          ".pages/www_jackson_com_your-financial-future_how-to-plan-for-retirement_html--b45c546c/blocks/ff16b8f53aa3.jpg"
+        ]
+      },
+      "v_194910149592": {
+        "id": "v_194910149592",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Tab bar switching panels of content (state-specific product panels)",
+        "description": "list + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_registered-index-linked-annuities_market-link-pro-suite_html--2d7c5313/blocks/e5f87937fed5.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c/blocks/46b404f4041e.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62/blocks/46b404f4041e.jpg"
+        ]
+      },
+      "v_2487e0e1d7ee": {
+        "id": "v_2487e0e1d7ee",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Photo beside promo text; the nested icon callout is optional content but could be a separate block",
+        "variant": "alt",
+        "description": "image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/603a7b81d31e.jpg",
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/603a7b81d31e.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/603a7b81d31e.jpg"
+        ]
+      },
+      "v_f53b32614387": {
+        "id": "v_f53b32614387",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Icon-led text and link beside an embedded video",
+        "variant": "alt",
+        "description": "heading + text + link + video",
+        "screenshots": [
+          ".pages/www_jackson_com_ax-updates_html--b700e217/blocks/4e4ad634f569.jpg"
+        ]
+      },
+      "v_73cce7700691": {
+        "id": "v_73cce7700691",
+        "name": "retirement-calculator",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Tool launch button only on calculator pages; could also be a plain default-content button",
+        "variant": "red",
+        "description": "button",
+        "screenshots": [
+          ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/31e7ebc992c4.jpg",
+          ".pages/www_jackson_com_transactional-forms_claims_claims-initial-notice_html--a21a9e7c/blocks/2c5590b20612.jpg",
+          ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/424979d93a4f.jpg"
+        ]
+      },
+      "v_e18dfb36a0fa": {
+        "id": "v_e18dfb36a0fa",
+        "name": "app-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Field of a login/password-recovery app form",
+        "variant": "light",
+        "description": "list + field",
+        "screenshots": [
+          ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/e6892ef55428.jpg",
+          ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/e6892ef55428.jpg"
+        ]
+      },
+      "v_e7799d730d73": {
+        "id": "v_e7799d730d73",
+        "name": "tabs-product",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Product page shell with title and Overview/Highlights tabs over a hero; tabs may be links to sub-pages",
+        "description": "heading + list + image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c/blocks/2772d5ece960.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62/blocks/2772d5ece960.jpg"
+        ]
+      },
+      "v_a2b23e0cec91": {
+        "id": "v_a2b23e0cec91",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Same state tabs over product banner and cards",
+        "variant": "image-magenta",
+        "description": "list + image + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/b28a389d97f8.jpg"
+        ]
+      },
+      "v_9ecf73726c1e": {
+        "id": "v_9ecf73726c1e",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Same state tabs over product banner and cards",
+        "variant": "image-grey",
+        "description": "list + image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_registered-index-linked-annuities_html--008f39fa/blocks/b00e40916784.jpg"
+        ]
+      },
+      "v_d73c5d628dba": {
+        "id": "v_d73c5d628dba",
+        "name": "columns-sidebar",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Article body with a related-links sidebar; could be page layout via sections instead",
+        "description": "heading + image + text + list + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_html--89e15c07/blocks/de9a4265472e.jpg",
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6/blocks/3151c648dd88.jpg"
+        ]
+      },
+      "v_2135d8b727aa": {
+        "id": "v_2135d8b727aa",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Product intro text beside an embedded video",
+        "variant": "alt",
+        "description": "heading + text + list + link + video",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/1c6d32d907b2.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/1c6d32d907b2.jpg"
+        ]
+      },
+      "v_1e0fe369fdb5": {
+        "id": "v_1e0fe369fdb5",
+        "name": "forms-finder",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Dropdown filters of the forms library app",
+        "variant": "alt",
+        "description": "list + field",
+        "screenshots": [
+          ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/2e0797cea0db.jpg"
+        ]
+      },
+      "v_111be63a6dd8-1": {
+        "id": "v_111be63a6dd8-1",
+        "name": "cards-article",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Article listing with tags, dates and read times linking to detail pages",
+        "description": "link + image + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_html--82f20df8/blocks/78e36a4b09b0.jpg",
+          ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/5287cbb48178.jpg"
+        ]
+      },
+      "v_77d5b6d33fc0": {
+        "id": "v_77d5b6d33fc0",
+        "name": "accordion-manager",
+        "type": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Expandable logo tiles revealing manager details; layout is a grid, may need a custom block",
+        "description": "image + heading",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_variable-annuities_investment-options_html--8cc7c822/blocks/da5f39e2b0d3.jpg",
+          ".pages/www_jackson_com_supplier-management_html--25a28c9e/blocks/bbdabe7cacd8.jpg"
+        ]
+      },
+      "v_87779726089a": {
+        "id": "v_87779726089a",
+        "name": "cards-tool",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Grid of image + titled box + CTA cards sending visitors to tools",
+        "variant": "grey-blue-cyan-orange",
+        "description": "link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/035e5328f4db.jpg"
+        ]
+      },
+      "v_0e1bfe4f5f09": {
+        "id": "v_0e1bfe4f5f09",
+        "name": "cards-tool",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "filterable partner directory with tag labels, may be its own block",
+        "variant": "partner",
+        "description": "link",
+        "screenshots": [
+          ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/80d42317a7b1.jpg"
+        ]
+      },
+      "v_9eb309ffb2fb": {
+        "id": "v_9eb309ffb2fb",
+        "name": "address-card",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Single address box with a header band; could be default-content",
+        "description": "text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/7c7cff30daae.jpg"
+        ]
+      },
+      "v_bdbee14eec9a": {
+        "id": "v_bdbee14eec9a",
+        "name": "columns-feature",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Panel of heading and icon list beside a lifestyle photo",
+        "variant": "image-left",
+        "description": "heading + button + image",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_html--ee33ad6e/blocks/7209784b8d4a.jpg",
+          ".pages/www_jackson_com_financial-professional_get-appointed_html--0bcedb9a/blocks/7209784b8d4a.jpg"
+        ]
+      },
+      "v_b96311568eb6": {
+        "id": "v_b96311568eb6",
+        "name": "contact-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "a product sub-navigation jump bar, a different job",
+        "variant": "alt-2",
+        "description": "list + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_variable-annuities_elite-access-ii-performance-center_html--77736f1e/blocks/138b043f402a.jpg",
+          ".pages/www_jackson_com_annuities_variable-annuities_perspective-ii-performance-center_html--f184984b/blocks/159f3cd3c163.jpg"
+        ]
+      },
+      "v_26007a568bb5": {
+        "id": "v_26007a568bb5",
+        "name": "list-filter",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Checkbox filter chips controlling a listing below",
+        "description": "field",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_integrations_html--7db365a6/blocks/34693e80c90b.jpg"
+        ]
+      },
+      "v_7a70381be7bb": {
+        "id": "v_7a70381be7bb",
+        "name": "list-filter",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Checkbox filter chips controlling a listing below",
+        "variant": "light-blue-orange-magenta",
+        "description": "field",
+        "screenshots": [
+          ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/352f509a575c.jpg"
+        ]
+      },
+      "v_5cbafd7a724d": {
+        "id": "v_5cbafd7a724d",
+        "name": "hero-banner",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Same photo banner with inset box; missing button is optional content",
+        "variant": "cyan",
+        "description": "image + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/d596744804d6.jpg"
+        ]
+      },
+      "v_a7a9bcab151c": {
+        "id": "v_a7a9bcab151c",
+        "name": "hero-banner",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Same photo banner with inset box; missing button is optional content",
+        "variant": "grey",
+        "description": "image + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/426714fb6564.jpg"
+        ]
+      },
+      "v_512553cd140d": {
+        "id": "v_512553cd140d",
+        "name": "hero-banner",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Background photo with an inset box holding heading, text and button",
+        "variant": "blue",
+        "description": "image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/4d70d23aed51.jpg"
+        ]
+      },
+      "v_3c7cb897641c": {
+        "id": "v_3c7cb897641c",
+        "name": "hero-banner",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Background photo with an inset box holding heading, text and button",
+        "variant": "orange",
+        "description": "image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-index-annuities_html--2eb73cb9/blocks/17e22810179b.jpg"
+        ]
+      },
+      "v_3ded1b6c5c85": {
+        "id": "v_3ded1b6c5c85",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Topic tabs switching featured study and resource cards",
+        "variant": "grey",
+        "description": "heading + text + list + image + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_retirement-research_html--ba06fa87/blocks/af47d0e60b1d.jpg"
+        ]
+      },
+      "v_e7799d730d73-1": {
+        "id": "v_e7799d730d73-1",
+        "name": "tabs-product",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Same product page shell with tabs over a hero",
+        "description": "heading + list + image + link + text",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_fixed-index-annuities_jackson-income-assurance_html--86d975ff/blocks/2772d5ece960.jpg"
+        ]
+      },
+      "v_ebd6a3990a4f": {
+        "id": "v_ebd6a3990a4f",
+        "name": "tabs-product",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Same product page shell with tabs over a hero",
+        "description": "heading + list + image + link + text",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_registered-index-linked-annuities_market-link-pro-suite_html--2d7c5313/blocks/f7981841cc7a.jpg"
+        ]
+      },
+      "v_0d82ed78d834": {
+        "id": "v_0d82ed78d834",
+        "name": "cards-team",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Grid of headshots with names and titles",
+        "description": "image + text",
+        "screenshots": [
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/f92fecbb558a.jpg"
+        ]
+      },
+      "v_353160be026d": {
+        "id": "v_353160be026d",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Topic tabs switching research panels",
+        "variant": "alt-3",
+        "description": "list + heading + text + link + image + button",
+        "screenshots": [
+          ".pages/www_jackson_com_your-financial-future_retirement-statistics_html--83fbf190/blocks/bfb94f8e1df5.jpg"
+        ]
+      },
+      "v_23a18fa8e636": {
+        "id": "v_23a18fa8e636",
+        "name": "forms-finder",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Keyword search for a forms list; library search uses a query index and may not fit",
+        "description": "button + field",
+        "screenshots": [
+          ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/b39f7fccf0fe.jpg"
+        ]
+      },
+      "v_0bdd50a0aad0": {
+        "id": "v_0bdd50a0aad0",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Underlined tab bar switching resource panels",
+        "variant": "image-magenta-grey-shadow",
+        "description": "list + text + link + image + heading",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/4bf0355c0686.jpg"
+        ]
+      },
+      "v_0bdd50a0aad0-1": {
+        "id": "v_0bdd50a0aad0-1",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Underlined tab bar switching long-form text panels",
+        "variant": "alt-3",
+        "description": "list + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_cyber-security_html--c3ac5d60/blocks/4bf0355c0686.jpg"
+        ]
+      },
+      "v_92c544569cc5": {
+        "id": "v_92c544569cc5",
+        "name": "retirement-calculator",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Step indicator of the calculator workflow",
+        "variant": "red-2",
+        "description": "link",
+        "screenshots": [
+          ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/d2da9f2a3830.jpg"
+        ]
+      },
+      "v_353160be026d-1": {
+        "id": "v_353160be026d-1",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Career category tabs switching text + image panels",
+        "variant": "alt-3",
+        "description": "list + heading + text + link + image",
+        "screenshots": [
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/bfb94f8e1df5.jpg"
+        ]
+      },
+      "v_a354bd635f82": {
+        "id": "v_a354bd635f82",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Category cards linking to product category pages",
+        "description": "link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_html--89e15c07/blocks/d3725755d24a.jpg"
+        ]
+      },
+      "v_0bdd50a0aad0-2": {
+        "id": "v_0bdd50a0aad0-2",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Icon tab bar switching FAQ panels",
+        "variant": "icons",
+        "description": "list + button",
+        "screenshots": [
+          ".pages/www_jackson_com_frequently-asked-questions_html--b0bd4712/blocks/4bf0355c0686.jpg"
+        ]
+      },
+      "v_0fcbe14c4ddd": {
+        "id": "v_0fcbe14c4ddd",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "State tabs over product panels",
+        "description": "list + image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/6f7bec509829.jpg"
+        ]
+      },
+      "v_591dd66f5373": {
+        "id": "v_591dd66f5373",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "State tabs over product banner and cards",
+        "variant": "image-green",
+        "description": "list + image + heading + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_fixed-annuities_html--cb01a0e4/blocks/bf11d33473b5.jpg"
+        ]
+      },
+      "v_d29aefda00a9": {
+        "id": "v_d29aefda00a9",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "State tabs over product cards",
+        "description": "list + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/58fc94ded288.jpg"
+        ]
+      },
+      "v_0bdd50a0aad0-3": {
+        "id": "v_0bdd50a0aad0-3",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Icon tab bar switching policy notice panels",
+        "variant": "icons-2",
+        "description": "list + button",
+        "screenshots": [
+          ".pages/www_jackson_com_legal-and-privacy_html--f613a854/blocks/4bf0355c0686.jpg"
+        ]
+      },
+      "v_3ded1b6c5c85-1": {
+        "id": "v_3ded1b6c5c85-1",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Tabs switching resource card panels",
+        "variant": "grey-2",
+        "description": "list + image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_client-resources_html--e79c83da/blocks/af47d0e60b1d.jpg"
+        ]
+      },
+      "v_3ded1b6c5c85-2": {
+        "id": "v_3ded1b6c5c85-2",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Tabs switching tax resource card panels",
+        "description": "list + link + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_client-needs_tax-deferral_html--d8cbed3f/blocks/af47d0e60b1d.jpg"
+        ]
+      },
+      "v_61577b248269": {
+        "id": "v_61577b248269",
+        "name": "columns-benefits",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Overview text with CTAs beside a benefits list",
+        "variant": "light",
+        "description": "heading + link + text",
+        "screenshots": [
+          ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/dc80b6a66ccd.jpg"
+        ]
+      },
+      "v_22b649f9bb01": {
+        "id": "v_22b649f9bb01",
+        "name": "contact-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Email form beside contact details; same contact job",
+        "variant": "alt",
+        "description": "heading + text + link + field + video + button + table",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/5e21af32785a.jpg"
+        ]
+      },
+      "v_4bf32ee1fa2d": {
+        "id": "v_4bf32ee1fa2d",
+        "name": "cards-video",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Look-alike video items each with heading and description",
+        "description": "link + video + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/6482d19832de.jpg"
+        ]
+      },
+      "v_33d79bdaded9": {
+        "id": "v_33d79bdaded9",
+        "name": "app-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Login credential fields of the app form",
+        "variant": "light",
+        "description": "list + field",
+        "screenshots": [
+          ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/d6fafe472e45.jpg"
+        ]
+      },
+      "v_982a06f2186b": {
+        "id": "v_982a06f2186b",
+        "name": "list-filter",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Year selector filtering the press release list",
+        "variant": "alt",
+        "description": "heading + field",
+        "screenshots": [
+          ".pages/www_jackson_com_the-jackson-difference_who-we-are_news_html--71b4ec12/blocks/06aa2f64a55b.jpg"
+        ]
+      },
+      "v_82713101398f": {
+        "id": "v_82713101398f",
+        "name": "retirement-calculator",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Interactive retirement expense calculator app",
+        "description": "heading + field + button + icon",
+        "screenshots": [
+          ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/252e693ada9b.jpg"
+        ]
+      },
+      "v_37797479fc61": {
+        "id": "v_37797479fc61",
+        "name": "app-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Remember-me checkbox of the login form",
+        "variant": "image",
+        "description": "list + field + link",
+        "screenshots": [
+          ".pages/www_jackson_com_login_login_xhtml--7e2b5793/blocks/b06e8d0abb5a.jpg"
+        ]
+      },
+      "v_682308430171": {
+        "id": "v_682308430171",
+        "name": "cards-video",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Video items with icon, heading, text and button",
+        "description": "link + video + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_ax-updates_html--b700e217/blocks/8a1aadec28c8.jpg"
+        ]
+      },
+      "v_0bb29a208bcf": {
+        "id": "v_0bb29a208bcf",
+        "name": "app-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Radio field of a contact form",
+        "variant": "dark",
+        "description": "field",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/8ca294fd6791.jpg"
+        ]
+      },
+      "v_bcdfbe1295ff": {
+        "id": "v_bcdfbe1295ff",
+        "name": "app-form",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Audience radio selector of the contact form",
+        "variant": "dark-red",
+        "description": "field",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_contact-us_html--631a75f7/blocks/6fada3e35b65.jpg"
+        ]
+      },
+      "v_534fecd51524-1": {
+        "id": "v_534fecd51524-1",
+        "name": "columns-schedule",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Text beside a dates table; could be default-content plus a table block",
+        "description": "heading + text + table",
+        "screenshots": [
+          ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_grant-application_html--1be3fe19/blocks/fcafa7b06738.jpg"
+        ]
+      },
+      "v_601a7f617c9a": {
+        "id": "v_601a7f617c9a",
+        "name": "hero-page",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Page title and intro beside a decorative graphic",
+        "variant": "grey",
+        "description": "heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/4836ecbdd4f9.jpg"
+        ]
+      },
+      "v_18c396eaca5e": {
+        "id": "v_18c396eaca5e",
+        "name": "cards-feature",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Icon-led teaser items with heading, text and button",
+        "variant": "icon-left",
+        "description": "text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/b7af9b8ea139.jpg"
+        ]
+      },
+      "v_caae22e90d76": {
+        "id": "v_caae22e90d76",
+        "name": "location-tiles",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Horizontal expandable office photo tiles; could be an accordion variant",
+        "description": "image + text + link",
+        "screenshots": [
+          ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/9d72adadf023.jpg"
+        ]
+      },
+      "v_711fd3e7113e": {
+        "id": "v_711fd3e7113e",
+        "name": "accordion-manager",
+        "type": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "category filter pills for an article list, a different job",
+        "variant": "red",
+        "description": "button",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/d68e007b8a72.jpg"
+        ]
+      },
+      "v_ba665a55d43b": {
+        "id": "v_ba665a55d43b",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "a multi-step form progress indicator, not tabs",
+        "variant": "alt-2",
+        "description": "list + link",
+        "screenshots": [
+          ".pages/www_jackson_com_transactional-forms_claims_claims-initial-notice_html--a21a9e7c/blocks/ae1a92f5908b.jpg"
+        ]
+      },
+      "v_69f65a7e8cb1": {
+        "id": "v_69f65a7e8cb1",
+        "name": "tabs-section",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Tab strip between product suites; may be links rather than panels",
+        "variant": "alt",
+        "description": "list",
+        "screenshots": [
+          ".pages/www_jackson_com--0b8df100/blocks/121e19792929.jpg"
+        ]
+      },
+      "v_1a5fcd90d70f": {
+        "id": "v_1a5fcd90d70f",
+        "name": "cards-product",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Boxed action cards with heading, text and button; a fixed set could be columns",
+        "description": "heading + text + button + link",
+        "screenshots": [
+          ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/79db99049356.jpg"
+        ]
+      },
+      "v_b81b1ea08ea2": {
+        "id": "v_b81b1ea08ea2",
+        "name": "cards-article",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Article cards with photo, tag, date and title linking to articles",
+        "variant": "image-magenta-shadow",
+        "description": "link + image + heading + text",
+        "screenshots": [
+          ".pages/www_jackson_com_your-financial-future_educational-resources_html--e07b3b4a/blocks/ef4c09cb7e1b.jpg"
+        ]
+      },
+      "v_8ae1617e1838": {
+        "id": "v_8ae1617e1838",
+        "name": "hero-page",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Page title box beside a photo",
+        "variant": "image",
+        "description": "heading",
+        "screenshots": [
+          ".pages/www_jackson_com_registration_ria_xhtml--33321b02/blocks/e8186f65f6cc.jpg"
+        ]
+      },
+      "v_e4db00948b47": {
+        "id": "v_e4db00948b47",
+        "name": "pagination",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Pagination for the article listing; may belong in cards-article code",
+        "description": "button",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_resources_retirement-articles_html--77081cd5/blocks/8f4ab8c2fa09.jpg"
+        ]
+      },
+      "v_47eb20d84b9f": {
+        "id": "v_47eb20d84b9f",
+        "name": "cards-feature",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Process step items with title and text; boxed with a footnote, could be columns",
+        "variant": "dark-light",
+        "description": "text",
+        "screenshots": [
+          ".pages/www_jackson_com_transactional-forms_claims_claims-initial-notice_html--a21a9e7c/blocks/318b66757b98.jpg"
+        ]
+      },
+      "v_f9fb62d42571": {
+        "id": "v_f9fb62d42571",
+        "name": "disclaimer-gate",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Acknowledgement checkbox gating a tool start button beside a photo",
+        "description": "image + heading + text + list + field + link",
+        "screenshots": [
+          ".pages/www_jackson_com_financial-professional_annuity-products_product-match-pro_html--0b4c6337/blocks/3bbd11413d77.jpg"
+        ]
+      },
+      "v_bedc667c759d": {
+        "id": "v_bedc667c759d",
+        "name": "retirement-calculator",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "high",
+        "confidenceReason": "Results header of the retirement calculator",
+        "variant": "red-3",
+        "description": "heading",
+        "screenshots": [
+          ".pages/www_jackson_com_dash_tools_retirement-expense-calculator_html--9dc13a1f/blocks/6df133a1d6c4.jpg"
+        ]
+      },
+      "v_88b53fa0318c": {
+        "id": "v_88b53fa0318c",
+        "name": "forms-finder",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "placedBy": "naming",
+        "confidenceLevel": "low",
+        "confidenceReason": "Pagination and bulk-email toolbar of the forms library app",
+        "description": "link + field + button",
+        "screenshots": [
+          ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/4c65df5e98e4.jpg"
+        ]
+      }
+    }
+  }
+}

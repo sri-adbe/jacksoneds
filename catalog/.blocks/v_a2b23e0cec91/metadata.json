@@ -1,0 +1,38 @@
+{
+  "id": "v_a2b23e0cec91",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + image + heading + text"
+  },
+  "layoutKey": "([tab] [~(T [T])] ~@(~([T])))",
+  "colour": "([tab] [~w(Tk [Tk])] ~@(~m(Tw)) ~@(~r(Tk)))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html",
+        "instanceId": "b28a389d97f8",
+        "instanceIds": [
+          "b28a389d97f8"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_variable-annuities_html--31580e6c/blocks/b28a389d97f8.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Same state tabs over product banner and cards",
+    "mergedInto": "v_194910149592"
+  }
+}

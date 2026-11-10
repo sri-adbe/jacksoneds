@@ -1,0 +1,38 @@
+{
+  "id": "v_f9fb62d42571",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professional/annuity-products/product-match-pro.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text + list + field + link"
+  },
+  "layoutKey": "~([(T [T|[T|input]])|T])",
+  "colour": "~r([(Tk [Tk|[Tk|input~w]])|T])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professional/annuity-products/product-match-pro.html",
+        "instanceId": "3bbd11413d77",
+        "instanceIds": [
+          "3bbd11413d77"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_annuity-products_product-match-pro_html--0b4c6337/blocks/3bbd11413d77.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Acknowledgement checkbox gating a tool start button beside a photo",
+    "mergedInto": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "v_ed917c46868e",
+  "type": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text + link"
+  },
+  "layoutKey": "~([T|T*1.25])",
+  "colour": "~w([T|Tk*1.25])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "instanceId": "9be70c41c541",
+        "instanceIds": [
+          "9be70c41c541",
+          "7f3de86c7d0f",
+          "aefbafe96684",
+          "ed8c81ae25fa"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/9be70c41c541.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html",
+        "instanceId": "fb5624e1f3e7",
+        "instanceIds": [
+          "fb5624e1f3e7"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/fb5624e1f3e7.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Text beside a portrait; same fields, though a leader bio is a different job",
+    "mergedInto": "v_d6094627fa3d"
+  }
+}

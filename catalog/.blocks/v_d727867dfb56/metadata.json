@@ -1,0 +1,62 @@
+{
+  "id": "v_d727867dfb56",
+  "type": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "table"
+  },
+  "layoutKey": "table",
+  "colour": "table",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+        "instanceId": "3670983a2958",
+        "instanceIds": [
+          "3670983a2958"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/3670983a2958.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "instanceId": "37f4159ef580",
+        "instanceIds": [
+          "37f4159ef580"
+        ],
+        "screenshot": ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/37f4159ef580.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+        "instanceId": "d030b19bf8cb",
+        "instanceIds": [
+          "d030b19bf8cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_fee-based-annuity-solutions_html--4d53b032/blocks/d030b19bf8cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+        "instanceId": "146a822a594e",
+        "instanceIds": [
+          "146a822a594e"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_careers_html--0937a1dd/blocks/146a822a594e.jpg"
+      }
+    ],
+    "reuseCount": 4
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Data table comparing products with links",
+    "mergedInto": null
+  }
+}

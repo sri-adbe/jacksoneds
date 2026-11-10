@@ -1,0 +1,182 @@
+{
+  "id": "v_94020c7dbd6a-1",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + link"
+  },
+  "layoutKey": "~@(T)",
+  "colour": "~@(Tk)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/",
+        "instanceId": "c37b08da9a3e",
+        "instanceIds": [
+          "c37b08da9a3e"
+        ],
+        "screenshot": ".pages/www_jackson_com--0b8df100/blocks/c37b08da9a3e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities.html",
+        "instanceId": "9a8304f60d35",
+        "instanceIds": [
+          "9a8304f60d35"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_html--8c23f2c7/blocks/9a8304f60d35.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/benefits-of-annuities/tax-deferral.html",
+        "instanceId": "4e4ad634f569",
+        "instanceIds": [
+          "4e4ad634f569"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_benefits-of-annuities_tax-deferral_html--6e8a2cb1/blocks/4e4ad634f569.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "1c93db1356cf",
+        "instanceIds": [
+          "1c93db1356cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/1c93db1356cf.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional.html",
+        "instanceId": "9b693509ff89",
+        "instanceIds": [
+          "9b693509ff89"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_html--5948f0a6/blocks/9b693509ff89.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/bank.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_bank_html--b18c7908/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/credit-union.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_credit-union_html--09b631f8/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/independent.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_independent_html--85cb029a/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/insurance-professional.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_insurance-professional_html--2669bec0/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/regional.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_regional_html--db6d49d6/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_html--fce205bb/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_value-added-services_html--29b67300/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/wirehouse.html",
+        "instanceId": "2dc979a8a70e",
+        "instanceIds": [
+          "2dc979a8a70e"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_wirehouse_html--703f6b05/blocks/2dc979a8a70e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+        "instanceId": "fcafa7b06738",
+        "instanceIds": [
+          "fcafa7b06738"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/fcafa7b06738.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference.html",
+        "instanceId": "6e490f355a94",
+        "instanceIds": [
+          "6e490f355a94"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_html--11539a4e/blocks/6e490f355a94.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are.html",
+        "instanceId": "1c93db1356cf",
+        "instanceIds": [
+          "1c93db1356cf"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_html--156a4128/blocks/1c93db1356cf.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+        "instanceId": "4e4ad634f569",
+        "instanceIds": [
+          "4e4ad634f569"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/4e4ad634f569.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html",
+        "instanceId": "4e4ad634f569",
+        "instanceIds": [
+          "4e4ad634f569"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/4e4ad634f569.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/your-financial-future/calculators-and-tools.html",
+        "instanceId": "c37b08da9a3e",
+        "instanceIds": [
+          "c37b08da9a3e"
+        ],
+        "screenshot": ".pages/www_jackson_com_your-financial-future_calculators-and-tools_html--4d93c0ef/blocks/c37b08da9a3e.jpg"
+      }
+    ],
+    "reuseCount": 19
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Background photo with an overlaid box holding heading, text and CTA",
+    "mergedInto": null
+  }
+}

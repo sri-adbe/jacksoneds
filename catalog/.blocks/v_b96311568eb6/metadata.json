@@ -1,0 +1,46 @@
+{
+  "id": "v_b96311568eb6",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list + link"
+  },
+  "layoutKey": "~([T|menuitem])",
+  "colour": "~w([Tk|menuitem])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html",
+        "instanceId": "138b043f402a",
+        "instanceIds": [
+          "138b043f402a"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_elite-access-ii-performance-center_html--77736f1e/blocks/138b043f402a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html",
+        "instanceId": "159f3cd3c163",
+        "instanceIds": [
+          "159f3cd3c163"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-ii-performance-center_html--f184984b/blocks/159f3cd3c163.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "a product sub-navigation jump bar, a different job",
+    "mergedInto": null
+  }
+}

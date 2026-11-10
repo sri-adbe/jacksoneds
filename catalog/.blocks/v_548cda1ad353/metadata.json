@@ -1,0 +1,38 @@
+{
+  "id": "v_548cda1ad353",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + link"
+  },
+  "layoutKey": "[~(T ~(T))]",
+  "colour": "[~w(Tk ~c(Tk))] [~w(Tk ~c(Tk))|~w(Tk ~o(Tk))] [~w(Tk ~o(Tk))]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
+        "instanceId": "14d8f6b8464a",
+        "instanceIds": [
+          "14d8f6b8464a"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_integration-with-your-practice_html--a8097f3e/blocks/14d8f6b8464a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "filterable partner directory with logos, may be its own block",
+    "mergedInto": null
+  }
+}
