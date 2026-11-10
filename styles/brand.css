@@ -1,0 +1,73 @@
+/*
+ * Brand tokens extracted from https://www.jackson.com (computed styles).
+ * Source fonts Apercu (body) and Superior Title (headings) are commercial and not
+ * hosted publicly; DM Sans and Playfair Display (Google Fonts) are used as fallbacks.
+ */
+:root {
+  /* palette */
+  --brand-red: rgb(235 0 40);
+  --brand-plum: rgb(92 38 66);
+  --brand-plum-dark: rgb(59 5 46);
+  --brand-plum-deep: rgb(64 0 48);
+  --brand-gray: rgb(71 69 70);
+  --brand-beige: rgb(219 207 199);
+  --brand-beige-light: rgb(241 236 233);
+  --brand-white: rgb(255 255 255);
+  --brand-black: rgb(0 0 0);
+
+  /* semantic colors */
+  --background-color: var(--brand-white);
+  --text-color: var(--brand-black);
+  --heading-color: var(--brand-plum);
+  --heading-accent-color: var(--brand-red);
+  --link-color: var(--brand-red);
+  --link-hover-color: var(--brand-red);
+  --link-visited-color: var(--brand-plum);
+  --light-color: var(--brand-beige-light);
+  --dark-color: var(--brand-gray);
+
+  /* fonts */
+  --body-font-family: apercu, 'DM Sans', dm-sans-fallback, verdana, sans-serif;
+  --heading-font-family: 'Superior Title', 'Playfair Display', playfair-fallback, georgia, serif;
+
+  /* body sizes (mobile) */
+  --body-font-size-m: 18px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
+  --body-line-height: 1.45;
+
+  /* heading sizes (mobile) */
+  --heading-font-size-xxl: 36px;
+  --heading-font-size-xl: 28px;
+  --heading-font-size-l: 24px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
+
+  /* spacing */
+  --section-padding: 40px;
+  --content-max-width: 1480px;
+  --content-gutter: 20px;
+
+  /* buttons */
+  --button-font-size: 16px;
+  --button-padding: 8px 25px;
+}
+
+@media (width >= 900px) {
+  :root {
+    /* body sizes (desktop) */
+    --body-font-size-m: 19px;
+    --body-font-size-s: 16px;
+    --body-font-size-xs: 14px;
+    --body-line-height: 1.37;
+
+    /* heading sizes (desktop, from source h1-h5) */
+    --heading-font-size-xxl: 46px;
+    --heading-font-size-xl: 40px;
+    --heading-font-size-l: 34px;
+    --heading-font-size-m: 24px;
+    --heading-font-size-s: 20px;
+    --heading-font-size-xs: 18px;
+  }
+}
