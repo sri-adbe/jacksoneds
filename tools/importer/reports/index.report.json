@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/",
+  "path": "index",
+  "timestamp": "2026-11-10T21:01:33.978Z",
+  "title": "Jackson - Clarity for all | Jackson",
+  "template": "homepage",
+  "blocks": [
+    "tabs-section",
+    "hero-banner",
+    "cards-feature",
+    "cards-feature",
+    "columns-benefits",
+    "cards-tool"
+  ],
+  "importScript": "8bffc78ea050"
+}

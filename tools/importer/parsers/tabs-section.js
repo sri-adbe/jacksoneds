@@ -78,7 +78,73 @@ function textOnlyContent(panel) {
   return nodes.length ? nodes : null;
 }
 
+// Hero tabs (homepage div.hero-space > div.tab.event-setup): the catalog claims only the tab strip
+// (.content-area.tab-wrapper); its panels are sibling div.tab-content elements matched by id.
+// Rows follow the Tabs convention: tab label in the first cell, tab content in the second.
+function heroPanelContent(document, panel, first) {
+  const wrap = panel.querySelector('.wide .tab-content-wrappper')
+    || panel.querySelector('.narrow .tab-content-wrappper')
+    || panel;
+  const nodes = [];
+  const headline = wrap.querySelector('.headline, h1, h2');
+  if (headline && headline.textContent.trim()) {
+    const h = document.createElement(first ? 'h1' : 'h2');
+    h.innerHTML = headline.innerHTML.trim();
+    // flatten nested wrappers/headings, keep inline marks such as <sup>
+    [...h.querySelectorAll('*')].reverse().forEach((d) => {
+      if (!d.matches('sup, sub, em, strong, br')) d.replaceWith(...d.childNodes);
+    });
+    h.innerHTML = h.innerHTML.replace(/\s+/g, ' ').trim();
+    nodes.push(h);
+  }
+  wrap.querySelectorAll('.description, .subheading').forEach((d) => {
+    const ps = [...d.querySelectorAll('p')].filter((p) => p.textContent.trim());
+    if (ps.length) nodes.push(...ps);
+    else if (d.textContent.trim()) {
+      const p = document.createElement('p');
+      p.innerHTML = d.innerHTML.trim();
+      nodes.push(p);
+    }
+  });
+  const seen = new Set();
+  wrap.querySelectorAll('.action a[href]').forEach((a) => {
+    const key = `${a.getAttribute('href')}|${a.textContent.replace(/\s+/g, ' ').trim()}`;
+    if (!a.textContent.trim() || seen.has(key)) return; // source repeats the CTA per breakpoint
+    seen.add(key);
+    const p = document.createElement('p');
+    const link = document.createElement('a');
+    link.href = a.getAttribute('href');
+    link.textContent = a.textContent.replace(/\s+/g, ' ').trim();
+    p.append(link);
+    nodes.push(p);
+  });
+  return nodes;
+}
+
+function parseHeroTabs(element, document, heroTab) {
+  const heroPanels = [...heroTab.querySelectorAll(':scope > .tab-content')];
+  const tabs = [...element.querySelectorAll('.tab-container ul > li')];
+  const cells = [];
+  tabs.forEach((li, index) => {
+    const label = labelContent(document, li);
+    if (!label.length) return;
+    const panel = heroPanels.find((p) => li.id && p.id === li.id) || heroPanels[index];
+    // row = [tab label, tab content]
+    cells.push([label, panel ? heroPanelContent(document, panel, index === 0) : '']);
+  });
+  heroPanels.forEach((p) => p.remove());
+  const block = WebImporter.Blocks.createBlock(document, { name: 'tabs-section (alt)', cells });
+  element.replaceWith(block);
+}
+
 export default function parse(element, { document, params }) {
+  const heroTab = element.matches('.tab-wrapper') && element.parentElement
+    && element.parentElement.matches('.tab') ? element.parentElement : null;
+  if (heroTab && heroTab.querySelector(':scope > .tab-content')
+    && !element.querySelector('.tab-content')) {
+    parseHeroTabs(element, document, heroTab);
+    return;
+  }
   const tabRoot = element.matches('.tab') ? element : (element.querySelector('.tab.v4, .tab') || element);
   const tabs = [...tabRoot.querySelectorAll('.tab-container ul[role="tablist"] > li, .tab-container ul > li[role="tab"]')]
     .filter((li, i, arr) => arr.indexOf(li) === i);

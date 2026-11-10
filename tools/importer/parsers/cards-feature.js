@@ -139,7 +139,13 @@ export default function parse(element, { document, params }) {
       const h = makeHeading(document, item.querySelector('.cta-list__header') || item.querySelector('h1, h2, h3, h4, h5, h6'), 3);
       if (h) body.push(h);
       body.push(...cleanDescription(document, item.querySelector('.cta-list__description')));
-      body.push(...ctaParagraphs(document, [...item.querySelectorAll('.customContent a, .cta-list__links a')]));
+      // link lists can sit inside the item or beside it in the same .cta-list content area
+      const area = item.closest('.content-area') || item;
+      const linkEls = [...item.querySelectorAll('.customContent a, .cta-list__links a')];
+      area.querySelectorAll(':scope > .cta-list__links a').forEach((a) => {
+        if (!linkEls.includes(a)) linkEls.push(a);
+      });
+      body.push(...ctaParagraphs(document, linkEls));
       if (!body.length && !img) return;
       cells.push([iconCell(img), body]);
     });
@@ -169,6 +175,13 @@ export default function parse(element, { document, params }) {
       const h = makeHeading(document, child.querySelector('h1, h2, h3, h4, h5, h6, .title'), 3);
       if (h) body.push(h);
       child.querySelectorAll('p, ul, ol').forEach((p) => { if (textOf(p)) body.push(p); });
+      // Call-to-Action goes at the bottom of the text cell: pick up stand-alone CTA links
+      // (e.g. .small-links arrow buttons) that sit outside paragraphs. Repeating units that are
+      // div.cta-icon-card are handled by the iconCards branch above; plain divs land here.
+      const loose = [...child.querySelectorAll('.small-links a[href], .cta-arrow-button-wrapper a[href]')]
+        .filter((a) => !body.some((n) => n.contains && n.contains(a)));
+      body.push(...ctaParagraphs(document, loose));
+      // row = [image or icon, text content]
       cells.push([iconCell(img), body]);
     });
   }

@@ -6,7 +6,105 @@
         "https://www.jackson.com/"
       ],
       "description": "Landing page with full-width background hero, tabbed feature panels, three-column card rows and disclosures",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "tabs-section",
+          "instances": [
+            "div.hero-space div.content-area.tab-wrapper"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div.hero-space.v3 > div > div.tab.event-setup > div.content-area.tab-wrapper"
+            ]
+          }
+        },
+        {
+          "name": "hero-banner",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(3)"
+            ]
+          }
+        },
+        {
+          "name": "cards-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(4)",
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(6) > div > div"
+            ]
+          }
+        },
+        {
+          "name": "columns-benefits",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(7)"
+            ]
+          }
+        },
+        {
+          "name": "cards-tool",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(8) > div > div"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "hero",
+          "name": "hero",
+          "selector": [
+            "div.hero-space",
+            "div.aem-Grid > div.full-width-container:nth-of-type(4)"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-section"
+          ],
+          "defaultContent": [
+            "div.hero-space div.background",
+            "div.hero-space h1",
+            "div.hero-space div.description",
+            "div.hero-space div.subheading"
+          ]
+        },
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.hero-space + div.promo-area",
+            "div.hero-space ~ div.background-container"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-banner",
+            "cards-feature",
+            "columns-benefits",
+            "cards-tool"
+          ],
+          "defaultContent": [
+            "section div.disclosure",
+            "section div.layout-container > div.content-area > h3",
+            "section p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(27)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      }
     },
     {
       "name": "utility-page",

@@ -666,3 +666,157 @@
     bottom: -64px;
   }
 }
+
+/* alt: homepage hero tabs. The section's default-content image is the hero background; the
+   panel (white box) sits over it and the tab strip runs full width below
+   (source: jackson.com div.hero-space.v3 .tab.event-setup). */
+main .section:has(> .tabs-section-wrapper .tabs-section.alt) {
+  display: grid;
+  padding: 0;
+}
+
+main .section:has(> .tabs-section-wrapper .tabs-section.alt) > .default-content-wrapper {
+  grid-area: 1 / 1;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main .section:has(> .tabs-section-wrapper .tabs-section.alt) > .default-content-wrapper p {
+  margin: 0;
+}
+
+main .section:has(> .tabs-section-wrapper .tabs-section.alt) > .default-content-wrapper img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+main .section:has(> .tabs-section-wrapper .tabs-section.alt) > .tabs-section-wrapper {
+  grid-area: 1 / 1;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-section.alt {
+  display: grid;
+  grid-template-rows: 220px auto auto;
+  margin: 0;
+}
+
+.tabs-section.alt .tabs-section-panel {
+  grid-row: 3;
+  padding: 25px 20px;
+  background-color: var(--brand-white);
+}
+
+.tabs-section.alt .tabs-section-panel :is(h1, h2) {
+  margin: 0 0 10px;
+  color: var(--brand-red);
+  font-family: var(--heading-font-family);
+  font-size: 36.8px;
+  font-weight: 700;
+  line-height: 44.8px;
+}
+
+.tabs-section.alt .tabs-section-panel p {
+  margin: 0 0 20px;
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.tabs-section.alt .tabs-section-panel p:last-child {
+  margin: 0;
+}
+
+.tabs-section.alt .tabs-section-panel p:has(> a:only-child) a {
+  position: relative;
+  padding: 3px 0 3px 22px;
+  color: var(--brand-black);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.tabs-section.alt .tabs-section-panel p:has(> a:only-child) a::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--brand-red);
+}
+
+.tabs-section.alt .tabs-section-panel p:has(> a:only-child) a:hover {
+  text-decoration: underline;
+}
+
+.tabs-section.alt .tabs-section-list {
+  grid-row: 2;
+  display: grid;
+  grid-auto-columns: minmax(130px, 1fr);
+  grid-auto-flow: column;
+  gap: 4px;
+  padding: 0;
+  background-color: var(--brand-white);
+  box-shadow: none;
+}
+
+.tabs-section.alt .tabs-section-tab {
+  min-height: 108px;
+  padding: 10px 5px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background-color: var(--brand-red);
+  color: var(--brand-white);
+  font-size: 15.2px;
+  font-weight: 600;
+  line-height: 20.8px;
+}
+
+.tabs-section.alt .tabs-section-tab[aria-selected='true'] {
+  border-color: var(--brand-red);
+  background-color: var(--brand-white);
+  color: var(--brand-gray);
+  font-weight: 600;
+}
+
+@media (width >= 900px) {
+  main .section:has(> .tabs-section-wrapper .tabs-section.alt) > .default-content-wrapper img {
+    height: 380px;
+  }
+
+  .tabs-section.alt {
+    grid-template-rows: 380px auto;
+  }
+
+  .tabs-section.alt .tabs-section-panel {
+    grid-row: 1;
+    align-self: center;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    max-width: 800px;
+    margin-left: 20px;
+    padding: 30px;
+  }
+
+  .tabs-section.alt .tabs-section-panel :is(h1, h2) {
+    font-size: 46px;
+    line-height: 56px;
+  }
+
+  .tabs-section.alt .tabs-section-panel p {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .tabs-section.alt .tabs-section-list {
+    grid-auto-columns: 1fr;
+  }
+
+  .tabs-section.alt .tabs-section-tab {
+    min-height: 50px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+}

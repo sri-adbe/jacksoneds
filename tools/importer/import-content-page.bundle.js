@@ -964,7 +964,12 @@ var CustomImportScript = (() => {
         const h = makeHeading(document, item.querySelector(".cta-list__header") || item.querySelector("h1, h2, h3, h4, h5, h6"), 3);
         if (h) body.push(h);
         body.push(...cleanDescription(document, item.querySelector(".cta-list__description")));
-        body.push(...ctaParagraphs(document, [...item.querySelectorAll(".customContent a, .cta-list__links a")]));
+        const area = item.closest(".content-area") || item;
+        const linkEls = [...item.querySelectorAll(".customContent a, .cta-list__links a")];
+        area.querySelectorAll(":scope > .cta-list__links a").forEach((a) => {
+          if (!linkEls.includes(a)) linkEls.push(a);
+        });
+        body.push(...ctaParagraphs(document, linkEls));
         if (!body.length && !img) return;
         cells.push([iconCell(img), body]);
       });
