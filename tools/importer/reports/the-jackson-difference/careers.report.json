@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/the-jackson-difference/careers.html",
+  "path": "the-jackson-difference/careers",
+  "timestamp": "2026-11-10T16:44:22.382Z",
+  "title": "Explore Jackson careers | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "cards-product",
+    "hero-page",
+    "cards-tool",
+    "cards-feature",
+    "tabs-section",
+    "table-product",
+    "location-tiles"
+  ],
+  "fragments": [
+    "fragments/the-jackson-difference/careers/sales-sales-support",
+    "fragments/the-jackson-difference/careers/business-operations",
+    "fragments/the-jackson-difference/careers/finance-accounting",
+    "fragments/the-jackson-difference/careers/information-technology",
+    "fragments/the-jackson-difference/careers/marketing-communications",
+    "fragments/the-jackson-difference/careers/more-careers"
+  ],
+  "importScript": "2e437f884158"
+}

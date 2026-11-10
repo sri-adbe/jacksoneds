@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+  "path": "annuities/fixed-annuities",
+  "timestamp": "2026-11-10T16:50:29.175Z",
+  "title": "Fixed annuities for investors | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "hero-page",
+    "cards-tool",
+    "cards-feature",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/annuities/fixed-annuities/all-other-states",
+    "fragments/annuities/fixed-annuities/new-york-only"
+  ],
+  "importScript": "2e437f884158"
+}
