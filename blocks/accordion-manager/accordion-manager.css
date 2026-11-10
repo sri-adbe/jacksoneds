@@ -1,0 +1,84 @@
+.accordion-manager .accordion-manager-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.accordion-manager .accordion-manager-item {
+  border: 1px solid #dadada;
+  background-color: var(--background-color);
+}
+
+.accordion-manager details summary {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 32px;
+}
+
+.accordion-manager details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-manager details summary::after {
+  content: '';
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  border: 2px solid;
+  border-width: 2px 2px 0 0;
+  transform: translateX(-50%) rotate(135deg);
+  transition: transform 0.2s;
+}
+
+.accordion-manager details[open] summary::after {
+  transform: translateX(-50%) rotate(-45deg);
+}
+
+.accordion-manager .accordion-manager-item-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  min-height: 100px;
+}
+
+.accordion-manager .accordion-manager-item-image img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.accordion-manager .accordion-manager-item-title {
+  padding: 12px 16px 0;
+  text-align: center;
+}
+
+.accordion-manager .accordion-manager-item-title p {
+  margin: 0;
+}
+
+.accordion-manager .accordion-manager-item-body {
+  padding: 0 16px 16px;
+}
+
+/* red: a single row of category pills with no expandable body */
+.accordion-manager.red .accordion-manager-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.accordion-manager.red .accordion-manager-item {
+  border: 0;
+  border-radius: 999px;
+}
+
+.accordion-manager.red .accordion-manager-item-title {
+  padding: 8px 24px;
+}

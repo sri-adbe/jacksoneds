@@ -1,0 +1,20 @@
+{
+  "variantName": "address-card",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "single office address box with a dark header band naming the organisation",
+    "colorScheme": "mixed",
+    "density": "sparse",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "contentPattern": {
+    "structure": "row 1: organisation name (header band); row 2+: address lines"
+  },
+  "options": [],
+  "memberVariantIds": ["v_9eb309ffb2fb"],
+  "usage": { "sourceUrl": "https://www.jackson.com", "pages": 1 },
+  "reuseGuidance": "Use for a single boxed address or contact detail with a title band. For several addresses side by side use columns."
+}

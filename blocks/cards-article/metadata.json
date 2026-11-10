@@ -1,0 +1,22 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "grid of article teaser cards (photo, topic tag, date, title, summary, read time) linking to article pages",
+    "colorScheme": "dark",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "photo on top",
+    "structure": "link + image + text"
+  },
+  "contentPattern": {
+    "structure": "one row per article: image | body. Body order: tag paragraph, date paragraph, title heading (linked to the article), summary, optional read time (\"6 min\"). The title link, or the first link, covers the whole card"
+  },
+  "options": [
+    { "class": "image-magenta-shadow", "label": "Image Magenta Shadow" }
+  ],
+  "memberVariantIds": ["v_111be63a6dd8-1", "v_b81b1ea08ea2"],
+  "usage": { "sourceUrl": "https://www.jackson.com", "pages": 3 },
+  "reuseGuidance": "Use for lists of articles or insights linking to detail pages. For product or category cards use cards-product; for tools use cards-tool."
+}

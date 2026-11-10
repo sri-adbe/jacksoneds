@@ -1,0 +1,25 @@
+{
+  "variantName": "accordion-manager",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "grid of investment-manager logo tiles; each tile expands to reveal the manager's details",
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "logo per tile",
+    "structure": "image + heading"
+  },
+  "contentPattern": {
+    "structure": "one row per tile: logo image | manager name | details (rich text). Logo and name may share the first cell. A row without a details cell renders as a static tile; the Red option uses that for a row of category pills"
+  },
+  "options": [
+    { "class": "red", "label": "Red" }
+  ],
+  "memberVariantIds": ["v_77d5b6d33fc0", "v_711fd3e7113e"],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 3
+  },
+  "reuseGuidance": "Use for logo or name tiles that expand in place to show more detail. Only one tile is open at a time. For a plain list of questions and answers use a standard accordion."
+}

@@ -1,0 +1,29 @@
+{
+  "variantName": "app-form",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "static rendering of a transactional application form (sign-in, registration, account recovery, contact, claim); submission is not wired to a backend",
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "optional side image",
+    "structure": "field + text + video + button"
+  },
+  "contentPattern": {
+    "structure": "one row per field: label (end with * for required) | type (text, email, tel, number, password, date, search, url, textarea, select, radio, checkbox, checkboxes, toggle, submit, reset, button) | options (list or comma separated) or help text. Any other row is rich content (heading, instructions, links) kept in order. With the Image option, a picture-only row becomes a media column"
+  },
+  "options": [
+    { "class": "light", "label": "Light" },
+    { "class": "dark", "label": "Dark" },
+    { "class": "image", "label": "Image" },
+    { "class": "dark-red", "label": "Dark Red" }
+  ],
+  "memberVariantIds": ["v_b625863efd96", "v_e18dfb36a0fa", "v_0bb29a208bcf", "v_33d79bdaded9", "v_37797479fc61", "v_bcdfbe1295ff"],
+  "usage": { "sourceUrl": "https://www.jackson.com", "pages": 13 },
+  "reuseGuidance": "Use for application, sign-in and account forms whose real behaviour lives in a server-side app. The block renders the fields so the page reads correctly and shows a notice on submit; link to the live app for real transactions. For lead capture beside intro copy use contact-form.",
+  "decisions": [
+    "Submission is blocked client-side because the source form posts to a server-side app EDS cannot reproduce.",
+    "reCAPTCHA and app-only widgets are not reproduced."
+  ]
+}

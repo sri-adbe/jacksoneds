@@ -1,0 +1,120 @@
+.app-form .app-form-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
+}
+
+.app-form .app-form-content > :first-child {
+  margin-top: 0;
+}
+
+.app-form .form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.app-form .form-field label {
+  font-weight: 600;
+}
+
+.app-form .form-field input:not([type='checkbox'], [type='radio']),
+.app-form .form-field select,
+.app-form .form-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dadada;
+  border-bottom-width: 3px;
+  font: inherit;
+}
+
+.app-form .form-field fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.app-form .form-field legend {
+  float: left;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+.app-form .form-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+}
+
+.app-form .form-help {
+  font-size: var(--body-font-size-xs);
+}
+
+.app-form .app-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.app-form .app-form-actions .button {
+  margin: 0;
+}
+
+.app-form .form-notice {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #dadada;
+}
+
+@media (width >= 900px) {
+  .app-form .app-form-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .app-form .app-form-form > .app-form-content,
+  .app-form .app-form-form > .form-field-textarea,
+  .app-form .app-form-form > .form-field-radio,
+  .app-form .app-form-form > .form-field-checkboxes,
+  .app-form .app-form-form > .form-field-checkbox,
+  .app-form .app-form-form > .form-field-toggle,
+  .app-form .app-form-actions,
+  .app-form .form-notice {
+    grid-column: 1 / -1;
+  }
+
+  .app-form.image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+
+  .app-form.image .app-form-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+.app-form .app-form-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* colour options are left for the design pass */
+.app-form.dark,
+.app-form.dark-red {
+  padding: 24px;
+}
+
+.app-form.light {
+  padding: 24px;
+}

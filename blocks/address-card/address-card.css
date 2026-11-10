@@ -1,0 +1,21 @@
+.address-card {
+  max-width: 400px;
+  border: 1px solid #dadada;
+}
+
+.address-card .address-card-header {
+  padding: 12px 16px;
+  background-color: var(--dark-color, #505050);
+  color: var(--background-color, #fff);
+}
+
+.address-card .address-card-body {
+  padding: 16px;
+  font-style: normal;
+  text-align: center;
+}
+
+.address-card .address-card-header > *,
+.address-card .address-card-body > * {
+  margin: 0;
+}
