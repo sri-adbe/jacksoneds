@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html",
+  "path": "the-jackson-difference/who-we-are/jnam/investment-due-diligence",
+  "timestamp": "2026-11-10T20:20:48.369Z",
+  "title": "Investment due diligence | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature"
+  ],
+  "importScript": "f98d936c48c7"
+}

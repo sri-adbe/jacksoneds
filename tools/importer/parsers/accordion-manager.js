@@ -12,7 +12,25 @@
 function cleanHeading(document, el, fallbackTag) {
   const tag = el && /^H[1-6]$/.test(el.tagName) ? el.tagName.toLowerCase() : fallbackTag;
   const h = document.createElement(tag);
-  h.textContent = (el ? el.textContent : '').replace(/\s+/g, ' ').trim();
+  if (!el) return h;
+  // keep footnote marks (<sup>/<sub>) as real superscripts; flatten everything else to text
+  const walk = (node) => {
+    node.childNodes.forEach((n) => {
+      if (n.nodeType === 3) {
+        h.append(document.createTextNode(n.textContent.replace(/\s+/g, ' ')));
+      } else if (n.nodeType === 1 && /^(SUP|SUB)$/.test(n.tagName)) {
+        const s = document.createElement(n.tagName.toLowerCase());
+        s.textContent = n.textContent.trim();
+        h.append(s);
+      } else if (n.nodeType === 1) {
+        walk(n);
+      }
+    });
+  };
+  walk(el);
+  h.normalize();
+  if (h.firstChild && h.firstChild.nodeType === 3) h.firstChild.textContent = h.firstChild.textContent.trimStart();
+  if (h.lastChild && h.lastChild.nodeType === 3) h.lastChild.textContent = h.lastChild.textContent.trimEnd();
   return h;
 }
 

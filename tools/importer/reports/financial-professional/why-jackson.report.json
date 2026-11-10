@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/why-jackson.html",
+  "path": "financial-professional/why-jackson",
+  "timestamp": "2026-11-10T20:16:36.524Z",
+  "title": "Why Jackson? | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "cards-feature"
+  ],
+  "importScript": "f98d936c48c7"
+}

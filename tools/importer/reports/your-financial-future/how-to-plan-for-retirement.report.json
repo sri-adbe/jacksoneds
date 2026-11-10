@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/your-financial-future/how-to-plan-for-retirement.html",
+  "path": "your-financial-future/how-to-plan-for-retirement",
+  "timestamp": "2026-11-10T20:22:54.760Z",
+  "title": "How to plan for retirement | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "hero-page",
+    "cards-tool"
+  ],
+  "importScript": "f98d936c48c7"
+}

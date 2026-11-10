@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professionals/tools/tax-deferral-calculator.html",
+  "path": "financial-professionals/tools/tax-deferral-calculator",
+  "timestamp": "2026-11-10T20:17:45.274Z",
+  "title": "Tax deferral calculator | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "embed-video",
+    "cards-tool"
+  ],
+  "importScript": "f98d936c48c7"
+}

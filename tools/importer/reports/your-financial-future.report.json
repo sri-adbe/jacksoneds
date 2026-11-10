@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/your-financial-future.html",
+  "path": "your-financial-future",
+  "timestamp": "2026-11-10T20:21:07.943Z",
+  "title": "Your financial future | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "hero-page",
+    "hero-page",
+    "hero-page",
+    "hero-page"
+  ],
+  "importScript": "f98d936c48c7"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/benefits-of-annuities/income-protection.html",
+  "path": "annuities/benefits-of-annuities/income-protection",
+  "timestamp": "2026-11-10T20:15:36.903Z",
+  "title": "Income protection | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "hero-page",
+    "cards-tool"
+  ],
+  "importScript": "f98d936c48c7"
+}

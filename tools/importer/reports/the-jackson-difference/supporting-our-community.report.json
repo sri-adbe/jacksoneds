@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community.html",
+  "path": "the-jackson-difference/supporting-our-community",
+  "timestamp": "2026-11-10T20:19:02.623Z",
+  "title": "Supporting our community | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-sidebar",
+    "cards-tool",
+    "cards-feature"
+  ],
+  "importScript": "f98d936c48c7"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/the-jackson-difference/corporate-responsibility.html",
+  "path": "the-jackson-difference/corporate-responsibility",
+  "timestamp": "2026-11-10T20:18:08.937Z",
+  "title": "Corporate responsibility | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "hero-page",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature"
+  ],
+  "importScript": "f98d936c48c7"
+}

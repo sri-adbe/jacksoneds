@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/benefits-of-annuities/legacy-benefits.html",
+  "path": "annuities/benefits-of-annuities/legacy-benefits",
+  "timestamp": "2026-11-10T20:15:43.927Z",
+  "title": "Legacy benefits | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "hero-page",
+    "cards-tool"
+  ],
+  "importScript": "f98d936c48c7"
+}

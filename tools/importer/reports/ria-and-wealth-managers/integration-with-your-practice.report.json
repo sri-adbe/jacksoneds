@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/ria-and-wealth-managers/integration-with-your-practice.html",
   "path": "ria-and-wealth-managers/integration-with-your-practice",
-  "timestamp": "2026-11-10T16:46:56.655Z",
+  "timestamp": "2026-11-10T20:24:44.634Z",
   "title": "Integration with your practice | Jackson",
   "template": "content-page",
   "blocks": [
@@ -12,5 +12,5 @@
     "cards-tool",
     "list-filter"
   ],
-  "importScript": "2e437f884158"
+  "importScript": "c7099daa6c4a"
 }

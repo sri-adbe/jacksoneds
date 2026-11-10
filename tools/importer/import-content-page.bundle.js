@@ -823,7 +823,8 @@ var CustomImportScript = (() => {
     links.forEach((a) => body.push(linkPara(document, a)));
     if (!logo && !nameSrc && !links.length) {
       const cap = card.querySelector(".resource-filter-listing__mobile-caption");
-      if (cap && cap.textContent.trim()) body.push(para(document, cap.textContent.trim()));
+      const text5 = cap && cap.textContent.trim();
+      return { image: null, body: [], caption: text5 ? para(document, text5) : null };
     }
     return { image: logo, body };
   }
@@ -843,6 +844,7 @@ var CustomImportScript = (() => {
     } else {
       items = [...root.querySelectorAll(":scope > div, :scope > * > div")].filter((c) => c.querySelector("h2, h3, h4, .title")).map((c) => parsePromo(document, c));
     }
+    const captions = items.map((it) => it.caption).filter(Boolean);
     items = items.filter((it) => it.image || it.body.length);
     const hasImages = items.some((it) => it.image);
     const hasBodies = items.some((it) => it.body.length);
@@ -852,7 +854,7 @@ var CustomImportScript = (() => {
     });
     const name = variant ? `cards-tool (${variant})` : "cards-tool";
     const block = WebImporter.Blocks.createBlock(document, { name, cells });
-    element.replaceWith(block);
+    element.replaceWith(block, ...captions);
   }
 
   // tools/importer/parsers/cards-feature.js
@@ -1163,7 +1165,24 @@ var CustomImportScript = (() => {
   function cleanHeading(document, el, fallbackTag) {
     const tag = el && /^H[1-6]$/.test(el.tagName) ? el.tagName.toLowerCase() : fallbackTag;
     const h = document.createElement(tag);
-    h.textContent = (el ? el.textContent : "").replace(/\s+/g, " ").trim();
+    if (!el) return h;
+    const walk = (node) => {
+      node.childNodes.forEach((n) => {
+        if (n.nodeType === 3) {
+          h.append(document.createTextNode(n.textContent.replace(/\s+/g, " ")));
+        } else if (n.nodeType === 1 && /^(SUP|SUB)$/.test(n.tagName)) {
+          const s = document.createElement(n.tagName.toLowerCase());
+          s.textContent = n.textContent.trim();
+          h.append(s);
+        } else if (n.nodeType === 1) {
+          walk(n);
+        }
+      });
+    };
+    walk(el);
+    h.normalize();
+    if (h.firstChild && h.firstChild.nodeType === 3) h.firstChild.textContent = h.firstChild.textContent.trimStart();
+    if (h.lastChild && h.lastChild.nodeType === 3) h.lastChild.textContent = h.lastChild.textContent.trimEnd();
     return h;
   }
   function bodyContent(container) {
