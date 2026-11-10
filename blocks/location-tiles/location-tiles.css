@@ -1,0 +1,98 @@
+.location-tiles .location-tiles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.location-tiles .location-tiles-tile {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadada;
+}
+
+.location-tiles .location-tiles-toggle {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.location-tiles .location-tiles-media {
+  display: block;
+  line-height: 0;
+}
+
+.location-tiles .location-tiles-media img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.location-tiles .location-tiles-name {
+  display: block;
+  padding: 16px;
+}
+
+.location-tiles .location-tiles-details {
+  padding: 24px;
+}
+
+.location-tiles .location-tiles-details[hidden] {
+  display: none;
+}
+
+.location-tiles .location-tiles-details > :first-child {
+  margin-top: 0;
+}
+
+@media (width >= 900px) {
+  .location-tiles .location-tiles-list {
+    flex-direction: row;
+    height: 330px;
+  }
+
+  .location-tiles .location-tiles-tile {
+    flex: 1 1 0;
+    flex-direction: row;
+    min-width: 0;
+    transition: flex-grow 0.3s;
+  }
+
+  .location-tiles .location-tiles-tile.location-tiles-open {
+    flex-grow: 4;
+  }
+
+  .location-tiles .location-tiles-toggle {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .location-tiles .location-tiles-open .location-tiles-toggle {
+    flex: 0 0 360px;
+  }
+
+  .location-tiles .location-tiles-media {
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+
+  .location-tiles .location-tiles-media img {
+    height: 100%;
+  }
+
+  .location-tiles .location-tiles-details {
+    flex: 1 1 0;
+    min-width: 0;
+    overflow: auto;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v_0bdd50a0aad0-2",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/frequently-asked-questions.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + button"
+  },
+  "layoutKey": "([button] [tab])",
+  "colour": "([button] [tab|tab~r])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/frequently-asked-questions.html",
+        "instanceId": "4bf0355c0686",
+        "instanceIds": [
+          "4bf0355c0686"
+        ],
+        "screenshot": ".pages/www_jackson_com_frequently-asked-questions_html--b0bd4712/blocks/4bf0355c0686.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Icon tab bar switching FAQ panels",
+    "mergedInto": "v_194910149592"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "list-filter",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "checkbox filter chips (or a year selector) that filter the listing below them",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field"
+  },
+  "contentPattern": {
+    "structure": "optional heading (filter label), then filter values as a list, paragraphs or one per row. A value starting with All clears the filter. 8+ values, or all years, render as a select"
+  },
+  "options": [
+    {
+      "class": "light-blue-orange-magenta",
+      "label": "Light Blue Orange Magenta"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_26007a568bb5",
+    "v_7a70381be7bb",
+    "v_982a06f2186b"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 3
+  },
+  "reuseGuidance": "Place directly before the listing block (cards-article, cards-product, table-product) in the same section, or at the end of the section before it. Items match when their text contains a selected value.",
+  "decisions": [
+    "The source filters server-side; the block filters the next block's items client-side by text."
+  ]
+}

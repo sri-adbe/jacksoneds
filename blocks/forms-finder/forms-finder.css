@@ -1,0 +1,114 @@
+.forms-finder .form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.forms-finder .form-field > label {
+  font-weight: 600;
+}
+
+.forms-finder .form-field input:not([type='checkbox'], [type='radio']),
+.forms-finder .form-field select,
+.forms-finder .form-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #505050;
+  border-radius: 24px;
+  font: inherit;
+}
+
+.forms-finder .form-field fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.forms-finder .form-field legend {
+  float: left;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+.forms-finder .form-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.forms-finder .form-help {
+  font-size: var(--body-font-size-xs);
+}
+
+.forms-finder .form-notice {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #dadada;
+}
+
+.forms-finder .forms-finder-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px 24px;
+}
+
+.forms-finder .forms-finder-form > .form-field {
+  flex: 1 1 220px;
+}
+
+.forms-finder .forms-finder-form > .form-field-search,
+.forms-finder .forms-finder-form > .form-field-text {
+  flex: 3 1 400px;
+}
+
+.forms-finder .form-field input:not([type='checkbox'], [type='radio']),
+.forms-finder .form-field select {
+  border-width: 1px 1px 3px;
+  border-radius: 0;
+}
+
+.forms-finder .forms-finder-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.forms-finder .forms-finder-actions .button {
+  margin: 0;
+}
+
+.forms-finder .forms-finder-status {
+  margin: 16px 0 8px;
+  font-size: var(--body-font-size-xs);
+}
+
+.forms-finder .forms-finder-results ul {
+  padding: 0;
+  list-style: none;
+}
+
+.forms-finder .forms-finder-results li {
+  padding: 12px 0;
+  border-bottom: 1px solid #dadada;
+}
+
+.forms-finder .forms-finder-results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.forms-finder .forms-finder-results th,
+.forms-finder .forms-finder-results td {
+  padding: 8px;
+  border-bottom: 1px solid #dadada;
+  text-align: left;
+}
+
+.forms-finder.alt .forms-finder-form {
+  padding: 16px;
+}

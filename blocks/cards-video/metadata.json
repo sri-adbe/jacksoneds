@@ -1,0 +1,26 @@
+{
+  "variantName": "cards-video",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "side-by-side video items, each with a player, optional icon, heading, description and button",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + video + heading + text"
+  },
+  "contentPattern": {
+    "structure": "one row per video: video link (YouTube, Vimeo, Brightcove, Vidyard, Wistia or .mp4; an optional poster picture right before it) | optional icon + heading + text + CTA link"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_4bf32ee1fa2d",
+    "v_682308430171"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 2
+  },
+  "reuseGuidance": "Use for a set of explainer videos with copy. For one standalone video use embed-video; for a video beside a selling message use columns-feature."
+}

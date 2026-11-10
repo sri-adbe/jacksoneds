@@ -1,0 +1,28 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "standalone embedded video player (Brightcove player or playlist on the source)",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link + video"
+  },
+  "contentPattern": {
+    "structure": "the video URL as a link (YouTube, Vimeo, Brightcove, Vidyard, Wistia or .mp4); optional poster picture; optional caption text"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_ed7ad9c5cc43"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 11
+  },
+  "reuseGuidance": "Use for a video on its own. With a poster picture, the player loads on click; without one it loads when scrolled into view. For a video beside copy use columns-feature.",
+  "decisions": [
+    "Brightcove playlist sidebars render inside the Brightcove iframe when the authored URL is the playlist player URL; no custom playlist UI is built."
+  ]
+}

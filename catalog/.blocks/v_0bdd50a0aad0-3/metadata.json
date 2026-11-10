@@ -1,0 +1,38 @@
+{
+  "id": "v_0bdd50a0aad0-3",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/legal-and-privacy.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + button"
+  },
+  "layoutKey": "([tab] button)",
+  "colour": "([tab|tab~r] button)",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/legal-and-privacy.html",
+        "instanceId": "4bf0355c0686",
+        "instanceIds": [
+          "4bf0355c0686"
+        ],
+        "screenshot": ".pages/www_jackson_com_legal-and-privacy_html--f613a854/blocks/4bf0355c0686.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Icon tab bar switching policy notice panels",
+    "mergedInto": "v_194910149592"
+  }
+}

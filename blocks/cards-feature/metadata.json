@@ -1,0 +1,41 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "wrapping grid of icon-led feature items, each with a heading, text and optional list or button",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list + link + image"
+  },
+  "contentPattern": {
+    "structure": "one row per item: icon or image | heading + text + optional list + optional CTA link. The icon may instead be the first paragraph of the body cell. Text-only rows (process steps) are fine"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "icon-left",
+      "label": "Icon Left"
+    },
+    {
+      "class": "dark-light",
+      "label": "Dark Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_a6d9a47899aa",
+    "v_1961eda70e3b",
+    "v_18c396eaca5e",
+    "v_47eb20d84b9f"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 57
+  },
+  "reuseGuidance": "Use for benefit or feature highlights and numbered process steps. Put the section heading and any footnote as default content in the same section. For a single text + photo split use columns-feature."
+}

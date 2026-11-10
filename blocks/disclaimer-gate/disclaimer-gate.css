@@ -1,0 +1,107 @@
+.disclaimer-gate .form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.disclaimer-gate .form-field > label {
+  font-weight: 600;
+}
+
+.disclaimer-gate .form-field input:not([type='checkbox'], [type='radio']),
+.disclaimer-gate .form-field select,
+.disclaimer-gate .form-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #505050;
+  border-radius: 24px;
+  font: inherit;
+}
+
+.disclaimer-gate .form-field fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.disclaimer-gate .form-field legend {
+  float: left;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+.disclaimer-gate .form-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.disclaimer-gate .form-help {
+  font-size: var(--body-font-size-xs);
+}
+
+.disclaimer-gate .form-notice {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #dadada;
+}
+
+.disclaimer-gate {
+  display: flex;
+  flex-direction: column;
+}
+
+.disclaimer-gate .disclaimer-gate-media {
+  line-height: 0;
+}
+
+.disclaimer-gate .disclaimer-gate-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.disclaimer-gate .disclaimer-gate-content {
+  padding: 32px 24px;
+}
+
+.disclaimer-gate .disclaimer-gate-copy > :first-child {
+  margin-top: 0;
+}
+
+.disclaimer-gate .disclaimer-gate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 48px;
+  margin-top: 32px;
+}
+
+.disclaimer-gate .disclaimer-gate-actions .button {
+  margin: 0;
+}
+
+.disclaimer-gate .disclaimer-gate-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (width >= 900px) {
+  .disclaimer-gate {
+    flex-direction: row;
+  }
+
+  .disclaimer-gate > * {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .disclaimer-gate .disclaimer-gate-content {
+    padding: 64px 120px;
+  }
+}

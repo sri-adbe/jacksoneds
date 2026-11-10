@@ -1,0 +1,36 @@
+{
+  "variantName": "forms-finder",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "keyword search and dropdown filters over the forms library, with a list of forms",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "button + field"
+  },
+  "contentPattern": {
+    "structure": "field rows: `Search for keyword or form number | search`, `Category | select | options`, `Search | submit`, `Clear all | reset`. Content rows: the forms list as a list of links or a table (one form per item or row)"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_23a18fa8e636",
+    "v_1e0fe369fdb5",
+    "v_88b53fa0318c"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 3
+  },
+  "reuseGuidance": "Use for a searchable list of documents authored on the page. Filtering runs client-side over the authored items; it does not query an index.",
+  "decisions": [
+    "The source queries a server-side forms library; the block filters the authored list client-side instead.",
+    "Bulk email and server pagination are not reproduced; select values that match no item (e.g. 10 per page) are ignored."
+  ]
+}

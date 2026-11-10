@@ -1,0 +1,215 @@
+{
+  "id": "v_1961eda70e3b",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + link"
+  },
+  "layoutKey": "[T]",
+  "colour": "[Tk]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/",
+        "instanceId": "e901c639d90c",
+        "instanceIds": [
+          "e901c639d90c"
+        ],
+        "screenshot": ".pages/www_jackson_com--0b8df100/blocks/e901c639d90c.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-annuities.html",
+        "instanceId": "0280cf24f008",
+        "instanceIds": [
+          "0280cf24f008"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-annuities_html--ae1a449d/blocks/0280cf24f008.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+        "instanceId": "f1cc27e56499",
+        "instanceIds": [
+          "f1cc27e56499",
+          "7973afb75ffd",
+          "d8d437e86eaf",
+          "3622b9c380f4",
+          "bc7aebd412b6",
+          "a5c6b40124ee",
+          "469707fcf601",
+          "013cc30b88b3",
+          "0412ae0b3b0b",
+          "624d0d5d4179",
+          "6bbd68a47848",
+          "0280cf24f008"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_fixed-index-annuities_html--5c248ff4/blocks/f1cc27e56499.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities.html",
+        "instanceId": "0280cf24f008",
+        "instanceIds": [
+          "0280cf24f008"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_html--99348df9/blocks/0280cf24f008.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/find-your-wholesaler.html",
+        "instanceId": "0960bd6f54be",
+        "instanceIds": [
+          "0960bd6f54be"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_find-your-wholesaler_html--7ebfd965/blocks/0960bd6f54be.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html",
+        "instanceId": "23f021e7758a",
+        "instanceIds": [
+          "23f021e7758a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_ria-and-wealth-manager_making-it-easier_html--5bc64959/blocks/23f021e7758a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html",
+        "instanceId": "52830ae442cb",
+        "instanceIds": [
+          "52830ae442cb"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professional_why-jackson_financial-strength_html--6fad668c/blocks/52830ae442cb.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals.html",
+        "instanceId": "d3725755d24a",
+        "instanceIds": [
+          "d3725755d24a"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_html--d8b44bff/blocks/d3725755d24a.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/get-appointed.html",
+        "instanceId": "10dcda1e2547",
+        "instanceIds": [
+          "10dcda1e2547"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_get-appointed_html--aa3cb5cc/blocks/10dcda1e2547.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/financial-professionals/insurance-professionals.html",
+        "instanceId": "1aa77176f977",
+        "instanceIds": [
+          "1aa77176f977"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_insurance-professionals_html--ff30d7a5/blocks/1aa77176f977.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-password.xhtml",
+        "instanceId": "a8743adecf91",
+        "instanceIds": [
+          "a8743adecf91"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-password_xhtml--45e236db/blocks/a8743adecf91.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/login/forgot-username.xhtml",
+        "instanceId": "a8743adecf91",
+        "instanceIds": [
+          "a8743adecf91"
+        ],
+        "screenshot": ".pages/www_jackson_com_login_forgot-username_xhtml--26114733/blocks/a8743adecf91.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers.html",
+        "instanceId": "409bcbba0a06",
+        "instanceIds": [
+          "409bcbba0a06"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_html--30e78020/blocks/409bcbba0a06.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/making-it-easier-to-do-business.html",
+        "instanceId": "99be70d863c3",
+        "instanceIds": [
+          "99be70d863c3"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_making-it-easier-to-do-business_html--538174d4/blocks/99be70d863c3.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/ria-and-wealth-managers/planning-tools-for-your-journey.html",
+        "instanceId": "fb119dbcf863",
+        "instanceIds": [
+          "fb119dbcf863",
+          "1e2b597d8762",
+          "dc80b6a66ccd"
+        ],
+        "screenshot": ".pages/www_jackson_com_ria-and-wealth-managers_planning-tools-for-your-journey_html--7186c472/blocks/fb119dbcf863.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/sitemap.html",
+        "instanceId": "159f3cd3c163",
+        "instanceIds": [
+          "159f3cd3c163"
+        ],
+        "screenshot": ".pages/www_jackson_com_sitemap_html--284a1168/blocks/159f3cd3c163.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/corporate-responsibility.html",
+        "instanceId": "02edb9102fc2",
+        "instanceIds": [
+          "02edb9102fc2",
+          "1e2ed5c2e06a",
+          "629b9c2e3d77",
+          "185dac5e0bfe"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_corporate-responsibility_html--be600e3d/blocks/02edb9102fc2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/supporting-our-community.html",
+        "instanceId": "1c6d32d907b2",
+        "instanceIds": [
+          "1c6d32d907b2"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_supporting-our-community_html--9c6dabe6/blocks/1c6d32d907b2.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+        "instanceId": "19a5ffbc1c8b",
+        "instanceIds": [
+          "19a5ffbc1c8b"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/19a5ffbc1c8b.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam/investment-due-diligence.html",
+        "instanceId": "69c03e71c825",
+        "instanceIds": [
+          "69c03e71c825",
+          "1e2b597d8762"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_investment-due-diligence_html--ff36cb74/blocks/69c03e71c825.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/leaders.html",
+        "instanceId": "1aa77176f977",
+        "instanceIds": [
+          "1aa77176f977"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_leaders_html--0bf9854f/blocks/1aa77176f977.jpg"
+      }
+    ],
+    "reuseCount": 21
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Look-alike icon + heading + text items in a wrapping grid",
+    "mergedInto": null
+  }
+}

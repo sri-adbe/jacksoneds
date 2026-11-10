@@ -1,0 +1,90 @@
+{
+  "variantName": "tabs-section",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "tab bar switching panels of content (state-specific product panels, resources, FAQs, research topics)",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + heading + text"
+  },
+  "contentPattern": {
+    "structure": "one row per tab: label (text, optional icon) | panel content (any rich content). A panel holding only a bare page URL loads that page as a fragment so it can contain other blocks; links under /fragments/ are loaded by the page's auto-blocking. A label that is a link with an empty panel is a link tab"
+  },
+  "options": [
+    {
+      "class": "image-magenta-grey-shadow",
+      "label": "Image Magenta Grey Shadow"
+    },
+    {
+      "class": "alt-3",
+      "label": "Alt 3"
+    },
+    {
+      "class": "icons",
+      "label": "Icons"
+    },
+    {
+      "class": "icons-2",
+      "label": "Icons 2"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "grey-2",
+      "label": "Grey 2"
+    },
+    {
+      "class": "image-green",
+      "label": "Image Green"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "image-grey",
+      "label": "Image Grey"
+    },
+    {
+      "class": "image-magenta",
+      "label": "Image Magenta"
+    },
+    {
+      "class": "alt-2",
+      "label": "Alt 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_194910149592",
+    "v_0bdd50a0aad0",
+    "v_0bdd50a0aad0-1",
+    "v_0bdd50a0aad0-2",
+    "v_0bdd50a0aad0-3",
+    "v_0fcbe14c4ddd",
+    "v_353160be026d",
+    "v_353160be026d-1",
+    "v_3ded1b6c5c85",
+    "v_3ded1b6c5c85-1",
+    "v_3ded1b6c5c85-2",
+    "v_591dd66f5373",
+    "v_69f65a7e8cb1",
+    "v_9ecf73726c1e",
+    "v_a2b23e0cec91",
+    "v_ba665a55d43b",
+    "v_d29aefda00a9"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 19
+  },
+  "reuseGuidance": "Use for in-page tabbed content. Put complex panels (cards, columns) in fragments and link them from the panel cell. Icons and Icons 2 stack an icon above each label; Alt options centre the strip; Grey and Image options box the panel.",
+  "decisions": [
+    "Panels with blocks load from fragments via loadFragment (blocks/fragment/fragment.js).",
+    "Catalog member v_ba665a55d43b is a multi-step form progress indicator, not tabs; authored as link tabs it renders as a strip. Reclassify with excat-catalog-manager if needed."
+  ]
+}

@@ -1,0 +1,67 @@
+.table-product .table-product-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-product table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--body-font-size-s);
+}
+
+.table-product th,
+.table-product td {
+  padding: 12px;
+  border: 1px solid #dadada;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-product th {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.table-product th p,
+.table-product td p {
+  margin: 0;
+}
+
+.table-product td p + p {
+  margin-top: 0.25em;
+}
+
+.table-product .table-product-sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-product .table-product-sort::after {
+  content: '\2195';
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+.table-product th[aria-sort='ascending'] .table-product-sort::after {
+  content: '\2191';
+  opacity: 1;
+}
+
+.table-product th[aria-sort='descending'] .table-product-sort::after {
+  content: '\2193';
+  opacity: 1;
+}
+
+.table-product.no-header tbody tr:first-child td {
+  border-top-width: 2px;
+}

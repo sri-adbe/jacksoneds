@@ -1,0 +1,44 @@
+{
+  "variantName": "retirement-calculator",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "static rendering of the interactive retirement expense calculator: heading, step indicator, inputs and buttons, or just the launch button on calculator landing pages",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + field + button + icon"
+  },
+  "contentPattern": {
+    "structure": "content rows (heading, intro, results header, launch link) and an optional ordered list for the step indicator (bold item = current step), plus field rows `label | type | options/help` for the inputs"
+  },
+  "options": [
+    {
+      "class": "red",
+      "label": "Red"
+    },
+    {
+      "class": "red-2",
+      "label": "Red 2"
+    },
+    {
+      "class": "red-3",
+      "label": "Red 3"
+    }
+  ],
+  "memberVariantIds": [
+    "v_82713101398f",
+    "v_73cce7700691",
+    "v_92c544569cc5",
+    "v_bedc667c759d"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 6
+  },
+  "reuseGuidance": "Use for the calculator tool pages. The calculation itself is not reproduced; submitting shows a notice.",
+  "decisions": [
+    "The calculator is a server-backed app; inputs render statically and submit is blocked."
+  ]
+}

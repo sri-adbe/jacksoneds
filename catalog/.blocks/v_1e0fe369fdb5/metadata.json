@@ -1,0 +1,39 @@
+{
+  "id": "v_1e0fe369fdb5",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/forms/forms.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list + field"
+  },
+  "layoutKey": "[(T combobox)]",
+  "colour": "[(Tk combobox~w)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "instanceId": "2e0797cea0db",
+        "instanceIds": [
+          "2e0797cea0db",
+          "44c1459f8e41"
+        ],
+        "screenshot": ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/2e0797cea0db.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Dropdown filters of the forms library app",
+    "mergedInto": "v_23a18fa8e636"
+  }
+}

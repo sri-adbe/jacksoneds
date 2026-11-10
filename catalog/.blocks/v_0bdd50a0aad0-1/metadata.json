@@ -1,0 +1,38 @@
+{
+  "id": "v_0bdd50a0aad0-1",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/cyber-security.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + heading + text + link"
+  },
+  "layoutKey": "(T [tab])",
+  "colour": "(Tk [tab|tab~r])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/cyber-security.html",
+        "instanceId": "4bf0355c0686",
+        "instanceIds": [
+          "4bf0355c0686"
+        ],
+        "screenshot": ".pages/www_jackson_com_cyber-security_html--c3ac5d60/blocks/4bf0355c0686.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Underlined tab bar switching long-form text panels",
+    "mergedInto": "v_194910149592"
+  }
+}

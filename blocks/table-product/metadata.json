@@ -1,0 +1,28 @@
+{
+  "variantName": "table-product",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "data table comparing products or listing forms, with links in cells and sortable columns",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "table"
+  },
+  "contentPattern": {
+    "structure": "one row per table row; the first row is the header. Cells may hold links and line breaks. Click a header to sort by that column. The extra no-header option (not in the catalog) skips the header row"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_d727867dfb56"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 4
+  },
+  "reuseGuidance": "Use for tabular data. Pair with list-filter or forms-finder above it for filtering. Row selection checkboxes and email actions from the source are not reproduced.",
+  "decisions": [
+    "Source per-row checkboxes, email icons and state pop-overs are app behaviour and are not reproduced; column sorting is implemented client-side."
+  ]
+}

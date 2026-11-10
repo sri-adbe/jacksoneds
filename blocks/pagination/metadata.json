@@ -1,0 +1,21 @@
+{
+  "variantName": "pagination",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "page-number navigation under an article listing",
+    "colorScheme": "light",
+    "density": "sparse",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "button"
+  },
+  "contentPattern": {
+    "structure": "page links (1, 2, ...) and optional first/previous/next/last links (text or «, ‹, ›, »), in one cell as a list or paragraphs, or one per row. An unlinked number is the current page"
+  },
+  "options": [],
+  "memberVariantIds": ["v_e4db00948b47"],
+  "usage": { "sourceUrl": "https://www.jackson.com", "pages": 1 },
+  "reuseGuidance": "Use under a listing split across several authored pages. It does not page through a query index; each page is a separate authored page.",
+  "decisions": ["The source paginates a server-rendered listing; the block renders the authored links as a static nav."]
+}

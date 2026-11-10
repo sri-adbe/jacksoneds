@@ -1,0 +1,38 @@
+{
+  "id": "v_0d82ed78d834",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text"
+  },
+  "layoutKey": "(T [T])",
+  "colour": "(Tk [Tk])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/the-jackson-difference/who-we-are/jnam.html",
+        "instanceId": "f92fecbb558a",
+        "instanceIds": [
+          "f92fecbb558a"
+        ],
+        "screenshot": ".pages/www_jackson_com_the-jackson-difference_who-we-are_jnam_html--65833952/blocks/f92fecbb558a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Grid of headshots with names and titles",
+    "mergedInto": null
+  }
+}

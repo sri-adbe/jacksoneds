@@ -1,0 +1,49 @@
+{
+  "variantName": "cards-tool",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "grid of tool cards (image, titled box, CTA) and, with the partner options, a directory of partner tiles with tag labels or logos",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text + link"
+  },
+  "contentPattern": {
+    "structure": "one row per card: optional image or logo | optional tag paragraph + title + text + CTA link. Partner tiles: tag paragraph (e.g. Direct Integration), partner name or logo, integration link"
+  },
+  "options": [
+    {
+      "class": "partner",
+      "label": "Partner"
+    },
+    {
+      "class": "partner-logo",
+      "label": "Partner Logo"
+    },
+    {
+      "class": "grey-cyan-orange",
+      "label": "Grey Cyan Orange"
+    },
+    {
+      "class": "grey-blue-cyan-orange",
+      "label": "Grey Blue Cyan Orange"
+    }
+  ],
+  "memberVariantIds": [
+    "v_5d985532d984",
+    "v_0e1bfe4f5f09",
+    "v_548cda1ad353",
+    "v_6873d497e173",
+    "v_87779726089a"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 24
+  },
+  "reuseGuidance": "Use for cards that send visitors to tools, apps or partners. Tags get a modifier class from their text so the design pass can colour each tag type.",
+  "decisions": [
+    "The source partner directory is filterable; this block renders the authored tiles without a client-side filter."
+  ]
+}

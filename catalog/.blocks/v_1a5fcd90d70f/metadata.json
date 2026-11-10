@@ -1,0 +1,38 @@
+{
+  "id": "v_1a5fcd90d70f",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/forms/forms.xhtml",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + button + link"
+  },
+  "layoutKey": "[~(T button)|~(T)]",
+  "colour": "[~w(Tk button~w)|~w(Tk)]",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/forms/forms.xhtml",
+        "instanceId": "79db99049356",
+        "instanceIds": [
+          "79db99049356"
+        ],
+        "screenshot": ".pages/www_jackson_com_forms_forms_xhtml--21d58fdb/blocks/79db99049356.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "low",
+    "reason": "Boxed action cards with heading, text and button; a fixed set could be columns",
+    "mergedInto": "v_6d017593289b"
+  }
+}

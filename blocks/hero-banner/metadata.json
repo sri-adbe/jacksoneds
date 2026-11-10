@@ -1,0 +1,46 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "background photo banner with an inset box holding heading, text and a CTA",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + link"
+  },
+  "contentPattern": {
+    "structure": "background picture (own row or cell) + content cell: heading, text, optional CTA links. Order does not matter; image or CTA may be missing"
+  },
+  "options": [
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "blue",
+      "label": "Blue"
+    },
+    {
+      "class": "cyan",
+      "label": "Cyan"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "v_94020c7dbd6a-1",
+    "v_3c7cb897641c",
+    "v_512553cd140d",
+    "v_5cbafd7a724d",
+    "v_a7a9bcab151c"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 23
+  },
+  "reuseGuidance": "Use for promo banners with a photo behind a text box. The colour options (Orange, Blue, Cyan, Grey) also switch the box to a wide layout with the CTA on the right. For page titles beside a photo use hero-page."
+}

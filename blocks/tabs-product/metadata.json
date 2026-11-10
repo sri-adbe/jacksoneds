@@ -1,0 +1,30 @@
+{
+  "variantName": "tabs-product",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "product page shell: product title, a tab strip (Overview, Product highlights, Product comparison) and the product hero beneath it",
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + list + image + text + link"
+  },
+  "contentPattern": {
+    "structure": "optional first row: product title heading (single cell). Then one row per tab: label (may include an icon; a link with no panel makes a link tab to a sub-page) | panel content. A panel holding one picture plus heading and text renders as a photo with an inset text box. A panel holding only a bare page URL loads that page as a fragment"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_e7799d730d73",
+    "v_e7799d730d73-1",
+    "v_ebd6a3990a4f"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 4
+  },
+  "reuseGuidance": "Use at the top of product detail pages. If the tabs link to sub-pages, author each tab label as a link and leave the panel empty. For in-page tabbed content use tabs-section.",
+  "decisions": [
+    "Tabs that are links to sub-pages render as link tabs; the current page's tab is marked aria-current."
+  ]
+}

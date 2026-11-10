@@ -1,0 +1,25 @@
+{
+  "variantName": "location-tiles",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "horizontal row of office photo tiles; the open tile widens to show its description and a jobs link",
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + text + link"
+  },
+  "contentPattern": {
+    "structure": "one row per location: photo | location name | description + link. The name may instead be the first paragraph of the details cell. The first tile starts open"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_caae22e90d76"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 1
+  },
+  "reuseGuidance": "Use for a handful (3 to 5) of locations or topics with a photo each, where one is expanded at a time. On mobile the tiles stack. For many items use cards-tool or accordion-manager."
+}

@@ -1,0 +1,36 @@
+{
+  "variantName": "hero-page",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "page-top banner with the page title (and optional intro) beside a photo or decorative graphic",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + link"
+  },
+  "contentPattern": {
+    "structure": "text cell (h1 title, optional intro, optional CTA) and picture cell, in either order, on one row or two"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    }
+  ],
+  "memberVariantIds": [
+    "v_94020c7dbd6a",
+    "v_601a7f617c9a",
+    "v_8ae1617e1838"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 36
+  },
+  "reuseGuidance": "Use as the first block of a content page. Grey adds a tinted title box; Image gives the photo the larger share. For a promo box over a photo use hero-banner."
+}

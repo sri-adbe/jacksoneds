@@ -1,0 +1,110 @@
+.cards-product > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-product .cards-product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadada;
+  background-color: var(--background-color);
+}
+
+.cards-product .cards-product-card-image {
+  line-height: 0;
+}
+
+.cards-product .cards-product-card-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 1;
+  object-fit: cover;
+}
+
+.cards-product .cards-product-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 24px 32px;
+}
+
+.cards-product .cards-product-card-body > :first-child {
+  margin-top: 0;
+}
+
+.cards-product .cards-product-card-body > :last-child {
+  margin-bottom: 0;
+}
+
+.cards-product .cards-product-card-eyebrow {
+  margin-bottom: 4px;
+  font-size: var(--body-font-size-xs);
+}
+
+.cards-product .cards-product-card-cta {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.cards-product .cards-product-card-icon {
+  line-height: 0;
+}
+
+.cards-product .cards-product-card-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.cards-product .cards-product-card-cta + .cards-product-card-cta {
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+/* link-columns: body lists (or several body cells) sit side by side */
+.cards-product.link-columns .cards-product-card-multi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cards-product.link-columns .cards-product-card-multi > .cards-product-card-image {
+  grid-column: 1 / -1;
+}
+
+.cards-product.link-columns .cards-product-card-body ul {
+  columns: 2;
+  column-gap: 32px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cards-product.link-columns .cards-product-card-body li {
+  break-inside: avoid;
+  margin-bottom: 12px;
+}
+
+@media (width >= 900px) {
+  .cards-product.link-columns > ul,
+  .cards-product.benefit > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.cards-product.grey .cards-product-card,
+.cards-product.grey-2 .cards-product-card,
+.cards-product.benefit .cards-product-card {
+  border: 0;
+}
+
+.cards-product.magenta .cards-product-card {
+  border-width: 0 0 0 12px;
+}
+
+.cards-product.alt .cards-product-card-body {
+  padding: 24px;
+}

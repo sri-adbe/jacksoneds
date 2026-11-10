@@ -1,0 +1,54 @@
+{
+  "id": "v_194910149592",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.018Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + heading + text"
+  },
+  "layoutKey": "(T [tab] [~(T [T])])",
+  "colour": "(Tk [tab|tab~r] [~w(Tk [Tk])])",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html",
+        "instanceId": "e5f87937fed5",
+        "instanceIds": [
+          "e5f87937fed5"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_registered-index-linked-annuities_market-link-pro-suite_html--2d7c5313/blocks/e5f87937fed5.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html",
+        "instanceId": "46b404f4041e",
+        "instanceIds": [
+          "46b404f4041e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_elite-access-suite_html--3883b44c/blocks/46b404f4041e.jpg"
+      },
+      {
+        "url": "https://www.jackson.com/annuities/variable-annuities/perspective-family.html",
+        "instanceId": "46b404f4041e",
+        "instanceIds": [
+          "46b404f4041e"
+        ],
+        "screenshot": ".pages/www_jackson_com_annuities_variable-annuities_perspective-family_html--26094f62/blocks/46b404f4041e.jpg"
+      }
+    ],
+    "reuseCount": 3
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Tab bar switching panels of content (state-specific product panels)",
+    "mergedInto": null
+  }
+}

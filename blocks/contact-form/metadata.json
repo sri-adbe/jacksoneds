@@ -1,0 +1,46 @@
+{
+  "variantName": "contact-form",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "intro copy beside a lead-capture form (consultant contact, email form), optionally with a contact-details column; submission is not wired to a backend",
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list + link"
+  },
+  "contentPattern": {
+    "structure": "content rows (heading, intro text, links) then field rows `label | type | options/help` (types: text, email, tel, number, date, textarea, select, radio, checkbox, checkboxes, submit, reset). Content rows after the last field become a contact-details column (phone numbers, addresses). Content rows between fields stay inside the form"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "alt-2",
+      "label": "Alt 2"
+    },
+    {
+      "class": "red",
+      "label": "Red"
+    }
+  ],
+  "memberVariantIds": [
+    "v_92ebe11167df",
+    "v_82eb39b9b880-1",
+    "v_b96311568eb6",
+    "v_22b649f9bb01",
+    "v_82eb39b9b880"
+  ],
+  "usage": {
+    "sourceUrl": "https://www.jackson.com",
+    "pages": 18
+  },
+  "reuseGuidance": "Use for any contact or lead form beside copy. The form shows a notice on submit; wire it to a form service later. For app sign-in or registration forms use app-form.",
+  "decisions": [
+    "Submission is blocked client-side because the source posts to a CRM EDS cannot reproduce.",
+    "Catalog members v_b96311568eb6 / v_92ebe11167df (product jump-link bar) and an accordion + photo instance are not contact forms; they render as plain content here. Reclassify them with excat-catalog-manager."
+  ]
+}

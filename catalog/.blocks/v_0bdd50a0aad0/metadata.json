@@ -1,0 +1,38 @@
+{
+  "id": "v_0bdd50a0aad0",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-10T15:40:18.019Z",
+  "sourceContext": {
+    "originUrl": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + text + link + image + heading"
+  },
+  "layoutKey": "(T [tab] [~(T ~(~@(~(T))))] ~([~(T)]))",
+  "colour": "(Tk [tab|tab~r] [~w(Tk ~s(~@(~m(Tw))))] ~n([~w(Tk)]))",
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+        "instanceId": "4bf0355c0686",
+        "instanceIds": [
+          "4bf0355c0686"
+        ],
+        "screenshot": ".pages/www_jackson_com_financial-professionals_client-conversation-resources_html--54df85eb/blocks/4bf0355c0686.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "naming": {
+    "confidence": "high",
+    "reason": "Underlined tab bar switching resource panels",
+    "mergedInto": "v_194910149592"
+  }
+}
