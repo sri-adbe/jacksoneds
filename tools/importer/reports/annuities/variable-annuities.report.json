@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities/variable-annuities.html",
   "path": "annuities/variable-annuities",
-  "timestamp": "2026-11-10T16:45:16.908Z",
+  "timestamp": "2026-11-10T20:34:50.494Z",
   "title": "Variable annuities for investors | Jackson",
   "template": "content-page",
   "blocks": [
@@ -18,5 +18,5 @@
     "fragments/annuities/variable-annuities/all-other-states",
     "fragments/annuities/variable-annuities/new-york-only"
   ],
-  "importScript": "2e437f884158"
+  "importScript": "2da0c31be513"
 }

@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/the-jackson-difference/careers.html",
   "path": "the-jackson-difference/careers",
-  "timestamp": "2026-11-10T16:44:22.382Z",
+  "timestamp": "2026-11-10T20:33:57.128Z",
   "title": "Explore Jackson careers | Jackson",
   "template": "content-page",
   "blocks": [
@@ -22,5 +22,5 @@
     "fragments/the-jackson-difference/careers/marketing-communications",
     "fragments/the-jackson-difference/careers/more-careers"
   ],
-  "importScript": "2e437f884158"
+  "importScript": "2da0c31be513"
 }

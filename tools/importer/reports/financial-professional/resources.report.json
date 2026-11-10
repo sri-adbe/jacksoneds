@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/financial-professional/resources.html",
   "path": "financial-professional/resources",
-  "timestamp": "2026-11-10T16:47:49.877Z",
+  "timestamp": "2026-11-10T20:35:43.282Z",
   "title": "Tools and resources | Jackson",
   "template": "content-page",
   "blocks": [
@@ -14,5 +14,5 @@
     "cards-feature",
     "cards-article"
   ],
-  "importScript": "2e437f884158"
+  "importScript": "2da0c31be513"
 }

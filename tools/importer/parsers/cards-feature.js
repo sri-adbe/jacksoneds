@@ -66,7 +66,50 @@ function iconCell(img) {
   return img;
 }
 
+// Product cards (.cta-product-card-block): the catalog sometimes claims only the card's inner
+// `.cta-section`, which would drop the title and description. Build the whole card instead and
+// merge consecutive product cards into one block.
+function productCardRow(document, card) {
+  const body = [];
+  const h = makeHeading(document, card.querySelector('.card-content > .title, .title'), 3);
+  if (h) body.push(h);
+  body.push(...cleanDescription(document, card.querySelector('.description')));
+  body.push(...ctaParagraphs(document, [...card.querySelectorAll('.cta-section a[href]')]));
+  return [body];
+}
+
+function parseProductCard(element, document) {
+  const card = element.closest('.cta-product-card-block');
+  // replace the card's outermost pure wrapper (single element child) so consecutive cards
+  // become siblings; never climb into a container that holds other content
+  let holder = card;
+  while (holder.parentElement
+    && holder.parentElement.children.length === 1
+    && !holder.parentElement.matches('section, .body-content, .content-wrapper, body')) {
+    holder = holder.parentElement;
+  }
+  const row = productCardRow(document, card);
+  let prev = holder.previousElementSibling;
+  while (prev && !prev.textContent.trim() && !prev.querySelector('img')) prev = prev.previousElementSibling;
+  if (prev && prev.tagName === 'TABLE' && prev.dataset.excatProductCards === 'true') {
+    const tr = document.createElement('tr');
+    const td = document.createElement('td');
+    td.append(...row[0]);
+    tr.append(td);
+    (prev.querySelector('tbody') || prev).append(tr);
+    holder.remove();
+    return;
+  }
+  const block = WebImporter.Blocks.createBlock(document, { name: 'cards-feature', cells: [row] });
+  if (block.dataset) block.dataset.excatProductCards = 'true';
+  holder.replaceWith(block);
+}
+
 export default function parse(element, { document, params }) {
+  if (element.closest('.cta-product-card-block')) {
+    parseProductCard(element, document);
+    return;
+  }
   const cells = [];
   let variant = null;
 
@@ -96,7 +139,7 @@ export default function parse(element, { document, params }) {
       const h = makeHeading(document, item.querySelector('.cta-list__header') || item.querySelector('h1, h2, h3, h4, h5, h6'), 3);
       if (h) body.push(h);
       body.push(...cleanDescription(document, item.querySelector('.cta-list__description')));
-      body.push(...ctaParagraphs(document, [...item.querySelectorAll('.customContent a')]));
+      body.push(...ctaParagraphs(document, [...item.querySelectorAll('.customContent a, .cta-list__links a')]));
       if (!body.length && !img) return;
       cells.push([iconCell(img), body]);
     });
