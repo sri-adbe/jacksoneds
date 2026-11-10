@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/frequently-asked-questions.html",
+  "path": "frequently-asked-questions",
+  "timestamp": "2026-11-10T21:40:55.245Z",
+  "title": "Frequently asked questions | Jackson",
+  "template": "utility-page",
+  "blocks": [
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/frequently-asked-questions/general-questions",
+    "fragments/frequently-asked-questions/technical-questions",
+    "fragments/frequently-asked-questions/electronic-delivery-questions"
+  ],
+  "importScript": "f92b2795fe9f"
+}

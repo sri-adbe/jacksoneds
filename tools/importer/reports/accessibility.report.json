@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/accessibility.html",
+  "path": "accessibility",
+  "timestamp": "2026-11-10T21:39:23.977Z",
+  "title": "Accessibility | Jackson",
+  "template": "utility-page",
+  "blocks": [
+    "app-form"
+  ],
+  "importScript": "f92b2795fe9f"
+}

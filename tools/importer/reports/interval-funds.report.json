@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/interval-funds.html",
+  "path": "interval-funds",
+  "timestamp": "2026-11-10T21:41:05.337Z",
+  "title": "Interval Funds | Jackson",
+  "template": "utility-page",
+  "blocks": [
+    "cards-product"
+  ],
+  "importScript": "f92b2795fe9f"
+}

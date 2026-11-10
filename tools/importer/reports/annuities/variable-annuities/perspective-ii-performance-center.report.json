@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/variable-annuities/perspective-ii-performance-center.html",
+  "path": "annuities/variable-annuities/perspective-ii-performance-center",
+  "timestamp": "2026-11-10T21:40:46.305Z",
+  "title": "Perspective II performance center | Jackson",
+  "template": "utility-page",
+  "blocks": [
+    "app-form",
+    "contact-form"
+  ],
+  "importScript": "f92b2795fe9f"
+}

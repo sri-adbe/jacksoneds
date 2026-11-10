@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/legal-and-privacy.html",
+  "path": "legal-and-privacy",
+  "timestamp": "2026-11-10T21:41:59.256Z",
+  "title": "Legal & privacy | Jackson",
+  "template": "utility-page",
+  "blocks": [
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/legal-and-privacy/privacy",
+    "fragments/legal-and-privacy/regulation-best-interest-disclosure"
+  ],
+  "importScript": "f92b2795fe9f"
+}
