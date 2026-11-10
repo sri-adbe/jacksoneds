@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professionals/client-conversation-resources.html",
+  "path": "financial-professionals/client-conversation-resources",
+  "timestamp": "2026-11-10T16:56:05.556Z",
+  "title": "Client conversation resources | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "embed-video",
+    "cards-tool",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/financial-professionals/client-conversation-resources/thought-leadership-insights",
+    "fragments/financial-professionals/client-conversation-resources/tax-management-strategies",
+    "fragments/financial-professionals/client-conversation-resources/ria-and-wealth-managers-resources"
+  ],
+  "importScript": "2e437f884158"
+}

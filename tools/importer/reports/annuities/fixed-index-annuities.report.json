@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/fixed-index-annuities.html",
+  "path": "annuities/fixed-index-annuities",
+  "timestamp": "2026-11-10T16:52:23.334Z",
+  "title": "Fixed index annuities for investors | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "hero-page",
+    "cards-tool",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "columns-feature",
+    "columns-feature"
+  ],
+  "importScript": "2e437f884158"
+}

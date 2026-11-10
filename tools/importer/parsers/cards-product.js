@@ -117,6 +117,12 @@ export default function parse(element, { document, params }) {
   }
 
   items = items.filter((it) => it.image || it.body.length);
+  // Client-rendered carousels (e.g. "Explore our retirement topics") are empty in the captured
+  // source: drop the empty container instead of emitting an empty block.
+  if (!items.length) {
+    if (!element.textContent.trim() && !element.querySelector('img')) element.remove();
+    return;
+  }
   const hasImages = items.some((it) => it.image);
   const hasBodies = items.some((it) => it.body.length);
   items.forEach((it) => it.body.forEach((n) => n.removeAttribute && n.removeAttribute('style')));

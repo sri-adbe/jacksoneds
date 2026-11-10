@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
+  "path": "ria-and-wealth-managers/fee-based-annuity-solutions.html",
+  "timestamp": "2026-11-10T16:53:29.008Z",
+  "error": "page.goto: Target page, context or browser has been closed",
+  "errorStack": "page.goto: Target page, context or browser has been closed\n    at processUrl (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:711:20)\n    at async main (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:1077:22)",
+  "template": "content-page",
+  "importScript": "2e437f884158"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
+  "path": "annuities/benefits-of-annuities/growth-potential",
+  "timestamp": "2026-11-10T16:55:10.815Z",
+  "title": "Growth potential | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "hero-page",
+    "cards-tool"
+  ],
+  "importScript": "2e437f884158"
+}

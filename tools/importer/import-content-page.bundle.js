@@ -257,6 +257,10 @@ var CustomImportScript = (() => {
       });
     }
     items = items.filter((it) => it.image || it.body.length);
+    if (!items.length) {
+      if (!element.textContent.trim() && !element.querySelector("img")) element.remove();
+      return;
+    }
     const hasImages = items.some((it) => it.image);
     const hasBodies = items.some((it) => it.body.length);
     items.forEach((it) => it.body.forEach((n) => n.removeAttribute && n.removeAttribute("style")));

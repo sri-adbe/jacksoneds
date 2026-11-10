@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/the-jackson-difference/who-we-are/news.html",
+  "path": "the-jackson-difference/who-we-are/news",
+  "timestamp": "2026-11-10T16:59:50.915Z",
+  "title": "News | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "list-filter"
+  ],
+  "importScript": "2e437f884158"
+}

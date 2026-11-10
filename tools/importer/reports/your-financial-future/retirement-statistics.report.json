@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/your-financial-future/retirement-statistics.html",
+  "path": "your-financial-future/retirement-statistics",
+  "timestamp": "2026-11-10T16:57:06.415Z",
+  "title": "Retirement research center | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "cards-tool",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/your-financial-future/retirement-statistics/family",
+    "fragments/your-financial-future/retirement-statistics/policy",
+    "fragments/your-financial-future/retirement-statistics/market",
+    "fragments/your-financial-future/retirement-statistics/healthcare",
+    "fragments/your-financial-future/retirement-statistics/inflation",
+    "fragments/your-financial-future/retirement-statistics/longevity"
+  ],
+  "importScript": "2e437f884158"
+}

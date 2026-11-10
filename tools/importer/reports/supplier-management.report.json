@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/supplier-management.html",
+  "path": "supplier-management",
+  "timestamp": "2026-11-10T16:59:59.419Z",
+  "title": "Supplier management | Jackson",
+  "template": "content-page",
+  "blocks": [
+    "hero-page",
+    "accordion-manager"
+  ],
+  "importScript": "2e437f884158"
+}
