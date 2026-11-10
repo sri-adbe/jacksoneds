@@ -8,6 +8,11 @@ function optimizeImages(block) {
   });
 }
 
+/** Separates block children with whitespace so the card's text reads as words. */
+function spaced(nodes) {
+  return nodes.flatMap((node, i) => (i ? [document.createTextNode(' '), node] : [node]));
+}
+
 const READ_TIME = /^\d+\s*(min|mins|minutes?)\b/i;
 
 /**
@@ -34,12 +39,13 @@ function decorateBody(body) {
     if (READ_TIME.test(el.textContent.trim())) el.classList.add('cards-article-read-time');
     else el.classList.add('cards-article-description');
   });
+  body.replaceChildren(...spaced([...body.children]));
 }
 
 /**
  * Article cards: one row per article, cells `image | body`.
  * The card links to the article via the title link, or the first link
- * found in the card; the link is stretched over the whole card.
+ * found in the card, as one link wrapping the whole card.
  */
 export default function decorate(block) {
   const ul = document.createElement('ul');
@@ -64,24 +70,24 @@ export default function decorate(block) {
       li.append(body);
     }
 
-    // a link-only paragraph without a title link is the card link
-    const titleLink = li.querySelector('.cards-article-title a');
-    const link = titleLink || li.querySelector('a');
+    // the title link, or the first link, becomes one link around the whole card
+    const link = li.querySelector('.cards-article-title a') || li.querySelector('a');
     if (link) {
-      link.classList.add('cards-article-link');
-      li.classList.add('cards-article-card-linked');
+      const a = document.createElement('a');
+      a.href = link.href;
+      a.className = 'cards-article-link';
+      if (link.target) a.target = link.target;
       const linkPara = link.closest('p');
-      if (!titleLink && linkPara && linkPara.textContent.trim() === link.textContent.trim()
-        && li.querySelector('.cards-article-title')) {
-        // move the bare link onto the title so the card has one accessible name
-        const title = li.querySelector('.cards-article-title');
-        const a = document.createElement('a');
-        a.href = link.href;
-        a.className = 'cards-article-link';
-        a.append(...title.childNodes);
-        title.append(a);
-        linkPara.remove();
+      if (linkPara && !linkPara.classList.contains('cards-article-title')
+        && linkPara.textContent.trim() === link.textContent.trim()) {
+        linkPara.remove(); // a bare link paragraph only carries the URL
+      } else {
+        link.replaceWith(...link.childNodes); // no nested links
       }
+      li.querySelectorAll('a').forEach((other) => other.replaceWith(...other.childNodes));
+      a.append(...spaced([...li.children]));
+      li.append(a);
+      li.classList.add('cards-article-card-linked');
     }
     ul.append(li);
   });

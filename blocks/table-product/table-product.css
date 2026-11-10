@@ -62,6 +62,69 @@
   opacity: 1;
 }
 
-.table-product.no-header tbody tr:first-child td {
-  border-top-width: 2px;
+.table-product a:any-link {
+  padding: 0 1px;
+  color: var(--link-color);
+  font-weight: 600;
+}
+
+/* no-header: borderless benefits list table (careers) */
+.table-product.no-header {
+  color: var(--text-color);
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.table-product.no-header .table-product-scroll {
+  padding: 20px 0;
+}
+
+.table-product.no-header table {
+  width: auto;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.table-product.no-header td {
+  padding: 5px 10px;
+  border: 0;
+  vertical-align: middle;
+}
+
+.table-product.no-header td ul {
+  margin: 0 0 8px;
+  padding-left: 40px;
+}
+
+.table-product.no-header td li {
+  margin: 0;
+  line-height: inherit;
+}
+
+.table-product.no-header a:any-link {
+  font-size: inherit;
+}
+
+/* blank line between the list rows and a closing text-only row */
+.table-product.no-header tbody:not(:has(> tr:last-child ul)) > tr:nth-last-child(2):has(ul) td {
+  padding-bottom: 36px;
+}
+
+@media (width >= 900px) {
+  .table-product.no-header {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .table-product.no-header .table-product-scroll {
+    padding: 20px;
+  }
+
+  .table-product.no-header td ul {
+    margin-bottom: 10px;
+  }
+
+  .table-product.no-header tbody:not(:has(> tr:last-child ul)) > tr:nth-last-child(2):has(ul) td {
+    padding-bottom: 41px;
+  }
 }

@@ -28,7 +28,10 @@ export default function decorate(block) {
         const td = document.createElement(isHead ? 'th' : 'td');
         if (i === 0) td.scope = 'col';
         else if (j === 0) td.scope = 'row';
-        td.append(...cell.childNodes);
+        // EDS wraps cell text in a lone <p>; table cells hold the text directly.
+        const only = cell.children.length === 1 && cell.firstElementChild;
+        const lone = only && only.tagName === 'P' && cell.textContent.trim() === only.textContent.trim();
+        td.append(...(lone ? only.childNodes : cell.childNodes));
         tr.append(td);
       });
       (i === 0 ? thead : tbody).append(tr);

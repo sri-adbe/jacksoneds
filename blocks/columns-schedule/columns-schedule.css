@@ -1,40 +1,13 @@
+/* Values from source computed styles (migration-work/columns-schedule-extracted.css).
+   Source block is full-bleed at page x=0; the EDS section adds a 20px gutter,
+   so horizontal offsets below are reduced by 20px to keep page positions equal. */
 .columns-schedule {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-}
-
-.columns-schedule .columns-schedule-text {
-  padding-left: 24px;
-  border-left: 4px solid;
-}
-
-.columns-schedule .columns-schedule-text > :first-child {
-  margin-top: 0;
-}
-
-.columns-schedule .columns-schedule-table {
-  overflow-x: auto;
-}
-
-.columns-schedule table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.columns-schedule th,
-.columns-schedule td {
-  padding: 8px 12px;
-  border: 1px solid #dadada;
-  text-align: left;
-}
-
-.columns-schedule thead th {
-  text-align: center;
-}
-
-.columns-schedule thead th:first-child:empty {
-  border-width: 0 1px 1px 0;
+  gap: 60px;
+  color: rgb(0 0 0);
+  font-size: 15.2px;
+  line-height: 20.8px;
 }
 
 .columns-schedule th p,
@@ -42,17 +15,113 @@
   margin: 0;
 }
 
+.columns-schedule .columns-schedule-text {
+  margin: 45px 30px 0;
+  padding-left: 26px;
+  border-left: 4px solid var(--heading-accent-color);
+}
+
+.columns-schedule .columns-schedule-text h3 {
+  margin: 0 0 10px;
+  font-family: var(--heading-font-family);
+  font-size: 27.2px;
+  font-weight: 700;
+  line-height: 35.2px;
+  color: var(--brand-plum);
+}
+
+.columns-schedule .columns-schedule-text p {
+  margin: 0;
+  font-size: 15.2px;
+  line-height: 20.8px;
+  color: rgb(0 0 0);
+}
+
+.columns-schedule .columns-schedule-text > :last-child {
+  margin-bottom: 0;
+}
+
+.columns-schedule .columns-schedule-table {
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.columns-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.columns-schedule th,
+.columns-schedule td {
+  padding: 5px 10px;
+  border: 1px solid rgb(203 203 203);
+  text-align: left;
+  vertical-align: middle;
+  color: rgb(0 0 0);
+}
+
+.columns-schedule tbody th {
+  font-weight: 600;
+}
+
+.columns-schedule tbody tr:nth-child(odd) {
+  background-color: rgb(246 240 237);
+}
+
+.columns-schedule thead th {
+  background-color: rgb(229 211 200);
+  font-weight: 700;
+  text-align: center;
+}
+
+.columns-schedule thead th:first-child:empty {
+  background-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
 @media (width >= 900px) {
+  .columns-schedule {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
   .columns-schedule.columns-schedule-2-cols {
-    flex-direction: row;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 60px minmax(0, 499fr) 61px minmax(0, 664fr) 116px;
+    gap: 0;
+    align-items: start;
   }
 
   .columns-schedule .columns-schedule-text {
-    flex: 0 1 40%;
+    grid-column: 2;
+    margin: 80px 0;
+  }
+
+  .columns-schedule.columns-schedule-1-cols .columns-schedule-text {
+    margin: 80px 60px;
+  }
+
+  .columns-schedule .columns-schedule-text h3 {
+    font-size: var(--heading-font-size-l);
+    line-height: 44px;
+  }
+
+  .columns-schedule .columns-schedule-text p {
+    font-size: 19px;
+    line-height: 26px;
   }
 
   .columns-schedule .columns-schedule-table {
-    flex: 1 1 60%;
+    grid-column: 4;
+    margin: 85px 0 0;
+  }
+
+  .columns-schedule table {
+    font-size: 19px;
+    line-height: 26px;
   }
 }

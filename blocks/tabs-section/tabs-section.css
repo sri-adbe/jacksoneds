@@ -1,28 +1,41 @@
+/* tabs-section: values from source computed styles (jackson.com .tab.v4) */
+/* stylelint-disable no-descending-specificity -- variant rules target flat fragment content per look */
+.tabs-section {
+  margin: 0 0 20px;
+  color: rgb(0 0 0);
+}
+
+/* tab strip: folder tabs on a red base line, centred, scrolls on mobile */
 .tabs-section .tabs-section-list {
   display: flex;
+  justify-content: safe center;
+  gap: 4px;
   max-width: 100%;
+  margin: 0;
+  padding: 1px 10px 0;
   overflow-x: auto;
   scrollbar-width: thin;
-  border-bottom: 1px solid #dadada;
+  box-shadow: inset 0 -1px 0 var(--brand-red);
 }
 
 .tabs-section .tabs-section-tab {
-  display: inline-flex;
-  flex: 0 0 auto;
+  display: flex;
+  flex: 0 1 auto;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   margin: 0;
-  padding: 12px 24px;
-  border: 0;
-  border-bottom: 3px solid transparent;
+  padding: 20px;
+  border: 1px solid transparent;
   border-radius: 0;
   background: none;
-  color: inherit;
-  font: inherit;
-  line-height: 1.3;
+  color: rgb(0 0 0);
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20.8px;
   text-align: center;
   text-decoration: none;
-  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -38,28 +51,46 @@
 
 .tabs-section .tabs-section-tab[aria-selected='true'],
 .tabs-section .tabs-section-tab[aria-current='page'] {
-  border-bottom-color: currentcolor;
-  font-weight: 700;
+  border-color: var(--brand-red) var(--brand-red) var(--brand-white);
+  background-color: var(--brand-white);
+  color: var(--brand-red);
+  font-weight: 400;
 }
 
 .tabs-section .tabs-section-tab:focus-visible {
-  outline: 2px solid;
-  outline-offset: -2px;
+  outline: 2px solid var(--brand-plum);
+  outline-offset: -4px;
 }
 
+/* panels */
 .tabs-section .tabs-section-panel {
-  padding: 32px 0 0;
+  padding: 60px 20px 0;
+  isolation: isolate;
 }
 
 .tabs-section .tabs-section-panel[hidden] {
   display: none;
 }
 
-.tabs-section .tabs-section-panel > :first-child {
-  margin-top: 0;
+.tabs-section .tabs-section-panel .default-content-wrapper {
+  display: flow-root;
+}
+
+.tabs-section .tabs-section-panel p {
+  margin: 0;
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.tabs-section .tabs-section-panel h3 {
+  margin: 0 0 10px;
+  font-size: 27.2px;
+  line-height: 35.2px;
 }
 
 .tabs-section .tabs-section-panel img {
+  display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -70,11 +101,363 @@
   padding-right: 0;
 }
 
+/* default look: product highlight (image + h3 + text + CTA) and product cards */
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > :first-child {
+  margin-top: 34px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture),
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3,
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p,
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p {
+  background-color: rgb(226 216 210);
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) {
+  padding: 15px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture):not(:first-child) {
+  margin-top: 40px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 {
+  margin: 0;
+  padding: 30px 15px 0;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3::after {
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: 10px;
+  background-color: var(--brand-red);
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p {
+  padding: 10px 15px 0;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p {
+  padding: 10px 15px 15px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p > a:only-child:any-link {
+  display: block;
+  box-sizing: border-box;
+  margin: 5px 0;
+  padding: 8px 25px;
+  border: 2px solid transparent;
+  background-color: var(--brand-red);
+  color: var(--brand-white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p > a:only-child::before {
+  content: none;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p > a:only-child:hover {
+  border-color: var(--brand-gray);
+  background-color: var(--brand-plum);
+}
+
+/* product cards: title p, (R) p, description, link list */
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(+ p > sup:only-child),
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child),
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) + p,
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p) {
+  padding: 0 30px;
+  background-color: var(--brand-beige-light);
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(+ p > sup:only-child),
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) {
+  margin-top: 40px;
+  padding-top: 30px;
+  color: var(--brand-plum);
+  font-family: var(--heading-font-family);
+  font-size: 27.2px;
+  line-height: 35.2px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(+ p > sup:only-child) {
+  float: left;
+  padding-right: 0;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) {
+  padding-left: 0;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) + p {
+  clear: left;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) + p::before {
+  content: '';
+  display: block;
+  height: 4px;
+  margin-bottom: 10px;
+  background-color: var(--brand-red);
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p) {
+  padding-top: 15px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) + p + p:has(> a:only-child) {
+  padding-top: 20px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p):has(+ p + p > sup:only-child),
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p):has(+ p > picture),
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p):last-child {
+  padding-bottom: 30px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p > a:only-child:any-link {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+  color: rgb(0 0 0);
+  font-weight: 600;
+  line-height: 23px;
+  text-decoration: underline;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p > a:only-child::before {
+  content: '\2192';
+  position: absolute;
+  left: 0;
+  color: var(--brand-red);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p > a:only-child[href*='pdf']::before {
+  content: '\2193';
+}
+
+/* alt-3: text column beside the panel image */
+.tabs-section.alt-3 .tabs-section-panel {
+  padding: 60px 15px 0;
+}
+
+.tabs-section.alt-3 .tabs-section-panel h4 {
+  margin: 15px 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid var(--brand-red);
+  font-size: 19.2px;
+  line-height: 27.2px;
+}
+
+.tabs-section.alt-3 .tabs-section-panel p + p {
+  margin-top: 15px;
+}
+
+.tabs-section.alt-3 .tabs-section-panel ul {
+  margin: 15px 0 0;
+  padding-left: 40px;
+}
+
+.tabs-section.alt-3 .tabs-section-panel li {
+  margin-bottom: 10px;
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.tabs-section.alt-3 .tabs-section-panel li::marker {
+  color: var(--brand-red);
+}
+
+.tabs-section.alt-3 .tabs-section-panel p:has(> a:only-child) {
+  margin-top: 31px;
+}
+
+.tabs-section.alt-3 .tabs-section-panel p > a:only-child:any-link {
+  display: inline-block;
+  position: relative;
+  padding: 3px 0 0 22px;
+  color: rgb(0 0 0);
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.tabs-section.alt-3 .tabs-section-panel p > a:only-child::before {
+  content: '\2192';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid var(--brand-red);
+  border-radius: 50%;
+  color: var(--brand-red);
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tabs-section.alt-3 .tabs-section-panel p:has(> picture) {
+  margin-top: 40px;
+}
+
+/* image-magenta-grey-shadow: PDF image cards, then download cards on grey */
+.tabs-section.image-magenta-grey-shadow .tabs-section-panel {
+  padding: 60px 0 0;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:first-child {
+  margin-bottom: 95px;
+  font-size: 16px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) {
+  margin: 60px 25px 0;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:first-child + p:has(> a > picture) {
+  margin-top: 0;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) > a {
+  display: block;
+  position: relative;
+  color: var(--brand-white);
+  font-size: 0;
+  line-height: 0;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) > a::before {
+  content: 'PDF';
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px 8px;
+  background-color: var(--brand-plum);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20.8px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3,
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 + p {
+  margin: 0 25px;
+  background-color: var(--brand-beige-light);
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 {
+  padding: 30px 15px 0;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 > a:any-link {
+  color: var(--brand-red);
+  text-decoration: none;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 + p {
+  padding: 20px 15px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 + p > a:any-link {
+  color: rgb(51 51 51);
+  text-decoration: none;
+}
+
+/* download cards: title p, description p, Download link p */
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child),
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p,
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p {
+  position: relative;
+  margin: 0 40px;
+  padding: 10px 10px 0;
+  background-color: var(--brand-white);
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child)::before,
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p::before,
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p::before {
+  content: '';
+  position: absolute;
+  inset: -21px -40px;
+  z-index: -1;
+  background-color: rgb(197 197 198);
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) {
+  margin-top: 42px;
+  padding-top: 25px;
+  color: var(--brand-plum);
+  font-family: var(--heading-font-family);
+  font-size: 19.2px;
+  line-height: 27.2px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(1 of p:has(+ p + p > a:only-child)) {
+  margin-top: 167px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(1 of p:has(+ p + p > a:only-child))::before {
+  top: -81px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p {
+  padding-bottom: 13px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p > a:any-link {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+  color: rgb(0 0 0);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p > a::before {
+  content: '\2193';
+  position: absolute;
+  left: 0;
+  color: var(--brand-red);
+  font-weight: 400;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:last-child:not(:has(+ p + p > a:only-child) + p + p) {
+  margin-top: 101px;
+  color: rgb(102 102 102);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:last-child a:any-link {
+  color: var(--brand-red);
+  font-weight: 600;
+}
+
 /* icons / icons-2: icon above the label */
 .tabs-section.icons .tabs-section-tab,
 .tabs-section.icons-2 .tabs-section-tab {
   flex-direction: column;
-  white-space: normal;
 }
 
 .tabs-section.icons .tabs-section-tab img,
@@ -83,23 +466,203 @@
   height: 40px;
 }
 
-/* alt, alt-2, alt-3: centred tab strip */
-.tabs-section.alt .tabs-section-list,
-.tabs-section.alt-2 .tabs-section-list,
-.tabs-section.alt-3 .tabs-section-list {
-  justify-content: safe center;
-}
+@media (width >= 900px) {
+  .tabs-section .tabs-section-tab {
+    padding: 30px;
+    font-weight: 400;
+    line-height: 26px;
+  }
 
-/* grey, grey-2, image-*: boxed panel, tinted by the design pass */
-.tabs-section.grey .tabs-section-panel,
-.tabs-section.grey-2 .tabs-section-panel,
-.tabs-section.image-green .tabs-section-panel,
-.tabs-section.image-grey .tabs-section-panel,
-.tabs-section.image-magenta .tabs-section-panel,
-.tabs-section.image-magenta-grey-shadow .tabs-section-panel {
-  padding: 32px 24px;
-}
+  .tabs-section .tabs-section-panel p {
+    font-size: 19px;
+    line-height: 26px;
+  }
 
-.tabs-section.image-magenta-grey-shadow .tabs-section-list {
-  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  .tabs-section .tabs-section-panel h3 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  /* default look desktop: image floats beside the highlight text */
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) {
+    float: left;
+    box-sizing: border-box;
+    width: 42%;
+    padding: 15px 30px;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture):not(:first-child) + h3 {
+    margin-top: 40px;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > :first-child + h3 {
+    margin-top: 34px;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 {
+    padding: 57px 30px 0 0;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p {
+    padding: 10px 30px 0 0;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p {
+    padding: 0 30px 15px 0;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> picture) + h3 + p + p > a:only-child:any-link {
+    display: inline-block;
+    line-height: 26px;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(+ p > sup:only-child),
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  /* alt-3 desktop: 717 / 533 text and image columns */
+  .tabs-section.alt-3 .tabs-section-panel {
+    padding: 60px 30px 0;
+  }
+
+  .tabs-section.alt-3 .default-content-wrapper:has(> p:last-child > picture) {
+    display: grid;
+    grid-template-columns: minmax(0, 717fr) minmax(0, 533fr);
+    column-gap: 30px;
+  }
+
+  .tabs-section.alt-3 .default-content-wrapper:has(> p:last-child > picture) > * {
+    grid-column: 1;
+  }
+
+  .tabs-section.alt-3 .default-content-wrapper > p:last-child:has(> picture) {
+    grid-column: 2;
+    grid-row: 1 / span 99;
+    align-self: center;
+    margin: 0;
+  }
+
+  .tabs-section.alt-3 .tabs-section-panel h4 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .tabs-section.alt-3 .tabs-section-panel li {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  /* image-magenta-grey-shadow desktop: 2 x 430px PDF cards, 3 x 336px download cards */
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper {
+    display: grid;
+    grid-template-columns:
+      minmax(0, 1fr) min(101px, 7.537%) min(235px, 17.537%) min(42px, 3.134%) min(153px, 11.418%)
+      min(30px, 2.239%) min(153px, 11.418%) min(42px, 3.134%) min(235px, 17.537%) min(101px, 7.537%)
+      minmax(0, 1fr);
+    grid-auto-flow: row dense;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > * {
+    grid-column: 1 / -1;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:first-child {
+    margin-bottom: 40px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture),
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 + p {
+    grid-column: 3 / 6;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) {
+    margin-top: 0;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(> a > picture) + h3 + p {
+    margin-bottom: 40px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(even of p:has(> a > picture)),
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(even of p:has(> a > picture)) + h3,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(even of p:has(> a > picture)) + h3 + p {
+    grid-column: 7 / 10;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child),
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p {
+    grid-column: 2 / 4;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 2 of p:has(+ p + p > a:only-child)),
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 2 of p:has(+ p + p > a:only-child)) + p,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 2 of p:has(+ p + p > a:only-child)) + p + p {
+    grid-column: 5 / 8;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n of p:has(+ p + p > a:only-child)),
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n of p:has(+ p + p > a:only-child)) + p,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n of p:has(+ p + p > a:only-child)) + p + p {
+    grid-column: 9 / 11;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 1 of p:has(+ p + p > a:only-child))::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 1 of p:has(+ p + p > a:only-child)) + p::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 1 of p:has(+ p + p > a:only-child)) + p + p::before {
+    left: -122px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n of p:has(+ p + p > a:only-child))::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n of p:has(+ p + p > a:only-child)) + p::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n of p:has(+ p + p > a:only-child)) + p + p::before {
+    right: -126px;
+  }
+
+  /* incomplete last row: grey panel still spans all three columns */
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 2 of p:has(+ p + p > a:only-child)):nth-last-child(1 of p:has(+ p + p > a:only-child))::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 2 of p:has(+ p + p > a:only-child)):nth-last-child(1 of p:has(+ p + p > a:only-child)) + p::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 2 of p:has(+ p + p > a:only-child)):nth-last-child(1 of p:has(+ p + p > a:only-child)) + p + p::before {
+    right: -504px;
+  }
+
+  /* incomplete last row: grey panel still spans all three columns */
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 1 of p:has(+ p + p > a:only-child)):nth-last-child(1 of p:has(+ p + p > a:only-child))::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 1 of p:has(+ p + p > a:only-child)):nth-last-child(1 of p:has(+ p + p > a:only-child)) + p::before,
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(3n + 1 of p:has(+ p + p > a:only-child)):nth-last-child(1 of p:has(+ p + p > a:only-child)) + p + p::before {
+    right: -882px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(-n + 3 of p:has(+ p + p > a:only-child)) {
+    margin-top: 167px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-child(-n + 3 of p:has(+ p + p > a:only-child))::before {
+    top: -81px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:has(+ p + p > a:only-child) + p + p {
+    margin-bottom: 42px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-last-child(-n + 3 of p:has(+ p + p > a:only-child)) + p + p {
+    margin-bottom: 64px;
+  }
+
+  .tabs-section.image-magenta-grey-shadow .default-content-wrapper > p:nth-last-child(-n + 3 of p:has(+ p + p > a:only-child)) + p + p::before {
+    bottom: -64px;
+  }
 }

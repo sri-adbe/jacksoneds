@@ -1,24 +1,38 @@
+/* source: .flexible-width-container__columns.full-width > .ibm-video .video-container */
 .embed-video {
-  max-width: 1120px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: rgb(0 0 0);
 }
 
 .embed-video .video-embed {
   position: relative;
+  height: 540px;
+  line-height: 0;
+}
+
+/* poster-based embeds (YouTube, Vimeo, mp4) keep a 16:9 frame */
+.embed-video .video-embed.video-embed-has-poster {
+  height: auto;
   aspect-ratio: 16 / 9;
   background-color: #000;
-  line-height: 0;
 }
 
 .embed-video .video-embed-frame,
 .embed-video .video-embed-frame iframe,
-.embed-video .video-embed-frame video,
+.embed-video .video-embed-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .embed-video .video-embed picture,
 .embed-video .video-embed img {
   display: block;
   width: 100%;
   height: 100%;
-  border: 0;
   object-fit: cover;
 }
 
@@ -47,10 +61,24 @@
   transform: translate(-50%, -50%);
 }
 
-.embed-video .embed-video-caption {
-  margin-top: 16px;
-}
-
 .embed-video .embed-video-caption > :first-child {
   margin-top: 0;
+}
+
+.embed-video a {
+  color: rgb(0 0 0);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .embed-video {
+    gap: 24px;
+    padding: 0 114.016px;
+  }
+
+  .embed-video .video-embed {
+    height: 448px;
+  }
 }

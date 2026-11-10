@@ -1,84 +1,164 @@
+/* accordion-manager: investment-manager logo tiles (source .three-column > .promo-area) */
+
+.accordion-manager {
+  max-width: 1260px;
+  margin: 0 auto;
+  color: rgb(0 0 0);
+}
+
+/* mobile: one tile per row, 40px between rows */
 .accordion-manager .accordion-manager-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 24px;
-  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px 0;
 }
 
 .accordion-manager .accordion-manager-item {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  border: 1px solid var(--brand-beige-light);
+  background-color: var(--brand-beige-light);
 }
 
 .accordion-manager details summary {
   position: relative;
+  display: block;
   list-style: none;
   cursor: pointer;
-  padding-bottom: 32px;
 }
 
 .accordion-manager details summary::-webkit-details-marker {
   display: none;
 }
 
+/* chevron trigger (source .promo-area__trigger) */
 .accordion-manager details summary::after {
   content: '';
   position: absolute;
-  bottom: 14px;
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  border: 2px solid;
-  border-width: 2px 2px 0 0;
-  transform: translateX(-50%) rotate(135deg);
+  bottom: 22px;
+  left: calc(50% - 7.5px);
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border-right: 3px solid var(--brand-plum);
+  border-bottom: 3px solid var(--brand-plum);
+  transform: rotate(45deg);
   transition: transform 0.2s;
 }
 
 .accordion-manager details[open] summary::after {
-  transform: translateX(-50%) rotate(-45deg);
+  transform: rotate(-135deg);
 }
 
 .accordion-manager .accordion-manager-item-image {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
-  min-height: 100px;
+  min-height: 217px;
+  background-color: var(--brand-white);
+}
+
+.accordion-manager .accordion-manager-item-image picture {
+  display: block;
+  width: 100%;
 }
 
 .accordion-manager .accordion-manager-item-image img {
-  max-width: 100%;
-  max-height: 80px;
-  width: auto;
+  display: block;
+  width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .accordion-manager .accordion-manager-item-title {
-  padding: 12px 16px 0;
+  box-sizing: border-box;
+  min-height: 151px;
+  padding: 20px 20px 0;
   text-align: center;
 }
 
-.accordion-manager .accordion-manager-item-title p {
-  margin: 0;
+.accordion-manager .accordion-manager-item-title :is(h1, h2, h3, h4, h5, h6, p) {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 10px;
+  font-family: var(--body-font-family);
+  font-size: 19.2px;
+  font-weight: 600;
+  line-height: 27.2px;
+  color: var(--brand-plum);
+  text-align: center;
 }
 
 .accordion-manager .accordion-manager-item-body {
-  padding: 0 16px 16px;
+  padding: 0 20px 20px;
+  font-size: 15.2px;
+  line-height: 20.8px;
+  color: rgb(0 0 0);
+}
+
+.accordion-manager .accordion-manager-item-body p {
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.accordion-manager details:not([open]) .accordion-manager-item-body {
+  display: none;
 }
 
 /* red: a single row of category pills with no expandable body */
 .accordion-manager.red .accordion-manager-list {
-  display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 8px;
+  padding: 0;
 }
 
 .accordion-manager.red .accordion-manager-item {
+  flex: 0 0 auto;
   border: 0;
   border-radius: 999px;
 }
 
 .accordion-manager.red .accordion-manager-item-title {
+  min-height: 0;
   padding: 8px 24px;
+}
+
+.accordion-manager.red .accordion-manager-item-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  /* desktop: three 380px tiles per row, last row centred */
+  .accordion-manager .accordion-manager-list {
+    padding: 20px;
+  }
+
+  .accordion-manager .accordion-manager-item {
+    flex-basis: calc((100% - 80px) / 3);
+  }
+
+  .accordion-manager.red .accordion-manager-item {
+    flex-basis: auto;
+  }
+
+  .accordion-manager details summary::after {
+    bottom: 30px;
+  }
+
+  .accordion-manager .accordion-manager-item-title {
+    min-height: 150px;
+  }
+
+  .accordion-manager .accordion-manager-item-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .accordion-manager .accordion-manager-item-body,
+  .accordion-manager .accordion-manager-item-body p {
+    font-size: 19px;
+    line-height: 26px;
+  }
 }

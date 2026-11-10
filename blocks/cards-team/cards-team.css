@@ -1,17 +1,25 @@
+/* cards-team: leadership headshot grid (jackson.com cta-icon-card three-column) */
+
+.cards-team {
+  color: var(--brand-black);
+}
+
 .cards-team > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 350px));
-  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding: 0;
   list-style: none;
-  justify-content: center;
 }
 
 .cards-team .cards-team-card {
-  position: relative;
   display: flex;
   flex-direction: column;
+  width: 315px;
+  max-width: 100%;
+  padding: 30px 0 38px;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -19,18 +27,21 @@
   line-height: 0;
 }
 
+/* source sets the lead card apart with an empty spacer card above and below it */
+.cards-team .cards-team-card:first-child {
+  padding-top: 110px;
+  padding-bottom: 118px;
+}
+
 .cards-team .cards-team-card-image img {
-  width: 100%;
+  display: block;
+  width: 50%;
   height: auto;
-  aspect-ratio: 6 / 5;
-  object-fit: cover;
+  margin: 0 auto;
 }
 
 .cards-team .cards-team-card-body {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 8px 12px;
+  padding: 10px 10px 0;
 }
 
 .cards-team .cards-team-card-body > :first-child {
@@ -41,28 +52,71 @@
   margin-bottom: 0;
 }
 
-.cards-team .cards-team-card-eyebrow {
-  margin-bottom: 4px;
-  font-size: var(--body-font-size-xs);
-}
-
-.cards-team .cards-team-card-cta {
-  margin-top: auto;
-  padding-top: 16px;
-}
-
-.cards-team .cards-team-card-icon {
-  line-height: 0;
-}
-
-.cards-team .cards-team-card-icon img {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-}
-
 .cards-team .cards-team-card-title {
-  margin-bottom: 8px;
-  padding-bottom: 8px;
-  border-bottom: 3px solid;
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: var(--heading-color);
+  position: relative;
+}
+
+/* 4px red rule directly under the name, outside the title's text box */
+.cards-team .cards-team-card-title::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: var(--brand-red);
+}
+
+.cards-team .cards-team-card-body p {
+  margin: 21px 0 0;
+  font-family: var(--body-font-family);
+  font-size: 15.2px;
+  line-height: 20.8px;
+  color: var(--brand-black);
+}
+
+.cards-team .cards-team-card-body :is(b, strong) {
+  font-weight: 600;
+}
+
+@media (width >= 900px) {
+  .cards-team {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  .cards-team > ul {
+    column-gap: 60px;
+  }
+
+  .cards-team .cards-team-card {
+    width: 351px;
+  }
+
+  /* source places the lead (first) card alone, centred on its own row */
+  .cards-team .cards-team-card:first-child {
+    margin-inline: calc((100% - 351px) / 2);
+    padding-top: 30px;
+    padding-bottom: 38px;
+  }
+
+  .cards-team .cards-team-card-image img {
+    width: 100%;
+  }
+
+  .cards-team .cards-team-card-title {
+    font-size: var(--heading-font-size-m);
+    line-height: 34px;
+  }
+
+  .cards-team .cards-team-card-body p {
+    font-size: var(--body-font-size-m);
+    line-height: 26px;
+  }
 }

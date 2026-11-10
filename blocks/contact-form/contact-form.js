@@ -15,6 +15,31 @@ function optimizeImages(block) {
 const BUTTON_TYPES = ['submit', 'reset', 'button'];
 
 /**
+ * IBM Video (video.ibm.com/embed/...) is the source's player and is not one of
+ * the shared video-embed providers: link-only paragraphs become an iframe.
+ * @param {Element} root
+ */
+function embedIbmVideos(root) {
+  root.querySelectorAll('a[href*="video.ibm.com/embed/"]').forEach((link) => {
+    const holder = link.closest('p, li');
+    if (!holder || holder.textContent.trim() !== link.textContent.trim()) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'video-embed';
+    const frame = document.createElement('div');
+    frame.className = 'video-embed-frame';
+    const iframe = document.createElement('iframe');
+    iframe.src = link.href;
+    iframe.title = link.title && link.title !== link.href ? link.title : 'Video';
+    iframe.loading = 'lazy';
+    iframe.allow = 'autoplay; fullscreen; picture-in-picture; encrypted-media';
+    iframe.allowFullscreen = true;
+    frame.append(iframe);
+    wrapper.append(frame);
+    holder.replaceWith(wrapper);
+  });
+}
+
+/**
  * Contact form: intro copy beside a lead-capture form, optionally with a
  * contact-details column.
  *
@@ -60,19 +85,38 @@ export default function decorate(block) {
   const hasAside = aside.children.length > 0;
   const hasForm = form.children.length > 0;
 
+  // without a form, a video in the intro becomes its own column (copy beside video)
+  const media = document.createElement('div');
+  media.className = 'contact-form-media';
+  if (hasIntro && !hasForm) {
+    embedIbmVideos(intro);
+    decorateVideoLinks(intro);
+    media.append(...intro.querySelectorAll('.video-embed'));
+    intro.querySelectorAll('.contact-form-content').forEach((c) => {
+      if (!c.children.length && !c.textContent.trim()) c.remove();
+    });
+  }
+  const hasMedia = media.children.length > 0;
+
   const columns = [];
   if (hasIntro && hasAside) {
     // intro sits above the form; contact details form the second column
     main.append(intro, form);
     columns.push(main, aside);
   } else {
-    if (hasIntro) columns.push(intro);
+    if (intro.children.length) columns.push(intro);
+    if (hasMedia) columns.push(media);
     if (hasForm) columns.push(form);
     if (hasAside) columns.push(aside);
   }
-  block.replaceChildren(...columns);
+  const inner = document.createElement('div');
+  inner.className = 'contact-form-inner';
+  inner.append(...columns);
+  block.replaceChildren(inner);
   block.classList.add(`contact-form-${columns.length}-cols`);
   if (!hasForm) block.classList.add('contact-form-no-fields');
+  if (hasMedia) block.classList.add('contact-form-has-media');
+  embedIbmVideos(block);
   decorateVideoLinks(block);
   optimizeImages(block);
 }

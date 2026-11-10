@@ -1,18 +1,17 @@
+/* cards-tool: promo cards (image, plum content box, red CTA) and partner directory tiles */
+
 .cards-tool > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
+  grid-template-columns: minmax(0, 1fr);
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .cards-tool .cards-tool-card {
-  position: relative;
   display: flex;
   flex-direction: column;
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  box-sizing: border-box;
 }
 
 .cards-tool .cards-tool-card-image {
@@ -20,43 +19,19 @@
 }
 
 .cards-tool .cards-tool-card-image img {
+  display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 2 / 1;
-  object-fit: cover;
 }
 
 .cards-tool .cards-tool-card-body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  align-items: center;
-  padding: 24px 32px;
-  text-align: center;
 }
 
-.cards-tool .cards-tool-card-body > :first-child {
-  margin-top: 0;
-}
-
-.cards-tool .cards-tool-card-body > :last-child {
-  margin-bottom: 0;
-}
-
-.cards-tool .cards-tool-card-eyebrow {
-  margin-bottom: 4px;
-  font-size: var(--body-font-size-xs);
-  align-self: flex-start;
-  padding: 4px 10px;
-}
-
-.cards-tool .cards-tool-card-cta {
-  margin-top: auto;
-  padding-top: 16px;
-}
-
-.cards-tool .cards-tool-card-icon {
-  line-height: 0;
+.cards-tool .cards-tool-card-body > * {
+  margin: 0;
 }
 
 .cards-tool .cards-tool-card-icon img {
@@ -65,34 +40,257 @@
   object-fit: contain;
 }
 
-/* partner / partner-logo: directory tiles with a tag, name or logo and a link */
-.cards-tool.partner .cards-tool-card-body,
+/* default: promo cards (source .promo-card) */
+.cards-tool:not(.partner, .partner-logo) > ul {
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-body {
+  align-items: center;
+  padding: 35px 20px 20px;
+  background-color: var(--brand-plum-dark);
+  color: var(--brand-white);
+  text-align: center;
+}
+
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-title {
+  margin: 0 15px 10px;
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--brand-beige);
+}
+
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-body > p:not(.cards-tool-card-cta, .cards-tool-card-icon) {
+  margin: 0 15px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  color: var(--brand-white);
+}
+
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-cta {
+  align-self: stretch;
+  margin-top: auto;
+}
+
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-cta a:any-link {
+  display: block;
+  box-sizing: border-box;
+  margin: 5px 0;
+  padding: 8px 25px;
+  border: 2px solid transparent;
+  background-color: var(--brand-red);
+  color: var(--brand-white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-cta a:hover,
+.cards-tool:not(.partner, .partner-logo) .cards-tool-card-cta a:focus-visible {
+  border-color: var(--brand-gray);
+  background-color: var(--brand-plum);
+  color: var(--brand-white);
+  text-decoration: none;
+}
+
+/* partner / partner-logo: directory tiles (source .resource-filter-listing__block) */
+.cards-tool.partner {
+  padding: 0 0 30px;
+}
+
+.cards-tool.partner-logo {
+  padding: 20px 0 22px;
+}
+
+.cards-tool.partner > ul,
+.cards-tool.partner-logo > ul {
+  gap: 30px;
+}
+
+.cards-tool.partner .cards-tool-card,
+.cards-tool.partner-logo .cards-tool-card {
+  border: 1px solid rgb(181 181 181);
+  background-color: var(--brand-white);
+  color: var(--brand-black);
+}
+
+.cards-tool.partner .cards-tool-card-eyebrow,
+.cards-tool.partner-logo .cards-tool-card-eyebrow {
+  place-self: start;
+
+  /* pill painted outside the text box (source: padded tag container around a text span) */
+  margin: 3px 10px;
+  border-image: linear-gradient(var(--tag-color), var(--tag-color)) fill 0 / 0 / 3px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--brand-black);
+  text-align: left;
+}
+
+.cards-tool .cards-tool-tag-direct-integration {
+  --tag-color: rgb(252 191 126);
+}
+
+.cards-tool .cards-tool-tag-enabled-by-fan-mail {
+  --tag-color: rgb(138 206 211);
+}
+
+.cards-tool .cards-tool-tag-third-party-aggregator {
+  --tag-color: rgb(181 187 230);
+}
+
+.cards-tool.partner .cards-tool-card-cta a:any-link,
+.cards-tool.partner-logo .cards-tool-card-cta a:any-link {
+  display: inline-block;
+  padding-left: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='15' viewBox='0 0 14 15' fill='none' stroke='%23eb0028' stroke-width='2'%3E%3Cpath d='M7 0v11M2 6.5l5 5 5-5M0 14h14'/%3E%3C/svg%3E") left center / 14px 15px no-repeat;
+  color: var(--brand-black);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.cards-tool.partner .cards-tool-card-cta a:hover,
+.cards-tool.partner-logo .cards-tool-card-cta a:hover {
+  color: var(--brand-black);
+  text-decoration-thickness: 2px;
+}
+
+/* partner: tag, then name and link left-aligned in a centred column */
+.cards-tool.partner .cards-tool-card {
+  min-height: 100px;
+  padding: 14px 14px 0;
+}
+
+.cards-tool.partner .cards-tool-card-body {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.cards-tool.partner .cards-tool-card-body > * {
+  grid-column: 2;
+}
+
+.cards-tool.partner .cards-tool-card-eyebrow {
+  grid-column: 1 / -1;
+}
+
+.cards-tool.partner .cards-tool-card-title {
+  align-self: center;
+  font-family: var(--body-font-family);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  color: var(--brand-black);
+  text-align: left;
+}
+
+.cards-tool.partner .cards-tool-card-title:last-child {
+  padding-block: 2px;
+}
+
+.cards-tool.partner .cards-tool-card-cta {
+  justify-self: start;
+}
+
+.cards-tool.partner .cards-tool-card-cta a:any-link {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* partner-logo: tag, centred logo, centred link */
+.cards-tool.partner-logo .cards-tool-card {
+  padding: 14px 14px 13px;
+}
+
 .cards-tool.partner-logo .cards-tool-card-body {
-  padding: 14px;
+  display: contents;
 }
 
-.cards-tool.partner .cards-tool-card-body > *,
-.cards-tool.partner-logo .cards-tool-card-body > * {
-  margin: 0;
+.cards-tool.partner-logo .cards-tool-card-eyebrow {
+  order: 1;
 }
 
-.cards-tool.partner .cards-tool-card-cta,
-.cards-tool.partner-logo .cards-tool-card-cta {
-  padding-top: 0;
-}
-
-.cards-tool.partner-logo .cards-tool-card-image,
-.cards-tool.partner-logo .cards-tool-card-icon {
+.cards-tool.partner-logo .cards-tool-card-image {
   display: flex;
+  order: 2;
   justify-content: center;
-  padding: 16px;
+  margin-top: 15px;
 }
 
-.cards-tool.partner-logo .cards-tool-card-image img,
-.cards-tool.partner-logo .cards-tool-card-icon img {
-  width: auto;
+.cards-tool.partner-logo .cards-tool-card-image img {
+  width: 200px;
   max-width: 100%;
-  height: 90px;
-  aspect-ratio: auto;
-  object-fit: contain;
+}
+
+.cards-tool.partner-logo .cards-tool-card-cta {
+  order: 3;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.cards-tool.partner-logo .cards-tool-card-cta a:any-link {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+@media (width >= 900px) {
+  .cards-tool:not(.partner, .partner-logo) {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  .cards-tool:not(.partner, .partner-logo) > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 20px 33px;
+  }
+
+  .cards-tool:not(.partner, .partner-logo) .cards-tool-card-title {
+    margin-inline: 0;
+  }
+
+  .cards-tool:not(.partner, .partner-logo) .cards-tool-card-body > p:not(.cards-tool-card-cta, .cards-tool-card-icon) {
+    margin-bottom: 29px;
+    line-height: 26px;
+  }
+
+  .cards-tool:not(.partner, .partner-logo) .cards-tool-card-cta {
+    align-self: center;
+  }
+
+  .cards-tool:not(.partner, .partner-logo) .cards-tool-card-cta a:any-link {
+    display: inline-block;
+    line-height: 26px;
+  }
+
+  /* source lays tiles out with centred flex wrap, so a short last row is centred */
+  .cards-tool.partner > ul,
+  .cards-tool.partner-logo > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards-tool.partner .cards-tool-card,
+  .cards-tool.partner-logo .cards-tool-card {
+    flex: 0 1 438px;
+  }
+
+  .cards-tool.partner-logo .cards-tool-card-image img {
+    width: 338px;
+  }
+
+  .cards-tool.partner-logo .cards-tool-card-cta a:any-link {
+    line-height: 26px;
+  }
 }

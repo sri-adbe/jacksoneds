@@ -1,89 +1,156 @@
-.disclaimer-gate .form-field {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.disclaimer-gate .form-field > label {
-  font-weight: 600;
-}
-
-.disclaimer-gate .form-field input:not([type='checkbox'], [type='radio']),
-.disclaimer-gate .form-field select,
-.disclaimer-gate .form-field textarea {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 12px 20px;
-  border: 1px solid #505050;
-  border-radius: 24px;
-  font: inherit;
-}
-
-.disclaimer-gate .form-field fieldset {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 24px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-.disclaimer-gate .form-field legend {
-  float: left;
-  margin-right: 16px;
-  font-weight: 600;
-}
-
-.disclaimer-gate .form-choice {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.disclaimer-gate .form-help {
-  font-size: var(--body-font-size-xs);
-}
-
-.disclaimer-gate .form-notice {
-  margin: 0;
-  padding: 12px;
-  border: 1px solid #dadada;
-}
-
+/* source: .understanding-feature > .feature-understanding__block (image-left, --bg-color #d4b5a3) */
 .disclaimer-gate {
   display: flex;
   flex-direction: column;
+  margin-inline: calc(-1 * var(--content-gutter));
+  color: var(--brand-black);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
 }
 
+/* .feature-understanding__image */
 .disclaimer-gate .disclaimer-gate-media {
+  position: relative;
   line-height: 0;
 }
 
+.disclaimer-gate .disclaimer-gate-media picture {
+  display: block;
+}
+
 .disclaimer-gate .disclaimer-gate-media img {
+  display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
+/* .feature-understanding__card */
 .disclaimer-gate .disclaimer-gate-content {
-  padding: 32px 24px;
+  padding: 40px 24px 70px;
+  background-color: #d4b5a3;
 }
 
 .disclaimer-gate .disclaimer-gate-copy > :first-child {
   margin-top: 0;
 }
 
-.disclaimer-gate .disclaimer-gate-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 16px 48px;
-  margin-top: 32px;
+/* .feature-understanding__title h2 */
+.disclaimer-gate .disclaimer-gate-copy h2 {
+  margin: 0 0 16px;
+  color: var(--brand-plum-dark);
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 49px;
 }
 
-.disclaimer-gate .disclaimer-gate-actions .button {
+/* .feature-understanding__description */
+.disclaimer-gate .disclaimer-gate-copy p {
   margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.disclaimer-gate .disclaimer-gate-copy ul {
+  margin: 15px 0 0;
+  padding: 0 0 0 40px;
+  list-style: disc;
+}
+
+.disclaimer-gate .disclaimer-gate-copy li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.disclaimer-gate .disclaimer-gate-copy :is(b, strong) {
+  font-weight: 600;
+}
+
+/* .feature-understanding__wrapper: checkbox + start link */
+.disclaimer-gate .disclaimer-gate-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.disclaimer-gate .form-field {
+  display: flex;
+}
+
+/* label sits beside the checkbox (source label box excludes the input) */
+.disclaimer-gate .form-choice {
+  position: relative;
+  display: block;
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 53px;
+  cursor: pointer;
+}
+
+.disclaimer-gate .form-choice > span {
+  display: block;
+  padding: 0 16px;
+}
+
+.disclaimer-gate .form-choice > span:has(> p) {
+  padding: 0;
+}
+
+.disclaimer-gate .form-choice > span > p {
+  margin: 0;
+  padding: 0 16px;
+}
+
+.disclaimer-gate .form-choice input[type='checkbox'] {
+  position: absolute;
+  top: 50%;
+  left: -32px;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  border: 1px solid var(--brand-black);
+  border-radius: 0;
+  background: var(--brand-white) center / 70% no-repeat;
+  appearance: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.disclaimer-gate .form-choice input[type='checkbox']:checked {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2 8.5l4 4 8-9' fill='none' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.disclaimer-gate .form-choice input[type='checkbox']:focus-visible {
+  outline: 2px solid var(--brand-plum);
+  outline-offset: 2px;
+}
+
+/* .primary-button (disabled: opacity 0.5) */
+main .disclaimer-gate a.button:any-link {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid var(--brand-black);
+  border-radius: 27px;
+  padding: 15px 100px 14px;
+  background-color: rgb(235 235 235);
+  color: var(--brand-black);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+}
+
+main .disclaimer-gate a.button:any-link:hover,
+main .disclaimer-gate a.button:any-link:focus-visible {
+  background-color: var(--brand-white);
 }
 
 .disclaimer-gate .disclaimer-gate-disabled {
@@ -97,11 +164,56 @@
   }
 
   .disclaimer-gate > * {
+    box-sizing: border-box;
     flex: 1 1 0;
     min-width: 0;
   }
 
+  /* image covers its half; the card's content sets the height */
+  .disclaimer-gate .disclaimer-gate-media picture {
+    position: absolute;
+    inset: 0;
+  }
+
+  .disclaimer-gate .disclaimer-gate-media img {
+    height: 100%;
+  }
+
   .disclaimer-gate .disclaimer-gate-content {
-    padding: 64px 120px;
+    padding: 80px 24px 79px;
+  }
+
+  .disclaimer-gate .disclaimer-gate-content > * {
+    max-width: 475px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .disclaimer-gate .disclaimer-gate-copy h2 {
+    font-weight: 700;
+    line-height: 58px;
+  }
+
+  .disclaimer-gate .disclaimer-gate-actions {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .disclaimer-gate .form-choice {
+    margin-left: 26px;
+  }
+
+  .disclaimer-gate .form-choice input[type='checkbox'] {
+    left: -26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  main .disclaimer-gate a.button:any-link {
+    flex: 1 1 auto;
+    width: auto;
+    padding: 15px 32px 14px;
   }
 }

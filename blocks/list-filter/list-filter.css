@@ -16,13 +16,10 @@
   font-weight: 600;
 }
 
-.list-filter .list-filter-sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
+.list-filter .list-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .list-filter .list-filter-chip {
@@ -43,12 +40,16 @@
   margin: 0;
 }
 
+.list-filter .list-filter-chip label {
+  cursor: pointer;
+}
+
 .list-filter .list-filter-chip:has(input:checked),
 .list-filter .list-filter-all[aria-pressed='true'] {
   font-weight: 700;
 }
 
-.list-filter label[for] {
+.list-filter .list-filter-form > label {
   display: block;
   margin-bottom: 4px;
   font-weight: 600;
@@ -69,14 +70,194 @@
   display: none;
 }
 
-/* alt: the year selector sits inline with its label */
-.list-filter.alt .list-filter-form {
+/* alt: year selector on a light panel, floating label under the select */
+.list-filter.alt {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 12px;
+  padding: 20px 30px;
+  background-color: rgb(248 245 244);
+  color: var(--text-color);
 }
 
-.list-filter.alt label[for] {
+.list-filter.alt .list-filter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 11px;
+}
+
+.list-filter.alt select {
+  order: -1;
+  box-sizing: border-box;
+  width: 130px;
+  min-width: 0;
+  height: 61px;
+  padding: 0 40px 0 10px;
+  border: 1px solid rgb(226 226 226);
+  border-bottom: 4px solid rgb(76 81 109);
+  border-radius: 0;
+  background: rgb(248 248 248) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8' viewBox='0 0 14 8'%3E%3Cpath d='M0 0h14L7 8z' fill='%234c516d'/%3E%3C/svg%3E") no-repeat right 20px center;
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.list-filter.alt .list-filter-form > label {
+  margin: 0 0 4px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+}
+
+/* light-blue-orange-magenta: plum "All" bar and colour-coded checkbox rows */
+.list-filter.light-blue-orange-magenta {
+  padding: 0 10px 40px;
+  color: var(--text-color);
+}
+
+.list-filter.light-blue-orange-magenta fieldset {
+  flex-flow: column nowrap;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-all {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  box-sizing: border-box;
+  min-height: 45px;
   margin: 0;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 0;
+  background-color: var(--brand-plum);
+  color: var(--brand-white);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-all::before {
+  content: '';
+  flex: 0 0 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: var(--brand-white);
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options {
+  flex-flow: column nowrap;
+  gap: 0;
+  padding: 36px 15px;
+  background-color: rgb(248 245 244);
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  padding: 3px 0 5px 16px;
+  border: 0;
+  border-radius: 0;
+  background-color: rgb(252 191 126);
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip:nth-child(3n + 2) {
+  background-color: rgb(138 206 211);
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip:nth-child(3n) {
+  background-color: rgb(181 187 230);
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip:has(input:checked) {
+  font-weight: 400;
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip input {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  margin: 6px 0 0;
+  border: 0;
+  border-radius: 2px;
+  background-color: var(--brand-white);
+  appearance: none;
+  cursor: pointer;
+}
+
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip label {
+  flex: 0 1 200px;
+  box-sizing: border-box;
+  margin: 0 0 4px;
+  padding: 7px 0 0 10px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@media (width >= 900px) {
+  .list-filter.alt {
+    justify-content: flex-end;
+  }
+
+  .list-filter.alt .list-filter-form {
+    margin-bottom: 5px;
+  }
+
+  .list-filter.alt .list-filter-form > label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .list-filter.light-blue-orange-magenta {
+    padding: 0;
+  }
+
+  .list-filter.light-blue-orange-magenta fieldset {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .list-filter.light-blue-orange-magenta .list-filter-all {
+    flex: 0 0 332px;
+    line-height: 26px;
+  }
+
+  .list-filter.light-blue-orange-magenta .list-filter-options {
+    flex-direction: row;
+    padding: 24px 15px;
+  }
+
+  .list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip {
+    flex: 0 0 288px;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+  }
+
+  .list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip input {
+    margin-top: 12px;
+  }
+
+  .list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip label {
+    flex: 0 1 auto;
+    margin-bottom: 5px;
+    line-height: 26px;
+  }
+}
+
+/* checked states last: they must win over the per-variant resets above */
+.list-filter.light-blue-orange-magenta .list-filter-all[aria-pressed='true']::before,
+.list-filter.light-blue-orange-magenta .list-filter-options .list-filter-chip input:checked {
+  background: var(--brand-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3 3 7-7' fill='none' stroke='%233b3b3b' stroke-width='2.4'/%3E%3C/svg%3E") no-repeat center;
 }

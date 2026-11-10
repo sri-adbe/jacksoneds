@@ -1,98 +1,159 @@
+/* location-tiles: values from source computed styles (jackson.com .locations-row) */
+.location-tiles {
+  color: rgb(0 0 0);
+}
+
 .location-tiles .location-tiles-list {
   display: flex;
   flex-direction: column;
-  gap: 4px;
 }
 
 .location-tiles .location-tiles-tile {
   display: flex;
   flex-direction: column;
-  border: 1px solid #dadada;
+  margin-bottom: 20px;
+  padding: 2px;
+  overflow: hidden;
 }
 
-.location-tiles .location-tiles-toggle {
+.location-tiles .location-tiles-preview {
   position: relative;
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: none;
-  color: inherit;
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 .location-tiles .location-tiles-media {
-  display: block;
+  flex: 0 0 360px;
   line-height: 0;
 }
 
 .location-tiles .location-tiles-media img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  display: block;
+  width: 360px;
+  max-width: none;
+  height: 326px;
 }
 
 .location-tiles .location-tiles-name {
-  display: block;
-  padding: 16px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 180px);
+  box-sizing: border-box;
+  width: 360px;
+  margin: 0;
+  padding: 20px 15px 10px;
+  background-color: var(--brand-red);
 }
 
-.location-tiles .location-tiles-details {
-  padding: 24px;
+.location-tiles .location-tiles-name p {
+  margin: 0;
+  color: rgb(255 255 255);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
-.location-tiles .location-tiles-details[hidden] {
+.location-tiles .location-tiles-toggle {
   display: none;
 }
 
-.location-tiles .location-tiles-details > :first-child {
-  margin-top: 0;
+.location-tiles .location-tiles-details {
+  border: 1px solid #dadada;
+  padding: 19px 16px 20px 20px;
+  font-family: var(--body-font-family);
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.location-tiles .location-tiles-details p {
+  margin: 0;
+  font-size: 15.2px;
+  line-height: 20.8px;
+  color: rgb(0 0 0);
+}
+
+.location-tiles .location-tiles-details p + p {
+  margin-top: 22px;
+}
+
+.location-tiles .location-tiles-details a:any-link {
+  padding: 0 1px;
+  color: var(--brand-red);
+  font-weight: 600;
+  text-decoration: underline 1px;
 }
 
 @media (width >= 900px) {
   .location-tiles .location-tiles-list {
     flex-direction: row;
-    height: 330px;
   }
 
   .location-tiles .location-tiles-tile {
     flex: 1 1 0;
     flex-direction: row;
-    min-width: 0;
-    transition: flex-grow 0.3s;
+    box-sizing: border-box;
+    height: 330px;
+    min-width: 150px;
+    margin-bottom: 0;
   }
 
   .location-tiles .location-tiles-tile.location-tiles-open {
-    flex-grow: 4;
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .location-tiles .location-tiles-preview {
+    flex: 0 0 360px;
+    justify-content: flex-start;
+  }
+
+  .location-tiles .location-tiles-name {
+    left: 0;
+  }
+
+  .location-tiles .location-tiles-name p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
   }
 
   .location-tiles .location-tiles-toggle {
-    display: flex;
-    flex: 1 1 0;
-    flex-direction: column;
-    min-width: 0;
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    cursor: pointer;
   }
 
-  .location-tiles .location-tiles-open .location-tiles-toggle {
-    flex: 0 0 360px;
-  }
-
-  .location-tiles .location-tiles-media {
-    flex: 1 1 auto;
-    min-height: 0;
-  }
-
-  .location-tiles .location-tiles-media img {
-    height: 100%;
+  .location-tiles .location-tiles-toggle:focus-visible {
+    outline: 2px solid var(--brand-plum);
+    outline-offset: -4px;
   }
 
   .location-tiles .location-tiles-details {
-    flex: 1 1 0;
+    flex: 0 1 550px;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .location-tiles .location-tiles-open .location-tiles-details {
     min-width: 0;
-    overflow: auto;
+  }
+
+  .location-tiles .location-tiles-details p {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .location-tiles .location-tiles-details p + p {
+    margin-top: 58px;
   }
 }

@@ -1,3 +1,4 @@
+/* ---------- shared form controls ---------- */
 .contact-form .form-field {
   display: flex;
   flex-direction: column;
@@ -51,7 +52,12 @@
   border: 1px solid #dadada;
 }
 
+/* ---------- layout (columns sit in .contact-form-inner, the source's panel) ---------- */
 .contact-form {
+  color: rgb(0 0 0);
+}
+
+.contact-form .contact-form-inner {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -64,8 +70,13 @@
 }
 
 .contact-form .contact-form-intro > :first-child,
-.contact-form .contact-form-aside > :first-child {
+.contact-form .contact-form-aside > :first-child,
+.contact-form .contact-form-content > :first-child {
   margin-top: 0;
+}
+
+.contact-form .contact-form-content > :last-child {
+  margin-bottom: 0;
 }
 
 .contact-form .contact-form-actions {
@@ -91,6 +102,7 @@
 .contact-form .video-embed-frame,
 .contact-form .video-embed-frame iframe,
 .contact-form .video-embed-frame video {
+  display: block;
   width: 100%;
   height: 100%;
   border: 0;
@@ -106,27 +118,178 @@
   list-style: none;
 }
 
+/* ---------- default look: copy beside a video on a grey panel ---------- */
+.contact-form.contact-form-has-media {
+  margin: 32px calc(-1 * var(--content-gutter)) 0;
+}
+
+.contact-form.contact-form-has-media > .contact-form-inner {
+  gap: 16px;
+  border-inline: var(--content-gutter) solid transparent;
+  padding: 0 0 14px;
+  background: #e2e2e2 padding-box;
+}
+
+.contact-form.contact-form-has-media :is(h2, h3) {
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid var(--brand-red);
+  font-family: var(--heading-font-family);
+  font-size: 27.2px;
+  font-weight: 700;
+  line-height: 35.2px;
+  color: var(--brand-plum);
+}
+
+.contact-form.contact-form-has-media p {
+  margin: 0;
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+/* ---------- red look: copy beside a video on a full-width tan band ---------- */
+.contact-form.red {
+  margin: 0 calc(-1 * var(--content-gutter));
+}
+
+.contact-form.red > .contact-form-inner {
+  gap: 24px;
+  border: 0;
+  padding: 80px 24px;
+  background: #d4b5a3;
+}
+
+.contact-form.red :is(h2, h3) {
+  margin: 0 0 16px;
+  padding: 0;
+  border: 0;
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  color: var(--brand-plum-dark);
+}
+
+.contact-form.red p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ---------- alt look: centred intro above / beside a pill-field form ---------- */
+.contact-form.alt {
+  margin: 45px calc(-1 * var(--content-gutter)) 0;
+}
+
+.contact-form.alt > .contact-form-inner {
+  gap: 63px;
+  padding: 55px 40px 42px;
+}
+
+.contact-form.alt .contact-form-intro {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contact-form.alt .contact-form-intro :is(h2, h3) {
+  margin: 0 0 10px;
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--brand-plum);
+}
+
+.contact-form.alt .contact-form-intro p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-form.alt .contact-form-intro p + p {
+  margin-top: 15px;
+}
+
+.contact-form.alt .contact-form-intro strong {
+  font-weight: 600;
+}
+
+.contact-form.alt .contact-form-intro a:any-link {
+  padding: 0 1px;
+  color: var(--brand-red);
+  font-weight: 600;
+  text-decoration: underline 1px;
+}
+
+.contact-form.alt .contact-form-form {
+  gap: 17px;
+}
+
+/* the source shows placeholders only; labels and the reCAPTCHA note stay for screen readers */
+.contact-form.alt .form-field > label,
+.contact-form.alt .contact-form-form > .contact-form-content {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.contact-form.alt .form-field input:not([type='checkbox'], [type='radio']),
+.contact-form.alt .form-field textarea {
+  height: 46px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contact-form.alt .form-field textarea {
+  height: 78px;
+  border-radius: 24px;
+  resize: vertical;
+}
+
+.contact-form.alt .contact-form-actions {
+  margin-top: 1px;
+}
+
+main .contact-form.alt button.button.form-submit {
+  border: 1px solid rgb(0 0 0);
+  border-radius: 21.6px;
+  padding: 15px 32px 14px;
+  background-color: rgb(255 255 255);
+  color: rgb(0 0 0);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-transform: none;
+}
+
+/* ---------- desktop ---------- */
 @media (width >= 900px) {
-  .contact-form.contact-form-2-cols,
-  .contact-form.contact-form-3-cols {
-    flex-direction: row;
+  /* equal columns (padding inside each column, unlike flex-basis 0) */
+  .contact-form.contact-form-2-cols > .contact-form-inner,
+  .contact-form.contact-form-3-cols > .contact-form-inner {
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
     align-items: center;
     gap: 64px;
-  }
-
-  .contact-form.contact-form-2-cols > *,
-  .contact-form.contact-form-3-cols > * {
-    flex: 1 1 0;
-    min-width: 0;
   }
 
   .contact-form .contact-form-main {
     align-self: flex-start;
   }
 
+  /* two-up fields; a field left alone on its row grows to the full width */
   .contact-form .contact-form-form {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex-flow: row wrap;
+    gap: 20px;
+  }
+
+  .contact-form .contact-form-form > * {
+    flex: 1 1 calc(50% - 10px);
+    min-width: 0;
   }
 
   .contact-form .contact-form-form > .contact-form-content,
@@ -136,28 +299,95 @@
   .contact-form .contact-form-form > .form-field-radio,
   .contact-form .contact-form-form > .form-field-checkboxes,
   .contact-form .contact-form-form > .form-field-checkbox,
-  .contact-form .contact-form-actions,
-  .contact-form .form-notice {
-    grid-column: 1 / -1;
+  .contact-form .contact-form-form > .contact-form-actions,
+  .contact-form .contact-form-form > .form-notice {
+    flex-basis: 100%;
   }
 
-  /* alt / alt-2: single-column form (e.g. email form beside contact details) */
-  .contact-form.alt .contact-form-form,
-  .contact-form.alt-2 .contact-form-form {
-    grid-template-columns: 1fr;
+  /* alt-2: single-column form (e.g. email form beside contact details) */
+  .contact-form.alt-2 .contact-form-form > * {
+    flex-basis: 100%;
   }
-}
 
-.contact-form .contact-form-intro {
-  text-align: center;
-}
+  /* default look */
+  .contact-form.contact-form-has-media {
+    margin-top: 92px;
+  }
 
-.contact-form.alt .contact-form-intro,
-.contact-form.alt-2 .contact-form-intro,
-.contact-form .contact-form-main .contact-form-intro {
-  text-align: left;
-}
+  .contact-form.contact-form-has-media > .contact-form-inner {
+    gap: 40px;
+    padding: 55px 35px;
+  }
 
-.contact-form.red {
-  padding: 24px;
+  .contact-form.contact-form-has-media .contact-form-intro {
+    padding: 0 30px;
+  }
+
+  .contact-form.contact-form-has-media :is(h2, h3) {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .contact-form.contact-form-has-media p {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .contact-form.red .contact-form-intro {
+    padding: 0;
+  }
+
+  /* red look: 1116px content area, copy limited to 80% of its column */
+  .contact-form.red {
+    margin-top: 0;
+  }
+
+  .contact-form.red > .contact-form-inner {
+    align-items: start;
+    gap: 24px;
+    padding: 104px max(24px, calc((100% - 1116px) / 2));
+  }
+
+  .contact-form.red .contact-form-intro > * {
+    max-width: 80%;
+  }
+
+  .contact-form.red :is(h2, h3) {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .contact-form.red p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* alt look */
+  .contact-form.alt > .contact-form-inner {
+    gap: 40px;
+    padding: 91px 75px 84px;
+  }
+
+  .contact-form.alt .contact-form-form {
+    gap: 20px;
+  }
+
+  .contact-form.alt .contact-form-intro :is(h2, h3) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .contact-form.alt .contact-form-intro p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .contact-form.alt .contact-form-actions {
+    margin-top: -1px;
+  }
+
+  main .contact-form.alt button.button.form-submit {
+    border-radius: 27px;
+    line-height: 26px;
+  }
 }

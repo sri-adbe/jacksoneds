@@ -11,6 +11,8 @@ function optimizeImages(block) {
   });
 }
 
+let panelCounter = 0;
+
 function buildSteps(ol) {
   const nav = document.createElement('nav');
   nav.className = 'retirement-calculator-steps';
@@ -62,6 +64,37 @@ export default function decorate(block) {
   });
 
   if (actions.children.length) form.append(actions);
+
+  // No fields, content opening with a heading: collapsible panel (source accordion)
+  const first = lead.firstElementChild;
+  const heading = first?.firstElementChild;
+  if (!seenField && heading?.matches('h1, h2, h3, h4, h5, h6')
+    && (first.children.length > 1 || lead.children.length > 1)) {
+    panelCounter += 1;
+    const panel = document.createElement('div');
+    panel.className = 'retirement-calculator-panel';
+    const body = document.createElement('div');
+    body.className = 'retirement-calculator-panel-body';
+    body.id = `retirement-calculator-panel-${panelCounter}`;
+    body.hidden = true;
+    const trigger = document.createElement('button');
+    trigger.type = 'button';
+    trigger.className = 'retirement-calculator-panel-trigger';
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.setAttribute('aria-controls', body.id);
+    trigger.append(heading);
+    body.append(...lead.children);
+    trigger.addEventListener('click', () => {
+      const open = trigger.getAttribute('aria-expanded') !== 'true';
+      trigger.setAttribute('aria-expanded', String(open));
+      body.hidden = !open;
+    });
+    panel.append(trigger, body);
+    block.replaceChildren(panel);
+    optimizeImages(block);
+    return;
+  }
+
   const children = [];
   if (lead.children.length) children.push(lead);
   if (seenField) children.push(form);

@@ -1,31 +1,170 @@
+/* columns-benefits: full-bleed block (source spans the viewport) */
+main .section > .columns-benefits-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.columns-benefits {
+  color: var(--brand-black);
+}
+
 .columns-benefits > .columns-benefits-row {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  box-sizing: border-box;
+  background-color: #ebebeb;
 }
 
-.columns-benefits > .columns-benefits-row + .columns-benefits-row {
-  margin-top: 32px;
+.columns-benefits.light > .columns-benefits-row {
+  background-color: transparent;
 }
 
-.columns-benefits .columns-benefits-text-col > :first-child {
-  margin-top: 0;
-}
-
-.columns-benefits .columns-benefits-text-col > :last-child {
-  margin-bottom: 0;
-}
-
+/* ---------- photo split (source .feature-50-50) ---------- */
 .columns-benefits .columns-benefits-media-col {
+  order: -1;
   line-height: 0;
+}
+
+.columns-benefits .columns-benefits-media-col picture {
+  display: block;
 }
 
 .columns-benefits .columns-benefits-media-col img {
   display: block;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
+.columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) > .columns-benefits-text-col {
+  padding: 32px 24px;
+}
+
+.columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) h3 {
+  margin: 16px 0 0;
+  color: var(--brand-plum-dark);
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) ul {
+  margin: 16px 0;
+  padding-left: 40px;
+  list-style: disc;
+}
+
+.columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) sup {
+  font-size: 12px;
+}
+
+.columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) p.button-wrapper {
+  margin: 16px 0;
+}
+
+main .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) a.button:any-link {
+  display: block;
+  border: 1px solid var(--brand-black);
+  border-radius: 27px;
+  padding: 15px 32px 14px;
+  background-color: var(--brand-white);
+  color: var(--brand-black);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-transform: none;
+}
+
+main .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) a.button:hover,
+main .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) a.button:focus-visible {
+  background-color: var(--brand-black);
+  color: var(--brand-white);
+}
+
+/* ---------- benefits list (source .stat-spotlight) ---------- */
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) {
+  gap: 40px;
+  padding: 40px max(45px, calc((100% - 1150px) / 2));
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) h3 {
+  margin: 0 0 10px;
+  font-size: 27.2px;
+  line-height: 35.2px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) h4 {
+  margin: 0 0 10px;
+  font-size: 19.2px;
+  line-height: 27.2px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) p + p {
+  margin-top: 15px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) p a:any-link:not(.button) {
+  padding: 0 1px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-text-col p.button-wrapper {
+  display: block;
+  margin: 25px 0 5px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-text-col p.button-wrapper + p.button-wrapper {
+  margin-top: 10px;
+}
+
+main .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) a.button:any-link {
+  display: flex;
+  width: 100%;
+  line-height: 20.8px;
+  text-align: center;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li {
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li + li {
+  margin-top: 29.6px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li > strong {
+  color: var(--brand-plum-dark);
+  font-size: 17.6px;
+  font-weight: 600;
+  line-height: 27.2px;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li sup {
+  font-size: 0.52em;
+}
+
+.columns-benefits.light {
+  margin-top: 45px;
+}
+
+/* ---------- video (photo-split alternative) ---------- */
 .columns-benefits .video-embed {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -73,51 +212,110 @@
 @media (width >= 900px) {
   .columns-benefits > .columns-benefits-row {
     flex-direction: row;
-    align-items: center;
-    gap: 48px;
   }
 
-  .columns-benefits > .columns-benefits-row > div,
-  .columns-benefits > .columns-benefits-row > aside {
-    flex: 1 1 0;
+  /* photo split: text centred in the left half, photo fills the right half */
+  .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) {
+    align-items: center;
+    min-height: 607px;
+  }
+
+  .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) > .columns-benefits-text-col {
+    flex: 1 1 50%;
+    min-width: 0;
+    padding: 0 max(24px, calc((50% - 475px) / 2));
+  }
+
+  .columns-benefits .columns-benefits-media-col {
+    position: relative;
+    flex: 0 0 50%;
+    align-self: stretch;
+    order: 0;
+  }
+
+  .columns-benefits .columns-benefits-media-col img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+  }
+
+  .columns-benefits .columns-benefits-media-col .video-embed {
+    position: absolute;
+    inset: 0;
+    aspect-ratio: auto;
+  }
+
+  .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) h3 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) p.button-wrapper {
+    margin-top: 32px;
+  }
+
+  main .columns-benefits .columns-benefits-row:has(> .columns-benefits-media-col) a.button:any-link {
+    display: inline-flex;
+    text-align: left;
+  }
+
+  /* benefits list: 700px intro beside a 410px list */
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) {
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) > div {
     min-width: 0;
   }
-}
 
-.columns-benefits .columns-benefits-list-col ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.columns-benefits .columns-benefits-list-col li + li {
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid;
-  border-image: linear-gradient(to right, currentcolor 32px, transparent 32px) 1;
-}
-
-@media (width >= 900px) {
-  .columns-benefits > .columns-benefits-row {
-    align-items: flex-start;
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) > .columns-benefits-text-col:first-child {
+    flex: 0 1 700px;
+    padding: 10px 0 30px;
   }
 
-  /* intro copy is wide, the benefits list is narrow */
-  .columns-benefits > .columns-benefits-row > .columns-benefits-text-col:first-child {
-    flex-grow: 2;
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) > .columns-benefits-list-col:last-child {
+    flex: 0 1 410px;
   }
 
-  .columns-benefits > .columns-benefits-row > .columns-benefits-media-col {
-    align-self: stretch;
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) h3 {
+    font-size: 34px;
+    line-height: 44px;
   }
 
-  .columns-benefits > .columns-benefits-row > .columns-benefits-media-col img {
-    height: 100%;
-    object-fit: cover;
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) h4 {
+    font-size: 24px;
+    line-height: 34px;
   }
-}
 
-.columns-benefits.grey,
-.columns-benefits.light {
-  padding: 24px;
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-text-col p.button-wrapper,
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-text-col p.button-wrapper + p.button-wrapper {
+    display: inline-block;
+    margin: 25px 5px 5px 0;
+  }
+
+  main .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) a.button:any-link {
+    display: inline-flex;
+    width: auto;
+    line-height: 26px;
+  }
+
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li + li {
+    margin-top: 31px;
+  }
+
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li > strong {
+    font-size: 22px;
+    line-height: 34px;
+  }
 }

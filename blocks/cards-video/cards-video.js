@@ -9,6 +9,45 @@ function optimizeImages(block) {
   });
 }
 
+const IBM_VIDEO = /(^|\.)video\.ibm\.com$/;
+
+/**
+ * IBM Video (video.ibm.com/embed/...) links are the source's player and are not
+ * covered by the shared video helper, so they become plain lazy iframes here.
+ * @param {Element} root
+ * @returns {HTMLElement[]} the created players
+ */
+function decorateIbmVideos(root) {
+  const players = [];
+  root.querySelectorAll('a[href]').forEach((link) => {
+    let url;
+    try {
+      url = new URL(link.href);
+    } catch (e) {
+      return;
+    }
+    if (!IBM_VIDEO.test(url.hostname) || !url.pathname.startsWith('/embed/')) return;
+    const holder = link.closest('p, li, div');
+    if (!holder || holder.textContent.trim() !== link.textContent.trim()) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'video-embed';
+    const frame = document.createElement('div');
+    frame.className = 'video-embed-frame';
+    const iframe = document.createElement('iframe');
+    iframe.src = url.href;
+    iframe.title = link.title && link.title !== link.href ? link.title : 'Video';
+    iframe.loading = 'lazy';
+    iframe.allow = 'autoplay; fullscreen; picture-in-picture; encrypted-media';
+    iframe.allowFullscreen = true;
+    frame.append(iframe);
+    wrapper.append(frame);
+    if (holder.matches('p, li')) holder.replaceWith(wrapper);
+    else link.replaceWith(wrapper);
+    players.push(wrapper);
+  });
+  return players;
+}
+
 function isImageOnly(cell) {
   return !!cell.querySelector('picture, img') && cell.textContent.trim() === '';
 }
@@ -71,7 +110,7 @@ export default function decorate(block) {
     });
     if (bodies.length > 1) li.classList.add('cards-video-card-multi');
     if (!bodies.length) li.classList.add('cards-video-card-image-only');
-    const players = decorateVideoLinks(li);
+    const players = [...decorateIbmVideos(li), ...decorateVideoLinks(li)];
     if (players.length) {
       const media = document.createElement('div');
       media.className = 'cards-video-card-media';

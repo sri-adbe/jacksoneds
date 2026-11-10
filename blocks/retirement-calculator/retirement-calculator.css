@@ -85,8 +85,104 @@
   margin: 0;
 }
 
-.retirement-calculator.red,
-.retirement-calculator.red-2,
-.retirement-calculator.red-3 {
+.retirement-calculator:has(> .retirement-calculator-form) {
   padding: 24px;
 }
+
+/* collapsible panel (source .accordion: "More articles" link list) */
+.retirement-calculator:has(> .retirement-calculator-panel) {
+  margin: 32px calc(-1 * var(--content-gutter)) 0;
+  border: 1px solid rgb(204 203 203);
+  color: var(--brand-black);
+  font-size: 15.2px;
+  line-height: 20.8px;
+}
+
+.retirement-calculator .retirement-calculator-panel-trigger {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 40px 80px 40px 40px;
+  border: 0;
+  background: none;
+  color: var(--brand-black);
+  font-family: var(--body-font-family);
+  font-size: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* inner inset (source .content-area) */
+.retirement-calculator .retirement-calculator-panel {
+  padding: 0 20px;
+}
+
+/* chevron trigger (source .accordion-title .trigger) */
+.retirement-calculator .retirement-calculator-panel-trigger::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 40px;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border-right: 3px solid var(--brand-red);
+  border-bottom: 3px solid var(--brand-red);
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+
+.retirement-calculator .retirement-calculator-panel-trigger[aria-expanded='true']::after {
+  top: calc(50% - 3px);
+  transform: rotate(-135deg);
+}
+
+.retirement-calculator .retirement-calculator-panel-trigger :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 10px;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--brand-plum);
+}
+
+.retirement-calculator .retirement-calculator-panel-body {
+  padding: 0 40px 40px;
+}
+
+.retirement-calculator .retirement-calculator-panel-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.retirement-calculator .retirement-calculator-panel-body li + li {
+  margin-top: 16px;
+}
+
+/* arrow links (source .red-arrow-link) */
+.retirement-calculator .retirement-calculator-panel-body a:any-link {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 20px;
+  color: var(--brand-black);
+  font-weight: 600;
+  text-decoration: underline 1px;
+}
+
+.retirement-calculator .retirement-calculator-panel-body a:any-link::before {
+  content: '';
+  position: absolute;
+  top: calc(0.5lh - 6px);
+  left: 0;
+  width: 14px;
+  height: 12px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 12'%3E%3Cpath d='M0 6h12M7.5 1.5 12 6l-4.5 4.5' fill='none' stroke='%23eb0028' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+@media (width >= 900px) {
+  .retirement-calculator:has(> .

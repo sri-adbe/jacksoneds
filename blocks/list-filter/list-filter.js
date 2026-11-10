@@ -75,10 +75,13 @@ function buildSelect(form, id, label, allValue, options) {
 
 function buildChips(form, id, label, allValue, options) {
   const fieldset = document.createElement('fieldset');
-  const legend = document.createElement('legend');
-  legend.textContent = label || 'Filter';
-  if (!label) legend.className = 'list-filter-sr-only';
-  fieldset.append(legend);
+  if (label) {
+    const legend = document.createElement('legend');
+    legend.textContent = label;
+    fieldset.append(legend);
+  } else {
+    fieldset.setAttribute('aria-label', 'Filter');
+  }
   if (allValue) {
     const all = document.createElement('button');
     all.type = 'button';
@@ -87,18 +90,22 @@ function buildChips(form, id, label, allValue, options) {
     all.setAttribute('aria-pressed', 'true');
     fieldset.append(all);
   }
+  const group = document.createElement('div');
+  group.className = 'list-filter-options';
   options.forEach((v, i) => {
-    const chip = document.createElement('label');
+    const chip = document.createElement('div');
     chip.className = 'list-filter-chip';
     const input = document.createElement('input');
     input.type = 'checkbox';
     input.value = v;
     input.id = `${id}-${i}`;
-    const span = document.createElement('span');
-    span.textContent = v;
-    chip.append(input, span);
-    fieldset.append(chip);
+    const text = document.createElement('label');
+    text.setAttribute('for', input.id);
+    text.textContent = v;
+    chip.append(input, text);
+    group.append(chip);
   });
+  fieldset.append(group);
   form.append(fieldset);
 }
 
