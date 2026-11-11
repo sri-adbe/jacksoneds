@@ -236,6 +236,21 @@ export default function transform(hookName, element, payload) {
       });
     });
 
+    // Tab rows with an empty panel and no link (e.g. the live illustration tool's "1 year /
+    // 3 year / 6 year" term selector, whose panels the source fills with live data) would open
+    // blank tabs: drop them.
+    safeQueryAll(element, 'table').forEach((table) => {
+      const rows = [...table.querySelectorAll(':scope > tr, :scope > tbody > tr')];
+      if (!rows.length || !/^tabs[-\s](product|section)\b/i.test(rows[0].textContent.trim())) return;
+      rows.slice(1).forEach((tr) => {
+        const cells = [...tr.children];
+        if (cells.length !== 2) return;
+        const [label, panel] = cells;
+        const emptyPanel = !panel.textContent.trim() && !panel.querySelector('img, a, picture, iframe');
+        if (emptyPanel && !label.querySelector('a')) tr.remove();
+      });
+    });
+
     // Source data tables left in default content or fragments (comparison tables, privacy
     // categories, index returns). Block tables built by parsers have a single-cell first row
     // (the block name); a data table has several cells there. Wrap data tables in table-product

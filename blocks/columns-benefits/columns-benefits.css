@@ -171,6 +171,18 @@ main .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-
   line-height: inherit;
 }
 
+/* default look: h4 stat values (source .stat-spotlight h4: 700 plum, 0 0 10px; label wrapper pulls back -10px) */
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li > h4 {
+  margin: 0 0 10px;
+  color: var(--brand-plum);
+  font-size: 19.2px;
+  font-weight: 700;
+}
+
+.columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li > h4 + p {
+  margin-top: -10px;
+}
+
 .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li sup {
   font-size: 0.52em;
 }
@@ -337,5 +349,9 @@ main .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-
   .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li > :is(h2, h3, h4, h5, h6) {
     font-size: 22px;
     line-height: 34px;
+  }
+
+  .columns-benefits .columns-benefits-row:not(:has(> .columns-benefits-media-col)) .columns-benefits-list-col li > h4 {
+    font-size: 24px;
   }
 }

@@ -234,12 +234,31 @@ body.advisor main .cards-feature:not(.alt, .icon-left) .cards-feature-card-cta a
   color: var(--brand-white);
 }
 
-body.advisor .cards-feature:not(.alt, .icon-left) h3.cards-feature-card-title {
-  margin: 0 0 16px;
+/* sitemap link lists (source .sitemap .section): linked title over an unbulleted link list */
+.cards-feature.alt .cards-feature-card-body:has(> ul) > .cards-feature-card-title {
+  margin: 0 0 30px;
+  font-size: 27.2px;
+  font-weight: 700;
+  line-height: 35.2px;
+}
+
+.cards-feature.alt .cards-feature-card-body:has(> ul) > ul {
+  padding: 0;
+  list-style: none;
+}
+
+.cards-feature.alt .cards-feature-card-body:has(> ul) > ul > li {
+  padding: 0 0 10px 10px;
+  font-size: 15.2px;
+  line-height: 20.8px;
 }
 
 body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card-title::after {
   content: none;
+}
+
+body.advisor .cards-feature:not(.alt, .icon-left) :is(h3, h4).cards-feature-card-title {
+  margin: 0 0 16px;
 }
 
 /* photo feature (source .comparison-highlight-layout + .cta-list v2): one card, photo beside text */
@@ -266,6 +285,12 @@ body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card-title::aft
 
 .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-body li {
   margin: 0 0 10px;
+}
+
+/* advisor paired cards (source .icon-feature__title): 28px/38px on mobile */
+body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:not(:only-child) :is(h3, h4).cards-feature-card-title {
+  font-size: 28px;
+  line-height: 38px;
 }
 
 /* homepage feature CTA (source .cta-arrow-button in .link): same arrow link at 20px */
@@ -384,8 +409,19 @@ body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card
     line-height: 26px;
   }
 
+  .cards-feature.alt .cards-feature-card-body:has(> ul) > .cards-feature-card-title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .cards-feature.alt .cards-feature-card-body:has(> ul) > ul > li {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
   /* advisor: h3 card titles 34px; two-card rows split the width in half */
-  body.advisor .cards-feature:not(.alt, .icon-left) h3.cards-feature-card-title {
+  body.advisor .cards-feature:not(.alt, .icon-left) :is(h3, h4).cards-feature-card-title,
+  body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:not(:only-child) :is(h3, h4).cards-feature-card-title {
     font-size: 34px;
     line-height: 46px;
   }

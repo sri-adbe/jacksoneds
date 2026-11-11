@@ -349,25 +349,52 @@ body.advisor main a:not(.button):focus-visible {
   text-decoration: underline;
 }
 
+body.advisor main h1 {
+  margin-bottom: 16px;
+}
+
 @media (width >= 900px) {
   body.advisor {
     --heading-font-size-xxl: 72px;
     --heading-font-size-xl: 48px;
     --heading-font-size-l: 40px;
+    --heading-font-size-m: 34px;
   }
 
   body.advisor h1 { line-height: 80px; }
   body.advisor h2 { line-height: 58px; }
   body.advisor h3 { line-height: 48px; }
+  body.advisor h4 { line-height: 44px; }
 }
 
-/* theme: app — sign-in, registration, forms and claims screens */
+/* section intro: on the individuals site a section heading's description paragraph is larger
+   (source .subpage-header-block .description: 20px/30px) than body copy (19px/26px) */
+@media (width >= 900px) {
+  body:not(.advisor, .app) main .default-content-wrapper > h2 + p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+/* theme: app — sign-in, account recovery and forms search screens */
 body.app {
   --text-color: rgb(27 27 27);
 }
 
 body.app main h1 {
   margin: 0 0 30px;
+}
+
+body.app main h2 {
+  margin: 0 0 20px;
+  color: var(--brand-black);
+  font-size: 30px;
+  line-height: 30px;
+}
+
+body.app main p {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 @media (width >= 900px) {

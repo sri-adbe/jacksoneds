@@ -363,7 +363,13 @@ var CustomImportScript = (() => {
       );
       const imageRight = feature.matches(".image-right");
       const row = imageRight ? [text, media] : [media, text];
-      return { row: row.map((c) => c.length ? c : ""), variant: imageRight ? null : "image-left" };
+      const scope = feature.closest(".feature-50-50") || element;
+      let gradient = false;
+      for (let n = feature; n && !gradient; n = n === scope ? null : n.parentElement) {
+        gradient = [...n.classList].some((c) => c.startsWith("color-grad-"));
+      }
+      const options = [imageRight ? null : "image-left", gradient ? "gradient" : null].filter(Boolean);
+      return { row: row.map((c) => c.length ? c : ""), variant: options.join(", ") || null };
     }
     const columns = [...element.querySelectorAll(".flexible-width-container__columns > .flexible-width-container__column")];
     if (columns.length >= 2) {
@@ -410,8 +416,13 @@ var CustomImportScript = (() => {
       });
       out.push(...linkParas(document, [...card.querySelectorAll(".feature-accordion__card-cta a[href]")]));
     });
-    const img = imageEl(root.querySelector(".feature-accordion__image img"));
-    if (img) out.push(img);
+    const block = root.closest(".feature-accordion__block, .feature-accordion") || element;
+    const img = imageEl(block.querySelector(".feature-accordion__image img"));
+    if (img) {
+      const p = document.createElement("p");
+      p.append(img);
+      out.push(p);
+    }
     return out.length ? out : null;
   }
   function parse2(element, { document, params }) {
@@ -1387,6 +1398,17 @@ var CustomImportScript = (() => {
           }
         });
       });
+      safeQueryAll(element, "table").forEach((table) => {
+        const rows = [...table.querySelectorAll(":scope > tr, :scope > tbody > tr")];
+        if (!rows.length || !/^tabs[-\s](product|section)\b/i.test(rows[0].textContent.trim())) return;
+        rows.slice(1).forEach((tr) => {
+          const cells = [...tr.children];
+          if (cells.length !== 2) return;
+          const [label, panel] = cells;
+          const emptyPanel = !panel.textContent.trim() && !panel.querySelector("img, a, picture, iframe");
+          if (emptyPanel && !label.querySelector("a")) tr.remove();
+        });
+      });
       const KNOWN_BLOCKS = [
         "accordion-manager",
         "address-card",
@@ -1842,7 +1864,7 @@ var CustomImportScript = (() => {
       main.appendChild(document.createElement("hr"));
       WebImporter.rules.createMetadata(main, document);
       const themePath = new URL(params.originalURL).pathname;
-      const APP_TEMPLATES = ["app-search-form", "account-recovery-form", "sign-in", "registration-form", "claim-form"];
+      const APP_TEMPLATES = ["app-search-form", "account-recovery-form", "sign-in"];
       let theme = null;
       if (APP_TEMPLATES.includes(PAGE_TEMPLATE.name)) theme = "app";
       else if (/^\/financial-professional(\/|\.html$)/.test(themePath)) theme = "advisor";

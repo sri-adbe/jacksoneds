@@ -44,6 +44,46 @@ function decoratePanel(panel) {
 }
 
 /**
+ * A fragment panel that opens with a lone picture then a heading gets the same
+ * photo + text box layout: the heading and the paragraphs right after it (up to
+ * the next heading or picture) go in the box.
+ */
+function decorateFragmentHero(panel) {
+  if (panel.querySelector('.tabs-product-panel-hero')) return true;
+  const wrapper = panel.querySelector(':scope > .section:first-child > .default-content-wrapper:first-child');
+  const pic = wrapper && wrapper.firstElementChild;
+  if (!pic || !pic.matches('p') || !pic.querySelector('picture') || pic.textContent.trim()) return false;
+  const heading = pic.nextElementSibling;
+  if (!heading || !/^H[1-3]$/.test(heading.tagName)) return false;
+  const copy = [heading];
+  let next = heading.nextElementSibling;
+  while (next && next.matches('p') && !next.querySelector('picture')) {
+    copy.push(next);
+    next = next.nextElementSibling;
+  }
+  const hero = document.createElement('div');
+  hero.className = 'tabs-product-panel-hero tabs-product-panel-hero-fragment';
+  const media = document.createElement('div');
+  media.className = 'tabs-product-panel-media';
+  media.append(pic);
+  const body = document.createElement('div');
+  body.className = 'tabs-product-panel-body';
+  body.append(...copy);
+  hero.append(media, body);
+  wrapper.prepend(hero);
+  return true;
+}
+
+/* page auto-blocking may swap /fragments/ links for their content after decoration */
+function watchFragmentHero(panel) {
+  if (decorateFragmentHero(panel) || !panel.querySelector('a[href*="/fragments/"]')) return;
+  const observer = new MutationObserver(() => {
+    if (decorateFragmentHero(panel)) observer.disconnect();
+  });
+  observer.observe(panel, { childList: true, subtree: true });
+}
+
+/**
  * Product page shell: product title, then a tab strip over the product hero.
  * An optional first row with a single cell holding a heading is the title.
  * Then one row per tab, cells `tab label | panel content`.
@@ -108,6 +148,8 @@ export default async function decorate(block) {
     panelContent.forEach((cell) => panel.append(...cell.childNodes));
     const path = fragmentPath(panel);
     if (path) fragments.push({ panel, path });
+    else if (panel.querySelector(':scope > .section')
+      || panel.querySelector(':scope > a[href*="/fragments/"], :scope > p > a[href*="/fragments/"]')) watchFragmentHero(panel);
     else decoratePanel(panel);
 
     const button = document.createElement('button');
@@ -164,5 +206,6 @@ export default async function decorate(block) {
     if (!fragment) return;
     panel.replaceChildren(...fragment.childNodes);
     panel.classList.add('tabs-product-panel-fragment');
+    decorateFragmentHero(panel);
   }));
 }

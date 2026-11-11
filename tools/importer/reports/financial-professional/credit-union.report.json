@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/financial-professional/credit-union.html",
   "path": "financial-professional/credit-union",
-  "timestamp": "2026-11-11T02:53:20.290Z",
+  "timestamp": "2026-11-11T16:30:20.213Z",
   "title": "Credit union | Jackson",
   "template": "advisor-content-page",
   "blocks": [
@@ -15,5 +15,5 @@
     "cards-product",
     "hero-banner"
   ],
-  "importScript": "d16819a6fb0c"
+  "importScript": "3e56ff6ddbc4"
 }

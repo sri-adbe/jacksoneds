@@ -40,6 +40,65 @@ function embedIbmVideos(root) {
 }
 
 /**
+ * Content-only jump bar (source .page-menu-navigation): a list item holding a
+ * label paragraph plus nested lists becomes a dropdown toggle (button + panel).
+ * @param {Element} block
+ */
+function decorateMenu(block) {
+  const list = block.querySelector('.contact-form-intro .contact-form-content > ul');
+  if (!list) return;
+  block.classList.add('contact-form-menu');
+  [...list.children].forEach((li, i) => {
+    const subLists = li.querySelectorAll(':scope > ul');
+    const label = li.querySelector(':scope > p, :scope > a');
+    if (!subLists.length || !label || !label.textContent.trim()) return;
+    const id = `contact-form-dropdown-${i}-${Math.random().toString(36).slice(2, 7)}`;
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'contact-form-toggle';
+    button.textContent = label.textContent.trim();
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-controls', id);
+    const panel = document.createElement('div');
+    panel.className = 'contact-form-dropdown';
+    panel.id = id;
+    panel.hidden = true;
+    panel.append(...subLists);
+    label.replaceWith(button);
+    li.classList.add('contact-form-has-dropdown');
+    li.append(panel);
+  });
+  if (!block.querySelector('.contact-form-toggle')) return;
+
+  const setOpen = (button, open) => {
+    button.setAttribute('aria-expanded', String(open));
+    const panel = block.querySelector(`#${button.getAttribute('aria-controls')}`);
+    if (panel) panel.hidden = !open;
+  };
+  const closeAll = (except) => {
+    block.querySelectorAll('.contact-form-toggle[aria-expanded="true"]').forEach((b) => {
+      if (b !== except) setOpen(b, false);
+    });
+  };
+  block.addEventListener('click', (e) => {
+    const button = e.target.closest('.contact-form-toggle');
+    if (!button) return;
+    closeAll(button);
+    setOpen(button, button.getAttribute('aria-expanded') !== 'true');
+  });
+  block.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const open = block.querySelector('.contact-form-toggle[aria-expanded="true"]');
+    if (!open) return;
+    closeAll();
+    open.focus();
+  });
+  document.addEventListener('click', (e) => {
+    if (!block.contains(e.target)) closeAll();
+  });
+}
+
+/**
  * Contact form: intro copy beside a lead-capture form, optionally with a
  * contact-details column.
  *
@@ -116,6 +175,7 @@ export default function decorate(block) {
   block.classList.add(`contact-form-${columns.length}-cols`);
   if (!hasForm) block.classList.add('contact-form-no-fields');
   if (hasMedia) block.classList.add('contact-form-has-media');
+  if (!hasForm && !hasMedia && !hasAside) decorateMenu(block);
   embedIbmVideos(block);
   decorateVideoLinks(block);
   optimizeImages(block);

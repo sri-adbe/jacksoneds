@@ -61,7 +61,7 @@ function decorateCtas(col, prefix) {
 /* icon paragraph followed by copy in a text column becomes a callout */
 function decorateCallout(col, prefix) {
   const icon = [...col.children].find((el, i) => i > 0 && el.matches('p')
-    && el.querySelector('picture, img') && !el.textContent.trim());
+    && el.nextElementSibling && el.querySelector('picture, img') && !el.textContent.trim());
   if (!icon) return;
   const callout = document.createElement('div');
   callout.className = `${prefix}-callout`;
@@ -123,6 +123,21 @@ function decorateAccordion(block, col) {
   });
 }
 
+/*
+ * A single text cell led by an image paragraph and an h1 is a page intro (source
+ * .partial-width-image-hero): the image moves into its own media column beside the copy.
+ */
+function decorateHero(block, col) {
+  const [first, second] = col.children;
+  if (!first || !second || !second.matches('h1') || !first.matches('p')
+    || !first.querySelector('picture, img') || first.textContent.trim()) return;
+  block.classList.add('columns-feature-hero');
+  const mediaCol = document.createElement('div');
+  mediaCol.className = 'columns-feature-media-col';
+  mediaCol.append(first);
+  col.after(mediaCol);
+}
+
 const LOOKS = ['alt', 'dark', 'product-intro', 'image-left', 'wide-image', 'wide-image-2'];
 
 /**
@@ -154,7 +169,10 @@ export default function decorate(block) {
   });
   if (maxCols === 1 && rows.length === 1) {
     const col = rows[0].querySelector(':scope > .columns-feature-text-col');
-    if (col) decorateAccordion(block, col);
+    if (col) {
+      decorateHero(block, col);
+      decorateAccordion(block, col);
+    }
   }
   /* advisor (financial-professional) text|image rows are full-bleed 50/50 panels (feature-50-50) */
   if (maxCols === 2 && document.body.classList.contains('advisor')

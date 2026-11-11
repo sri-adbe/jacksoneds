@@ -265,6 +265,128 @@ main .contact-form.alt button.button.form-submit {
   text-transform: none;
 }
 
+/* ---------- jump bar (source .page-menu-navigation): links and dropdowns on a grey band ---------- */
+.contact-form.contact-form-menu {
+  margin: 32px calc(-1 * var(--content-gutter)) 0;
+  background-color: #e2e2e2;
+}
+
+.contact-form.contact-form-menu .contact-form-content > ul {
+  position: relative;
+  gap: 0;
+  justify-content: normal;
+  margin: 0;
+}
+
+.contact-form.contact-form-menu .contact-form-content > ul > li {
+  flex: 1 1 auto;
+  padding: 15px 5px;
+  line-height: 20.8px;
+  text-align: center;
+}
+
+.contact-form.contact-form-menu .contact-form-content > ul > li > p {
+  margin: 0;
+}
+
+/* mobile: a dropdown opens over the page below its (full-row) item */
+.contact-form.contact-form-menu .contact-form-content > ul > li.contact-form-has-dropdown {
+  position: relative;
+}
+
+.contact-form.contact-form-menu .contact-form-content a:any-link,
+.contact-form.contact-form-menu .contact-form-toggle {
+  position: relative;
+  display: inline-block;
+  color: rgb(0 0 0);
+  font-size: 15.2px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-decoration: none;
+}
+
+.contact-form.contact-form-menu .contact-form-content a:hover,
+.contact-form.contact-form-menu .contact-form-content a:focus-visible {
+  text-decoration: underline;
+}
+
+/* red download arrow (source .red-download-arrow-link::before) */
+.contact-form.contact-form-menu .contact-form-content a:any-link {
+  padding: 0 0 0 20px;
+}
+
+.contact-form.contact-form-menu .contact-form-content a:any-link::before {
+  content: '';
+  position: absolute;
+  top: calc(0.5lh - 7px);
+  left: 0;
+  width: 12px;
+  height: 14px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 14'%3E%3Cpath d='M6 0v10M1.5 5.5 6 10l4.5-4.5M0 13.2h12' fill='none' stroke='%23eb0028' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.contact-form.contact-form-menu .contact-form-toggle {
+  margin: 0;
+  border: 0;
+  padding: 0 23px 0 0;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* chevron: a red "›" turned to point down, up when open */
+.contact-form.contact-form-menu .contact-form-toggle::after {
+  content: '›' / '';
+  position: absolute;
+  top: 8px;
+  right: 3px;
+  color: var(--brand-red);
+  font-size: 38px;
+  line-height: 0;
+  transform: rotate(90deg);
+}
+
+.contact-form.contact-form-menu .contact-form-toggle[aria-expanded='true']::after {
+  transform: rotate(-90deg);
+}
+
+.contact-form.contact-form-menu .contact-form-dropdown {
+  position: absolute;
+  top: 38px;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  background-color: #e2e2e2;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 30%);
+  text-align: start;
+}
+
+.contact-form.contact-form-menu .contact-form-dropdown[hidden] {
+  display: none;
+}
+
+.contact-form.contact-form-menu .contact-form-dropdown > ul {
+  display: block;
+  margin: 0;
+  padding: 20px 12px;
+}
+
+.contact-form.contact-form-menu .contact-form-dropdown > ul > li {
+  margin: 15px 0 0;
+  line-height: 15px;
+}
+
+.contact-form.contact-form-menu .contact-form-dropdown > ul > li + li {
+  margin-top: 20px;
+}
+
+.contact-form.contact-form-menu .contact-form-dropdown a:any-link {
+  line-height: 15px;
+}
+
 /* ---------- desktop ---------- */
 @media (width >= 900px) {
   /* equal columns (padding inside each column, unlike flex-basis 0) */
@@ -307,6 +429,44 @@ main .contact-form.alt button.button.form-submit {
   /* alt-2: single-column form (e.g. email form beside contact details) */
   .contact-form.alt-2 .contact-form-form > * {
     flex-basis: 100%;
+  }
+
+  /* jump bar: dropdown panels float under the bar, aligned 70px in from its right edge */
+  .contact-form.contact-form-menu {
+    margin-top: 92px;
+  }
+
+  .contact-form.contact-form-menu .contact-form-content > ul {
+    margin: 0 80px;
+  }
+
+  .contact-form.contact-form-menu .contact-form-content > ul > li {
+    line-height: 26px;
+  }
+
+  .contact-form.contact-form-menu .contact-form-content > ul > li.contact-form-has-dropdown {
+    position: static;
+  }
+
+  .contact-form.contact-form-menu .contact-form-content a:any-link,
+  .contact-form.contact-form-menu .contact-form-toggle {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .contact-form.contact-form-menu .contact-form-dropdown a:any-link {
+    line-height: 15px;
+  }
+
+  .contact-form.contact-form-menu .contact-form-dropdown {
+    right: 70px;
+    left: auto;
+    flex-direction: row;
+    padding: 40px 20px 60px;
+  }
+
+  .contact-form.contact-form-menu .contact-form-dropdown > ul {
+    padding: 25px 40px;
   }
 
   /* default look */

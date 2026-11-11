@@ -55,7 +55,7 @@
   white-space: nowrap;
 }
 
-.app-form .form-choice {
+.app-form .form-field .form-choice {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -194,4 +194,79 @@ main .app-form .app-form-actions button.form-button:focus-visible {
   .app-form .app-form-content > ol:only-child > li {
     flex: 1 1 0;
   }
+}
+
+/* theme app (login/*, forms/*): source form.registration — black 16px/24px text, 19px/46px
+   heading bands, black 19px/22px step headings, plain link lists, grey/plum wizard steps */
+body.app .app-form {
+  color: var(--brand-black);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body.app .app-form h3 {
+  margin: 0;
+  padding: 0 20px;
+  background-color: var(--brand-beige-light);
+  color: var(--brand-plum);
+  font-size: 19px;
+  line-height: 46px;
+}
+
+body.app .app-form h4 {
+  margin: 0 0 10px;
+  color: var(--brand-black);
+  font-size: 19px;
+  line-height: 22px;
+}
+
+body.app .app-form .app-form-content > ul {
+  padding: 0;
+  list-style: none;
+}
+
+body.app .app-form .app-form-content a:any-link:not(.button) {
+  color: var(--brand-black);
+}
+
+body.app .app-form .app-form-content > ol:only-child {
+  gap: 15px;
+}
+
+body.app .app-form .app-form-content > ol:only-child > li {
+  padding: 10px 23px;
+  border-radius: 0;
+  background-color: rgb(226 226 226);
+  color: var(--brand-plum);
+  line-height: 19px;
+  text-transform: none;
+}
+
+body.app .app-form .app-form-content > ol:only-child > li:first-child {
+  background-color: var(--brand-plum);
+  color: var(--brand-white);
+}
+
+@media (width >= 900px) {
+  body.app .app-form .app-form-content > ol:only-child > li {
+    flex: 0 1 auto;
+  }
+}
+
+/* regular site scale (registration/ria, claims): source h4/h5 are 600 with 8px below,
+   h5 black 24px/34px; inline links are regular weight */
+body:not(.app, .advisor) .app-form h4,
+body:not(.app, .advisor) .app-form h5 {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+body:not(.app, .advisor) .app-form h5 {
+  color: var(--brand-black);
+  font-size: 24px;
+  line-height: 34px;
+}
+
+body:not(.app, .advisor) .app-form .app-form-content a:any-link:not(.button) {
+  font-weight: 400;
 }

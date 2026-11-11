@@ -188,7 +188,14 @@ function parseV1(document, element) {
       '.feature-50-50__links a, .feature-50-50__link a, .feature-50-50__cta a');
     const imageRight = feature.matches('.image-right');
     const row = imageRight ? [text, media] : [media, text];
-    return { row: row.map((c) => (c.length ? c : '')), variant: imageRight ? null : 'image-left' };
+    // source .feature-50-50__wrapper.color-grad-* (red-plum gradient panel) -> gradient option
+    const scope = feature.closest('.feature-50-50') || element;
+    let gradient = false;
+    for (let n = feature; n && !gradient; n = n === scope ? null : n.parentElement) {
+      gradient = [...n.classList].some((c) => c.startsWith('color-grad-'));
+    }
+    const options = [imageRight ? null : 'image-left', gradient ? 'gradient' : null].filter(Boolean);
+    return { row: row.map((c) => (c.length ? c : '')), variant: options.join(', ') || null };
   }
   const columns = [...element.querySelectorAll('.flexible-width-container__columns > .flexible-width-container__column')];
   if (columns.length >= 2) {
@@ -236,8 +243,15 @@ function parseFeatureAccordion(document, element) {
     });
     out.push(...linkParas(document, [...card.querySelectorAll('.feature-accordion__card-cta a[href]')]));
   });
-  const img = imageEl(root.querySelector('.feature-accordion__image img'));
-  if (img) out.push(img);
+  // the image sits in .feature-accordion__image, a sibling of __content: the block JS moves a
+  // trailing image-only paragraph into the media column. (Per-card icons are font icons: skipped.)
+  const block = root.closest('.feature-accordion__block, .feature-accordion') || element;
+  const img = imageEl(block.querySelector('.feature-accordion__image img'));
+  if (img) {
+    const p = document.createElement('p');
+    p.append(img);
+    out.push(p);
+  }
   return out.length ? out : null;
 }
 
