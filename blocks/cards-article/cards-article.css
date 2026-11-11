@@ -58,6 +58,7 @@
 .cards-article .cards-article-card-body > * {
   margin: 0;
   font-family: var(--body-font-family);
+  font-weight: 400;
   color: var(--brand-white);
 }
 
@@ -256,4 +257,9 @@
 
 .cards-article a.cards-article-link:hover .cards-article-title {
   text-decoration: underline;
+}
+
+/* body.advisor underlines every main link on hover; the whole card is one link */
+main .cards-article.block a.cards-article-link:any-link {
+  text-decoration: none;
 }

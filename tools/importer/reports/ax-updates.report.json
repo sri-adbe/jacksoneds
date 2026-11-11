@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/ax-updates.html",
+  "path": "ax-updates",
+  "timestamp": "2026-11-11T02:43:56.476Z",
+  "title": "Advisor experience updates | Jackson",
+  "template": "updates-page",
+  "blocks": [
+    "cards-video",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature"
+  ],
+  "importScript": "93a6baa86c1c"
+}

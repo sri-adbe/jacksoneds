@@ -164,8 +164,34 @@ export default function transform(hookName, element, payload) {
       'div.toggle-container',
     ].join(', '));
 
+    // App (.xhtml) shell: masthead container, session form, fat footer and footer disclosure
+    // band are site chrome (the migrated header/footer carry them); page disclosures stay.
+    removeAll(document, [
+      '#mastContainer',
+      'form[id$="sessionManagerForm"]',
+      'footer#fatFooter',
+      'footer#fpFooter',
+      'div.root.responsiveGrid > div#disclosure',
+      'body > div#disclosure',
+      // app pages without a page grid wrapper: body-level overlays, dialogs and beacons
+      'body > #container',
+      'body > #backgroundOverlay',
+      'body > #backgroudOverlay',
+      'body > #textarea_simulator',
+      'body > .ui-dialog-docking-zone',
+      'body > [id^="ZN_"]',
+      'body > [id^="batBeacon"]',
+      'body > #inauth_font_detector',
+      'body > iframe',
+      // transactional (adaptive form) pages: own minimal header/footer, same content as the site chrome
+      'body > div.form__header',
+      'body > footer.form__footer',
+      'body > div.guideContainer #loadingPage',
+    ].join(', '));
+
     // Body-level overlays, dialogs, beacons: everything outside the page wrapper.
-    const wrapper = body.querySelector(':scope > div.responsive');
+    const wrapper = body.querySelector(':scope > div.responsive')
+      || body.querySelector(':scope > div.root.responsiveGrid');
     if (wrapper) {
       [...body.children].forEach((child) => {
         if (child !== wrapper) child.remove();
@@ -210,10 +236,60 @@ export default function transform(hookName, element, payload) {
       });
     });
 
+    // Source data tables left in default content or fragments (comparison tables, privacy
+    // categories, index returns). Block tables built by parsers have a single-cell first row
+    // (the block name); a data table has several cells there. Wrap data tables in table-product
+    // so they don't become a block named after their first header cell.
+    const KNOWN_BLOCKS = ['accordion-manager', 'address-card', 'app-form', 'cards-article', 'cards-event',
+      'cards-feature', 'cards-product', 'cards-team', 'cards-tool', 'cards-video', 'cards',
+      'columns-benefits', 'columns-feature', 'columns-schedule', 'columns-sidebar', 'columns',
+      'contact-form', 'disclaimer-gate', 'embed-video', 'forms-finder', 'fragment', 'hero-banner',
+      'hero-page', 'hero', 'list-filter', 'location-tiles', 'pagination', 'retirement-calculator',
+      'table-product', 'tabs-product', 'tabs-section', 'metadata', 'section-metadata'];
+    safeQueryAll(element, 'table').forEach((table) => {
+      const rows = [...table.querySelectorAll(':scope > tr, :scope > thead > tr, :scope > tbody > tr, :scope > tfoot > tr')];
+      if (!rows.length) return;
+      if (table.parentElement && table.parentElement.closest('table')) return; // inside a block cell
+      if (rows[0].children.length < 2) {
+        // single-cell first row: a parser-built block (its name) or a source table caption
+        const title = rows[0].textContent.replace(/\s+/g, ' ').trim();
+        const blockName = title.toLowerCase().replace(/\s*\(.*\)\s*$/, '').replace(/\s+/g, '-');
+        if (KNOWN_BLOCKS.includes(blockName) || rows.length < 2 || rows[1].children.length < 2) return;
+        const caption = document.createElement('p');
+        const strong = document.createElement('strong');
+        strong.textContent = title;
+        caption.append(strong);
+        table.before(caption);
+        rows.shift();
+      }
+      const cells = rows.map((tr) => [...tr.children].map((cell) => {
+        const div = document.createElement('div');
+        div.innerHTML = cell.innerHTML;
+        return div;
+      }));
+      const hasHeader = rows[0].querySelector('th') !== null;
+      const name = hasHeader ? 'table-product' : 'table-product (no-header)';
+      table.replaceWith(WebImporter.Blocks.createBlock(document, { name, cells }));
+    });
+
     // Internal page links: Edge Delivery pages have no .html extension. Rewrite site-relative
     // and www.jackson.com links to extensionless paths (app .xhtml pages and files untouched).
     safeQueryAll(element, 'a[href]').forEach((a) => {
       const href = a.getAttribute('href');
+      // .xhtml pages are server-side app screens (sign-in, registration, forms search) that
+      // can't run on Edge Delivery: keep them pointing at the live app.
+      if (/^\/[^?#]*\.xhtml/i.test(href)) {
+        a.setAttribute('href', `https://www.jackson.com${href}`);
+        return;
+      }
+      // page-relative app links (e.g. "forgot-username.xhtml" on /login/register.xhtml)
+      if (/^[^/:#?][^:]*\.xhtml/i.test(href)) {
+        try {
+          const base = (payload && payload.params && payload.params.originalURL) || 'https://www.jackson.com/';
+          a.setAttribute('href', new URL(href, base).href.replace(/^http:/, 'https:'));
+        } catch (e) { /* keep as is */ }
+        return;
+      }
       const m = href.match(/^(?:https?:\/\/www\.jackson\.com)?(\/[^?#]*?)\.html?([?#].*)?$/i);
       if (!m || m[1].startsWith('/content/')) return;
       const path = m[1] === '/index' ? '/' : m[1];

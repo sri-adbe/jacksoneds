@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/bank/referral.html",
+  "path": "financial-professional/bank/referral",
+  "timestamp": "2026-11-11T02:51:35.073Z",
+  "title": "Outreach for Growth - Banks | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "cards-feature",
+    "cards-feature"
+  ],
+  "importScript": "d16819a6fb0c"
+}

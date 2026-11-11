@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html",
+  "path": "annuities/registered-index-linked-annuities/market-link-pro-suite",
+  "timestamp": "2026-11-11T03:20:09.760Z",
+  "title": "Market Link Pro Suite | Jackson",
+  "template": "product-detail",
+  "blocks": [
+    "tabs-product",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/annuities/registered-index-linked-annuities/market-link-pro-suite/overview",
+    "fragments/annuities/registered-index-linked-annuities/market-link-pro-suite/how-it-works",
+    "fragments/annuities/registered-index-linked-annuities/market-link-pro-suite/use-the-tool",
+    "fragments/annuities/registered-index-linked-annuities/market-link-pro-suite/all-other-states",
+    "fragments/annuities/registered-index-linked-annuities/market-link-pro-suite/new-york-only"
+  ],
+  "importScript": "dd8b983d86b9"
+}

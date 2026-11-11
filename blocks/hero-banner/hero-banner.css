@@ -69,6 +69,27 @@
   margin: 0;
 }
 
+/* colour options (FP product headers: --content-color on the text box) */
+.hero-banner.blue { --background-color: #3b455b; --hero-text: #fff; --hero-heading: #fff; }
+.hero-banner.charcoal { --background-color: #474546; --hero-text: #fff; --hero-heading: #fff; }
+.hero-banner.mauve { --background-color: #995d7a; --hero-text: #fff; --hero-heading: #fff; }
+.hero-banner.orange { --background-color: #c1c72b; --hero-text: #000; --hero-heading: var(--brand-dark-plum, #3b052e); }
+.hero-banner.grey { --background-color: #b2b4be; --hero-text: #000; --hero-heading: var(--brand-dark-plum, #3b052e); }
+.hero-banner.cyan { --background-color: #8aced3; --hero-text: #000; --hero-heading: var(--brand-dark-plum, #3b052e); }
+.hero-banner.green { --background-color: #a8d7af; --hero-text: #000; --hero-heading: var(--brand-dark-plum, #3b052e); }
+.hero-banner.peach { --background-color: #fa9e73; --hero-text: #000; --hero-heading: var(--brand-dark-plum, #3b052e); }
+
+.hero-banner:is(.blue, .charcoal, .mauve, .orange, .grey, .cyan, .green, .peach) .hero-banner-content h2,
+.hero-banner:is(.blue, .charcoal, .mauve, .orange, .grey, .cyan, .green, .peach) .hero-banner-content h3 {
+  color: var(--hero-heading, var(--brand-plum));
+}
+
+.hero-banner:is(.blue, .charcoal, .mauve, .orange, .grey, .cyan, .green, .peach) .hero-banner-content p {
+  color: var(--hero-text, rgb(0 0 0));
+  font-size: 16px;
+  line-height: 24px;
+}
+
 /* source .primary-cta-button */
 main .hero-banner .hero-banner-actions a:any-link {
   box-sizing: border-box;
@@ -118,10 +139,7 @@ main .hero-banner .hero-banner-actions a:focus-visible {
   }
 
   /* colour options: wide box with the CTA on the right */
-  .hero-banner.orange .hero-banner-content,
-  .hero-banner.blue .hero-banner-content,
-  .hero-banner.cyan .hero-banner-content,
-  .hero-banner.grey .hero-banner-content {
+  .hero-banner:is(.orange, .blue, .cyan, .grey, .charcoal, .mauve, .green, .peach) .hero-banner-content {
     display: grid;
     grid-template-columns: 1fr auto;
     column-gap: 48px;
@@ -130,20 +148,30 @@ main .hero-banner .hero-banner-actions a:focus-visible {
     margin: 0 auto;
   }
 
-  .hero-banner.orange .hero-banner-content > :not(.hero-banner-actions),
-  .hero-banner.blue .hero-banner-content > :not(.hero-banner-actions),
-  .hero-banner.cyan .hero-banner-content > :not(.hero-banner-actions),
-  .hero-banner.grey .hero-banner-content > :not(.hero-banner-actions) {
+  .hero-banner:is(.orange, .blue, .cyan, .grey, .charcoal, .mauve, .green, .peach) .hero-banner-content > :not(.hero-banner-actions) {
     grid-column: 1;
   }
 
-  .hero-banner.orange .hero-banner-actions,
-  .hero-banner.blue .hero-banner-actions,
-  .hero-banner.cyan .hero-banner-actions,
-  .hero-banner.grey .hero-banner-actions {
+  .hero-banner:is(.orange, .blue, .cyan, .grey, .charcoal, .mauve, .green, .peach) .hero-banner-actions {
     grid-row: 1;
     grid-column: 2;
     align-self: start;
     margin-top: 0;
   }
+}
+
+/* colour options use a white pill button with black text (source .primary-button) */
+main .hero-banner:is(.blue, .charcoal, .mauve, .orange, .grey, .cyan, .green, .peach) .hero-banner-actions a:any-link {
+  padding: 14px 32px;
+  border: 1px solid #000;
+  border-radius: 28px;
+  background-color: #fff;
+  color: #000;
+  text-transform: none;
+}
+
+main .hero-banner:is(.blue, .charcoal, .mauve, .orange, .grey, .cyan, .green, .peach) .hero-banner-actions a:hover,
+main .hero-banner:is(.blue, .charcoal, .mauve, .orange, .grey, .cyan, .green, .peach) .hero-banner-actions a:focus-visible {
+  background-color: #000;
+  color: #fff;
 }

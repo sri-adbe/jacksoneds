@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/why-jackson/customer-care.html",
+  "path": "financial-professional/why-jackson/customer-care",
+  "timestamp": "2026-11-11T03:00:40.436Z",
+  "title": "Customer care | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "cards-feature",
+    "cards-product",
+    "cards-product"
+  ],
+  "importScript": "d16819a6fb0c"
+}

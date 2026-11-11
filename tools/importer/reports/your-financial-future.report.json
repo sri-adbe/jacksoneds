@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/your-financial-future.html",
   "path": "your-financial-future",
-  "timestamp": "2026-11-10T21:36:13.323Z",
+  "timestamp": "2026-11-11T02:36:37.737Z",
   "title": "Your financial future | Jackson",
   "template": "content-page",
   "blocks": [
@@ -12,5 +12,5 @@
     "hero-page",
     "hero-page"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

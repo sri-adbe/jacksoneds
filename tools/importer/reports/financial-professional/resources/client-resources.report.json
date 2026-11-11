@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/resources/client-resources.html",
+  "path": "financial-professional/resources/client-resources",
+  "timestamp": "2026-11-11T03:27:08.506Z",
+  "title": "Client resources | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "embed-video",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/financial-professional/resources/client-resources/thought-leadership-insights",
+    "fragments/financial-professional/resources/client-resources/tax-management-strategies",
+    "fragments/financial-professional/resources/client-resources/ria-and-wealth-managers-resources"
+  ],
+  "importScript": "2fe17d59542d"
+}

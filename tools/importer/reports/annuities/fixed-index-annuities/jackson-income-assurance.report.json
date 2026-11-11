@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html",
+  "path": "annuities/fixed-index-annuities/jackson-income-assurance",
+  "timestamp": "2026-11-11T03:21:01.657Z",
+  "title": "Jackson Income Assurance Suite | Jackson",
+  "template": "product-detail",
+  "blocks": [
+    "tabs-product",
+    "columns-feature",
+    "cards-product"
+  ],
+  "fragments": [
+    "fragments/annuities/fixed-index-annuities/jackson-income-assurance/overview",
+    "fragments/annuities/fixed-index-annuities/jackson-income-assurance/product-highlights",
+    "fragments/annuities/fixed-index-annuities/jackson-income-assurance/income-tool"
+  ],
+  "importScript": "dd8b983d86b9"
+}

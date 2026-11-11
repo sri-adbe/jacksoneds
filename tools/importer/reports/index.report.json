@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/",
   "path": "index",
-  "timestamp": "2026-11-10T21:37:26.118Z",
+  "timestamp": "2026-11-11T02:09:14.299Z",
   "title": "Jackson - Clarity for all | Jackson",
   "template": "homepage",
   "blocks": [
@@ -13,5 +13,5 @@
     "columns-benefits",
     "cards-tool"
   ],
-  "importScript": "4cd720613307"
+  "importScript": "0f5dfc52e30d"
 }

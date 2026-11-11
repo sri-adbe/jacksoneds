@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/financial-professionals.html",
   "path": "financial-professionals",
-  "timestamp": "2026-11-10T21:30:08.455Z",
+  "timestamp": "2026-11-11T02:24:51.532Z",
   "title": "Financial professionals | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "hero-page",
     "cards-feature"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html",
+  "path": "financial-professional/annuity-products/registered-index-linked-annuities",
+  "timestamp": "2026-11-11T03:23:40.235Z",
+  "title": "Registered index-linked annuities | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "embed-video",
+    "cards-product",
+    "cards-product",
+    "tabs-section",
+    "columns-benefits"
+  ],
+  "fragments": [
+    "fragments/financial-professional/annuity-products/registered-index-linked-annuities/all-other-states",
+    "fragments/financial-professional/annuity-products/registered-index-linked-annuities/new-york-only"
+  ],
+  "importScript": "2fe17d59542d"
+}

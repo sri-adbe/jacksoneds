@@ -49,8 +49,12 @@ export default function parse(element, { document, params }) {
   const content = [];
   const heading = wrapper.querySelector('h1, h2, h3, h4');
   if (heading) {
+    // Title (heading) of the content row; trademark superscripts are kept
     const h = document.createElement(heading.tagName.toLowerCase());
-    h.textContent = heading.textContent.trim();
+    h.innerHTML = heading.innerHTML.trim();
+    [...h.querySelectorAll('*')].forEach((d) => { if (!d.matches('sup, sub')) d.replaceWith(...d.childNodes); });
+    h.innerHTML = h.innerHTML.replace(/\s+/g, ' ').trim();
+    if (!h.textContent.trim()) h.textContent = heading.textContent.trim();
     content.push(h);
   }
   const header = wrapper.querySelector('.header') || wrapper;
@@ -69,9 +73,20 @@ export default function parse(element, { document, params }) {
       content.push(p);
     });
 
+  // Hero convention: optional background-image row (only when the source has an image;
+  // instances have 1 or 2 direct children), then one content row (title, text, CTA).
   if (picture) cells.push([picture]);
   cells.push([content]);
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'hero-banner', cells });
+  // Optional variant: FP product headers colour the text box with an inline --content-color.
+  // Catalog looks are blue, orange, grey and cyan; other hues get descriptive names.
+  const COLOR_OPTIONS = {
+    '#3b455b': 'blue', '#c1c72b': 'orange', '#b2b4be': 'grey', '#8aced3': 'cyan',
+    '#474546': 'charcoal', '#995d7a': 'mauve', '#a8d7af': 'green', '#fa9e73': 'peach',
+  };
+  const box = element.querySelector('.product-header__content[style]');
+  const m = box && (box.getAttribute('style') || '').match(/--content-color:\s*(#[0-9a-f]{6})/i);
+  const option = m ? COLOR_OPTIONS[m[1].toLowerCase()] : null;
+  const block = WebImporter.Blocks.createBlock(document, { name: option ? `hero-banner (${option})` : 'hero-banner', cells });
   element.replaceWith(block);
 }

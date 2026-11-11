@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html",
+  "path": "financial-professional/why-jackson/financial-strength",
+  "timestamp": "2026-11-11T03:01:33.029Z",
+  "title": "Financial strength | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "cards-feature",
+    "cards-feature",
+    "cards-feature"
+  ],
+  "importScript": "d16819a6fb0c"
+}

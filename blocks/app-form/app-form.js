@@ -29,6 +29,15 @@ export default function decorate(block) {
   classifyRows(block).forEach(({ row, type }) => {
     if (type) {
       const field = buildField(row, type);
+      // a choice group introduced by a heading with the same text ("I want to"): the heading
+      // shows, the legend stays for assistive tech only
+      const legend = field.querySelector('legend');
+      const prev = form.lastElementChild;
+      const prevHeading = prev && prev.matches('.app-form-content') ? prev.lastElementChild : null;
+      if (legend && prevHeading && /^H[1-6]$/.test(prevHeading.tagName)
+        && prevHeading.textContent.trim() === legend.textContent.trim()) {
+        legend.classList.add('app-form-legend-hidden');
+      }
       if (['submit', 'reset', 'button'].includes(type)) actions.append(field);
       else form.append(field);
       return;

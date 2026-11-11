@@ -1362,7 +1362,165 @@
         "https://www.jackson.com/financial-professional.html"
       ],
       "description": "Product page with in-page step/jump bar, highlight comparison layout, tabbed detail panels and two-column feature rows",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "tabs-product",
+          "instances": [
+            "div.full-width-container > section > div > div.step-progress-bar.v2"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.step-progress-bar.v2"
+            ],
+            "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(1)"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.step-progress-bar.v2"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-family.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.step-progress-bar.v2"
+            ]
+          }
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "div.full-width-container > section > div > div.comparison-highlight-layout"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.comparison-highlight-layout"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.comparison-highlight-layout"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-family.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.comparison-highlight-layout"
+            ],
+            "https://www.jackson.com/financial-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ]
+          }
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "div.content-wrapper.v1 div.card-container.v1 div.card-container__cards"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html": [
+              "#expVar-875772789 > div > div > div > div"
+            ],
+            "https://www.jackson.com/financial-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards"
+            ]
+          }
+        },
+        {
+          "name": "tabs-section",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment-personalization"
+            ],
+            "https://www.jackson.com/annuities/variable-annuities/perspective-family.html": [
+              "body > div.responsive.brandEvolution > div > div > div.full-width-container.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment-personalization"
+            ]
+          }
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "div.content-wrapper.v1 > section > div > div.home-page-hero.v1"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.home-page-hero.v1"
+            ]
+          }
+        },
+        {
+          "name": "cards-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6)"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.aem-Grid > div.full-width-container",
+            "div.aem-Grid > div.content-wrapper"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-product",
+            "columns-feature",
+            "cards-product",
+            "tabs-section",
+            "hero-banner",
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "div.full-width-container section div.disclosure",
+            "div.full-width-container section h3",
+            "div.full-width-container section p",
+            "div.content-wrapper.v1 section p",
+            "div.content-wrapper.v1 div.card-container__content"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/annuities/fixed-index-annuities/jackson-income-assurance.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(26)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/annuities/registered-index-linked-annuities/market-link-pro-suite.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(26)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/annuities/variable-annuities/elite-access-suite.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(26)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/annuities/variable-annuities/perspective-family.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(26)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      }
     },
     {
       "name": "updates-page",
@@ -1370,7 +1528,65 @@
         "https://www.jackson.com/ax-updates.html"
       ],
       "description": "Breadcrumb, image hero, title and repeated highlight comparison panels",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "cards-video",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/ax-updates.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.background-container.base-version > div > div > div > div > div"
+            ]
+          }
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "div.body-content > section > div > div.comparison-highlight-layout"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/ax-updates.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6)",
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.aem-Grid > div.body-content"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-video",
+            "columns-feature"
+          ],
+          "defaultContent": [
+            "div.body-content section div.image-herospace",
+            "div.body-content section div.header",
+            "div.body-content section div.background-container h3",
+            "div.body-content section div.disclosure",
+            "div.body-content section p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/ax-updates.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.contents.bg-color > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.contents.bg-color > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.body-content.base-version > section:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.body-content.base-version > section:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.cookie-consent__placeholder.hidden"
+        ]
+      }
     },
     {
       "name": "calculator-tool",
@@ -1379,7 +1595,143 @@
         "https://www.jackson.com/financial-professionals/get-appointed.html"
       ],
       "description": "Interactive tool page with hero, step navigation, tool form area, promo cards and disclosures",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "hero-page",
+          "instances": [
+            "body > section.hero.v2"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/dash/tools/retirement-expense-calculator.html": [
+              "body > section"
+            ]
+          }
+        },
+        {
+          "name": "retirement-calculator",
+          "instances": [
+            "div.rec-container > div.journey-nav",
+            "div.rec-container > div.tool-header",
+            "div.rec-container > div.journey-content-container",
+            "div.rec-container > div.journey-controls"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/dash/tools/retirement-expense-calculator.html": [
+              "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-nav",
+              "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.tool-header",
+              "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-content-container",
+              "body > div.one-column.rec-main-container.main-content-container > div.rec-container.v4 > div.journey-controls"
+            ]
+          }
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "div.rec-main-container > div.promo-card-container"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/dash/tools/retirement-expense-calculator.html": [
+              "body > div.one-column.rec-main-container.main-content-container > div.promo-card-container.v1"
+            ]
+          }
+        },
+        {
+          "name": "columns-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professionals/get-appointed.html": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div.background-container.base-version"
+            ]
+          }
+        },
+        {
+          "name": "cards-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professionals/get-appointed.html": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div.comparison-highlight-layout",
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(3) > div > div"
+            ]
+          }
+        },
+        {
+          "name": "cards-tool",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professionals/get-appointed.html": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div:nth-child(4)"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "tool-hero",
+          "name": "tool-hero",
+          "selector": [
+            "body > section.hero"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-page"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "tool-main",
+          "name": "tool-main",
+          "selector": [
+            "body > div.rec-main-container"
+          ],
+          "style": null,
+          "blocks": [
+            "retirement-calculator",
+            "cards-product"
+          ],
+          "defaultContent": [
+            "div.rec-main-container > div.disclosure"
+          ]
+        },
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.aem-Grid > div.full-width-container",
+            "div.aem-Grid > div.body-content"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-feature",
+            "cards-feature",
+            "cards-tool"
+          ],
+          "defaultContent": [
+            "div.full-width-container section h3",
+            "div.full-width-container section p",
+            "div.full-width-container section div.disclosure",
+            "div.full-width-container section div.header"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/dash/tools/retirement-expense-calculator.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.ui-dialog.calculation-explanation-container",
+          "div.ui-dialog.solution-explanation-container",
+          "div.ui-dialog.load-dialog"
+        ],
+        "https://www.jackson.com/financial-professionals/get-appointed.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      }
     },
     {
       "name": "advisor-content-page",
@@ -1421,7 +1773,875 @@
         "https://www.jackson.com/financial-professional/wirehouse.html"
       ],
       "description": "Text-only hero, feature accordion, text blocks, 50-50 feature rows and card containers",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "columns-feature",
+          "instances": [
+            "div.feature-accordion.v1"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-accordion.v1",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1",
+              "#expVar-468268836 > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+              "#expVar-1708939007 > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": [
+              "#expVar-1656512025 > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": [
+              "#expVar-815326180 > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/bank.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9)"
+            ],
+            "https://www.jackson.com/financial-professional/bank/referral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ],
+            "https://www.jackson.com/financial-professional/credit-union.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9)"
+            ],
+            "https://www.jackson.com/financial-professional/credit-union/referral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ],
+            "https://www.jackson.com/financial-professional/find-your-wholesaler.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/independent.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ],
+            "https://www.jackson.com/financial-professional/insurance-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)"
+            ],
+            "https://www.jackson.com/financial-professional/regional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ],
+            "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ],
+            "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)"
+            ],
+            "https://www.jackson.com/financial-professional/resources/client-resources.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/customer-care.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9)"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)"
+            ],
+            "https://www.jackson.com/financial-professional/wirehouse.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ]
+          }
+        },
+        {
+          "name": "embed-video",
+          "instances": [
+            "div.ibm-video.v2"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1 > div > div > div.flexible-width-container__columns.full-width > div > div.ibm-video.v2"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1 > div > div > div.flexible-width-container__columns.full-width"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1 > div > div > div.flexible-width-container__columns.full-width"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1 > div > div > div.flexible-width-container__columns.full-width"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1 > div > div > div.flexible-width-container__columns.full-width"
+            ],
+            "https://www.jackson.com/financial-professional/resources/client-resources.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1 > div > div > div.flexible-width-container__columns.full-width"
+            ]
+          }
+        },
+        {
+          "name": "cards-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7)"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+              "#fp-jpa-card > div.product-card__cta-section"
+            ],
+            "https://www.jackson.com/financial-professional/bank.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(10)"
+            ],
+            "https://www.jackson.com/financial-professional/bank/referral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/contact-us.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/credit-union.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(10)"
+            ],
+            "https://www.jackson.com/financial-professional/credit-union/referral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/find-your-wholesaler.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.wholesaler-search.base-version > div > div.wholesaler-search__aside"
+            ],
+            "https://www.jackson.com/financial-professional/independent.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9)"
+            ],
+            "https://www.jackson.com/financial-professional/insurance-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ],
+            "https://www.jackson.com/financial-professional/regional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9)"
+            ],
+            "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ],
+            "https://www.jackson.com/financial-professional/resources/retirement-research.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(8)"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/sitemap.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(1) > div > div.sitemap__columns"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/customer-care.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)"
+            ],
+            "https://www.jackson.com/financial-professional/wirehouse.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(9)"
+            ]
+          }
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "div.carousel-card-container__cards"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(5) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards",
+              "#expVar-468268836 > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards",
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(2)",
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(6)",
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(8)",
+              "#expVar-1708939007 > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards",
+              "#expVar-1656512025 > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.card-container.v1 > div > div > div.card-container__cards",
+              "#expVar-815326180 > div.card-container.v1 > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/bank.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/credit-union.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(7) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/independent.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/insurance-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/regional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.carousel-card-container.v1 > div > div > div.carousel-card-container__cards.scrollbar"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.carousel-card-container.v1 > div > div > div.carousel-card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.carousel-card-container.v1 > div > div > div.carousel-card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.carousel-card-container.v1 > div > div > div.carousel-card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/customer-care.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2) > div > div > div.card-container__cards",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.carousel-card-container.v1 > div > div > div.carousel-card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(2) > div > div > div.card-container__cards"
+            ],
+            "https://www.jackson.com/financial-professional/wirehouse.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(6) > div > div > div.card-container__cards"
+            ]
+          }
+        },
+        {
+          "name": "tabs-section",
+          "instances": [
+            "div.tab-container.v1"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.tab-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html": [
+              "#expVar-468268836 > div.xf-content-height"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": [
+              "#expVar-1656512025 > div.xf-content-height"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": [
+              "#expVar-815326180 > div.xf-content-height"
+            ],
+            "https://www.jackson.com/financial-professional/resources/client-resources.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.tab-container.v1"
+            ],
+            "https://www.jackson.com/financial-professional/resources/retirement-research.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.tab-container.v1"
+            ]
+          }
+        },
+        {
+          "name": "contact-form",
+          "instances": [
+            "div.contact-us__two-column"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment"
+            ],
+            "https://www.jackson.com/financial-professional/contact-us.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.contact-us.v1 > div > div.contact-us__two-column"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(3)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div:nth-child(4)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.flexible-width-container.v1"
+            ]
+          }
+        },
+        {
+          "name": "columns-benefits",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ],
+            "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.feature-50-50.v1"
+            ]
+          }
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "div.full-width-image-buffer.v1"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(1)",
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(3)",
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(5)",
+              "#expVar-1708939007 > div.xf-content-height > div > div:nth-child(7)"
+            ],
+            "https://www.jackson.com/financial-professional/bank.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/credit-union.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/independent.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/insurance-professional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/regional.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ],
+            "https://www.jackson.com/financial-professional/wirehouse.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.full-width-image-buffer.v1"
+            ]
+          }
+        },
+        {
+          "name": "app-form",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/contact-us.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.contact-us.v1 > div > div.contact-reason > div:nth-child(1)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.contact-us.v1 > div > div.contact-reason > div:nth-child(2)"
+            ],
+            "https://www.jackson.com/financial-professional/find-your-wholesaler.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.wholesaler-search.base-version > div > form"
+            ]
+          }
+        },
+        {
+          "name": "address-card",
+          "instances": [
+            "div.contact-locations__state"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/contact-us.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.contact-us.v1 > div > div.contact-locations > div > div > div.contact-locations__state.contact-locations__state--michigan",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.contact-us.v1 > div > div.contact-locations > div > div > div.contact-locations__state.contact-locations__state--illinois"
+            ]
+          }
+        },
+        {
+          "name": "accordion-manager",
+          "instances": [
+            "div.article-gallery__header"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/resources/retirement-articles.html": [
+              "#articleList1404948799 > div > div.article-gallery__header"
+            ]
+          }
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "div.article-gallery__cards"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/resources/retirement-articles.html": [
+              "#articleList1404948799 > div > div.article-gallery__cards"
+            ]
+          }
+        },
+        {
+          "name": "pagination",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/resources/retirement-articles.html": [
+              "#articleList1404948799 > div > div.article-gallery__footer > div > nav"
+            ]
+          }
+        },
+        {
+          "name": "list-filter",
+          "instances": [
+            "div.integrations-filter-container"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.resource-filter-listing.base-version > div > div > fieldset > div.integrations-filter-container"
+            ]
+          }
+        },
+        {
+          "name": "cards-tool",
+          "instances": [
+            "div.resource-filter-listing__block-wrapper",
+            "div.resource-filter-listing__additional-options-block-wrapper"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.resource-filter-listing.base-version > div > div > div.resource-filter-listing__main-container > div.resource-filter-listing__block-wrapper",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.resource-filter-listing.base-version > div > div > div.resource-filter-listing__main-container > div.resource-filter-listing__additional-options-block-wrapper"
+            ]
+          }
+        },
+        {
+          "name": "cards-event",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html": [
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.event-listing.v1 > div > div.event-listing__table-content > div.event-listing__table-header",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.event-listing.v1 > div > div.event-listing__table-content > div.event-listing__events > div:nth-child(1)",
+              "body > div.responsive > div > div > div.content-wrapper.v1.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.event-listing.v1 > div > div.event-listing__table-content > div.event-listing__events > div:nth-child(2)"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.aem-Grid > div.content-wrapper"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-feature",
+            "embed-video",
+            "cards-feature",
+            "cards-product",
+            "tabs-section",
+            "contact-form",
+            "columns-benefits",
+            "hero-banner",
+            "app-form",
+            "address-card",
+            "accordion-manager",
+            "cards-article",
+            "pagination",
+            "list-filter",
+            "cards-tool",
+            "cards-event"
+          ],
+          "defaultContent": [
+            "section div.no-image-hero",
+            "section div.text-block",
+            "section div.card-container__content",
+            "section div.carousel-card-container__content",
+            "section div.flexible-width-container__content",
+            "section div.contact-locations__title",
+            "section div.contact-locations__description",
+            "section h2",
+            "section h3",
+            "section h4",
+            "section p",
+            "section ul"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/growth-potential.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/legacy-planning.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/protection-options.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/client-needs/tax-deferral.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#obbba-resources-tab > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/fee-based-annuities.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/registered-index-linked-annuities.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/annuity-products/variable-annuities.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/bank.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/bank/referral.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/contact-us.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(20)",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/credit-union.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/credit-union/referral.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/find-your-wholesaler.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/independent.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/insurance-professional.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/regional.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.content-wrapper.v1 > section:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.content-wrapper.v1 > section:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.content-wrapper.v1 > section:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.content-wrapper.v1 > section:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/resources/annuity-calculator-and-tools.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/resources/client-resources.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/resources/retirement-articles.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/resources/retirement-research.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager/making-it-easier.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "div.content-wrapper.v1 > section:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+          "div.cookie-consent__placeholder.hidden"
+        ],
+        "https://www.jackson.com/financial-professional/ria-and-wealth-manager/ria-academy.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/sitemap.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/why-jackson/customer-care.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/why-jackson/financial-strength.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/why-jackson/value-added-services.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(28)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/why-jackson/wholesaler-support.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/financial-professional/wirehouse.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      },
+      "fragmentInstances": {
+        "columns-feature": [
+          "div.feature-50-50"
+        ],
+        "cards-product": [
+          "div.card-container__cards"
+        ],
+        "contact-form": [
+          "div.flexible-width-container"
+        ]
+      }
     },
     {
       "name": "listing-page",
@@ -1430,7 +2650,80 @@
         "https://www.jackson.com/sitemap.html"
       ],
       "description": "Breadcrumb, tinted intro band with logo or heading, then a list or table of items and rich text",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "cards-event",
+          "instances": [
+            "div.event-listing div.items.events",
+            "div.event-listing div.heading"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/financial-professionals/jackson-live.html": [
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div.event-listing > div > div.heading",
+              "body > div.responsive.brandEvolution > div > div > div:nth-child(4) > section > div > div.event-listing > div > div.items.events"
+            ]
+          }
+        },
+        {
+          "name": "cards-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/sitemap.html": [
+              "body > div.responsive.brandEvolution > div > div > div.body-content.base-version.aem-GridColumn.aem-GridColumn--default--12 > section > div > div.experiencefragment-personalization"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "intro",
+          "name": "intro",
+          "selector": [
+            "section div.background-container.base-version"
+          ],
+          "style": "light",
+          "blocks": [],
+          "defaultContent": [
+            "section div.background-container.base-version"
+          ]
+        },
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "section div.background-container.base-version ~ div.event-listing",
+            "div.aem-Grid > div.body-content"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-event",
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "section div.event-listing h2",
+            "section div.header",
+            "section div.rte",
+            "section div.disclosure",
+            "section p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/financial-professionals/jackson-live.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ],
+        "https://www.jackson.com/sitemap.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      }
     },
     {
       "name": "app-search-form",
@@ -1439,7 +2732,108 @@
         "https://www.jackson.com/login/register.xhtml"
       ],
       "description": "Application page with upload or search form, data table with paginator and page disclosures",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "cards-product",
+          "instances": [
+            "div.pageWrapper div.formUploadBoxes"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/forms/forms.xhtml": [
+              "#page > div > div > div.formUploadBoxes"
+            ]
+          }
+        },
+        {
+          "name": "forms-finder",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/forms/forms.xhtml": [
+              "#formsForm > div.formsControls > div > div:nth-child(1)",
+              "#formsForm > div.formsControls > ul:nth-child(3)",
+              "#formsForm > div.formsControls > ul:nth-child(4)",
+              "#formsForm\\:formsTable_paginator_bottom"
+            ]
+          }
+        },
+        {
+          "name": "table-product",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/forms/forms.xhtml": [
+              "#formsForm\\:formsTable > div.ui-datatable-tablewrapper"
+            ]
+          }
+        },
+        {
+          "name": "app-form",
+          "instances": [
+            "div.pageWrapper div.mainContent"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/login/register.xhtml": [
+              "#page > div > div.mainContent"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.root.responsiveGrid > div.pageWrapper",
+            "div.root.responsiveGrid > div.pageDisclosures"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-product",
+            "forms-finder",
+            "table-product",
+            "app-form"
+          ],
+          "defaultContent": [
+            "div#page > h1",
+            "div#page div.content > p",
+            "div#page div.content > h2",
+            "div.pageDisclosures p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/forms/forms.xhtml": [
+          "#onetrust-banner-sdk",
+          "body.responsive > div:nth-child(33)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#formsForm\\:formsTable\\:1\\:j_idt291",
+          "#formsForm\\:formsTable\\:2\\:j_idt291",
+          "#formsForm\\:formsTable\\:3\\:j_idt291",
+          "#formsForm\\:formsTable\\:4\\:j_idt291",
+          "#formsForm\\:formsTable\\:6\\:j_idt291",
+          "#formsForm\\:formsTable\\:7\\:j_idt291",
+          "#formsForm\\:formsTable\\:8\\:j_idt291",
+          "#formsForm\\:productTypeFilter_panel",
+          "#formsForm\\:productNameFilter_panel",
+          "#formsForm\\:transactionTypeFilter_panel",
+          "#formsForm\\:stateFilter_panel",
+          "#formsForm\\:formsTable\\:j_idt298_panel",
+          "#j_idt49\\:sessionManagerForm\\:sessionExpireDialog",
+          "#emailDialogForm\\:j_idt304",
+          "#protectedForm\\:j_idt309"
+        ],
+        "https://www.jackson.com/login/register.xhtml": [
+          "#onetrust-banner-sdk",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#registerForm\\:j_idt154",
+          "#registerForm\\:j_idt171",
+          "#registerForm\\:j_idt179",
+          "#j_idt49\\:sessionManagerForm\\:sessionExpireDialog",
+          "#registerForm\\:j_idt264"
+        ]
+      }
     },
     {
       "name": "account-recovery-form",
@@ -1448,7 +2842,68 @@
         "https://www.jackson.com/login/forgot-username.xhtml"
       ],
       "description": "Single short application form with supporting text and disclosure boxes",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "app-form",
+          "instances": [
+            "div.pageWrapper div.mainContent"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/login/forgot-password.xhtml": [
+              "#forgotForm > div > div > div > ul"
+            ],
+            "https://www.jackson.com/login/forgot-username.xhtml": [
+              "#forgotForm > div > div > div > ul"
+            ]
+          }
+        },
+        {
+          "name": "cards-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/login/forgot-password.xhtml": [
+              "#forgotForm > div > div > div > div.clearfix"
+            ],
+            "https://www.jackson.com/login/forgot-username.xhtml": [
+              "#forgotForm > div > div > div > div.clearfix"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.root.responsiveGrid > div.pageWrapper",
+            "div.root.responsiveGrid > div.pageDisclosures"
+          ],
+          "style": null,
+          "blocks": [
+            "app-form",
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "div#page > h1",
+            "div#page div.content > p",
+            "div.pageDisclosures p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/login/forgot-password.xhtml": [
+          "#onetrust-banner-sdk",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#j_idt49\\:sessionManagerForm\\:sessionExpireDialog"
+        ],
+        "https://www.jackson.com/login/forgot-username.xhtml": [
+          "#onetrust-banner-sdk",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#j_idt49\\:sessionManagerForm\\:sessionExpireDialog"
+        ]
+      }
     },
     {
       "name": "sign-in",
@@ -1456,7 +2911,56 @@
         "https://www.jackson.com/login/login.xhtml"
       ],
       "description": "Application sign-in form with action links, sign-in help links and disclosure boxes",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "app-form",
+          "instances": [
+            "div.pageWrapper div.mainContent"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/login/login.xhtml": [
+              "#loginForm\\:loginPnl > div > div > ul:nth-child(5)",
+              "#loginForm\\:loginPnl > div > div > ul.form.remember"
+            ]
+          }
+        },
+        {
+          "name": "columns-feature",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/login/login.xhtml": [
+              "#loginForm\\:loginPnl > div > div > div.signinLinks.alignLeft"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.root.responsiveGrid > div.pageWrapper",
+            "div.root.responsiveGrid > div.pageDisclosures"
+          ],
+          "style": null,
+          "blocks": [
+            "app-form",
+            "columns-feature"
+          ],
+          "defaultContent": [
+            "div#page > h1",
+            "div.pageDisclosures p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/login/login.xhtml": [
+          "#onetrust-banner-sdk",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#loginForm\\:j_idt130"
+        ]
+      }
     },
     {
       "name": "registration-form",
@@ -1464,7 +2968,59 @@
         "https://www.jackson.com/registration/ria.xhtml"
       ],
       "description": "Multi-field application registration form with page disclosures",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "hero-page",
+          "instances": [],
+          "pageInstances": {
+            "https://www.jackson.com/registration/ria.xhtml": [
+              "#title-herospace"
+            ]
+          }
+        },
+        {
+          "name": "app-form",
+          "instances": [
+            "div.mainContent form"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/registration/ria.xhtml": [
+              "#j_idt229\\:RIAAgreement"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "div.pageWrapper > div#page",
+            "body > div.pageDisclosures"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-page",
+            "app-form"
+          ],
+          "defaultContent": [
+            "div#ria-registration h2",
+            "div#ria-registration p",
+            "div.mainContent aside",
+            "div.pageDisclosures p"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/registration/ria.xhtml": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(35)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk",
+          "#j_idt42\\:sessionManagerForm\\:sessionExpireDialog"
+        ]
+      }
     },
     {
       "name": "claim-form",
@@ -1472,7 +3028,47 @@
         "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html"
       ],
       "description": "Transactional multi-section form with a heading and full-width form columns",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "app-form",
+          "instances": [
+            "div.guideContainer form#guideContainerForm"
+          ],
+          "pageInstances": {
+            "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html": [
+              "#guideContainer-rootPanel___layoutContainer > div.col-md-12.clearfix",
+              "#guideContainer-rootPanel-panel1738256806461-guidebutton___guide-item",
+              "#guideContainer-rootPanel-panel1738256806461-panel1739476424549___guide-item"
+            ]
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "main-content",
+          "name": "main-content",
+          "selector": [
+            "body > div.jxn-header__start-a-claim-heading",
+            "body > div.guideContainer"
+          ],
+          "style": null,
+          "blocks": [
+            "app-form"
+          ],
+          "defaultContent": [
+            "div.start-a-claim-heading__content-area h1"
+          ]
+        }
+      ],
+      "pageCleanup": {
+        "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html": [
+          "#onetrust-banner-sdk",
+          "html > body:nth-child(2) > div:nth-child(25)",
+          "#QSIFeedbackButton-target-container",
+          "#onetrust-style",
+          "#onetrust-consent-sdk"
+        ]
+      }
     }
   ],
   "metadata": {

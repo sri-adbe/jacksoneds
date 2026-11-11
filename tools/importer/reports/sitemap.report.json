@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/sitemap.html",
+  "path": "sitemap",
+  "timestamp": "2026-11-11T03:05:19.323Z",
+  "title": "Sitemap | Jackson",
+  "template": "listing-page",
+  "blocks": [
+    "cards-feature"
+  ],
+  "importScript": "9fab09808e06"
+}

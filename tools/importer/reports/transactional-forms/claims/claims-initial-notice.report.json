@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/transactional-forms/claims/claims-initial-notice.html",
+  "path": "transactional-forms/claims/claims-initial-notice",
+  "timestamp": "2026-11-11T03:42:10.405Z",
+  "title": "Claims Initial Notice | Jackson",
+  "template": "claim-form",
+  "blocks": [
+    "app-form",
+    "app-form",
+    "app-form"
+  ],
+  "importScript": "855c859db213"
+}

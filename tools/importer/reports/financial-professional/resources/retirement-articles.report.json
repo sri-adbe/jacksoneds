@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/resources/retirement-articles.html",
+  "path": "financial-professional/resources/retirement-articles",
+  "timestamp": "2026-11-11T02:57:26.219Z",
+  "title": "Retirement articles and insights | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "accordion-manager",
+    "cards-article",
+    "pagination"
+  ],
+  "importScript": "d16819a6fb0c"
+}

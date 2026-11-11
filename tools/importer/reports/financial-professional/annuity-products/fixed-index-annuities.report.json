@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-index-annuities.html",
+  "path": "financial-professional/annuity-products/fixed-index-annuities",
+  "timestamp": "2026-11-11T02:48:53.270Z",
+  "title": "Fixed index annuities | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "embed-video",
+    "cards-feature",
+    "cards-product",
+    "cards-product",
+    "cards-product",
+    "cards-product",
+    "cards-product",
+    "columns-benefits",
+    "hero-banner",
+    "hero-banner",
+    "hero-banner",
+    "hero-banner"
+  ],
+  "importScript": "d16819a6fb0c"
+}

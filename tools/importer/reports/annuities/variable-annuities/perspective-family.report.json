@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/annuities/variable-annuities/perspective-family.html",
+  "path": "annuities/variable-annuities/perspective-family",
+  "timestamp": "2026-11-11T03:22:47.585Z",
+  "title": "Perspective Family | Jackson",
+  "template": "product-detail",
+  "blocks": [
+    "tabs-product",
+    "columns-feature",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/annuities/variable-annuities/perspective-family/overview",
+    "fragments/annuities/variable-annuities/perspective-family/product-highlights",
+    "fragments/annuities/variable-annuities/perspective-family/product-comparison",
+    "fragments/annuities/variable-annuities/perspective-family/all-other-states",
+    "fragments/annuities/variable-annuities/perspective-family/new-york-only"
+  ],
+  "importScript": "dd8b983d86b9"
+}

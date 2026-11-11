@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "url": "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+  "path": "financial-professional/resources/retirement-research.html",
+  "timestamp": "2026-11-10T23:12:17.710Z",
+  "error": "page.goto: Target page, context or browser has been closed",
+  "errorStack": "page.goto: Target page, context or browser has been closed\n    at processUrl (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:711:20)\n    at async main (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:1077:22)",
+  "template": "advisor-content-page",
+  "importScript": "75196f910e3b"
+}

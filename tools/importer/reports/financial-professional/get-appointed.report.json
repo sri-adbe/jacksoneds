@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/financial-professional/get-appointed.html",
   "path": "financial-professional/get-appointed",
-  "timestamp": "2026-11-10T21:19:32.376Z",
+  "timestamp": "2026-11-11T02:23:42.173Z",
   "title": "Get appointed | Jackson",
   "template": "content-page",
   "blocks": [
@@ -13,5 +13,5 @@
     "cards-feature",
     "cards-feature"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

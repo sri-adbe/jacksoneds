@@ -69,8 +69,12 @@
 
 .forms-finder .form-field input:not([type='checkbox'], [type='radio']),
 .forms-finder .form-field select {
-  border-width: 1px 1px 3px;
+  min-height: 30px;
+  padding: 4px 13px;
+  border: 1px solid rgb(49 49 49);
   border-radius: 0;
+  color: rgb(49 49 49);
+  font-size: 16px;
 }
 
 .forms-finder .forms-finder-actions {
@@ -79,7 +83,15 @@
 }
 
 .forms-finder .forms-finder-actions .button {
+  min-height: 30px;
   margin: 0;
+  padding: 0 15px;
+  border: 2px solid var(--brand-red, rgb(235 0 40));
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  text-decoration: none;
 }
 
 .forms-finder .forms-finder-status {
@@ -111,4 +123,23 @@
 
 .forms-finder.alt .forms-finder-form {
   padding: 16px;
+}
+
+/* jackson.com forms library look (measured from forms.xhtml) */
+.forms-finder .form-field > label,
+.forms-finder .form-field legend {
+  color: rgb(0 0 0);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.forms-finder .forms-finder-actions .form-submit {
+  background-color: var(--brand-red, rgb(235 0 40));
+  color: rgb(255 255 255);
+}
+
+.forms-finder .forms-finder-actions .form-reset {
+  background-color: rgb(255 255 255);
+  color: var(--brand-red, rgb(235 0 40));
 }

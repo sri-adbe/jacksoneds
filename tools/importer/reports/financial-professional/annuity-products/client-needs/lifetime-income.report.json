@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/annuity-products/client-needs/lifetime-income.html",
+  "path": "financial-professional/annuity-products/client-needs/lifetime-income",
+  "timestamp": "2026-11-11T02:45:58.291Z",
+  "title": "Guaranteed lifetime income | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "cards-product"
+  ],
+  "importScript": "d16819a6fb0c"
+}

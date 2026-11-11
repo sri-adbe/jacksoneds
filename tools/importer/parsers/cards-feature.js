@@ -16,9 +16,22 @@ function textOf(el) {
   return el ? el.textContent.replace(/\s+/g, ' ').trim() : '';
 }
 
-function makeHeading(document, src, level) {
+// Keep the source heading level (h1 demoted to h2: one h1 per page); non-heading titles use
+// the fallback level. A wrapper (e.g. .cta-list__header) holding one heading uses that heading's level.
+function headingLevel(src, fallback) {
+  const tag = /^H([1-6])$/.exec(src.tagName || '');
+  let level = tag ? Number(tag[1]) : null;
+  if (!level) {
+    const inner = src.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    if (inner.length === 1) level = Number(inner[0].tagName[1]);
+  }
+  if (!level) return fallback;
+  return Math.max(level, 2);
+}
+
+function makeHeading(document, src, fallback) {
   if (!src || !textOf(src)) return null;
-  const h = document.createElement(`h${level}`);
+  const h = document.createElement(`h${headingLevel(src, fallback)}`);
   // keep inline formatting such as <sup>
   h.innerHTML = src.innerHTML.trim();
   // flatten wrappers, keep inline formatting (sup, sub, em, strong, a)
@@ -105,9 +118,47 @@ function parseProductCard(element, document) {
   holder.replaceWith(block);
 }
 
+// Sitemap (sitemap.html): each .section = header link + list of links -> one text-only card
+// (single cell, no-images convention) per section.
+function parseSitemap(element, document) {
+  const rows = [...element.querySelectorAll('.sitemap .section')].map((section) => {
+    const body = [];
+    const head = section.querySelector('.header-link a[href]');
+    if (head && textOf(head)) {
+      const h = document.createElement('h3');
+      const a = document.createElement('a');
+      a.href = head.getAttribute('href');
+      a.textContent = textOf(head);
+      h.append(a);
+      body.push(h);
+    }
+    const links = [...section.querySelectorAll(':scope > .link a[href]')].filter((a) => textOf(a));
+    if (links.length) {
+      const ul = document.createElement('ul');
+      links.forEach((src) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = src.getAttribute('href');
+        a.textContent = textOf(src);
+        li.append(a);
+        ul.append(li);
+      });
+      body.push(ul);
+    }
+    return body.length ? [body] : null;
+  }).filter(Boolean);
+  if (!rows.length) return;
+  const block = WebImporter.Blocks.createBlock(document, { name: 'cards-feature (alt)', cells: rows });
+  element.replaceWith(block);
+}
+
 export default function parse(element, { document, params }) {
   if (element.closest('.cta-product-card-block')) {
     parseProductCard(element, document);
+    return;
+  }
+  if (element.querySelector('.sitemap .section') || element.matches('.sitemap')) {
+    parseSitemap(element, document);
     return;
   }
   const cells = [];
@@ -116,6 +167,7 @@ export default function parse(element, { document, params }) {
   const iconCards = [...element.querySelectorAll('.cta-icon-card-block')];
   const ctaLists = [...element.querySelectorAll('.cta-list__content')];
   const feature = element.querySelector('.feature-50-50__content');
+  const iconFeatures = [...element.querySelectorAll('.icon-feature')].filter((c) => !c.parentElement.closest('.icon-feature'));
   let trailing = [];
 
   if (iconCards.length) {
@@ -133,8 +185,11 @@ export default function parse(element, { document, params }) {
       cells.push([iconCell(img), body]);
     });
   } else if (ctaLists.length) {
+    // a single cta-list laid out beside an image column (.comparison-highlight-layout): the image
+    // sits outside the list item
+    const outerImgs = [...element.querySelectorAll('img')].filter((i) => !i.closest('.cta-list'));
     ctaLists.forEach((item) => {
-      const img = item.querySelector('img');
+      const img = item.querySelector('img') || (ctaLists.length === 1 ? outerImgs[0] : null);
       const body = [];
       const h = makeHeading(document, item.querySelector('.cta-list__header') || item.querySelector('h1, h2, h3, h4, h5, h6'), 3);
       if (h) body.push(h);
@@ -158,6 +213,19 @@ export default function parse(element, { document, params }) {
         strong.append(a);
         return p;
       });
+  } else if (iconFeatures.length) {
+    // .card-container > .icon-feature cards (font icon | title + description + CTA button);
+    // font icons carry no image, so the rows are text-only
+    iconFeatures.forEach((card) => {
+      const img = card.querySelector('.icon-feature__image img');
+      const body = [];
+      const h = makeHeading(document, card.querySelector('.icon-feature__title'), 3);
+      if (h) body.push(h);
+      body.push(...cleanDescription(document, card.querySelector('.icon-feature__description')));
+      body.push(...ctaParagraphs(document, [...card.querySelectorAll('.icon-feature__link a[href]')]));
+      if (!body.length && !img) return;
+      cells.push([iconCell(img), body]);
+    });
   } else if (feature) {
     const img = feature.querySelector('.feature-50-50__image img, img');
     const body = [];
@@ -178,9 +246,16 @@ export default function parse(element, { document, params }) {
       // Call-to-Action goes at the bottom of the text cell: pick up stand-alone CTA links
       // (e.g. .small-links arrow buttons) that sit outside paragraphs. Repeating units that are
       // div.cta-icon-card are handled by the iconCards branch above; plain divs land here.
-      const loose = [...child.querySelectorAll('.small-links a[href], .cta-arrow-button-wrapper a[href]')]
-        .filter((a) => !body.some((n) => n.contains && n.contains(a)));
+      const loose = [...child.querySelectorAll('.small-links a[href], .cta-arrow-button-wrapper a[href], a.primary-button[href], a.secondary-button[href]')]
+        .filter((a, i, all) => all.indexOf(a) === i && !body.some((n) => n.contains && n.contains(a)));
       body.push(...ctaParagraphs(document, loose));
+      if (!body.length && !img) return;
+      // a links-only child (e.g. carousel header's "View all") belongs to the preceding card
+      const prev = cells[cells.length - 1];
+      if (!img && prev && body.every((n) => n.tagName === 'P' && n.querySelector('a') && textOf(n) === textOf(n.querySelector('a')))) {
+        prev[1].push(...body);
+        return;
+      }
       // row = [image or icon, text content]
       cells.push([iconCell(img), body]);
     });

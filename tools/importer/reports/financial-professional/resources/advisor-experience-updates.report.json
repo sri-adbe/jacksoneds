@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/resources/advisor-experience-updates.html",
+  "path": "financial-professional/resources/advisor-experience-updates",
+  "timestamp": "2026-11-11T02:55:38.790Z",
+  "title": "Advisor experience updates | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "cards-feature"
+  ],
+  "importScript": "d16819a6fb0c"
+}

@@ -115,7 +115,11 @@ function extractComponent(document, comp) {
       out.push(p);
     }
     const title = comp.querySelector('.card-content .title');
-    if (title && textOf(title)) {
+    // a title that wraps a real heading keeps it (and its level); plain titles stay bold text
+    const titleHeading = title && title.querySelector('h1, h2, h3, h4, h5, h6');
+    if (titleHeading && textOf(titleHeading)) {
+      out.push(headingFrom(document, titleHeading, 'h3'));
+    } else if (title && textOf(title)) {
       const p = document.createElement('p');
       const strong = flattenInline(document, title, 'strong');
       p.append(strong);
@@ -155,7 +159,102 @@ function extractColumn(document, col) {
   return comps.flatMap((c) => extractComponent(document, c));
 }
 
+/** v1 design text box (feature-50-50__content-inner / flexible-content-area__content). */
+function v1Text(document, box, titleSel, descSel, linkSel) {
+  const out = [];
+  const h = headingFrom(document, box.querySelector(titleSel), 'h3');
+  if (h) out.push(h);
+  out.push(...richChildren(document, box.querySelector(descSel)));
+  out.push(...linkParas(document, [...box.querySelectorAll(linkSel)]));
+  return out;
+}
+
+/**
+ * v1 design (financial-professional pages). Columns convention: one row, one cell per visual
+ * column, side by side in source order.
+ * - feature-50-50: [text | image] (image-right) or [image | text]
+ * - flexible-width-container fifty-fifty: [column 1 | column 2] (copy and/or video link)
+ */
+function parseV1(document, element) {
+  const feature = element.matches('.feature-50-50__content') ? element
+    : element.querySelector('.feature-50-50__content');
+  if (feature) {
+    const media = [];
+    const img = imageEl(feature.querySelector('.feature-50-50__image img'));
+    if (img) media.push(img);
+    const iframe = feature.querySelector('.feature-50-50__image iframe');
+    if (iframe) media.push(videoLink(document, iframe));
+    const text = v1Text(document, feature, '.feature-50-50__title', '.feature-50-50__description',
+      '.feature-50-50__links a, .feature-50-50__link a, .feature-50-50__cta a');
+    const imageRight = feature.matches('.image-right');
+    const row = imageRight ? [text, media] : [media, text];
+    return { row: row.map((c) => (c.length ? c : '')), variant: imageRight ? null : 'image-left' };
+  }
+  const columns = [...element.querySelectorAll('.flexible-width-container__columns > .flexible-width-container__column')];
+  if (columns.length >= 2) {
+    const row = columns.map((col) => {
+      const out = [];
+      col.querySelectorAll('.flexible-content-area__content').forEach((box) => {
+        out.push(...v1Text(document, box, '.flexible-content-area__title',
+          '.flexible-content-area__description', '.flexible-content-area__links a'));
+      });
+      const iframe = col.querySelector('iframe');
+      if (iframe) out.push(videoLink(document, iframe));
+      if (!out.length) {
+        const img = imageEl(col.querySelector('img'));
+        if (img) out.push(img);
+      }
+      return out.filter(Boolean);
+    });
+    return { row: row.map((c) => (c.length ? c : '')), variant: 'alt' };
+  }
+  return null;
+}
+
+/**
+ * .feature-accordion (v1): title + accordion cards (header, description, "Learn more" CTA that the
+ * source reveals on hover/expand but keeps in the DOM) + image. Kept as one cell in source order.
+ */
+function parseFeatureAccordion(document, element) {
+  const root = element.matches('.feature-accordion__content') ? element
+    : element.querySelector('.feature-accordion__content');
+  if (!root || !root.querySelector('.feature-accordion__card')) return null;
+  const out = [];
+  const title = headingFrom(document, root.querySelector('.feature-accordion__title'), 'h2');
+  if (title) out.push(title);
+  root.querySelectorAll('.feature-accordion__card').forEach((card) => {
+    const header = card.querySelector('.feature-accordion__card-header');
+    const label = card.querySelector('.feature-accordion__card-title') || header;
+    if (label && textOf(label)) {
+      const tag = header && /^H[1-6]$/.test(header.tagName) ? header.tagName.toLowerCase() : 'h3';
+      out.push(flattenInline(document, label, tag));
+    }
+    card.querySelectorAll('.feature-accordion__card-description').forEach((d) => {
+      if (!textOf(d)) return;
+      if (d.tagName === 'P') out.push(flattenInline(document, d, 'p'));
+      else out.push(...richChildren(document, d));
+    });
+    out.push(...linkParas(document, [...card.querySelectorAll('.feature-accordion__card-cta a[href]')]));
+  });
+  const img = imageEl(root.querySelector('.feature-accordion__image img'));
+  if (img) out.push(img);
+  return out.length ? out : null;
+}
+
 export default function parse(element, { document, params }) {
+  const accordion = parseFeatureAccordion(document, element);
+  if (accordion) {
+    const block = WebImporter.Blocks.createBlock(document, { name: 'columns-feature', cells: [[accordion]] });
+    element.replaceWith(block);
+    return;
+  }
+  const v1 = parseV1(document, element);
+  if (v1) {
+    const name = v1.variant ? `columns-feature (${v1.variant})` : 'columns-feature';
+    const block = WebImporter.Blocks.createBlock(document, { name, cells: [v1.row] });
+    element.replaceWith(block);
+    return;
+  }
   const cells = [];
   let variant = null;
 

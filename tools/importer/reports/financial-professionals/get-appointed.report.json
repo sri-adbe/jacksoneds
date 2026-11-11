@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professionals/get-appointed.html",
+  "path": "financial-professionals/get-appointed",
+  "timestamp": "2026-11-11T02:44:14.366Z",
+  "title": "Get appointed | Jackson",
+  "template": "calculator-tool",
+  "blocks": [
+    "columns-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-tool"
+  ],
+  "importScript": "bc1f5d2b5892"
+}

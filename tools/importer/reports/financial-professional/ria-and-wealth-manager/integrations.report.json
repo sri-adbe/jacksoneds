@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/ria-and-wealth-manager/integrations.html",
+  "path": "financial-professional/ria-and-wealth-manager/integrations",
+  "timestamp": "2026-11-11T02:58:37.273Z",
+  "title": "Integration with your practice | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "cards-product",
+    "contact-form",
+    "list-filter",
+    "cards-tool",
+    "cards-tool"
+  ],
+  "importScript": "d16819a6fb0c"
+}

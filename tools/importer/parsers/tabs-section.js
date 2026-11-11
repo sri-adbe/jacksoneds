@@ -149,10 +149,32 @@ export default function parse(element, { document, params }) {
     return;
   }
   const tabRoot = element.matches('.tab') ? element : (element.querySelector('.tab.v4, .tab') || element);
-  const tabs = [...tabRoot.querySelectorAll('.tab-container ul[role="tablist"] > li, .tab-container ul > li[role="tab"]')]
+  // Rows stay "tab label | tab content" (library Tabs convention). Source shapes:
+  // v4: ul[role=tablist] + .tab-content panels; v1: .tab-container__tabs li#<id> +
+  // .tab-container__tab-content#<id>-tab panels.
+  const tabs = [...tabRoot.querySelectorAll('.tab-container ul[role="tablist"] > li, .tab-container ul > li[role="tab"], .tab-container__tabs ul > li')]
     .filter((li, i, arr) => arr.indexOf(li) === i);
-  const panels = [...tabRoot.querySelectorAll('.tab-content-wrappper > .tab-content, .tab-content[role="tabpanel"]')]
+  const panels = [...tabRoot.querySelectorAll('.tab-content-wrappper > .tab-content, .tab-content[role="tabpanel"], .tab-container__contents > .tab-container__tab-content')]
     .filter((p, i, arr) => arr.indexOf(p) === i);
+  // v1 intro (title + description above the tab strip) is placed before the block as text
+  const intro = [];
+  const introSrc = tabRoot.querySelector('.tab-container__text');
+  if (introSrc) {
+    const title = introSrc.querySelector('.tab-container__title');
+    if (title && title.textContent.trim()) {
+      const h = document.createElement('h2');
+      h.textContent = title.textContent.replace(/\s+/g, ' ').trim();
+      intro.push(h);
+    }
+    const desc = introSrc.querySelector('.tab-container__description');
+    if (desc) {
+      [...desc.querySelectorAll('p')].filter((p) => p.textContent.trim()).forEach((p) => {
+        const n = document.createElement('p');
+        n.innerHTML = p.innerHTML.trim();
+        intro.push(n);
+      });
+    }
+  }
 
   let variant = 'alt-3';
   if (tabRoot.querySelector('.resource-filters-gallery, .resource-listing')) variant = 'image-magenta-grey-shadow';
@@ -170,6 +192,7 @@ export default function parse(element, { document, params }) {
 
     const controls = li.getAttribute('aria-controls');
     let panel = controls ? panels.find((p) => p.id === controls) : null;
+    if (!panel && li.id) panel = panels.find((p) => p.id === `${li.id}-tab`) || null;
     if (!panel) panel = panels[index] || null;
 
     let panelCell = '';
@@ -188,6 +211,16 @@ export default function parse(element, { document, params }) {
         const path = `/fragments/${slug}/${id}`;
         const container = document.createElement('div');
         container.append(...panel.childNodes);
+        // Row structure is unchanged (tab label | tab content). Inside the panel's fragment,
+        // FAQ-style accordion items keep each question as a real heading (the button text
+        // would otherwise flatten into a plain paragraph).
+        container.querySelectorAll('.accordion-item .accordion-title').forEach((t) => {
+          const text = t.textContent.replace(/\s+/g, ' ').trim();
+          if (!text) { t.remove(); return; }
+          const h = document.createElement('h3');
+          h.textContent = text;
+          t.replaceWith(h);
+        });
         if (fragments) fragments.push({ element: container, path });
         const a = document.createElement('a');
         a.href = path;
@@ -202,5 +235,5 @@ export default function parse(element, { document, params }) {
 
   const name = variant ? `tabs-section (${variant})` : 'tabs-section';
   const block = WebImporter.Blocks.createBlock(document, { name, cells });
-  element.replaceWith(block);
+  element.replaceWith(...intro, block);
 }

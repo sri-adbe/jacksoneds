@@ -165,6 +165,154 @@ main .cards-feature.icon-left .cards-feature-card-cta a:any-link {
   padding: 24px;
 }
 
+/* alt CTAs (source .cta-arrow-button): black uppercase underlined link after a red arrow circle */
+main .cards-feature.alt .cards-feature-card-cta {
+  margin-top: 15px;
+  padding-top: 0;
+}
+
+main .cards-feature.alt .cards-feature-card-cta a:any-link {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 3px 0 0 22px;
+  border: 0;
+  background: none;
+  color: var(--brand-black);
+  font-size: 15.2px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: left;
+  text-decoration: underline 1px;
+  text-transform: uppercase;
+}
+
+main .cards-feature.alt .cards-feature-card-cta a:any-link::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 19 19' fill='none' stroke='%23eb0028' stroke-width='1.6'%3E%3Ccircle cx='9.5' cy='9.5' r='8.5'/%3E%3Cpath d='M5 9.5h8.5M10 6l3.5 3.5L10 13'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+main .cards-feature.alt .cards-feature-card-cta a:hover,
+main .cards-feature.alt .cards-feature-card-cta a:focus-visible {
+  border: 0;
+  background: none;
+  color: var(--brand-red);
+}
+
+/* advisor theme (source icon-feature / feature-50-50): outlined black button, 16px copy */
+body.advisor main .cards-feature .cards-feature-card-body p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body.advisor main .cards-feature:not(.alt, .icon-left) .cards-feature-card-cta {
+  padding-top: 24px;
+}
+
+body.advisor main .cards-feature:not(.alt, .icon-left) .cards-feature-card-cta a:any-link {
+  display: inline-flex;
+  margin: 0;
+  padding: 15px 32px 14px;
+  border: 1px solid var(--brand-black);
+  background-color: var(--brand-white);
+  color: var(--brand-black);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: none;
+}
+
+body.advisor main .cards-feature:not(.alt, .icon-left) .cards-feature-card-cta a:hover,
+body.advisor main .cards-feature:not(.alt, .icon-left) .cards-feature-card-cta a:focus-visible {
+  border-color: var(--brand-black);
+  background-color: var(--brand-black);
+  color: var(--brand-white);
+}
+
+body.advisor .cards-feature:not(.alt, .icon-left) h3.cards-feature-card-title {
+  margin: 0 0 16px;
+}
+
+body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card-title::after {
+  content: none;
+}
+
+/* photo feature (source .comparison-highlight-layout + .cta-list v2): one card, photo beside text */
+.cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) {
+  gap: 20px;
+}
+
+.cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child > .cards-feature-card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-title {
+  margin: 0 0 10px;
+}
+
+.cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-title::after {
+  content: none;
+}
+
+.cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-body ul {
+  margin: 15px 0 10px;
+}
+
+.cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-body li {
+  margin: 0 0 10px;
+}
+
+/* homepage feature CTA (source .cta-arrow-button in .link): same arrow link at 20px */
+body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-cta a:any-link {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 3px 0 0 22px;
+  border: 0;
+  background: none;
+  color: var(--brand-black);
+  font-size: 15.2px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-decoration: underline 1px;
+  text-transform: uppercase;
+}
+
+body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-cta a:any-link::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 19 19' fill='none' stroke='%23eb0028' stroke-width='1.6'%3E%3Ccircle cx='9.5' cy='9.5' r='8.5'/%3E%3Cpath d='M5 9.5h8.5M10 6l3.5 3.5L10 13'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-cta a:hover,
+body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-cta a:focus-visible {
+  border: 0;
+  background: none;
+  color: var(--brand-red);
+}
+
+/* a second CTA is the outlined secondary button (source .secondary-cta-button) */
+body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-cta + .cards-feature-card-cta {
+  padding-top: 10px;
+}
+
+body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) .cards-feature-card-cta + .cards-feature-card-cta a:any-link {
+  padding: 10px 25px;
+  border-color: var(--brand-red);
+  background-color: var(--brand-white);
+  color: var(--brand-red);
+}
+
 @media (width >= 900px) {
   .cards-feature {
     max-width: 1220px;
@@ -229,5 +377,90 @@ main .cards-feature.icon-left .cards-feature-card-cta a:any-link {
 
   .cards-feature.dark-light .cards-feature-card {
     padding: 24px;
+  }
+
+  main .cards-feature.alt .cards-feature-card-cta a:any-link {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  /* advisor: h3 card titles 34px; two-card rows split the width in half */
+  body.advisor .cards-feature:not(.alt, .icon-left) h3.cards-feature-card-title {
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  body.advisor .cards-feature:not(.alt, .icon-left) > ul:has(> li:nth-child(2):last-child) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  body.advisor .cards-feature:not(.alt, .icon-left) > ul:has(> li:nth-child(2):last-child) > li {
+    padding: 20px 82px;
+  }
+
+  /* photo feature: photo and text side by side, title on the page heading scale */
+  .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+  }
+
+  .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child > .cards-feature-card-image {
+    flex: 0 0 calc(50% - 35px);
+  }
+
+  .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) h2.cards-feature-card-title {
+    font-size: var(--heading-font-size-xl);
+    line-height: 50px;
+  }
+
+  .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) h3.cards-feature-card-title {
+    font-size: var(--heading-font-size-l);
+    line-height: 44px;
+  }
+
+  /* homepage feature (h2 title): text left, photo right, arrow-link CTA at 20px */
+  body:not(.advisor) .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) > .cards-feature-card-image {
+    order: 2;
+  }
+
+  body:not(.advisor) .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-body p,
+  body:not(.advisor) .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-body li {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-image) h2.cards-feature-card-title {
+    line-height: 58px;
+  }
+
+  /* advisor title + CTA only (source .carousel-card-container header): title left, button right */
+  body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > .cards-feature-card-title + .cards-feature-card-cta:last-child) {
+    grid-column: 1 / -1;
+  }
+
+  body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child .cards-feature-card-body:has(> .cards-feature-card-title + .cards-feature-card-cta:last-child) {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child .cards-feature-card-body:has(> .cards-feature-card-title + .cards-feature-card-cta:last-child) > .cards-feature-card-title {
+    margin: 0;
+    font-size: var(--heading-font-size-l);
+    line-height: 54px;
+  }
+
+  body.advisor .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child .cards-feature-card-body:has(> .cards-feature-card-title + .cards-feature-card-cta:last-child) > .cards-feature-card-cta {
+    margin: 0 0 0 24px;
+    padding-top: 0;
+    white-space: nowrap;
+  }
+
+  body:not(.advisor) main .cards-feature:not(.alt, .icon-left) .cards-feature-card:only-child:has(> .cards-feature-card-body > h2) .cards-feature-card-cta a:any-link {
+    font-size: 20px;
+    line-height: 30px;
   }
 }

@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities/benefits-of-annuities/growth-potential.html",
   "path": "annuities/benefits-of-annuities/growth-potential",
-  "timestamp": "2026-11-10T21:21:27.821Z",
+  "timestamp": "2026-11-11T02:16:21.679Z",
   "title": "Growth potential | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "hero-page",
     "cards-tool"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

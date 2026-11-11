@@ -50,6 +50,34 @@ function parseItem(document, item) {
 
   const body = [];
   const text = item.querySelector('.cmp-text') || item.querySelector('.rte');
+  const iconCard = !text && item.querySelector('.cta-icon-card-block .card-content');
+  if (iconCard) {
+    // video + icon-card shape (ax-updates): icon, title, description, CTA in the text cell
+    const icon = item.querySelector('.cta-icon-card-block .icon-image img, .cta-icon-card-block img');
+    if (icon && icon.getAttribute('src') && !iconCard.contains(icon)) {
+      const p = document.createElement('p');
+      p.append(icon);
+      body.push(p);
+    }
+    const title = iconCard.querySelector('.title');
+    if (title && title.textContent.trim()) {
+      const h = document.createElement('h3');
+      h.innerHTML = (title.querySelector('span') || title).innerHTML.trim();
+      body.push(h);
+    }
+    const desc = iconCard.querySelector('.description');
+    if (desc) {
+      [...desc.children].forEach((c) => { if (c.textContent.trim()) body.push(c); });
+    }
+    iconCard.querySelectorAll('.cta-arrow-button-wrapper a[href]').forEach((a) => {
+      const p = document.createElement('p');
+      const link = document.createElement('a');
+      link.href = a.getAttribute('href');
+      link.textContent = a.textContent.replace(/\s+/g, ' ').trim();
+      p.append(link);
+      body.push(p);
+    });
+  }
   if (text) {
     [...text.children].forEach((child) => {
       if (/^H[1-6]$/.test(child.tagName)) {

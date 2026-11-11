@@ -2,12 +2,12 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities/variable-annuities/perspective-advisory-ii-performance-center.html",
   "path": "annuities/variable-annuities/perspective-advisory-ii-performance-center",
-  "timestamp": "2026-11-10T21:40:33.251Z",
+  "timestamp": "2026-11-11T03:40:22.684Z",
   "title": "Perspective Advisory II performance center | Jackson",
   "template": "utility-page",
   "blocks": [
     "app-form",
     "contact-form"
   ],
-  "importScript": "f92b2795fe9f"
+  "importScript": "c486574c5c8d"
 }

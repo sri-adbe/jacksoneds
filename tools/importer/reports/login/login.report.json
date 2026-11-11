@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/login/login.xhtml",
+  "path": "login/login",
+  "timestamp": "2026-11-11T03:08:23.837Z",
+  "title": "Login - Sign In | Jackson",
+  "template": "sign-in",
+  "blocks": [
+    "app-form",
+    "app-form",
+    "columns-feature"
+  ],
+  "importScript": "323d115b969a"
+}

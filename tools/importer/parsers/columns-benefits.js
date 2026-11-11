@@ -92,6 +92,25 @@ function parseStatSpotlight(document, spot) {
     const headers = [...stats.querySelectorAll('.stat-header')];
     headers.forEach((header) => {
       const li = document.createElement('li');
+      // a stat whose header is a real heading (e.g. <h4>$338 billion</h4>) keeps that heading:
+      // li > hN + p; plain headers stay li > strong + br + text
+      const hSrc = [...header.querySelectorAll('h1, h2, h3, h4, h5, h6')].find((x) => textOf(x));
+      if (hSrc) {
+        const hEl = flattenInline(document, hSrc, hSrc.tagName === 'H1' ? 'h2' : hSrc.tagName.toLowerCase());
+        hEl.querySelectorAll('b, strong').forEach((x) => x.replaceWith(...x.childNodes));
+        hEl.querySelectorAll('sup, sub').forEach((x) => { if (!textOf(x)) x.remove(); });
+        hEl.innerHTML = hEl.innerHTML.replace(/(&nbsp;|\s)+$/, '').replace(/^(&nbsp;|\s)+/, '');
+        li.append(hEl);
+        let d = header.nextElementSibling;
+        if (d && !d.classList.contains('stat-description')) d = null;
+        if (d && textOf(d)) {
+          const para = flattenInline(document, d, 'p');
+          para.querySelectorAll('b, strong').forEach((x) => x.replaceWith(...x.childNodes));
+          li.append(para);
+        }
+        if (textOf(li)) ul.append(li);
+        return;
+      }
       const strong = flattenInline(document, header, 'strong');
       // drop nested <b> inside strong
       strong.querySelectorAll('b, strong').forEach((b) => b.replaceWith(...b.childNodes));

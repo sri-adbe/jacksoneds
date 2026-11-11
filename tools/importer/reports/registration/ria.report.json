@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/registration/ria.xhtml",
+  "path": "registration/ria",
+  "timestamp": "2026-11-11T03:41:59.176Z",
+  "title": "RIA registration - RIA & Wealth Managers | Jackson",
+  "template": "registration-form",
+  "blocks": [
+    "hero-page",
+    "app-form"
+  ],
+  "importScript": "b5abe66e4f0a"
+}

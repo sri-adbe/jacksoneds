@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/financial-professional/annuity-products/product-match-pro.html",
   "path": "financial-professional/annuity-products/product-match-pro",
-  "timestamp": "2026-11-10T21:26:01.380Z",
+  "timestamp": "2026-11-11T02:22:50.633Z",
   "title": "Product Match Pro | Jackson",
   "template": "content-page",
   "blocks": [
@@ -13,5 +13,5 @@
     "contact-form",
     "contact-form"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

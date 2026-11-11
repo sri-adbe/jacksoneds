@@ -221,6 +221,54 @@
   padding-top: 20px;
 }
 
+/* title with a suffix after the mark ("Pro" + "(R)" + "4"), then description, then links:
+   the suffix stays part of the title, the description is body text under the red bar.
+   Mobile: title wraps on its own, mark + suffix follow on the next line. */
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(+ p > sup:only-child):has(+ p + p + p):not(:has(+ p + p + p > a:only-child, + p + p + p > picture, + p + p + p > sup:only-child, + p + p + p + p > sup:only-child)) {
+  float: none;
+  padding-right: 30px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) {
+  float: left;
+  box-sizing: border-box;
+  min-height: 35.2px;
+  margin-top: 0;
+  padding: 0 0 0 30px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p {
+  clear: none;
+  margin-top: 0;
+  padding: 0 30px 0 0.25em;
+  color: var(--brand-plum);
+  font-family: var(--heading-font-family);
+  font-size: 27.2px;
+  line-height: 35.2px;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p::before {
+  content: none;
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p + p {
+  clear: left;
+  padding: 0 30px;
+  background-color: var(--brand-beige-light);
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p + p::before {
+  content: '';
+  display: block;
+  height: 4px;
+  margin-bottom: 10px;
+  background-color: var(--brand-red);
+}
+
+.tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p + p + p:has(> a:only-child) {
+  padding-top: 20px;
+}
+
 .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p):has(+ p + p > sup:only-child),
 .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p):has(+ p > picture),
 .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> a:only-child):not(h3 + p + p):last-child {
@@ -520,6 +568,30 @@
   .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child) {
     font-size: 34px;
     line-height: 44px;
+  }
+
+  /* suffix title desktop: title floats, mark and suffix sit beside it on one line */
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(+ p > sup:only-child):has(+ p + p + p):not(:has(+ p + p + p > a:only-child, + p + p + p > picture, + p + p + p > sup:only-child, + p + p + p + p > sup:only-child)) {
+    float: left;
+    padding-right: 0;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) {
+    min-height: 74px;
+    margin-top: 40px;
+    padding: 30px 0 0;
+  }
+
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p {
+    margin-top: 40px;
+    padding-top: 30px;
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  /* after a heading the in-flow suffix's margin collapses with the heading's 10px; the floats' do not */
+  .tabs-section:not(.alt-3, .image-magenta-grey-shadow) .default-content-wrapper > h3 + p + p:has(> sup:only-child):has(+ p + p):not(:has(+ p + p > a:only-child, + p + p > picture, + p + p > sup:only-child, + p + p + p > sup:only-child)) + p {
+    margin-top: 50px;
   }
 
   /* alt-3 desktop: 717 / 533 text and image columns */

@@ -267,24 +267,71 @@ export default {
       try { parser(block.element, { document, url, params }); } catch (e) { console.error(`Failed to parse ${block.name} (${block.selector}):`, e); }
     });
 
+    // Blocks inside fragments (e.g. tab panels) left `main` with their fragment, so page-level
+    // discovery never sees them: parse them with the template's optional fragmentInstances.
+    const fragmentInstances = PAGE_TEMPLATE.fragmentInstances || {};
+    if (Object.keys(fragmentInstances).length) {
+      params.fragments.slice().forEach(({ element: frag }) => {
+        const found = [];
+        Object.entries(fragmentInstances).forEach(([name, selectors]) => selectors.forEach((sel) => {
+          let matches = [];
+          try { matches = frag.querySelectorAll(sel); } catch { return; }
+          matches.forEach((el) => {
+            if (found.some((f) => f.el === el || f.el.contains(el) || el.contains(f.el))) return;
+            found.push({ name, el });
+          });
+        }));
+        // eslint-disable-next-line no-bitwise
+        found.sort((a, b) => ((a.el.compareDocumentPosition(b.el) & 4) ? -1 : 1));
+        found.forEach(({ name, el }) => {
+          if (!frag.contains(el) || !parsers[name]) return;
+          try { parsers[name](el, { document, url, params }); } catch (e) { console.error(`Failed to parse fragment ${name}:`, e); }
+        });
+      });
+    }
+
     executeTransformers('afterTransform', main, payload);
 
-    main.appendChild(document.createElement('hr'));
-    WebImporter.rules.createMetadata(main, document);
-    WebImporter.rules.transformBackgroundImages(main, document);
-    WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
-
     // A fragment's nodes left `main` before afterTransform: finalize it the same way, without the
-    // page-only section breaks and metadata.
+    // page-only section breaks and metadata. This runs BEFORE the page metadata is created: the
+    // cleanup's afterTransform also prunes document-level chrome (everything outside the page
+    // wrapper), which would otherwise delete the page's metadata block and final section break.
     params.fragments.forEach(({ element }) => {
       executeTransformers('afterTransform', element, payload, earlyTransformers);
       WebImporter.rules.transformBackgroundImages(element, document);
       WebImporter.rules.adjustImageUrls(element, url, params.originalURL);
     });
 
+    main.appendChild(document.createElement('hr'));
+    WebImporter.rules.createMetadata(main, document);
+    // Page theme: the financial-professional site and the app screens use their own styles
+    // (styles.css body.advisor / body.app), selected through the Theme metadata.
+    const themePath = new URL(params.originalURL).pathname;
+    const APP_TEMPLATES = ['app-search-form', 'account-recovery-form', 'sign-in'];
+    let theme = null;
+    if (APP_TEMPLATES.includes(PAGE_TEMPLATE.name)) theme = 'app';
+    else if (/^\/financial-professional(\/|\.html$)/.test(themePath)) theme = 'advisor';
+    if (theme) {
+      const meta = [...main.querySelectorAll('table')]
+        .find((t) => /^metadata$/i.test((t.querySelector('tr')?.textContent || '').trim()));
+      if (meta) {
+        const tr = document.createElement('tr');
+        const k = document.createElement('td');
+        const v = document.createElement('td');
+        k.textContent = 'Theme';
+        v.textContent = theme;
+        tr.append(k, v);
+        (meta.querySelector('tbody') || meta).append(tr);
+      } else {
+        main.append(WebImporter.Blocks.createBlock(document, { name: 'Metadata', cells: { Theme: theme } }));
+      }
+    }
+    WebImporter.rules.transformBackgroundImages(main, document);
+    WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
+
     const rawPath = new URL(params.originalURL).pathname
       .replace(/\/$/, '')
-      .replace(/\.html?$/, '');
+      .replace(/\.x?html?$/, '');
     const path = WebImporter.FileUtils.sanitizePath(rawPath === '' ? '/index' : rawPath);
 
     return [{

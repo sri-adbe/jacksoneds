@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/login/register.xhtml",
+  "path": "login/register",
+  "timestamp": "2026-11-11T03:06:26.189Z",
+  "title": "Register - Sign In | Jackson",
+  "template": "app-search-form",
+  "blocks": [
+    "app-form"
+  ],
+  "importScript": "087ed5203ddf"
+}

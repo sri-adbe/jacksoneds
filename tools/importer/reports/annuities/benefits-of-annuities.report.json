@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/annuities/benefits-of-annuities.html",
   "path": "annuities/benefits-of-annuities",
-  "timestamp": "2026-11-10T21:28:05.807Z",
+  "timestamp": "2026-11-11T02:15:28.755Z",
   "title": "Benefits of annuities | Jackson",
   "template": "content-page",
   "blocks": [
@@ -11,5 +11,5 @@
     "embed-video",
     "hero-banner"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

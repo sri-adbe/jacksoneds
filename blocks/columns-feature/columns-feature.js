@@ -73,6 +73,58 @@ function decorateCallout(col, prefix) {
   callout.append(icon, body);
 }
 
+/*
+ * A single text cell holding a heading plus two or more h5 items (h5 + copy + CTA, source
+ * .feature-accordion) becomes an accordion: each h5 toggles its copy, as the source cards do.
+ * A trailing image paragraph moves into its own media column.
+ */
+function decorateAccordion(block, col) {
+  const titles = col.querySelectorAll(':scope > h5');
+  if (titles.length < 2) return;
+  block.classList.add('columns-feature-accordion');
+  const media = [...col.children].find((el) => el.matches('p') && el.querySelector('picture, img')
+    && !el.textContent.trim());
+  if (media) {
+    const mediaCol = document.createElement('div');
+    mediaCol.className = 'columns-feature-media-col';
+    mediaCol.append(media);
+    col.after(mediaCol);
+  }
+  const list = document.createElement('div');
+  list.className = 'columns-feature-accordion-list';
+  titles[0].before(list);
+  titles.forEach((title, i) => {
+    const item = document.createElement('div');
+    item.className = 'columns-feature-accordion-item';
+    const panel = document.createElement('div');
+    panel.className = 'columns-feature-accordion-panel';
+    panel.id = `${title.id || `columns-feature-item-${i}`}-panel`;
+    panel.hidden = true;
+    while (title.nextElementSibling && !title.nextElementSibling.matches('h5, .columns-feature-accordion-list')) {
+      panel.append(title.nextElementSibling);
+    }
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'columns-feature-accordion-toggle';
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-controls', panel.id);
+    button.append(...title.childNodes);
+    title.append(button);
+    item.append(title, panel);
+    list.append(item);
+  });
+  list.addEventListener('click', (e) => {
+    const button = e.target.closest('.columns-feature-accordion-toggle');
+    if (!button) return;
+    const open = button.getAttribute('aria-expanded') !== 'true';
+    button.setAttribute('aria-expanded', String(open));
+    button.closest('.columns-feature-accordion-item').classList.toggle('active', open);
+    list.querySelector(`#${CSS.escape(button.getAttribute('aria-controls'))}`).hidden = !open;
+  });
+}
+
+const LOOKS = ['alt', 'dark', 'product-intro', 'image-left', 'wide-image', 'wide-image-2'];
+
 /**
  * Feature split: text beside media. Cells `heading + text + list + CTA | image or video link`
  * in either order. A video link (YouTube, Vimeo, Brightcove, IBM Video, .mp4) becomes a player.
@@ -100,5 +152,15 @@ export default function decorate(block) {
       decorateCallout(col, 'columns-feature');
     });
   });
+  if (maxCols === 1 && rows.length === 1) {
+    const col = rows[0].querySelector(':scope > .columns-feature-text-col');
+    if (col) decorateAccordion(block, col);
+  }
+  /* advisor (financial-professional) text|image rows are full-bleed 50/50 panels (feature-50-50) */
+  if (maxCols === 2 && document.body.classList.contains('advisor')
+    && !LOOKS.some((look) => block.classList.contains(look))
+    && block.querySelector('.columns-feature-media-col') && block.querySelector('.columns-feature-text-col')) {
+    block.classList.add('columns-feature-split');
+  }
   optimizeImages(block);
 }

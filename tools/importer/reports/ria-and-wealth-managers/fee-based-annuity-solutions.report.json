@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/ria-and-wealth-managers/fee-based-annuity-solutions.html",
   "path": "ria-and-wealth-managers/fee-based-annuity-solutions",
-  "timestamp": "2026-11-10T21:20:26.185Z",
+  "timestamp": "2026-11-11T02:28:31.738Z",
   "title": "Fee-based annuity solutions | Jackson",
   "template": "content-page",
   "blocks": [
@@ -13,5 +13,5 @@
     "columns-benefits",
     "table-product"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

@@ -2,7 +2,7 @@
   "status": "success",
   "url": "https://www.jackson.com/your-financial-future/educational-resources.html",
   "path": "your-financial-future/educational-resources",
-  "timestamp": "2026-11-10T21:14:59.820Z",
+  "timestamp": "2026-11-11T02:37:36.203Z",
   "title": "Educational resources | Jackson",
   "template": "content-page",
   "blocks": [
@@ -12,5 +12,5 @@
     "cards-article",
     "retirement-calculator"
   ],
-  "importScript": "64d4b2bb057c"
+  "importScript": "fae32b2454d0"
 }

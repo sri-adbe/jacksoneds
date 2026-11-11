@@ -190,7 +190,33 @@ function collect(root, document, out) {
 }
 
 export default function parse(element, { document, params }) {
-  const items = collect(element, document, []);
+  // calculator journey (dash tools): the step buttons only repeat the step indicator
+  if (element.matches('.journey-controls')) {
+    element.remove();
+    return;
+  }
+  let items;
+  if (element.matches('.journey-nav')) {
+    const ol = document.createElement('ol');
+    element.querySelectorAll('.journey-step').forEach((step) => {
+      const label = step.querySelector('.full-label') || step.querySelector('.label') || step;
+      const text = label.textContent.replace(/\s+/g, ' ').trim();
+      if (!text) return;
+      const li = document.createElement('li');
+      li.textContent = text;
+      ol.append(li);
+    });
+    items = ol.children.length ? [ol] : [];
+  } else {
+    // info-icon help text sits in .tooltip spans inside trigger buttons, which collect() skips.
+    // Lift each tooltip out (document order, no ancestor walking: the source nests <a> in
+    // <button>, which browsers flatten) so its copy is kept as authored text.
+    [...element.querySelectorAll('.tooltip')].forEach((tip) => {
+      const trigger = tip.parentElement && tip.parentElement.closest('button');
+      if (trigger && element.contains(trigger)) trigger.after(tip);
+    });
+    items = collect(element, document, []);
+  }
   const cells = [];
   items.forEach((item) => {
     if (item && item.form) {
@@ -218,7 +244,35 @@ export default function parse(element, { document, params }) {
     });
   });
 
+  // the calculator journey is split across sibling containers (nav, header, content): merge
+  // consecutive pieces into the previous retirement-calculator block
+  const inJourney = !!element.closest('.rec-container');
+  let prev = element.previousElementSibling;
+  while (prev && !prev.textContent.trim() && !prev.querySelector('img')) prev = prev.previousElementSibling;
+  if (inJourney && prev && prev.tagName === 'TABLE' && prev.dataset.excatCalculator === 'true') {
+    const target = prev.querySelector('tbody') || prev;
+    cells.forEach((row) => {
+      const tr = document.createElement('tr');
+      row.forEach((cell) => {
+        const td = document.createElement('td');
+        (Array.isArray(cell) ? cell : [cell]).forEach((c) => {
+          if (c && typeof c !== 'string') td.append(c);
+          else if (c) td.append(document.createTextNode(c));
+        });
+        tr.append(td);
+      });
+      target.append(tr);
+    });
+    element.remove();
+    return;
+  }
+  if (!items.length && inJourney) {
+    element.remove();
+    return;
+  }
+
   // every cached instance of this block is the catalog's `red` option
   const block = WebImporter.Blocks.createBlock(document, { name: 'retirement-calculator (red)', cells });
+  if (inJourney && block.dataset) block.dataset.excatCalculator = 'true';
   element.replaceWith(block);
 }

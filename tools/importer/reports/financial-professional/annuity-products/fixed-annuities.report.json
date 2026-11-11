@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/annuity-products/fixed-annuities.html",
+  "path": "financial-professional/annuity-products/fixed-annuities",
+  "timestamp": "2026-11-11T03:25:25.703Z",
+  "title": "Fixed annuities | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "columns-feature",
+    "columns-feature",
+    "embed-video",
+    "cards-product",
+    "cards-product",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/financial-professional/annuity-products/fixed-annuities/all-other-states",
+    "fragments/financial-professional/annuity-products/fixed-annuities/new-york-only"
+  ],
+  "importScript": "2fe17d59542d"
+}

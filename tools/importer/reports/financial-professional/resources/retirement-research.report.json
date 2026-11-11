@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.jackson.com/financial-professional/resources/retirement-research.html",
+  "path": "financial-professional/resources/retirement-research",
+  "timestamp": "2026-11-11T03:28:02.577Z",
+  "title": "Retirement research center | Jackson",
+  "template": "advisor-content-page",
+  "blocks": [
+    "cards-feature",
+    "tabs-section"
+  ],
+  "fragments": [
+    "fragments/financial-professional/resources/retirement-research/family",
+    "fragments/financial-professional/resources/retirement-research/policy",
+    "fragments/financial-professional/resources/retirement-research/market",
+    "fragments/financial-professional/resources/retirement-research/healthcare",
+    "fragments/financial-professional/resources/retirement-research/inflation",
+    "fragments/financial-professional/resources/retirement-research/longevity"
+  ],
+  "importScript": "2fe17d59542d"
+}

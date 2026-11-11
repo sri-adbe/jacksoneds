@@ -92,6 +92,13 @@ h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
 
+/* source h1–h3 carry no top margin; spacing comes from the preceding element */
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
 @media (width >= 900px) {
   h1 { line-height: 56px; }
   h2 { line-height: 50px; }
@@ -320,4 +327,53 @@ main .section.plum {
 main .section.dark :is(h1, h2, h3, h4, h5, h6, a:any-link),
 main .section.plum :is(h1, h2, h3, h4, h5, h6, a:any-link) {
   color: var(--brand-white);
+}
+
+/* theme: advisor — the financial-professional site uses a larger type scale, dark plum
+   headings and bold black links (source: /financial-professional/* pages) */
+body.advisor {
+  --body-font-size-m: 16px;
+  --body-line-height: 24px;
+  --heading-color: var(--brand-plum-dark);
+  --heading-accent-color: var(--brand-plum-dark);
+}
+
+body.advisor main a:any-link:not(.button) {
+  color: var(--brand-black);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.advisor main a:not(.button):hover,
+body.advisor main a:not(.button):focus-visible {
+  text-decoration: underline;
+}
+
+@media (width >= 900px) {
+  body.advisor {
+    --heading-font-size-xxl: 72px;
+    --heading-font-size-xl: 48px;
+    --heading-font-size-l: 40px;
+  }
+
+  body.advisor h1 { line-height: 80px; }
+  body.advisor h2 { line-height: 58px; }
+  body.advisor h3 { line-height: 48px; }
+}
+
+/* theme: app — sign-in, registration, forms and claims screens */
+body.app {
+  --text-color: rgb(27 27 27);
+}
+
+body.app main h1 {
+  margin: 0 0 30px;
+}
+
+@media (width >= 900px) {
+  body.app {
+    --heading-font-size-xxl: 40px;
+  }
+
+  body.app main h1 { line-height: 48px; }
 }
